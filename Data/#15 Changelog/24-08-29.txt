@@ -1,0 +1,40 @@
+Ark Omega 8/29 Patch Notes: 
+
+-Changing the BreedingMode setting in the guide will now retroactively update that information to all existing tames on the map.
+-Changed the soul cost multiplier on the Soul Furnace to be more reasonable.
+-Increasing the crafting speed on the soul furnace to be nearly instant.
+-Changed the placement collision settings on the kibble machine to allow it to be placed closer to other objects. 
+-Deleted some misc defunct items from the mod that users were spawning in via other mods and causing many many issues with.
+-Unique stat potions are now 5 to all stats and all types.
+-Potion variants will no longer feed potions to rafts.
+-Reworked Potion bottle glass material to be less opaque.
+-Fixed a bug allowing minions to be cloned.
+-Added checks onto fertilized eggs that if the parents are found to be minions, to destroy the egg.
+-Slightly changed the rules on how clones are handled and destroyed and reduced the frequency by which checks are done. 
+-Clones are also no longer genderless under certain conditions, allowing them to provide mate boost.
+-The dynamic drop system and kill count system will no longer run when any logic when a wild dino gets the kill, improving performance.
+-Fixed some misc issues with the food display on the Omega Spyglass.
+-Fixed a bug preventing wild level miracles from allowing Omega Max tames to work properly.
+-Fixed a bug with the texture on unique group master souls.
+-Updated some information in the guide to match recent changes to items and structures.
+-Fixed a bug causing unique group masters to drop items that aren't group-designated, causing them to have improper bonuses.
+-Fixed a bug that could prevent potion dinos from properly feeding potions to things in the area.
+-All item drops are now dropped from the top of the dying creature's collision capsule to prevent the item from bugging out.
+-Item drop impulse settings changed to prevent item throwing. 
+-NPC chart is now working, showing a brief description of the points system, as well as each tribe, which group it belongs to, and it's current points. 
+-Dimensional storage can now be used for wireless crafting.
+-Unique dinos can now mate naturally, assuming they are the same tier. The babies will always be base tier.
+-Omega Protection Shield engram removed from the files to prevent it from being unlocked by other mods.
+-Omega Protection Shield given collision so it can be picked up.
+-Stat potion combining structure added, with mesh/icon from Zythara. Can merge each stat potion into all-stats, one of each type into all-types, etc.
+-New icon and mesh for the kibble machine. 
+-A filter box added to the top of the quest menu so you can filter by specific quest types.
+-Fixed a bug with dimensional sort not always working on servers.
+-Fixed a bug with eggs disappearing when laid if you changed your breedingmode in the admin panel. 
+-Grinding paragon souls for paragon shards will no longer grind variant souls as well, and instead grinds variant paragons as intended.
+-Rampage now scales to a maximum of 500% up from 300%.
+-Brutal bleed tick can now scale as high 5x ability damage, up from 3x.
+-Lethal now has a 0.4% minimum chance to trigger.
+-Minibosses dodging damage will no longer trigger the damage reduction on the reduced damage per type taken mechanic.
+-All paragon variant bosses now have a small chance to drop a random variant paragon instead of a random species paragon.
+-Fixed a bug causing the Druid variant to not trigger properly when unridden.
