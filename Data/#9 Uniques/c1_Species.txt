@@ -83,6 +83,7 @@ Otter
 Otter
 Oviraptor
 Pachy
+Pachy
 Pachyrhinosaurus
 Parasaur
 Parasaur
@@ -142,6 +143,7 @@ Troodon
 Carbonemys
 Tusoteuthis
 Yeti
+Yeti
 Yutyrannus
 Leech
 Ammonite
@@ -152,6 +154,7 @@ Rhyniognatha
 Snow Purlovia
 Polar Bear
 Polar Bear
+Jerboa
 Jerboa
 Mantis
 Thorny Dragon
@@ -169,6 +172,7 @@ Oil Jug Bug
 Water Jug Bug
 Fire Wyvern
 Fire Wyvern
+Lightning Wyvern
 Lightning Wyvern
 Lightning Wyvern
 Poison Wyvern

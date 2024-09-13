@@ -83,6 +83,7 @@ Cloner
 Pygmy
 Miracle
 Wood
+Taming
 Treasure
 Pearl
 Soul
@@ -142,6 +143,7 @@ Ghost
 Frenzy
 Colossus
 Iceburst
+Element
 Supernova
 Vampire
 Knockback
@@ -153,6 +155,7 @@ Blizzard
 Treasure
 Brutal
 Psychosis
+Crafting
 Paragon
 Detonate
 Plague
@@ -171,5 +174,6 @@ Loot
 Fireburst
 Blizzard
 Spiritual
+Gorgon
 Psychosis
 Self-Destructive

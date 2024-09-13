@@ -14,10 +14,10 @@ Minion Size: 40%
 Minion Duration: 20s
 
 Variant Information:
-Spawn Chance: 01.7%
+Spawn Chance: 00.85%
 
 Other Information:
-Cooldown 1: 30.0
+Cooldown 1: 45.0
 Cooldown 2: 0.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: true

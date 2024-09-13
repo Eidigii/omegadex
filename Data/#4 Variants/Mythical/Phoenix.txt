@@ -13,12 +13,13 @@ Health Restored: 10% per second for 5 seconds (50% of max overall)
 Corpse Burn before Resurrection Duration: 10s
 Corpse Burn AOE Damage: 1% of enemies max health per second.
 Corpse Burn AOE Damage Radius: 1000 (3.33 foundations)
+Phoenix Variants do not lose a tier when sent to the Reliquary.
 
 Variant Information:
 Spawn Chance: 01.7%
 
 Other Information:
-Cooldown 1: 20.0
+Cooldown 1: 30.0
 Cooldown 2: 0.0
 Uses Activated Ability When Dealing Damage: false
-Uses Activated Ability When Taking Damage: false
+Uses Activated Ability When Taking Damage: true

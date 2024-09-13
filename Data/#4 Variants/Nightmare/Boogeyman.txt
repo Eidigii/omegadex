@@ -6,9 +6,9 @@ reduction, night vision, and the ability to jump-scare enemies with a powerful r
 Pressing Prone(X) will make the Boogeyman release a terrifying Roar. This will do huge
 damage to the enemies, as if scaring the life out of them. It will also force them to flee for
 an extended period.
-Nightmare Vision at Night Time.
 
 -----
+Nightmare Vision at Night Time.
 Cooldown: 15s
 Stamina Cost: 25%
 Roar Damage: 300% of Ability Damage
@@ -17,10 +17,10 @@ Damage Reduction at Night: 75%
 Boogeyman cannot be targeted by enemies at night.
 
 Variant Information:
-Spawn Chance: 02.55%
+Spawn Chance: 00.85%
 
 Other Information:
-Cooldown 1: 2.0
+Cooldown 1: 15.0
 Cooldown 2: 0.0
-Uses Activated Ability When Dealing Damage: false
+Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: true

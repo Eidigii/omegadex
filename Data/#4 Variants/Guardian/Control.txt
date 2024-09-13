@@ -1,4 +1,4 @@
-<span style="color:gray;">Controller</span>: Controllers are in charge of aggression levels of nearby enemies. They can
+<span style="color:gray;">Wireless Controller</span>: Controllers are in charge of aggression levels of nearby enemies. They can
 determine whether an enemy attacks or flees from the fight. They can also force enemies
 to attack them specifically, drawing aggro away from allies.
 
@@ -20,10 +20,10 @@ Damage Reduction While Taunting: 75%
 Taunt Duration: Depends on enemies aggro settings.
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 02.13%
 
 Other Information:
-Cooldown 1: 0.0
-Cooldown 2: 0.0
-Uses Activated Ability When Dealing Damage: false
-Uses Activated Ability When Taking Damage: false
+Cooldown 1: 30.0
+Cooldown 2: 30.0
+Uses Activated Ability When Dealing Damage: true
+Uses Activated Ability When Taking Damage: true

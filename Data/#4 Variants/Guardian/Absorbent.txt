@@ -22,10 +22,10 @@ Additional Health Multiplier: 7.5x (1 5x overall health multiplier)
 Additional Damage Multiplier: 0.1x (20% of normal damage output)
 
 Variant Information:
-Spawn Chance: 01.28%
+Spawn Chance: 00.85%
 
 Other Information:
-Cooldown 1: 3.0
+Cooldown 1: 0.0
 Cooldown 2: 0.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: false

@@ -12,6 +12,10 @@ Unique Name: Spyro
 Variants: Tracker / Spiritual
 Spawn Weight: 1.0
 
+Unique Name: Raiden
+Variants: Rampage / Gorgon
+Spawn Weight: 0.5
+
 Food Types:
 Raw Meat
 Cooked Meat

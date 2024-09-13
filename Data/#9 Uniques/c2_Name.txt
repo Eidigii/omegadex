@@ -83,6 +83,7 @@ Nugget
 Revenous
 Nest
 Fuel
+Bag-A-Lag
 Imp
 Lust
 Nanoh
@@ -142,6 +143,7 @@ Fright
 Leonardo
 Cthulhu
 Abominable
+Aethersnow
 Novastrike
 Crimson
 Immobilizer
@@ -153,6 +155,7 @@ Rime
 Unbearable
 Ghost
 Jerkboa
+Jeddican
 Edward
 Unibomber
 Nettle
@@ -171,5 +174,6 @@ Smelt
 Bowzer
 Storm
 Spyro
+Raiden
 Riot
 Vash

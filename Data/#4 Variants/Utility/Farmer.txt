@@ -13,10 +13,10 @@ Fertilize/Water Radius: 3000 (10 Foundations)
 Will Provide Infinite Water With Unstable Water In Inventory
 
 Variant Information:
-Spawn Chance: 00.43%
+Spawn Chance: 00.85%
 
 Other Information:
-Cooldown 1: 10.0
+Cooldown 1: 0.0
 Cooldown 2: 0.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: false

@@ -1,9 +1,9 @@
 Groups and Variants
 
 A list of all groups, and the variants within them, along with some misc data.
-Tiers and their stat multipliers:
 
 ------------------
+Tiers and their stat multipliers:
 1. Basic - lx
 2. Delta - 2x
 3. Gamma - 4x

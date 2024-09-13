@@ -22,10 +22,10 @@ Buff Time Per Egg Fed: 5 Minutes
 Timer Speed Multiplier: 1 + (Tier x 1)
 
 Variant Information:
-Spawn Chance: 01.7%
+Spawn Chance: 00.43%
 
 Other Information:
-Cooldown 1: 30.0
+Cooldown 1: 0.0
 Cooldown 2: 0.0
 Uses Activated Ability When Dealing Damage: false
-Uses Activated Ability When Taking Damage: true
+Uses Activated Ability When Taking Damage: false

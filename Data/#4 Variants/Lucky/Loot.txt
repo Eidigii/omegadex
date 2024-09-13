@@ -7,16 +7,16 @@ Loot dinos can only be tamed using Unique Kibble.
 -----
 Speed Bonus: 100%
 Damage Reduction: 90%
-Drops when killed, with the Quality/ Tier based on the Tier of the Loot creature: Tool,
+Drops when killed, with the Quality/Tier based on the Tier of the Loot creature: Tool,
 Weapon, Armor, Saddle, Tranqs, Resources, Food, Kibble, Potion, Ark Omega Item, Ark
 Omega Disposable.
 Does not provide loot when tamed.
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 00.43%
 
 Other Information:
-Cooldown 1: 30.0
+Cooldown 1: 0.0
 Cooldown 2: 0.0
-Uses Activated Ability When Dealing Damage: true
+Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: true

@@ -8,6 +8,7 @@ stacks of 83%.
 
 -----
 Chance to Apply Lethal Critical Debuff: 1 / (Max Health / (Damage Taken * 3))
+Minimum Chance To Apply Lethal Critical Debuff: 0.4%
 Lethal Critical Taken Damage Multiplier: 3x Per Stack.
 Lethal Critical Maximum Stacks: 5
 Lethal Critical Debuff Duration: 300 seconds
@@ -19,5 +20,5 @@ Spawn Chance: 00.09%
 Other Information:
 Cooldown 1: 0.0
 Cooldown 2: 0.0
-Uses Activated Ability When Dealing Damage: false
+Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: false

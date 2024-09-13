@@ -83,6 +83,7 @@ Tsunami
 Rampage
 Breeding
 Fire
+Colossus
 Boogeyman
 Breeding
 Absorbent
@@ -142,6 +143,7 @@ Overlord
 Astral
 Dimensional
 Stone
+Absorbent
 Overlord
 Tsunami
 Warp
@@ -153,6 +155,7 @@ Ice
 Ice
 Colossus
 Siren
+Tracker
 Metal
 Rampage
 Overlord
@@ -171,5 +174,6 @@ Eruption
 Stalker
 Thunderstorm
 Tracker
+Rampage
 Supernova
 Absorbent

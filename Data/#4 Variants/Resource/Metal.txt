@@ -17,7 +17,7 @@ Shard Chance %: (Damage Taken/Max Health) * 2000
 Shard Chance increases by 10% for each hit that does not produce a shard.
 
 Variant Information:
-Spawn Chance: 01.28%
+Spawn Chance: 01.7%
 
 Other Information:
 Cooldown 1: 0.0

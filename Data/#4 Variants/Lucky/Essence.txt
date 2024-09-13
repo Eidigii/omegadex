@@ -14,7 +14,7 @@ Number of essences dropped: Paragon Shard Value x Tier X 50.
 Does not provide Essence when tamed.
 
 Variant Information:
-Spawn Chance: 00.09%
+Spawn Chance: 00.26%
 
 Other Information:
 Cooldown 1: 0.0

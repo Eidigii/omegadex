@@ -6,7 +6,7 @@ increasing by that amount up to a maximum of 3x the Brutal creature's Ability da
 Brutal Chance to Stun/Bleed: 50%
 Bleed Duration: 6s since last bleed stack added.
 Bleed Damage Increased by 50% of Damage Dealt.
-Maximum Bleed Damage: 300% of Ability Damage.
+Maximum Bleed Damage: 500% of Ability Damage.
 Bleed Damage Decay starts at 4 seconds and reduces by 25% of Abiilty Damage Every 0.5
 Seconds.
 
@@ -14,7 +14,7 @@ Variant Information:
 Spawn Chance: 01.7%
 
 Other Information:
-Cooldown 1: 3.0
+Cooldown 1: 0.0
 Cooldown 2: 0.0
-Uses Activated Ability When Dealing Damage: false
+Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: false

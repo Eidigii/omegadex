@@ -11,7 +11,7 @@ Stamina Drain Per Second: 5%
 Radius: 2400 (8 Foundations)
 
 Variant Information:
-Spawn Chance: 02.13%
+Spawn Chance: 00.85%
 
 Other Information:
 Cooldown 1: 60.0

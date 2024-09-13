@@ -1,0 +1,52 @@
+Ark Omega 9/6 2nd Update Patch Notes: 
+
+-Fixed the corrupt engram file that was causing problems with the Transmuter not being craftable. 
+-Fixed a bug causing the gauntlet beacon to only spawn vanilla dinos.
+-Fixed a bug causing the gauntlet beacon to not obey land/sea rules for the dino choices.
+-Fixed a bug causing NPCs to not drop anything when killed. 
+-Personal Dimensional Sort in the player inventory no longer looks specifically for structures placed by the player.
+-Fixed a bug with all beacon bosses/masters coming out at paragon X.
+-Fixed bugs with soul distribution type and radius settings sometimes reverting.
+
+Ark Omega 9/6 Patch Notes: 
+
+-Renamed the "Transmutator" to "Transmuter".
+-Fixed placement problems with the Transmuter. 
+-The Transmuter can now be used to combine essence, 10 of each type to get 1 of the next tier, up to Elite. 
+-Fixed missing materials on the Transmuter and Kibble Machine.
+-Fixed a bug with the Transmuter where the All-Allocations button wouldn't always appear.
+-Fixed bugs with the allocation merger function in the Transmuter sometimes using more potions than intended. 
+-Added 500 basic essence to the Transmuter crafting cost. 
+-Gauntlet Beacon re-enabled with Boss and Master summons.
+-Fixed a potential cause for Unique Group Masters not dropping their souls due to multiple-variant detection failing.
+-Updated the variant information in the Omegadex for the changes to the rage variants from the last patch.
+-Killing an NPC Chief now gives a server notification, and wipes that NPC tribe from the map to ensure that higher level NPCs don't remain, allowing you to spam summon the Chief.
+-Fixed a bug that could cause breeding mode 3 to not work as intended. 
+-The quest filter no longer resets when completing or cancelling a quest. 
+-Fixed a bug with variant paragons not properly grinding.
+-Immortality potions can now be consumed while in the air.
+-A buff is given by Tornado and Singularity after the effect wears off to make sure you can't be picked up again for at least 5 seconds. It also prevents fall damage, making sure you don't instantly die when falling to the ground.
+-Vanilla alpha tributes added to loot tables for loot dinos and loot chests. 
+-Minibosses now award a random Tekgram when killed. 
+-Fixed a bug causing some minions to become permanent. 
+-3 new uniques added from Tournament Prizes.
+-The knockout club base damage reduced from 20 to 5, and its torpidity multiplier increased from 3.75 to 15, reducing its likelihood of getting a kill, and increasing the torpor scaling with melee damage stats.
+-Respawn button (with confirmation) added to the pause menu. You will have to click it to confirm that you want to respawn your character, it will kill you.
+-Updated custom pause button padding so they don't stack directly on top of buttons added by other mods.
+-New Uniques: Jerboa
+-Resource shard projectiles now deal 100% ability damage with increased area of effect by all bosses.
+-Vengeance helmet will now properly reduces damage from bosses by 25%, with updated item text. 
+-Vengeance now properly reduces damage from both bosses and elemental variants by 25% instead of 75%.
+-Random bosses now summon bosses of their same type/strength.
+-Improved the boss type checks on the Wake-Up buff. 
+-Fixed multiple group-type checks done on Unique Group Masters and their variants.
+-Added a short cooldown to the transmuter to prevent button spamming.
+-Greatly improved particle efficiency on a number of particles to prevent client side lag and possible console crashes from overloading the GPU.
+---Reduced particle count on the Blizzard "smoke" from 1,100 to 375.
+---Reduced particle count on Collective's explosion from 2,000 to 1,000.
+---Reduced the Ember count on Comet from 1,000 to 600.
+---Removed a section of Earthburst, reducing particle count by 500.
+---Removed a number of emitters from the impact explosion created by Fireball, Meteor, Comet, Explosive, and more. 
+---Reduced the swirling ice particle count from Iceburst from 30,000 to 5,000.
+---Reduced the number of particles coming off of Starfire from 50,000 to 13,000, but increased their size and glow.
+---Reduced the explosion particle count on Tsunami from 42,000 to 10,000 and increased their opacity.

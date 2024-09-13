@@ -10,7 +10,7 @@ Replicator
 Crafting Speed Bonus: (200 x Tier)%
 
 Variant Information:
-Spawn Chance: 00.43%
+Spawn Chance: 00.85%
 
 Other Information:
 Cooldown 1: 0.0

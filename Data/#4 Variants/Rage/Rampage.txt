@@ -13,17 +13,17 @@ dealing damage. The % displayed is how much attack damage is increased.
 Cooldown: 60x
 Stamina Cost: 10%
 Rampage Duration: 30s
-Maximum Rampage: 300%
+Maximum Rampage: 500%
 Maximum Damage Bonus: 300%
 Rampage Increase Per Attack: 10%
 Time before Rampage Decay: 3s
 Percent Rampage decrease per second: 0.5s
 
 Variant Information:
-Spawn Chance: 02.55%
+Spawn Chance: 00.85%
 
 Other Information:
-Cooldown 1: 0.0
+Cooldown 1: 60.0
 Cooldown 2: 0.0
-Uses Activated Ability When Dealing Damage: false
+Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: false

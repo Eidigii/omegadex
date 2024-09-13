@@ -14,10 +14,10 @@ Change to Dodge while cloaked: (Tier x 5)%
 Stamina drain per second to cloak: 1%
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 02.13%
 
 Other Information:
-Cooldown 1: 15.0
+Cooldown 1: 0.0
 Cooldown 2: 0.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: false

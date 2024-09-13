@@ -11,10 +11,10 @@ Explosion Damage: 100% of Detonate creature's Ability Damage
 Chance for enemy to explode when dealing damage to Detonate Creature: 20%
 
 Variant Information:
-Spawn Chance: 01.28%
+Spawn Chance: 00.85%
 
 Other Information:
 Cooldown 1: 0.0
 Cooldown 2: 0.0
-Uses Activated Ability When Dealing Damage: false
+Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: true

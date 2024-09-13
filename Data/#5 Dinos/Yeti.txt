@@ -8,6 +8,10 @@ Unique Name: Abominable
 Variants: Stone / Iceburst
 Spawn Weight: 1.0
 
+Unique Name: Aethersnow
+Variants: Absorbent / Element
+Spawn Weight: 0.1
+
 Food Types:
 Amarberry
 Azulberry

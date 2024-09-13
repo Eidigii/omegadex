@@ -8,6 +8,10 @@ Unique Name: Jerkboa
 Variants: Siren / Psychosis
 Spawn Weight: 1.0
 
+Unique Name: Jeddican
+Variants: Tracker / Crafting
+Spawn Weight: 0.5
+
 Food Types:
 Amarberry
 Azulberry

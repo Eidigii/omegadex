@@ -14,7 +14,7 @@ abilities, and even removing elemental immunities from Gods.
 Cooldown: 45s
 Stamina Cost: 50%
 Disruption Radius: 3000 (10 Foundations).
-Disruption Duration: 1 5s
+Disruption Duration: 15s
 Disruption Cooldown Buff Duration: 30s
 Disruption Removes Lucky Variant Dodge Chance.
 
@@ -22,7 +22,7 @@ Variant Information:
 Spawn Chance: 00.09%
 
 Other Information:
-Cooldown 1: 30.0
+Cooldown 1: 45.0
 Cooldown 2: 0.0
-Uses Activated Ability When Dealing Damage: false
+Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: true

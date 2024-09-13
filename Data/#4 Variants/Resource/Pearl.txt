@@ -12,7 +12,7 @@ Damage Taken by Elemental Weakness: 100%
 Damage Taken by Multi-T001: 200%
 Shard Damage: 50% of Ability damage.
 Shard Explosion Radius: 900 (3 foundations)
-Splintered Debuff increases damage from shards by 5%, and can stack
+Splintered Debuff increases damage from shards by 5%, and can stack 100x.
 Shard Chance %: (Damage Taken/Max Health) * 2000
 Shard Chance increases by 10% for each hit that does not produce a shard.
 
@@ -20,7 +20,7 @@ Variant Information:
 Spawn Chance: 00.85%
 
 Other Information:
-Cooldown 1: 30.0
+Cooldown 1: 0.0
 Cooldown 2: 0.0
-Uses Activated Ability When Dealing Damage: true
+Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: false

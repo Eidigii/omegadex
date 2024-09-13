@@ -16,10 +16,10 @@ Corpse Revive Range: 2400 (8 Foundations)
 Minion Duration: 60s
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 01.7%
 
 Other Information:
-Cooldown 1: 45.0
+Cooldown 1: 30.0
 Cooldown 2: 0.0
-Uses Activated Ability When Dealing Damage: true
+Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: true

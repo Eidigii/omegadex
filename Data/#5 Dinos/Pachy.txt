@@ -8,6 +8,10 @@ Unique Name: Fuel
 Variants: Fire / Wood
 Spawn Weight: 1.0
 
+Unique Name: Bag-A-Lag
+Variants: Colossus / Taming
+Spawn Weight: 0.5
+
 Food Types:
 Amarberry
 Azulberry

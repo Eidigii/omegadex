@@ -16,10 +16,10 @@ Curse: 50% Damage Dealt, 150% Damage Taken
 Curse Duration: 10 Seconds
 
 Variant Information:
-Spawn Chance: 02.55%
+Spawn Chance: 01.7%
 
 Other Information:
-Cooldown 1:0.0
-Cooldown 2:0.0
+Cooldown 1: 30.0
+Cooldown 2: 0.0
 Uses Activated Ability When Dealing Damage: false
-Uses Activated Ability When Taking Damage: false
+Uses Activated Ability When Taking Damage: true
