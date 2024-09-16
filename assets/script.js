@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const menuToggle = document.getElementById('menu-toggle');
     const navWrapper = document.getElementById('nav-wrapper');
 
+    // Helper to fetch sub-menu
     const fetchSubMenu = async (folder, level) => {
         try {
             const response = await fetch(`navigation_sub.php?folder=${encodeURIComponent(folder)}`);
@@ -39,6 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
+    // Helper to fetch content
     const fetchContent = async (path, type = 'file') => {
         try {
             const response = await fetch(`content.php?${type}=${encodeURIComponent(path)}`);
@@ -49,6 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
+    // Adjust navigation container width
     const adjustNavContainerWidth = () => {
         const subMenus = document.querySelectorAll('.nav-menu');
         let totalWidth = 0;
@@ -62,6 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
         navContainer.style.width = `${totalWidth}px`;
     };
 
+    // Main menu click handler
     mainMenu.addEventListener('click', (event) => {
         const target = event.target;
 
@@ -79,6 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // Navigation container click handler
     navContainer.addEventListener('click', (event) => {
         const target = event.target;
 
@@ -116,10 +121,95 @@ document.addEventListener('DOMContentLoaded', () => {
             navWrapper.classList.remove('open');
         }
     });
-    // Ensure menu closes when the viewport is resized to more than 768px
+
+    // Ensure menu closes when the viewport is resized to more than 900px
     window.addEventListener('resize', () => {
         if (window.innerWidth > 900) {
             navWrapper.classList.remove('open');
         }
     });
+
+    //Egg chart
+    const observer = new MutationObserver(() => initializeEggTable());
+    observer.observe(contentElem, { childList: true, subtree: true });
+
+    // Initial call to ensure the table is initialized if already present
+    initializeEggTable();
 });
+
+function initializeEggTable() {
+    const table = document.getElementById('eggTable');
+
+    if (!table) {
+        return;  // No table found, exit the function.
+    }
+
+    if (table.dataset.initialized) {
+        return;  // Exit if the table is already initialized to avoid duplicate event listeners.
+    }
+
+    table.dataset.initialized = true;  // Mark the table as initialized.
+
+    loadTableState(table);
+
+    table.addEventListener('click', function (event) {
+        if (event.target.tagName === 'TD') {
+            toggleCell(event.target);
+            saveTableState(table);
+        }
+    });
+}
+
+function toggleCell(cell) {
+    const currentValue = cell.innerText.trim();
+    const newValue = currentValue === "-" ? "✓" : "-";
+    cell.innerText = newValue;
+    cell.className = newValue === "-" ? "cell-0" : "cell-1";
+}
+
+function saveTableState(table) {
+    const cells = table.getElementsByTagName('td');
+    const state = Array.from(cells).map(cell => cell.innerText.trim());
+    document.cookie = "tableState=" + JSON.stringify(state) + "; path=/";
+}
+
+function loadTableState(table) {
+    const state = getCookie('tableState');
+    if (!state) {
+        // If there is no saved state, initialize all cells to "-"
+        initializeDefaultState(table);
+        return;
+    }
+
+    const cells = table.getElementsByTagName('td');
+    const cellValues = JSON.parse(state);
+    for (let i = 0; i < cells.length; i++) {
+        const cellValue = cellValues[i];
+        if (cellValue === "-" || cellValue === "✓") {
+            cells[i].innerText = cellValue;
+            cells[i].className = cellValue === "-" ? "cell-0" : "cell-1";
+        } else {
+            cells[i].innerText = "-";
+            cells[i].className = "cell-0";
+        }
+    }
+}
+
+function initializeDefaultState(table) {
+    const cells = table.getElementsByTagName('td');
+    for (let cell of cells) {
+        cell.innerText = "-";
+        cell.className = "cell-0";
+    }
+}
+
+function getCookie(name) {
+    const nameEQ = name + "=";
+    const ca = document.cookie.split(';');
+    for (let i = 0; i < ca.length; i++) {
+        let c = ca[i];
+        while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+        if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+    }
+    return null;
+}

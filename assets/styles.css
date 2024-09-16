@@ -308,3 +308,81 @@ a {
         max-height: 90%; 
     }
 }
+
+#eggTable {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+#eggTable th, #eggTable td {
+    border: 1px solid #00BCD4;
+    padding: 10px;
+    text-align: center;
+    width: calc(100% / 7);
+    height: 50px;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+#eggTable th {
+    background-color: #1C2A38;
+    height: auto;
+    position: sticky;
+    top: 0;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#eggTable .cell-0 {
+    background-color: lightcoral;
+}
+
+#eggTable .cell-1 {
+    background-color: lightgreen;
+}
+
+@media (max-width: 600px) {
+    #eggTable {
+        table-layout: auto;
+    }
+    #eggTable th, #eggTable td {
+        padding: 5px;
+        height: 40px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    #eggTable thead {
+        display: none;
+    }
+    #eggTable, #eggTable tbody, #eggTable tr, #eggTable td {
+        display: block;
+        width: 100%;
+    }
+    #eggTable tr {
+        margin-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #eggTable th, #eggTable td {
+        width: 100%;
+    }
+    #eggTable td {
+        text-align: left;
+        padding-left: 50%;
+        position: relative;
+    }
+    #eggTable td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: calc(50% - 10px);
+        white-space: nowrap;
+        text-align: left;
+        font-weight: bold;
+        color: #000;
+    }
+}

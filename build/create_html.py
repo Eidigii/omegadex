@@ -103,9 +103,10 @@ dir_class_map = {
     "#10 Mating": (listRuleSet, 'list_config.json'),
     "#11 Paragons": (listRuleSet, 'list_config.json'),
     "#12 NPCs": (listRuleSet, 'list_config.json'),
-    "#13 FAQs": (FaqsRuleSet, 'faqs_config.json'),
-    "#14 Links": (defaultRuleSet, 'default_config.json'),
-    "#15 Changelog": (listRuleSet, 'list_config.json'),
+    "#13 Egg Chart": (listRuleSet, 'list_config.json'),
+    "#14 FAQs": (FaqsRuleSet, 'faqs_config.json'),
+    "#15 Links": (defaultRuleSet, 'default_config.json'),
+    "#16 Changelog": (listRuleSet, 'list_config.json'),
     # Add more directories and corresponding classes as needed
 }
 
