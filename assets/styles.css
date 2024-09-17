@@ -315,6 +315,9 @@ a {
     margin: 0 auto;
     border-collapse: collapse;
     table-layout: fixed;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 
 #eggTable th, #eggTable td {

@@ -1,0 +1,14 @@
+Ark Omega 9/17 Patch Notes:
+
+-Minibosses now have a chance to drop an affinity medallion based on their species.
+-Fixed a crash caused by an infinite loop when killing a Unique Group Master. 
+-Fixed a bug preventing paragons and Master Souls from sorting to the Soul Compressor correctly.
+-The sort system (both personal and vacuum) will now prioritize the closest structures first.
+-Added information about breeding paragons and variant soul paragons to the Omegadex.
+-Fixed the tooltip on Ancient Essence.
+-Recreated the Plague Tornado for Gaia's Wrath.
+-Fixed the Tier order on the gauntlet beacon.
+-Implemented an experimental override to remove all aberrant variants and replace them with Omega's dinos. 
+-Bosses no longer drop variant souls.
+-Added a dragon death animation.
+-Fixed a bug causing variant souls to not be consumed when compressing in the soul compressor for the first time.
