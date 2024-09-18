@@ -1,6 +1,7 @@
 <span style="color:gray;">Resilient</span>: A simple defensive variant, Resilient creatures are immune to elemental debuffs
 and damage impulse, making them predictable and easy to use.
 
+-----
 Variant Information:
 Spawn Chance: 02.55%
 

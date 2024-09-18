@@ -1,4 +1,4 @@
-<span style="color:gray;">Shield</span> : These are portable Tek Shields. They create a rapidly expanding shield that gives
+<span style="color:gray;">Shield</span>: These are portable Tek Shields. They create a rapidly expanding shield that gives
 asylum to all nearby allies, keeping enemies out. As the shield expands it will push enemies
 away, making sure none are trapped within.
 
