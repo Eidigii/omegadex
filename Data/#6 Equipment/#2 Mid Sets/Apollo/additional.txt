@@ -3,3 +3,5 @@ pack bonus. You get increased damage output and reduced damage taken for each
 enemy nearby, up to 30."Enemies burn while sirened" means they are set on fire when
 Siren is applied with the bow. The fire damage is both increased by your melee stat
 and the total quality rating of your set items.
+
+Drops from Mythical variants.

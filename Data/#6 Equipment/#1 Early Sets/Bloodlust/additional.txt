@@ -1,2 +1,4 @@
 Additional Info:
 Bloodlust mode is a form of permanent Rampage for the player.
+
+Drops from Rage variants.

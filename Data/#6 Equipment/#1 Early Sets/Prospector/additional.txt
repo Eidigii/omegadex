@@ -1,2 +1,4 @@
 Additional Info:
 Metalskin provides 80% damage reduction and makes you sink in the water.
+
+Drops from Resource variants.

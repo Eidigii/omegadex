@@ -2,3 +2,5 @@ Additional Info:
 Rerolling a loot chest wipes it clean, respawning the items inside and generating a
 new cost based on the items that were generated. Each chest can only be rerolled
 once.
+
+Drops from Lucky variants.

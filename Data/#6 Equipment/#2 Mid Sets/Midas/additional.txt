@@ -2,3 +2,5 @@ Additional Info: Midas Touch is a form of Gorgon stone, turning enemies to solid
 and making them take triple damage from all sources.Goldskin is similar to the Loot
 variant, providing you with 90% damage reduction and makes you sink while in the
 water.
+
+Drops from Lucky variants.

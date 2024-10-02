@@ -2,3 +2,5 @@ Additional Info:
 Player is reactive makes you deal AOE damage when it is raining or while in the water.
 The damage is increased by your melee stat, and is also increased by the total quality
 level of your equipped set items.
+
+Drops from Unstable variants.

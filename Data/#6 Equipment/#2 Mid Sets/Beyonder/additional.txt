@@ -1,3 +1,5 @@
 Additional Info: Gamma-Ray storm summons smaller Gamma-Rays in an area around
 you. The Gamma-Ray damage is both increased by your melee stat and the total
 quality rating of your set items.
+
+Drops from Cosmic variants.

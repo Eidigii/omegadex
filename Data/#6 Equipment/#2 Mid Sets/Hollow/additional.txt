@@ -1,2 +1,4 @@
 Additional Info: Permanently Spectral makes you invisible to enemies, with a 50%
 dodge chance.
+
+Drops from Ethereal variants.
