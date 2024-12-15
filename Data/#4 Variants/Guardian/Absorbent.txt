@@ -18,7 +18,7 @@ Guardians.
 -----
 Stamina Drain Per Second: 3%
 Protection Radius: 2100 (7 foundations)
-Additional Health Multiplier: 7.5x (1 5x overall health multiplier)
+Additional Health Multiplier: 7.5x (15x overall health multiplier)
 Additional Damage Multiplier: 0.1x (20% of normal damage output)
 
 Variant Information:

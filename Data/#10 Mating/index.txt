@@ -5,10 +5,8 @@ To get things out of the way, lets describe some vanilla mating and egg mechanic
 2. Creatures must be the same species to mate. Dodo + Dodo. You cannot mate a Dodo with a Rex (people really ask this).
 3. Ark Omega creatures cannot mate with vanilla creatures. They may look the same, but are not technially the same species.
 
-Mating in Ark Omega can be a complicated task, as there are many factors that come into play due to the dynamic nature of the creatures.
-Certain setting will INCREASE BOSS DIFFICULTY to offset the greater ease of obtaining large armies.
-
 First thing is your BreedingMode INI setting. This setting determines what you can mate together.
+This can be changed in the Admin panel of the guide.
 IF YOUR MATING TIMER IS RESETTING ON DINOS WHILE TRYING TO MATE, THIS IS THE CAUSE.
 The default setting is 1, but you can change this to any of the 5 settings.
 1. Same Group (Cosmic + Cosmic) but any Tier. If variants are different between the parents, one of their variants will be selected at random using spawn chance % for
@@ -16,14 +14,11 @@ those 2 variants.
 2. Same Variant and Tier.
 3. Any variant and any Tier. If variants are different between the parents, one of their variants will be selected at random using spawn chance % for those 2 variants.
 
-NOTE: Changing this setting in your INI will directly impact the difficulty of ALL bosses.
-
 Second is the PoopEggs INI setting. This setting bypasses the default Ark mechanic of requiring mate boosting to lay eggs.
-With this setting, all creatures, even male, will have a 1% chance to produce an egg when pooping.
-NOTE: This setting also increases boss difficulty.
+With this setting, all creatures, even male, will have a 1% chance to produce an unfertilized egg when pooping.
 
 Now that you have your settings determined, here are the basics of what can happen when mating.
 If variants are different between the parents, the % chance of the baby's variant is based on the spawn chances of the variants of the parents. Example: Colossus and
-Gorgon mate. There is an 84% chance of the baby being Gorgon, 16% chance it is Colossus.
+Gorgon mate. There is amuch greater chance for a Gorgon baby than Colossus.
 2. If you're breeding different Tiers, the tier can be anywhere between the 2 parents, with lower tiers being far more likely.
 3. If your egg hatches a Dodo, then you're using another mod that is either picking up the eggs too soon or editing them.

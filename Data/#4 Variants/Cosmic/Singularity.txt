@@ -12,7 +12,7 @@ until the singularity is gone.
 -----
 Cooldown: 30s
 Stamina Cost: 30%
-Singularity Initial Collapse Radius: 3000 (1 0 Foundations)
+Singularity Initial Collapse Radius: 3000 (10 Foundations)
 Singularity Duration: 15 Seconds
 Singularity Radius: 3000 (10 Foundations)
 Singularity Damage: 50% of Ability Damage Every 1/2 Second for 15 Seconds as

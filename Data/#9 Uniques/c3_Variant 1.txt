@@ -177,3 +177,9 @@ Tracker
 Rampage
 Supernova
 Absorbent
+Warp
+Frenzy
+Dimensional
+Plague
+Cloner
+Fire

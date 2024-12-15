@@ -1,4 +1,4 @@
-<span style="color:purple;">Overseer</span>: The 7th Variant of Summoner. Overseer summons a group of explosive bees,
+<span style="color:purple;">Hive</span>: The 7th Variant of Summoner. Overseer summons a group of explosive bees,
 that swarm around their enemy waiting to die. These bees glow with the color of the
 summoner group before exploding and dealing aoe damage. If the bees are killed before
 they explode, then their explosions deal reduced damage.

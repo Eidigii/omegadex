@@ -177,3 +177,9 @@ Lightning Wyvern
 Lightning Wyvern
 Poison Wyvern
 Rock Elemental
+Featherlight
+Shinehorn
+Glowtail
+Bulbdog
+Lymantria
+Phoenix

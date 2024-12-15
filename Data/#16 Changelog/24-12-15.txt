@@ -1,0 +1,44 @@
+Ark Omega 12/15 Patch Notes:
+
+Bug Fixes:
+-Fixed problems with compressing Variant Paragons. 
+-Fixed some bugs with Phoenix dinos respawning when the corpse is destroyed. 
+-Fixed a bug with colossus dinos and the rescaling problems that happen client side when picking things up. 
+-Fixed a problem with a file that isn't referenced properly keeping unique charm descriptions from being applied correctly.
+-Fixed a bug preventing Gorgon from working correctly.
+-Fixed a bug preventing Siren from working correctly.
+-Fixed a bug preventing Fairy from working correctly.
+-Fixed a bug preventing Phoenix heal from properly triggering.
+-Fixed a bug preventing Colossus stomp from working correctly.
+-Fixed a speed issue with the scaling ratio on Colossus that could apply to many species. 
+-Fixed a bug with babies coming out as without variants.
+-Fixed a bug where Zombie minions weren't getting their summoner referenced properly for the kills to count towards their summoner.
+-Fixed problems with the Omega gun's functions being renamed and breaking its functionality.
+-Fixed problems with Aspect souls sometimes not dropping.
+-Fixed problems with Aspect souls failing a check that would allow you to rank up to Endless.
+-Fixed a bug with Hive not summoning properly.
+-Fixed a problem with Stat potions getting lost at times when transferring through the dimensional system to the Transmuter.
+-Fixed an issue with familiar often summoning the wrong summons. 
+-Fixed a problem with Aspects not always using their summoning variants.
+-Fixed a bug with the number of meteors being unreliable from pure nodes being fed into the loop functions. 
+-Fixed a bug causing the new potion engrams to not be unlockable. 
+-Fixed a bug preventing the summoner reference from being properly set on minions. 
+-Fixed a bug that could cause minions to load from the save game, becoming permanent. 
+-Fixed a bug causing HUD messages to sometimes be spammed when using the dimensional sort system. 
+-Fixed a bug preventing Psychosis from being cast when the dino deals or takes damage.
+-Fixed a bug making Cloner not go on cooldown.
+-Fixed a loophole that could allow minions to persist when the summoner is removed. 
+-Fixed an infinite loop crash caused by the recent variant merger for explosive dinos.
+-Fixed an infinite loop crash related to damage reflection by implementing a new check system. 
+-Fixed a bug that could allow minions with the Phoenix variant to revive.
+-Fixed a bug causing Phoenix dinos to revive with no paragons. 
+-Fixed bugs with the absorbent bubble caused by the game defaulting ticks on unridden dinos to 5 seconds instead of their original timer amount. 
+
+Changes:
+-Aspect souls added to the admin panel.
+-Brutal bleed should now show as a debuff with an icon.
+-Changed Starfire summon distance and height from 600/1500 to 900/900.
+-Decreased the maximum distance that meteors can spawn away from the summoner from 24 meters to 18 meters, and reduced the spawn height range from 35/80 meters min/max to 30/60 meters min/max. 
+-Stalker no longer increases the explosion damage of Supernova.
+-Handled the way the Phoenix revive is handled for minions, wilds, and tames, as well as unique dinos and bosses to fix a number of issues.
+-Added some double checks to the minion system to help ensure they cannot become permanent.

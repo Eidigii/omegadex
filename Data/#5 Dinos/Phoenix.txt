@@ -1,0 +1,15 @@
+Name: Phoenix
+Base Damage: 35
+Rarity Group Number: 7
+Paragon Shard Value: 4
+
+Uniques:
+Unique Name: Moltres
+Variants: Fire / Eruption
+Spawn Weight: 1.0
+
+Food Types:
+Sulfur
+
+Additional Information: Fireball attack deals incinerate damage, a damage type that has a 10% chance to
+create a Firestorm if it kills an enemy.

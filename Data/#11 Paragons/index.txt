@@ -19,3 +19,5 @@ this.
 - Maxed Wild Omega Kill - Maxed Omegas are wild Omega tier that are the maximum level and have 100 paragon levels (Paragon [C]).
 - Same Species Kills - Kill dinos of your same species. The species must be exact, no variations (other than AOA tier/variants, etc).
 - Same Or Greater Shard Value Kills - Kill dinos that are of the same or higher paragon shard value. Each dino shard value can be found in their listing on the Dinos tab.
+- Inherited Breeding Paragon - When mating, there is a chance of gaining a paragon level (similar to mutations) that is 1 higher than the parent's highest Inherited level.
+- Variant Paragon Soul - Obtained by feeding a Variant Paragon Soul to your tame.

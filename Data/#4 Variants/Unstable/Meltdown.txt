@@ -15,7 +15,7 @@ Variant Information:
 Spawn Chance: 01.28%
 
 Other Information:
-Cooldown 1: 0.0
+Cooldown 1: 60.0
 Cooldown 2: 0.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: true

@@ -1,0 +1,17 @@
+Name: Glowtail
+Base Damage: 12
+Rarity Group Number: 9
+Paragon Shard Value: 2
+
+Uniques:
+Unique Name: Warp
+Variants: Dimensional / Spiritual
+Spawn Weight: 1.0
+
+Food Types:
+Raw Meat
+Cooked Meat
+Cooked Prime Meat
+Raw Prime Meat
+Ascerbic Mushroom
+Base Seeds

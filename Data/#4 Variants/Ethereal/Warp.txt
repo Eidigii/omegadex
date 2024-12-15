@@ -2,6 +2,7 @@
 between nearby enemies dealing damage to them. You can quickly attack many targets in
 succession, sometimes travelling a great distance while doing so. Unfortunately, you have
 no control over which targets are chosen.
+
 Pressing Prone(X) gets the nearest valid target to the Warp creature, teleporting you to it to
 deal damage before choosing another nearby target to continue. If a separate valid target is
 not found, the Warp is over.

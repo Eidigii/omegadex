@@ -13,10 +13,10 @@ Projectile Damage: lx Ability Damage
 Projectile Effect: Stuns targets in the impact area for 1 second.
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 01.7%
 
 Other Information:
-Cooldown 1: 10.0
+Cooldown 1: 3.0
 Cooldown 2: 0.0
-Uses Activated Ability When Dealing Damage: true
-Uses Activated Ability When Taking Damage: true
+Uses Activated Ability When Dealing Damage: false
+Uses Activated Ability When Taking Damage: false

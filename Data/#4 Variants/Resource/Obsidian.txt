@@ -14,7 +14,7 @@ Shard Damage: 50% of Ability damage.
 Shard Explosion Radius: 900 (3 foundations)
 Splintered Debuff increases damage from shards by 5%, and can stack 100x.
 Shard Chance %: (Damage Taken/Max Health) * 2000
-Shard Chance increases by for each hit that does not produce a shard.
+Shard Chance increases by 10% for each hit that does not produce a shard.
 
 Variant Information:
 Spawn Chance: 00.85%

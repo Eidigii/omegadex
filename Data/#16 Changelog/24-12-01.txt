@@ -1,0 +1,274 @@
+Ark Omega 12/01 Patch Notes: 
+
+Misc Changes and Bug Fixes: 
+-Variant Paragon drop chances no longer increase by tier for bosses. Higher tier wilds will still have a higher chance to drop them.
+-Unique Charm descriptions fixed. This will not retroactively apply to previously dropped unique charms.
+-Setting added to the admin panel for the number of maximum number of tiers lost when using the Reliquary, allowing server owners to increase the harshness of the penalty.
+-Fixed a bug preventing Variant Souls from being used in the Beacon due to a tag mismatch.
+-Updated the Mating tab information with up to date information, and removed references to the INI setting and boss difficulty modifiers.
+-Fixed the egg tier display on the Eggsecutioner. 
+-Fixed a bug with the BreedingMode setting not persisting through server restart if you're also using the INI setting. All traces of the INI setting have been removed.
+-Variant Paragons will now compress in a Soul Compressor, and automatically be sent there when sorting.
+-Stat Potions will now automatically be sent through dimensional sorting system to a Transmuter. If a Dimensional Storage is set up to store them, it will get priority.
+-Fixed the descriptive names in the parent classes for unfertilized eggs using the old ASE omega tiers.
+-Support for new species added (with unique versions): Bulbdog, Featherlight, Glowtail, Shinehorn, Lymantria, Phoenix.
+-Unique tag added to the icon of Unique Charms.
+-Fixed a bug preventing the Vacuum settings UI from displaying properly without the Egg Collector mod installed.
+-Fixed a bug with the Dimensional sorting structures all using an invalid buff to handle the UI display, often preventing it from working at all.
+-Greatly improved the speed of Unique dino and Boss dino checks in the drop system for better performance when killing.
+-Fixed a bug with minibosses typically dropping stat potions for Speed.
+-Experimental system to greatly improve console performance added. This will need testing in single-player (can be tested on PC), to make sure all wilds around the map still have variants).
+-Improved Reliquary detection functionality slightly.
+-Fellowship boots lose the "Minions cannot be stunned or frozen" bonus in favor of "Cannot be dismounted from your tame". This will work on Purlovia and Microraptors.
+-Text added to the Unique Group Master souls for information on how to summon the Aspects.
+-Fixed a few bugs with Unique breeding, such as the baby coming out as a single variant and not a unique.
+-Fixed a bug allowing you to summon unique group masters with 2 of the same soul. 
+-10 new paragon quests added, "Points gained from stat potions". Every level point awarded will count toward the requirement to unlock these paragon levels.
+-Overhauled the dynamic egg so that the correct children are always found. 
+-Fixed a bug allowing mass-hatched babies to skip multiple inherited paragon levels by being detected by another egg hatching at the same moment and having it's chance rolled again.
+-Variants provided from saddle curses will now be considered the same tier as the dino wearing the saddle.
+-Paragon level completion counter added to the top of the paragon progress chart to show how many quests have been completed.
+-Changed the text on the cursed idol so the order of information matches the order of the buttons.
+-Explosive damage and Reactive damage reduction imbues are now merged into a single "Unstable" damage, covering damage from Explosive, Self-Destructive, Volatile, Reactive, Detonate, Nuclear, and Meltdown.
+-Updated explosion particles on Boomstick, Abruption set, Overload set, and Unstable group variants. 
+-Fixed a bug causing Endless potions to be unlocked at Ultimate tier wild kills in No-Tame. They're made to be unlocked against Endless Tier (for now). 
+-Fixed bugs with the Endless potions in No-Tame being unlocked by the wrong groups. 
+-Added a checkbox in the auto grind settings in the mannequin to include medallions.
+-Removed an unneccessary validity check that could cause the guide to not open when the button is clicked. 
+-The logic for roman numerals for paragon levels moved to a function library to clean up the variant system a bit. 
+-KO dinos can now provide souls and essence.
+
+POTION CHANGES:
+-Health and Stamina potions added for each tier, Prime through Omega included.
+-Elite health/stamina potions now heal for 6% of your maximum per second instead of a one-shot full heal.
+-Each additional tier of potion heals for 1% more than the previous tier, up to 12% for Omega tier potions. 
+-These potions are craftable with essence from the bosses, and the engrams must be learned to craft them (engrams are unlocked from killing the bosses).
+-Support added for these new potions for Potion variants. 
+-Deleted references to old Godlike potions that were causing crashes when used in certain combinations after being spawned in by players.
+
+BOSS CHANGES:
+-An attempt at hibernation improvements on bosses made for Single Player. 
+-Edited the scaling of all bosses to reduce rapid overscaling. 
+
+Group Masters:
+-Changes to misc variants now apply to Group Masters, as all of the variant files have been merged. 
+-Fixed nearly all group variant functionality for Group Masters. 
+-New skins added for many Group Masters.
+-Slightly reduced the size of the Group Masters. 
+
+Unique Group Masters:
+-All changes to the group variants that benefited the Group Masters will apply here as well. 
+-The Unique Group Masters will now give you access to the next tier of bosses using their soul in the Beacon.
+-Slightly reduced the size of the Unique Group Masters. 
+
+Aspects:
+-Aspects can now be summoned from the Omega Beacon using a Unique Group Master soul. They will have 12 variants, one from each group tailored to their particular purpose. 
+-Aspect Souls can be fed to any Ancient Tier tame to increase its tier to Endless. The dino must contain a variant of that Aspect, or be a group variant tame to consume the soul.
+SUMMONER REWORKS:
+
+General Summoner/Minion Reworks:
+-Minion armor destroys itself when detected outside of the inventory of a minion.
+-Minion kills now count towards the summoner's kill quests and drop chances. 
+-Anytime a summoner dies, it's minions are instantly despawned. 
+-All Summoner variant bosses will summon equivalent tier/rank bosses for minions, including Familar. 
+-All minions will despawn if the Summoner teleports more than 210 meters away.
+-All minions with summoner variants are currently prevented from using their summoning abilities, although this will change for most variants after some testing. 
+-Minions summoned by bosses are no longer always the server max level. Instead, they should be the same level 1 as the boss. 
+-No minion should be loaded out of the save game file anymore to prevent permanent type minions from causing problems. 
+-Modified the minion system to be far more friendly towards Players as the summoners. 
+
+Random:
+-Random minions are permanent until killed or de-rendered. Re-casting will resummon any missing minions. 
+-Random bosses will only summon 3 randoms instead of 5 and they will no longer always be Prime Tier, but always the bosses same tier.
+-Tamed Random minions inherit saddles imbues of their summoner.
+
+Necromancer:
+-Necromancer minions are permanent until killed or de-rendered, with a max limit of 10. 
+-Necromancer minions also inherit saddle imbues.
+-Necromancer bosses will summon their Necromancer minions instead of reviving corpses, similar to the Random ability, but will be able to resummon after each cooldown until they have up to 10 minions. 
+-Necromancer boss minions are no longer always Prime Tier. 
+
+Cloner:
+-Cloner minions now get saddle imbues from the summoner. 
+-Cloner can now clone bosses, but only one boss at a time, and they will always be functionally identical to the boss without any increase in tier or paragons, capped at the Tier of the Cloner. 
+-Clones of all types now last 30 seconds, including self-clones produced by other sources.
+
+Overlord:
+-Tamed Overlord minions now get saddle imbues from the summoner. 
+-Overlord bosses will no longer always summon Prime tier minions. 
+-Wild Overlord will no longer summon 5 minions instead of the typical 4.
+-Overlord minions of all types now last 30 seconds. 
+
+Familiar:
+-Familiars now summon 1 minion per tier, 2 per tier for bosses. 
+-Familiars are now unkillable, and will continue to attack until they despawn. They only last 15 seconds now as opposed to 20 seconds. 
+-Familiars damage stat is now adjusted to be 10% of the Summoner's total attack damage instead of gaining 10% of their ability damage before stat multipliers. Familiars summoned by bosses will be 100%.
+-Familiars no longer get minion armor.
+
+Companion:
+-Companions now get saddle imbues as well as saddle curses for the additional variant from the summoner.
+-When the summoner is killed, the companion gets killed instead. The summoner will be fully healed, but then take the damage from the blow that was intended to kill it at the cost of its companion. 
+
+Overseer:
+-Overseer bees can no longer be killed. 
+-Overseer bees will begin to glow as they deal damage or take hits, exploding when they reach 40 points. Attacks are worth 4 points, damage taken is worth 2 points. 
+-Overseer bees will not be killed by the explosion and will instead reset and start again.
+-Overseer bees now have improved attack radius checks and use the same stat/damage carry-over calculations that Familiars use.
+-Overseer is no longer 7 minions, 14 minions for bosses. It is now 1 minion per tier, 2 per tier for bosses.
+-Overseer bees now always explode for 3x their summoner's ability damage instead of scaling down to 0.5x based on how much health they have. 
+-Overseer bees now last 15 seconds.
+-Overseer bees are no longer referred to as Martyr bees since they no longer die on explosion.
+-Overseer is now "Hive".
+OTHER VARIANT REWORKS:
+
+Meltdown:
+-Meltdown now consumes Stamina instead of Health to use.
+-Meltdown now has a peak damage output of 5x ability damage per second (this previously took ~36 seconds to achieve), while the stamina cost starts slow and then quickly ramps up, even after the maximum damage has been achieved. 
+-Reaching the maximum damage output of Meltdown will increase the damage radius by 50%.
+-Running out of Stamina and forcing an automatic Meltdown deactivation will cause the dino to becomes stunned for 3 seconds. 
+-If Meltdown is active for more than 30 seconds, it will automatically deactivate and stun the dino for 3 seconds.
+-Removed the smoke effect from Meltdown. 
+-Meltdown's damage application now uses Omega's targeted ability system to prevent unneccessary lag during a long term meltdown.
+-Meltdown is now single-button activated and not held.
+-Meltdown now has a 60-second cooldown with a 30% stamina cost to activate the initial meltdown.
+-The dino is no longer prevented to attack while in Meltdown mode. 
+
+Self-Destructive:
+-Self-Destruct is now triggered through the global ability system, allowing it to work on tames instead of sending them straight to the reliquary before the explosion has a chance to happen.
+-Self-Destruct being triggered by the ability system to be able to prevent any infinite loops caused by tames self-destructing on death.
+-Improved spawn time on Self-Destructive dinos by removing certain stat calculations that were done when spawning, and instead placed them on their death.
+-Temporarily removed the particle effect smoke on Self-Destructive due to a poor scaling issue that could cause it to cover the screen on some species chosen for beacon boss/masters. 
+
+Volatile:
+-Volatile no longer explodes for 4x ability damage and then deals 25% ability damage for 12 seconds. It now deals 2x ability damage on explosion and 1x ability damage for 5 seconds. This is to improve burst damage and client performance.
+-Volatile's cooldown increased from 15 to 20 seconds. 
+
+Nuclear: 
+-Nuclear no longer costs health to use, and instead consumes Stamina to trigger nuclear meltdown. 
+-Nuclear blast always causes the Nuclear dino to be temporarily stunned. 
+-The speed at which the nuclear blast can build up will depend on the % health of the dino when the nuclear meltdown begins. Minor changes to the speed unless the dino is very low on health. 
+-If the Nuclear dino is killed while in Nuclear meltdown, the explosion will occur based on the completion of the meltdown.
+-Nuclear now has a working particle and sound. 
+
+Phoenix: 
+-Phoenix Fire particle updated, and Phoenix fire now lasts 5 seconds instead of 10. No revive will be done if the tame is sent to the Reliquary.
+-Phoenix fire tick damage is now based on the dying dinos ability damage and not the health of what is being damaged. It will tick for 2x ability damage each second for the duration of the flame.
+-Phoenix bosses now have half the healing instead of full healing.
+-Phoenix variants will now leave a large flame at their death location that deals tick damage based on the tames ability damage. Wild and tamed that can't reliquary will be revived. 
+
+Colossus:
+-Fixed a bug preventing Colossus stomp from working on consoles.
+-Colossus stomp now works while in the air and swimming, but the damage is 1x as opposed to 6x while on land. Ground stomps will not hurt flying enemies though.
+-Fixed a bug with colossus scaling for babies not setting them to the correct size once fully grown.
+
+Tracker: 
+-Trackers now show the nearest Unique, and not a random unique in range.
+-Trackers no longer show different information for uniques at various tiers. They now show the name and distance to uniques at any tier. Search range still increases with tier.
+Absorbent:
+-Absorbent no longer uses the standard stat drain function for buffs to remove the stamina and is now custom graphed on a more reliable timer to prevent bubble drop during heavy lag.
+-Shoulder mounted absorbent tames will now be able to apply the protection buff to nearby allies. 
+-Additional checks done to ensure the absorbent dino is able to take damage before applying the protection buff to prevent immortal absorbents. 
+-Absorbent's protection buff will not redirect damage if the dino is also protected by Shield. 
+
+Resilient:
+-Fixed a bug that could prevent the damage impulse prevention from working on Resilient.
+-Resilient is no longer immune to various elemental debuffs. 
+-Resilient now gains individual damage reductions to damage types used against it that build up as it takes more hits. 
+-Getting hit by a new damage type will increase the resistance to that type, but slightly lower the built-up resistances of other types. 
+-This rework is designed to mimic a less powerful version of the damage resistance effect of the miniboss mechanic (which will remain on minibosses, and can stack with Resilient). 
+
+Shield:
+-Shield no longer produces a mobile Tek bubble, and instead applies a buff to nearby allies in the form of a shield that absorbs a number of hits before breaking. 
+-Shield is no longer a duration ability, and is a normal ability that has a standard cooldown and stamina cost to activate. The bubble will grow rapidly and apply the buff before vanishing. 
+-The shielded buff will provide a number of stacks based on the tier of the Shield variant that applied them. Each stack can take one hit and will absorb that damage entirely.
+-The number of shield stacks will be reduced based on the number of dinos that it is being applied to.
+-Upon the shielded buff expiring, a cooldown buff will be applied preventing dinos from being shielded again for a short time.
+-Shield variants can only shield themselves if no allies are nearby. Bosses will shield themselves.
+-Taking what would be a fatal hit (more damage than you have in remaining health) will instantly break all shield stacks. 
+
+Control:
+-Control no longer has a fear ring, and is now soley intended for taunting. 
+-The taunt is now more of an aura once activated, with a particle effect of reduced intensity. 
+-The taunt now lasts for 15 seconds, and the taunt's effectiveness is greatly increased over the previous version. 
+-When the Control dino damages anything it is currently taunting, it will apply a stun to it.
+-There is no longer a damage reduction while taunting. 
+
+Astral:
+-Astral no longer applies Stun, Blind, and Curse when overlapping while in Astral Form. It instead applies a weaken debuff that causes the enemy to deal 50% melee damage and take 50% increased damage.
+-Astral movement speed and maneuverability while in Astral form greatly increased. 
+-Astral can now attack while in Astral form, but will only deal 25% of it's typical melee damage.
+-Greatly reduced Astral's cloaking complexity for improved reliability. 
+-The physical form left behind while in Astral form will now look and move exactly like the original, using the same colors and attachments. 
+
+Spectral:
+-Spectral no longer has a slow-fade cloaking effect to greatly reduce complexity and make way for a particle based cloaking transition at a later date.
+-Drastically reduced the amount of coding that runs for the various stealthing mechanics on Spectral. 
+-Fixed a bug preventing the saddle from going invisible. 
+-The transition between visible and invisible is now instant. 
+
+Warp:
+-Vastly improved the performance of Warp by removing several functions and redundancies.
+-Uniques with the warp variant no longer have a 2 second cooldown.
+-Warp now does a visibility check even when unmounted to ensure it isn't warping through anything on its way to the selected target. 
+-Warp now uses a different sound and particle to help better distinguish it from Teleport.
+NIGHTMARE REWORKS:
+
+General Nightmare Reworks:
+-All nightmare bosses will now force it night time when summoned.
+-All nightmare variants get 50% damage reduction at night, except ghost which uses different values.
+-Night vision can now be toggled off on consoles with the grab key.
+
+Stalker: 
+-Fixed tons of replication problems with Stalker not working correctly (visually) on servers. 
+-Stalker no longer drains stamina while invisible, and will not uncloak until it deals melee damage. 
+-Stalker has a 50% dodge chance while invisible. 
+-Stalker no longer has a slow-fade cloaking effect to greatly reduce complexity and make way for a particle based cloaking transition at a later date. 
+-Drastically reduced the amount of coding that runs for the various stealthing mechanics on Stalker. 
+-Fixed a bug preventing the saddle from going invisible. 
+-The transition between visible and invisible is now instant. 
+-Stalker will now properly uncloak when knocked out. 
+
+Zombie: 
+-Zombie minions are now part of the summoning system, and their kills are counted towards their summoner's kill quests and drop chances.
+-Fixed a bug with Zombie minions that were preventing them from properly storing their variant/tier/paragon data.
+-Zombie minions will now despawn if their summoner dies. 
+-Fixed a major bug with Zombie where the killed dino wasn't being cached correctly, potentially causing other killed dinos and/or players to drop their inventory and despawn.
+-Zombie kill checks are now part of the mod's global kill check system instead of part of the variant, greatly increasing performance when kills are made.
+-Killed tames will not be resurrected as zombie minions for the time being. 
+-Zombies now heal for 10% of their maximum health when getting a kill that results in minions, regardless of circumstances.
+-The initial zombie is counted as the summoner for all subsequent zombies, even those created by minion zombies. 
+-A maximum of 2 zombies per tier is allowed at any given time.
+-Zombie minions now get the full paragon level of their summoner instead of half. 
+-Zombies no longer get a speed boost at night. 
+
+Banshee: 
+-All Banshees are now immune to Curse, even wild and tamed.
+-Fixed a bug that could prevent Banshee scream from playing, and added attenuation settings to prevent it from playing at full render distance. 
+
+Boogeyman:
+-The black cloak effect is no longer gradual and is instead Instant when it becomes night. 
+-No longer receives 75% damage reduction at night, and instead receives the same 50% as other nightmare variants. 
+-Extra attenuation settings added to prevent infinite distance on the roar sound. 
+-Boogeyman can now roar during the daytime, but it will not apply the fear debuff and instead just deal damage. 
+-Having a source of light will not prevent Boogeyman from roaring at night anymore.
+
+Ghost: 
+-Ghosts are no longer prevented to attack during the day, they just won't deal damage (wild ones).
+-Ghosts also no longer slow-fade during the transition between night and day, and will instantly become invisible.
+
+Demon: 
+-Demon now gains the same 50% DR at night as the other nightmare variants.
+-Fixed issues with the tracing buff on demon providing an incorrect display, showing as zeroes.
+Taming: 
+-Taming's AoE food drain buff is no longer Tier + 2 as a multiplier, but instead Tier x 5, allowing it to be up to 60x at Omega instead of just 14x. 
+-Taming's AoE buff range increased from 1500 to 3000.
+
+Other Variant Reworks:
+-Knockback variant now always does 2x melee damage. The chance to apply knockback and stun remains 25%.
+-Fairy no longer has a cooldown. It is instead toggled On/Off at will but will drain stamina.
+-Fixed some problems with Ghost's melee damage improperly switching between day and night.
+-Fixed an issue with Spiritual not getting the speed bonus under some circumstances. 
+-Additional checks are now done on Dimensional to make sure that it doesn't unhide things on the map that weren't originally hidden by it.
+-Harvesting no longer has damage fall-off based on radius when dealing damage with it's special.
+-Fixed a bug preventing Collective explosion from doing any damage at all.
+-Anti-Matter now also wipes out the Stamina of enemies it hits.

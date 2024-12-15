@@ -1,0 +1,22 @@
+Name: Shinehorn
+Base Damage: 12
+Rarity Group Number: 9
+Paragon Shard Value: 2
+
+Uniques:
+Unique Name: Terror
+Variants: Frenzy / Banshee
+Spawn Weight: 1.0
+
+Food Types:
+Amarberry
+Azulberry
+Tintoberry
+Mejoberry
+Base Veggie
+Sweet Vegetable Cake
+Base Seeds
+Aggeravic Mushroom
+Cianberry
+Magenberry
+Verdberry

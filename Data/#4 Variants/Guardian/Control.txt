@@ -24,6 +24,6 @@ Spawn Chance: 02.13%
 
 Other Information:
 Cooldown 1: 30.0
-Cooldown 2: 30.0
+Cooldown 2: 0.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: true

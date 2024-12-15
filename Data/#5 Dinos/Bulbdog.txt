@@ -1,0 +1,25 @@
+Name: Bulbdog
+Base Damage: 12
+Rarity Group Number: 9
+Paragon Shard Value: 2
+
+Uniques:
+Unique Name: Viral
+Variants: Plague / Zombie
+Spawn Weight: 1.0
+
+Food Types:
+Amarberry
+Azulberry
+Tintoberry
+Mejoberry
+Base Veggie
+Cooked Meat
+Cooked Prime Meat
+Raw Meat
+Raw Prime Meat
+Sweet Vegetable Cake
+Base Seeds
+Cianberry
+Magenberry
+Verdberry
