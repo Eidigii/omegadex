@@ -1,7 +1,5 @@
 <span style="color:gray;">Reflective</span>: Reflective creatures are another form of punishment. While reflection is active,
-Reflective creatures will only take a portion of the damage, while the rest is reflected
-directly back to the attacker. This opens up strategies like being able to heal while reflect is
-active, and still being able to injure the attacker.
+Reflective create will reflect 100% of damage taken directly back to the attacker.
 
 Pressing Prone(X) will activate Reflection, surrounded you in a razor sharp shards and
 forcing the attacker to injure himself when dealing damage.
@@ -10,7 +8,7 @@ forcing the attacker to injure himself when dealing damage.
 Cooldown: 60s
 Stamina Cost: 10%
 Duration: 30s
-Damage Taken/Reflected: 50%/50%.
+Damage Reflected: 100% of Damage Taken.
 
 Variant Information:
 Spawn Chance: 02.13%

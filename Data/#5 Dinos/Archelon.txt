@@ -1,0 +1,21 @@
+Name: Archelon
+Base Damage: 0
+Rarity Group Number: 8
+Paragon Shard Value: 3
+
+Uniques:
+Unique Name: Tortuga
+Variants: Dimensional / Loot
+Spawn Weight: 0.0
+
+Food Types:
+Amarberry
+Azulberry
+Mejoberry
+Tintoberry
+Base Veggie
+Sweet Vegetable Cake
+Bio Toxin
+Magenberry
+Verdberry
+Cianberry

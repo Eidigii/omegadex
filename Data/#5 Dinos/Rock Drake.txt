@@ -1,0 +1,16 @@
+Name: Rock Drake
+Base Damage: 60
+Rarity Group Number: 6
+Paragon Shard Value: 5
+
+Uniques:
+Unique Name: Radiation
+Variants: Volatile / Reactive
+Spawn Weight: 1.0
+
+Food Types:
+Raw Meat
+Cooked Meat
+Cooked Prime Meat
+Raw Prime Meat
+Nameless Venom

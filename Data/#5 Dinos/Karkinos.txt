@@ -1,0 +1,14 @@
+Name: Karkinos
+Base Damage: 32
+Rarity Group Number: 5
+Paragon Shard Value: 6
+Raid Torpor: Can only take torpor from raid torpor sources.
+
+Uniques:
+Unique Name: Cancer
+Variants: Plague / Banshee
+Spawn Weight: 1.0
+
+Food Types:
+Spoiled Meat
+Raw Meat

@@ -1,0 +1,5 @@
+Ark Omega 3/30 Patch Notes:
+
+-Fixed some issues with the saddle approval UI not working.
+-Added a way for us to dump saddle approvals into a .sav file to be imported into the mod itself for the next big update. 
+-Fixed some minor replication bugs to try to help prevent buffer overflows.

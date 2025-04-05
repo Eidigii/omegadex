@@ -1,18 +1,12 @@
-<span style="color:gray;">Wireless Controller</span>: Controllers are in charge of aggression levels of nearby enemies. They can
-determine whether an enemy attacks or flees from the fight. They can also force enemies
-to attack them specifically, drawing aggro away from allies.
+<span style="color:gray;">Wireless Controller</span>: Controllers are in charge of aggression levels of nearby enemies. They can use a
+taunt that forces enemies to attack them, while debuffing the enemy so that they are
+stunned when attacking the Controller.
 
-Pressing Prone(X) will fear enemies in a certain range, causing them to temporarily flee
-from the fight. Enemies cannot attack when fleeing.
-
-Pressing Crouch(C) will taunt enemies, forcing them to attack the Controller instead of
-other allies. They can even make most passive creatures attack them.
+Pressing Prone(X) will taunt enemies, forcing them to attack the Controller instead of other
+allies. They can even make most passive creatures attack them. Attacking the controller
+while taunted will stun the enemy.
 
 -----
-Fear Cooldown: 20s
-Fear Stamina Cost: 10%
-Fear Radius: 3000 (10 foundations)
-Fear Duration: 8s
 Taunt Cooldown: 10s
 Taunt Stamina Cost: 10%
 Taunt Radius: 4000 (13.33 foundations)

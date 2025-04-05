@@ -4,16 +4,12 @@ Passing through enemeis will debuff them in several ways, giving either you, or 
 edge in combat.
 
 Pressing Prone(X) will allow you to enter Astral form. You cannot attack, take, or deal
-damage. Wild dinos will ignore you unless already aggroed to you. Passing through enemies
-will apply multiple debuffs.
+damage. Passing through enemies will apply multiple debuffs.
 
 -----
-Stamina Drain Per Second In Astral Form: 3%
-Debuffs applied: Stun/Slow/Curse
-Stun: 2 Second Duration
-Slow: 50% Movement For 5 Seconds
-Curse: 50% Damage Dealt, 150% Damage Taken
-Curse Duration: 10 Seconds
+Debuffs applied: Weaken
+Weaken Decreases Melee Damage Dealt By 50%, And Increases Damage Taken By 50%.
+Weaken Duration: 10 Seconds
 
 Variant Information:
 Spawn Chance: 01.7%

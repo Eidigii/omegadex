@@ -1,0 +1,11 @@
+Ark Omega 2/11 Patch Notes:
+
+-Fixed unique breeding.
+-The tier on uniques does not need to be the same to make them mate, but the baby will always come out with the lowest tier. 
+-Fixed a bug causing minions to vanish in a very short amount of time due to an improper minion buff reference causing it to default them to invalid. 
+-Breeding paragon chances slightly increased as the exponential gain rate could easily get out of control at higher paragon levels.
+-Fixed a bug causing Phoenix dinos to instantly respawn in the water. 
+-Fixed a problem with Aspect Souls unable to properly detect the tier of the dino they're being fed to. 
+-Fixed a rounding problem on tameable bosses that could cause stat potions to not properly grant them paragon levels.
+-Detonate proc chance reduced from 20% to 10% when taking or dealing damage, but the on-kill explosion when killing a debuffed enemy tripled in damage. 
+-Fixed a bug with Collective that could cause infinite loops because of a damage type adjustment.

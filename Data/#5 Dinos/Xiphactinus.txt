@@ -1,0 +1,15 @@
+Name: Xiphactinus
+Base Damage: 23
+Rarity Group Number: 5
+Paragon Shard Value: 6
+
+Uniques:
+Unique Name: Mean Teeth
+Variants: Brutal / Pygmy
+Spawn Weight: 1.0
+
+Food Types:
+Raw Meat
+Cooked Meat
+Cooked Prime Meat
+Raw Prime Meat

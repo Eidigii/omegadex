@@ -1,0 +1,15 @@
+Name: Ravager
+Base Damage: 25
+Rarity Group Number: 7
+Paragon Shard Value: 4
+
+Uniques:
+Unique Name: Ruin
+Variants: Familiar / Psychosis
+Spawn Weight: 1.0
+
+Food Types:
+Raw Meat
+Cooked Meat
+Cooked Prime Meat
+Raw Prime Meat

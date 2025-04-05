@@ -1,0 +1,28 @@
+Name: Gigantoraptor
+Base Damage: 25
+Rarity Group Number: 5
+Paragon Shard Value: 6
+
+Uniques:
+Unique Name: Hostrich
+Variants: Uncontrollable / Breeding
+Spawn Weight: 1.0
+
+Unique Name: Morgan
+Variants: Treasure / Obsidian
+Spawn Weight: 0.75
+
+Food Types:
+Raw Meat
+Cooked Meat
+Cooked Prime Meat
+Raw Prime Meat
+Amarberry
+Azulberry
+Mejoberry
+Tintoberry
+Base Veggie
+Giant Bee Honey
+Cianberry
+Magenberry
+Verdberry

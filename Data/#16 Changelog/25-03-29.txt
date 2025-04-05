@@ -1,0 +1,27 @@
+Ark Omega 3/29 Patch Notes:
+
+-Breeding paragon chances doubled again (on top of last night's patch). Massive unchecked breeding operations are crippling server performance and causing lots of problems.
+-Females now have an equal chance to gain a breeding paragon when laying an egg. 
+-The drenched debuff applied by water now also gives a 50% movement speed debuff.
+-The drenched debuff now also takes double damage from Thunderstorm damage types.
+-Explosion damage types now harvest corpses (no material returned though).
+-Barrage is now a projectile rain type ability that deals damage from each element and applies a new "elemental weakness" debuff that doubles all damage taken from elements.
+-Meteor is now a castable ability and its functionality can be added anywhere now.
+-Meteor now drops 12 meteors when cast instead of random 10-15.
+-Cosmic Master revamped to use the new ability system, regaining it all ability functionality.
+-Breeding variants no longer prevent stasis.
+-Breeding variants no longer put text over the top of dinos they're buffing to prevent replication overflow.
+-Breeding variant egg timers now tick down in real time with no replication involved. 
+-Fixed a loophole that could see Farming variants not placing fertilizer correctly.
+-Unique Saddle UI in the Omegadex finished in preparation for saddles being added.
+-(Hopefully) fixed a bug with structures no longer being placeable after the last wildcard update. 
+-Reduced the light intensity of both standing and weapon Hades torches.
+-Increased speed of the elemental ball projectiles by 50%.
+-Fixed a bug preventing the Supernova particle from working correctly.
+
+Saddle Builder:
+-Projectiles fired from the "when hit" bonus on unique saddles now fire directly at the attacker.
+-Fire, Ice, Lightning, Wind, Water, and Earth are now considered castable abilities which allows them to be used by anything (even players, in the future) and are now in any (ability) options.
+-Siren, Meteor, Barrage, Control, Gorgon, Comet, Fairy, Reflect added to (ability) options.
+-Passive Taunt now costs 1 point instead of -10 (it had been added to 20% of all saddle submissions).
+-You can now only choose a maximum of 2 negative bonuses as saddles were being denied due to negative bonus spamming.

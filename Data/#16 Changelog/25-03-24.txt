@@ -1,0 +1,16 @@
+Ark Omega 3/23 Patch Notes:
+
+-Removed the Gene Splicer because it isn't currently functional.
+-Fixed the higher tier potions from not being unlocked/craftable.
+-Fixed a compile error with Singularity that was preventing it from using its ability.
+-Fixed some problems with Nature variants.
+-Fixed a bug that could cause some AoE abilities to damage the caster.
+-Fixed some compile errors on various Unstable variants that could cause them to not work properly.
+-Fixed a potential loophole on Reflect that could cause an infinite loop.
+-Added a safety check to minion summons to ensure that the summoner is still alive while trying to cast the ability (to prevent crashes).
+-More event related changes.
+
+Variant Reworks: 
+-Self Destruct is now 50x ability damage instead of 3x health.
+-Astral: No longer leave behind body. Apply Weaken in AoE when going Astral. Come out of Astral form wherever currently positioned. Weaken duration reduced from 15s to 10s. Can no longer attack while in Astral form. 
+-Rampage: Decay timer reduced from 3 seconds to 2 seconds. Rampage now only increases from a dino's attacks and not its ability.

@@ -1,0 +1,22 @@
+Ark Omega 3/25 Patch Notes:
+
+Bug Fixes:
+-Fixed a bug with crafting dinos not getting the new potions.
+-Reworked how the Red Dwarf works to greatly improve server performance.
+-Fixed how the Red Dwarf handles rendering the blue star.
+-Fixed a few more compile errors that could potentially be causing crashes. 
+-Brontos, Dire Bear, Oviraptor, Polar Bear, and Carchas no longer have their visual effects from ASE when equipping a unique saddle.
+-Removed specific unique saddle effects from ASE for these species: Rhino, Spino, Pteranodon.
+
+Saddle builder:
+-Slightly reduced the cost of "% chance to cast projectile when hit" bonus.
+-Slightly reduced the cost of "% chance to cast ability when hit" bonus (only for certain abilities).
+-Increased the minimum bonus value for  "% chance to cast ability when hit" from 0.1% to 0.5%.
+-Decreased the cost of  "% chance to cast ability on kill".
+-Fixed a bug with saddle submissions not being able to be deleted by the person that submitted them.
+-"Saddle is always cursed" bonus cost reduced as it is often more of a downside than an upside.
+-Custom Bonus now costs 20 instead of 1.
+-Custom bonuses will be lead by "Custom Bonus:" in the description.
+-Fixed a problem where buff names couldn't be sent to the webhook for saddle approvals.
+-Added a "repost" button to approvals to send them to the webhook again.
+-"Movement Speed" bonus changed to "Increased movement speed".

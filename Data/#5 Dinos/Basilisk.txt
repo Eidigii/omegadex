@@ -1,0 +1,16 @@
+Name: Basilisk
+Base Damage: 55
+Rarity Group Number: 3
+Paragon Shard Value: 8
+
+Uniques:
+Unique Name: Medusa
+Variants: Gorgon / Banshee
+Spawn Weight: 1.0
+
+Food Types:
+Raw Meat
+Cooked Meat
+Cooked Prime Meat
+Raw Prime Meat
+Dinosaur Egg

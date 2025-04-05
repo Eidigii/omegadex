@@ -183,3 +183,16 @@ Dimensional
 Plague
 Cloner
 Fire
+Ice
+Absorbent
+Gorgon
+Familiar
+Plague
+Frenzy
+Volatile
+Spectral
+Necromancer
+Brutal
+Uncontrollable
+Treasure
+Dimensional

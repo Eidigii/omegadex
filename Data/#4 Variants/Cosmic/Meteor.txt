@@ -11,7 +11,7 @@ locations in the direct viscinity of the Meteor creature.
 -----
 Cooldown: 30s
 Stamina Cost: 30%
-Number of Meteors: 10-15
+Number of Meteors: 12
 Meteor Target Radius: 1500 (5 Foundations)
 Meteor Impact Damage: 300% of Ability Damage as Fire Damage
 Meteor Impact Radius: 900 (3 Foundations)

@@ -1,0 +1,17 @@
+Ark Omega 3/21 Patch Notes: 
+
+-Fixed a problem with Ravagers not saving their variant/tier/paragon data. This will not retroactively fix Ravagers tamed before this fix. 
+-Over Easy full set bonus changed from "Reveals Nearby Loot Chests" to "Gives Permanent Treasure Buff".
+-Fixed problems with Lightningburst in the Omegadex displaying Earthburst.
+-Fixed a check preventing set mannequins from having 1000 slots.
+-Fixed the description on Unique Charms. Still working on something to automatically update existing charms (rerolling them will fix them).
+-Fixed the description on Endless Essence.
+-Fixed a possible cause for eggs disappearing when they hit the ground. Old eggs from before this patch will not likely be fixed.
+-Temporarily removed support for Maeguana
+-Fixed Archelon's not getting replaced with Omega versions on spawn.
+-Fixed broken references to Fireburst and Windburst sound effects.
+-Emitter system established for greatly improved performance.
+-Ability switched over to using PrimalEmitters instead of a global ability actor to process particles and sounds in order to reduce replication amounts.
+-Unique saddle system implemented.
+-Updated the text on the Unstable Water to show that it is an infinite water source for the Soul Furnace and Farming dinos.
+-Added a double check for existing saves that should update the player to have the correct buffs. You should still respawn your player anyway.

@@ -1,0 +1,22 @@
+Ark Omega 4/2 Patch Notes:
+
+-Wild dinos no longer use stamina checks of any kind for ability casting to prevent things like group masters from running out of stamina while trying to cast multiple abilities. 
+-Fixed a bug allowing Self Destruct dinos to use their ability while still alive.
+-Fixed a bug causing some minions to despawn too quickly.
+-Fixed some bugs causing minion armor to be able to be kept.
+-Updated some variant descriptions in the Omegadex on several variants.
+-Post-tame allocation stat potions are now much more common than the other 2 types. 
+-Updated Particle Effects on Boogeyman, Harvest, and Psychosis, Earth, Water, Lightning, Fire. 
+-Elemental and Resource projectiles moved to a new system that will prevent them from dealing damage to allies if their owner has been killed after they've spawned but before they deal damage. 
+-Slightly tweaked the way that Collective explosion targeting works to prevent feedback loops.
+-Fixed a loophole that could allow full set bonuses to be given while only wearing one piece. 
+-Removed old unique saddle attachment bonuses on various species that could cause them to get particles and meshes not intended (think ASE bronto getting covered in fire).
+-Added the ability to spawn in Unique dinos to the Admin section of the Omegadex.
+-Reactive is now a buff (and ability) that can be attached to anything.
+-Siren now applies a debuff that handles all of the logic, allowing it to be a castable ability.
+-Improved a lot of replication logic to be less intensive on players. 
+-Put in some anti-loop protections on Defender to help prevent crashing when attacking them.
+-Karkinos will no longer try to gestate when breeding.
+
+Saddle Builder:
+-Added some functionality back in for the saddle builder so the remaining unique saddles from the event can be approved and tested. 

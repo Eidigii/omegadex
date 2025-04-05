@@ -1,13 +1,14 @@
-<span style="color:gray;">Shield</span>: These are portable Tek Shields. They create a rapidly expanding shield that gives
-asylum to all nearby allies, keeping enemies out. As the shield expands it will push enemies
-away, making sure none are trapped within.
+<span style="color:gray;">Shield</span>: 
+
+Shield is a form of tanking, applying a buff to nearby allies that negates damage they take
+for a certain amount of hits.
 
 Pressing Prone (X) will create an expanding Tek Shield, pushing away enemies and
 protecting allies. Nothing can pass through the shield, not even projectiles.
 
 -----
-Cooldown: 60s
-Stamina Drain Per Second: 5%
+Cooldown: 30s
+Stamina Cost: 25%
 Radius: 2400 (8 Foundations)
 
 Variant Information:

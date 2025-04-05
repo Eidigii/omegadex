@@ -1,5 +1,6 @@
-<span style="color:gray;">Resilient</span>: A simple defensive variant, Resilient creatures are immune to elemental debuffs
-and damage impulse, making them predictable and easy to use.
+<span style="color:gray;">Resilient</span>:  A simple defensive variant, Resilient creatures gain resistances to damage types
+when attacked. The more they are hit, the more the resistances grow. Being hit by a
+different damage type will slowly reduce the resistances to others.
 
 -----
 Variant Information:

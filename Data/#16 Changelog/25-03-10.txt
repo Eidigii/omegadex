@@ -1,0 +1,36 @@
+Ark Omega 3/10 Patch Notes:
+
+-Revamped a lot of the functionality on Colossus now that it is tied into the Mythical group variant. 
+-Aspect Souls fixed. Lots of changes to how/when they can be used. 
+-Updated decay timers on set mannequins to cause them to take 16x longer to decay.
+-Fixed a loophole that could allow uniques to come out with the incorrect name due to an index offset.
+-All babies hatched from Unique parents will now be unique.
+-Implemented potential fix for replication issues involving misc changes from variants. 
+-Fixed omega gun functionality from invalid byte value. 
+-Fixed Cursed bosses not dropping cursed items.
+-Cursed bosses are no longer setup to drop artifacts.
+-Cursed bosses now drop Tier+3 cursed armors instead of Tierx3, as Omega tier was dropping considerably too many items. 
+-Fixed a bug causing tames to only take 5% damage. 
+-Uberbleed removed from Unicorn and replaced with a normal bleed, as damage types that remove a % of the enemies health are not an intended balance in the mod.
+-Implemented a possible terrain type check to catch terrain tracing for modded maps to allow chests and NPCs to spawn.
+-Fixed a potential loophole that could cause loot chests to unload even when the player doesn't have the required essence.
+-Edited the structure check functionality for loot chests to help prevent them from spawning too close to bases.
+-Fixed a bug that can cause loot chests to stop spawning after one has been opened, only allowing the respawn to start when the server is restarted.
+-Fixed a bug that could cause loot chest respawn timer to ignore the server setting from the admin panel and default to 10 seconds. 
+-Pressing Escape no longer deletes miracles from the miracle tab in the Omegadex (this was only visual anyway).
+-Set Mannequin max inventory size increased to 1000.
+
+New Creature Support (With Uniques):
+-Seeker
+-Xiphactinus
+-Basilisk
+-Gasbags
+-Ravager
+-Karkinos
+-Rock Drake
+-Roll Rat
+-Lamprey
+-Super Turkey (Will need to be piggybacked in)
+-Gigantoraptor
+-Maeguana
+-Archelon

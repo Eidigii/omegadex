@@ -1,0 +1,4 @@
+Ark Omega 3/11 Patch Notes: 
+
+-Fixed a bug with eggs from Uniques disappearing when they are picked up and redropped.
+-Fixed a bug with imbues not properly working.

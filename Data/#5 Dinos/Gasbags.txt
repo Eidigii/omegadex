@@ -1,0 +1,20 @@
+Name: Gasbags
+Base Damage: 15
+Rarity Group Number: 7
+Paragon Shard Value: 4
+
+Uniques:
+Unique Name: Gluttony
+Variants: Absorbent / Collective
+Spawn Weight: 1.0
+
+Food Types:
+Amarberry
+Azulberry
+Tintoberry
+Mejoberry
+Base Veggie
+Sweet Vegetable Cake
+Cianberry
+Magenberry
+Verdberry

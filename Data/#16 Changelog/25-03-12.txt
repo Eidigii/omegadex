@@ -1,0 +1,5 @@
+Ark Omega 3/12 Patch Notes: 
+
+-Fixed a problem with the spawn system not triggering properly.
+-Fixed a problem with vanilla babies hatching from eggs laid by uniques. 
+-Fixed an issue with file corruption causing the data tables to get wiped (causing the above issues, and variant problems).

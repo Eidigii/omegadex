@@ -1,0 +1,32 @@
+Ark Omega 3/26 Patch Notes:
+
+-Made some performance improvements to the main player buffs.
+-Tons of unused files deleted, shrinking the mod download size a bit.
+
+Bug Fixes:
+-Fixed all egg issues (finally).
+-Fixed a bug with unique charms getting the wrong names.
+-Pheonix Fire no longer instantly deactivates in water.
+-Revived Phoenix are no longer immortal.
+-Necromancer can no longer revive bosses until a workaround is found for the problems.
+
+Saddle Builder Changes:
+-Bosses no longer count towards kill counts for species unlocks.
+-Permanent Rampage cost greatly increased.
+-Saddles are now capped at 3 negative bonuses.
+-Control, Barrage, Fairy, Comet, Reflect added to the (abilities) options.
+-Secondary webhook functions added.
+-Elemental Weakness added to the (Debuff) options.
+-Removed things like Melee Damage and Weight from the stat regen bonuses.
+-Increased pricing on Increased Size, Immune To Torpor.
+-Decreased pricing on Increased Movement Speed, Mate Boost Bonus, Imprint Bonus, Damage Is Taken From Stamina Before Health, Can Jump, Heals For Damage Type Taken.
+-Increased points gained from Cannot Attack.
+-Decreased points gained from Reduced Ability Damage, Reduced Melee Damage.
+-Increased the max value on Increased Movement Speed, Heal For % of Damage Dealt, Heal for % of melee damage dealt.
+
+Variant Reworks: 
+-Control is no longer channelled, but now applies a taunt debuff to things in the area that cause them to aggro the controller. Dealing damage to the controller will stun them.
+-Fairly is no longer a ticking heal, but instead an instant-cast heal in the area that heals everything for 25% of their max health and then applies a slow healing tick buff.
+-Reflective no longer decreases damage taken, and instead deals damage to the attacker based on 100% damage taken. It is also now a buff applied by the variant.
+-Spiritual no longer modifies the speed stat, and instead uses the buff to increase the dinos speed. This should make the speed work with uniques.
+-Gorgon is now in an AoE instead of in front of the caster, and deals 100% of ability damage instead of very small damage.

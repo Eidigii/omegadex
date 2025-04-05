@@ -1,0 +1,33 @@
+Ark Omega 4/5 Patch Notes: 
+
+-Fixed a bug with Reactive not activating properly.
+-Fixed an issue with the Harvesting variant due to conflicts with the new ability system.
+-Removed mention of the Egg Collector mod from the Omegadex's welcome tab.
+-Fixed the description on Elite tier potions. 
+-Set up the dino species names in all sections of the Omegadex to be loaded A-synchronously to prevent studdering while using the guide.
+-Colossus babies will not grow in size until fully grown.
+-Changed the way resource shards are handled to prevent CPU usage when spawning them.
+-More server performance improvements. 
+-Fixed a damage type change that was preventing Plagued dinos from creating plagues on death.
+
+Variant Reworks:
+-Reactive: Now a character-targeted ability and will no longer damage structures or resource nodes. Reactive also has a new particle effect.
+-All Resource Variants: Chance to shard is no longer based on damage taken compared to max health, and is now 10% chance when damage is taken, with a 2s cooldown. They're now all immune to suffocating.
+-Wood: DR Reduced from 75% to 50%. Passively regenerates 1% of max health per second. Can now swim.
+-Stone: Shards now apply stun. Takes 50% reduced lightning damage. 
+-Obsidian: Does not draw aggro at night. 50% Dodge Chance at night.
+-Crystal: Shards apply a small bleed. Does not draw aggro in the day.
+-Metal: DR increased from 75% to 80%. Shards no longer deal area damage but deal 3x impact damage.
+-Pearl: DR reduced from 75% to 60%. Passive regenerates 2% of max health and stamina while in the water. Does not draw aggro.
+-Resource Group: Fires random shards, has 80% DR.
+-Shield: Particle effect added to the Shielded buff. Also increased the amount of shield stacks provided based on tier.
+
+Saddle Builder Update Notes:
+-Resource shards all added to the (Projectile) options. 
+-"If (Variant), Increased Melee Damage" bonus added.
+-Prevent Dismounting bonus added.
+-Fixed an order-of-operations problem with Can Ride Pygmy.
+-Siren, Collective, Reactive, Elemental and Resource variants all added to (Ability) options.
+-The % cost increase based on the number of positive bonuses is now displayed next to the total cost.
+-Fixed a corrupt file preventing additional unique saddles from being approved. 
+-Implemented some extra functions to transfer unique saddles from the game to the editor.

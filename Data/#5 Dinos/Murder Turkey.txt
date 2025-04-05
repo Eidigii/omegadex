@@ -1,0 +1,20 @@
+Name: Murder Turkey
+Base Damage: 61
+Rarity Group Number: 3
+Paragon Shard Value: 8
+
+Uniques:
+Unique Name: Flocker
+Variants: Frenzy / Pygmy
+Spawn Weight: 1.0
+
+Food Types:
+Amarberry
+Azulberry
+Tintoberry
+Mejoberry
+Base Veggie
+Sweet Vegetable Cake
+Cianberry
+Magenberry
+Verdberry

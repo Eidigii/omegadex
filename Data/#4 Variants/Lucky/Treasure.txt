@@ -2,7 +2,7 @@
 around holding the secrets to the locations of many items.
 
 Killing a Treasure variant will give anyone nearby during its death a Treasure Hunter buff,
-revealing the location of any loot chests they come within range of and making it so yoru
+revealing the location of any loot chests they come within range of and making it so your
 ridden tame uses 100% of your equipped magic find.
 
 Treasure creatures can only be tamed using Unique Kibble.
