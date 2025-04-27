@@ -9,6 +9,10 @@ Unique Name: Alduin
 Variants: Thunderstorm / Eruption
 Spawn Weight: 1.0
 
+Unique Name: BorchTrzyKawki
+Variants: Colossus / Paragon
+Spawn Weight: 0.25
+
 Food Types:
 Raw Fish Meat
 Cooked Fish Meat

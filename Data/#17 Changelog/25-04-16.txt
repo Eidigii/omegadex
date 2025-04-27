@@ -1,0 +1,27 @@
+Ark Omega 04/16 Ascended Patch Notes:
+
+-Fixed a bug causing some nightmare variants to summon zombie minions.
+-Fixed a bug preventing KO dinos from giving souls/essence. 
+-Fixed a bug with some high tier stamina potions requiring healing potions to craft. 
+-Fixed a bug causing Fellowship boots to prevent you from dismounting your dino at all.
+-Fixed a rubber banding issue that can happen when you equip any piece of Fellowship that isn't the hat. 
+-Fixed a bug preventing element shards from proccing element sickness. 
+-Fixed a bug with Tracker that was preventing bosses from displaying the correct icons on Tracker variants in group search mode.
+-Fixed the cone math on elementals to ensure they're not firing projectiles behind them.
+-Fixed a bug causing Archelon to have 0 ability damage. It is now 28.
+
+Variant Reworks: 
+-Tracker dinos now have an icon to show unique dinos, but will only show the nearest one. The HUD message that a nearby unique has been found has been removed. 
+-Meltdown is now a cast ability instead of a hold-to-channel, and will stay active until stamina is depleted. Activation cost is now only 1% Stamina. 
+
+Saddle Builder: 
+-Rampage, Astral, Warp, Stalker, Meltdown added as (ability).
+-Fixed a bug with the approvals not populating.
+
+2 Unique dinos added from the Hardcore Tournament Prizes: Dragon and Featherlight.
+
+Unique Saddles:
+-325 community created unique saddles added.
+-Unique saddles now added to the Omegadex under the Equipment tab.
+-Unique saddles added to each species page in the guide.
+-Unique saddles can now drop from wild dinos (as well as minibosses, bosses, masters, and any other "random species" type of boss) when killed.

@@ -1,0 +1,17 @@
+Group Masters:
+Group Masters are much more difficult than the Masters you fought before. They have the abilities of all 6
+variants within a group. Killing them is meant to be a raid, and killing them with just a single creature is very
+unlikely until you're later in the game. Strategy is a must, and fighting them in tribes or even with allied tribes
+will make these fights considerably easier. Summon a group master by placing one of each Master soul within
+a group (exclusing the 7th variant) into the Omega Altar.
+
+Killing a Group Master will drop a Group Master Soul on the ground. The Group Master Soul can be used to rank
+up your tame to Ultimate tier.
+
+You have choices from here.
+1. Feed the Soul to an Apex of a variant within the group of the Group Master killed. This will rank it up to
+Ultimate, doubling its stats.
+2. Place the Group Master soul into the Altar with a matching Group Master soul to summon a Unique Group
+Master.
+3. Place the Group Master soul into the Altar with the 7th variant Master soul from the same group to summon
+the Perfect Group Master.

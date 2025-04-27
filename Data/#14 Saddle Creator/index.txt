@@ -1,0 +1,463 @@
+<link rel="stylesheet" href="assets/saddle-builder.css">
+
+<div id="app">
+
+  <p><span class="pagetitle">Infinity Saddle System</span></p>
+
+  <div class="saddleContainer">
+    <div class="saddle" id="saddleBuilder">
+        <div class="title">{{ saddleName }}</div>
+        <div class="top-right" v-if="isChecked != false">Points used: <span :style="availablePoints < 0 ? { 'color': 'red'} : ''">{{ maxPoints - availablePoints }}</span>/{{ maxPoints }}</div>
+        <div class="info-section">
+            <div class="image-container">
+                <img src="assets/saddle.png" alt="Saddle Icon" />
+            </div>
+            <div class="text-container">
+                <div class="subtitle">Unique Saddle - {{ selectedSpecie }}</div>
+                <div class="flavor-text">{{ flavorText }}</div>
+                <div class="bonuses">
+                    <strong>Unique Bonuses:</strong>
+                    <ul>
+                        <li v-for="bonus in saddleBonuses" :key="bonus">{{ bonus }}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-right">{{ signature }}</div>
+    </div>
+  </div>
+  <p style="text-align: center;">Show point info: <input type="checkbox" v-model="isChecked" /><br>
+    <button @click="generateImage()" :disabled="availablePoints < 0 || saddleName == ''">Save As Image</button></p>
+
+  <div class="input-container">
+    <div style="position: relative;">
+      Dino Species:&#8239;
+      <input 
+        type="text" 
+        v-model="query" 
+        @input="filterList" 
+        @focus="openDropdown" 
+        @keydown.down="incrementIndex" 
+        @keydown.up="decrementIndex" 
+        @keydown.enter="selectItem"
+        style="
+        text-align: center;
+        font-weight: bold;">
+
+      <ul v-if="showDropdown" class="dropdown">
+        <li 
+          v-for="(item, index) in filteredList" 
+          :key="index" 
+          @mousedown="selectItem(index)"
+          :class="{ 'active': index === selectedIndex }">
+          {{ item.Name }}
+        </li>
+      </ul><span>&emsp;Max Points: <b>{{ maxPoints }}</b></span>
+    </div> 
+
+    <div class="input-group">
+      <span>Saddle Name: &hairsp;</span>
+      <input 
+      type="text" 
+      v-model="saddleName">
+    </div>
+
+    <div class="input-group">
+      Flavor Text: &emsp;&hairsp;&hairsp;&hairsp;
+      <input 
+      type="text" 
+      v-model="flavorText">
+    </div>
+  </div>
+
+  <div class="buffs">
+    <p style="margin-bottom:0;">Total cost increased by 10% for each bonus after 4 positive-cost bonuses. Max 10 bonuses.</p>
+    <table>
+      <tr>
+          <td style="text-align:left;">Bonus Setup:</td>
+          <td>Available Points: <b :style="availablePoints > 0 ? { 'color': '#bdeba7'} : { 'color': '#ff0000'}">{{ availablePoints }}</b></td>
+          <td>(Cost +{{ extraCost }}%)</td>
+          <td><button @click="addRow" :disabled="rows.length >= maxRows || availablePoints <= 0">Add Bonus</button></td>
+      </tr>
+    </table>
+
+    <div class="buff-container">
+      <div class="buff" v-for="row in rows" :key="row.id">
+        <div class="buff-top">
+          <select v-model="row.selectedBonus" @change="onBonusChange(row)" :disabled="availablePoints <= 0 || selectedBonuses.length === bonusList.length">
+              <option v-for="bonus in availableBonuses" :key="bonus.name" :value="bonus" :disabled="isBonusSelected(bonus)">
+                {{ bonus.name }}
+              </option>
+          </select>
+          <span class="cost" v-if="row.selectedBonus">
+            {{ totalCost(row) }} pts
+          </span>
+          <button class="delete-button" @click="deleteRow(row.id)">Delete</button>
+        </div>
+        <div v-if="row.selectedBonus && row.selectedBonus.type === 'Selection'">
+            <select v-model="row.selectionValue" @change="handleSelectionChange(row, row.selectionValue)">
+                <option v-for="option in row.selectedBonus.selection" :key="option.name" :value="option">
+                    {{ option.name }} ({{ option.cost }} pts)
+                </option>
+            </select>
+        </div>
+        <div v-if="row.selectedBonus && row.selectedBonus.type === 'Integer'">
+          <input type="range"
+                 :min="row.selectedBonus.minValue"
+                 :max="row.selectedBonus.maxValue"
+                 :step="row.selectedBonus.increment"
+                 v-model.number="row.integerValue"
+                 @input="handleSliderChange(row, parseFloat(row.integerValue))" />
+          <span>{{ row.integerValue }}%</span>
+        </div>
+        <div v-if="row.selectedBonus && row.selectedBonus.type === 'SelectionInteger'">
+          <select v-model="row.selectionValue" @change="handleSelectionIntegerChange(row)">
+              <option v-for="option in row.selectedBonus.selection" :key="option.name" :value="option">
+                  {{ option.name }}
+              </option>
+          </select>
+          <input type="range"
+                 :min="row.selectedBonus.minValue"
+                 :max="row.selectedBonus.maxValue"
+                 :step="row.selectedBonus.increment"
+                 v-model.number="row.integerValue"
+                 @input="handleSelectionIntegerChange(row)" />
+          <span>{{ row.integerValue }}%</span>
+        </div>
+        <div v-if="row.selectedBonus && row.selectedBonus.type === 'SelectionTwo'">
+          <select v-model="row.selection1Value" @change="handleSelectionTwoChange(row)">
+              <option v-for="option in row.selectedBonus.selection1.selection" :key="option.name" :value="option">
+                  {{ option.name }}
+              </option>
+          </select>
+          <select v-model="row.selection2Value" @change="handleSelectionTwoChange(row)">
+              <option v-for="option in row.selectedBonus.selection2.selection" :key="option.name" :value="option">
+                  {{ option.name }}
+              </option>
+          </select>
+        </div>
+        <input v-if="row.selectedBonus && row.selectedBonus.type === 'String'" type="text" v-model="row.stringValue" @input="updateSaddleBonuses" placeholder="Enter custom text" />
+      </div>
+  </div>
+  
+  </div>
+  <p>If you find any bugs or discrepancies with in-game Saddle Creator, please contact me on discord: adg.</p>
+</div>
+
+<script>
+  function loadVueAppWithData() {
+    new Vue({
+      el: "#app",
+      data() {
+        return {
+          rows: [],
+          nextId: 1,
+          maxRows: 10,
+          query: '',
+          bonusList: [],
+          speciesList: [],
+          filteredList: [],
+          showDropdown: false,
+          maxPoints: 0,
+          availablePoints: 0,
+          selectedIndex: -1,
+          extraCost: 0,
+          saddleName: "",
+          selectedSpecie: "",
+          flavorText: "",
+          saddleBonuses: [],
+          isChecked: true,
+          signature: "Created on omagedex.info",
+        };
+      },
+      created() {
+        fetch("saddle_builder_bonuses.json")
+          .then((response) => response.json())
+          .then((data) => {
+            this.bonusList = data?.bonuses || [];
+          })
+          .catch((error) => console.error("Error fetching JSON:", error));
+
+        fetch("list_species.php")
+          .then((response) => response.json())
+          .then((data) => {
+            this.speciesList = data;
+            this.filteredList = data;
+          })
+          .catch((error) => console.error("Error fetching text:", error));
+      },
+      computed: {
+        availableBonuses() {
+            return this.bonusList;
+        },
+        selectedBonuses() {
+            return this.rows.map(row => row.selectedBonus).filter(bonus => bonus);
+        }
+      },
+      methods: {
+        addRow() {
+          if (this.rows.length < this.maxRows) {
+              this.rows.push({ id: this.nextId++, selectedBonus: null, stringValue: '' });
+          }
+        },
+        totalCost(row) {
+          let baseCost = row.selectedBonus ? row.selectedBonus.cost || 0 : 0;
+        
+          if (row.selectedBonus.type === "SelectionInteger" && row.selectionValue) {
+              const minCost = row.selectionValue.minCost;
+              const maxCost = row.selectionValue.maxCost;
+              const sliderValue = row.integerValue; // the current slider value
+              const calculatedIntegerCost = Math.trunc((sliderValue * (maxCost - minCost)) / 
+                                                  (row.selectedBonus.maxValue - row.selectedBonus.minValue));
+              return baseCost + calculatedIntegerCost;
+          }
+          
+          if (row.selectedBonus.type === "SelectionTwo" && row.selection1Value && row.selection2Value) {
+              baseCost += (row.selection1Value.cost || 0) + (row.selection2Value.cost || 0);
+          }
+          
+          let selectionCost = (row.selectedBonus && row.selectedBonus.type === "Selection" && row.selectionValue) ? row.selectionValue.cost || 0 : 0;
+          let integerCost = (row.selectedBonus && row.selectedBonus.type === "Integer" && row.integerValue != null) ?
+              Math.trunc((row.integerValue * (row.selectedBonus.maxCost - row.selectedBonus.minCost)) / 
+                        (row.selectedBonus.maxValue - row.selectedBonus.minValue)) : 0;
+          
+          return baseCost + selectionCost + integerCost;
+        },
+        handleSelectionIntegerChange(row) {
+          this.updateAvailablePoints();
+          this.updateSaddleBonuses();
+        },
+        handleDeleteIntegerCost(row) {
+            if (row.prevCost != null) {
+                this.availablePoints += row.prevCost; // Refund the total saved cost previously calculated
+            }
+        },
+        handleSliderChange(row, newValue) {
+          // Handle and reflect slider changes
+          row.integerValue = newValue;
+          this.updateAvailablePoints(); // Always recalculate on slide change
+          this.updateSaddleBonuses();
+        },
+        handleSelectionTwoChange(row) {
+          this.updateAvailablePoints();
+          this.updateSaddleBonuses();
+        },
+        deleteRow(id) {
+          const index = this.rows.findIndex(row => row.id === id);
+          if (index !== -1) {
+              this.rows.splice(index, 1); // Remove the specific row
+              this.updateAvailablePoints(); // Recalculate points after removal
+              this.updateSaddleBonuses(); // Refresh the saddle bonuses list
+          }
+        },
+        updateAvailablePoints() {
+          this.availablePoints = this.maxPoints;
+        
+          let totalBaseCost = 0;
+          let positiveCostBonuses = 0;
+
+          this.rows.forEach(row => {
+              if (row.selectedBonus) {
+                  let cost = row.selectedBonus.cost || 0;
+
+                  if (row.selectedBonus.type === "Selection" && row.selectionValue) {
+                      cost += row.selectionValue.cost || 0;
+                  }
+
+                  if (row.selectedBonus.type === "SelectionInteger" && row.selectionValue && row.integerValue != null) {
+                      const minCost = row.selectionValue.minCost;
+                      const maxCost = row.selectionValue.maxCost;
+                      const sliderValue = row.integerValue;
+                      const sliderCost = Math.trunc((sliderValue * (maxCost - minCost)) /
+                                              (row.selectedBonus.maxValue - row.selectedBonus.minValue));
+                      cost += sliderCost;
+                  }
+
+                  if (row.selectedBonus.type === "Integer" && row.integerValue != null) {
+                      const sliderCost = Math.trunc((row.integerValue * (row.selectedBonus.maxCost - row.selectedBonus.minCost)) /
+                                                      (row.selectedBonus.maxValue - row.selectedBonus.minValue));
+                      cost += sliderCost;
+                  }
+                  
+                  if (row.selectedBonus.type === "SelectionTwo" && row.selection1Value && row.selection2Value) {
+                      cost += (row.selection1Value.cost || 0) + (row.selection2Value.cost || 0);
+                  }
+                  
+                  totalBaseCost += cost;
+
+                  if (cost > 0) {
+                      positiveCostBonuses++;
+                  }
+              }
+          });
+
+          this.extraCost = (positiveCostBonuses > 4) ? (positiveCostBonuses - 4) * 10 : 0;
+          let totalCostWithExtra = totalBaseCost * (1 + this.extraCost / 100);
+
+          this.availablePoints -= Math.round(totalCostWithExtra);
+        },
+        onBonusChange(row) {
+          if (row.selectedBonus) {
+              if (row.selectedBonus.type === "Integer") {
+                  row.integerValue = row.selectedBonus.minValue;
+                  row.prevIntegerValue = null;
+                  this.handleSliderChange(row, row.integerValue);
+              }
+
+              if (row.selectedBonus.type === "SelectionInteger") {
+                  row.integerValue = row.selectedBonus.minValue;
+                  row.prevIntegerValue = null;
+                  this.handleSelectionIntegerChange(row);
+              }
+          }
+          
+          this.updateAvailablePoints(); // Ensure recalculation when a bonus changes
+          this.updateSaddleBonuses();
+        },
+        isBonusSelected(bonus) {
+            return this.rows.some(row => row.selectedBonus && row.selectedBonus.name === bonus.name);
+        },
+        updateSaddleBonuses() {
+          this.saddleBonuses = this.rows.map(row => {
+              if (row.selectedBonus) {
+                  const bonusName = row.selectedBonus.name;
+
+                  if (row.selectedBonus.type === "String" && row.stringValue) {
+                      return bonusName.replace(/\(.*?\)/, row.stringValue);
+                  } else if (row.selectedBonus.type === "Single") {
+                      return bonusName;
+                  } else if (row.selectedBonus.type === "Selection" && row.selectionValue) {
+                      return bonusName.replace(/\(.*?\)/, row.selectionValue.name);
+                  } else if (row.selectedBonus.type === "Integer" && row.integerValue != null) {
+                      return bonusName.replace(/\(.*?\)/, row.integerValue);
+                  } else if (row.selectedBonus.type === "SelectionInteger" && row.selectionValue && row.integerValue != null) {
+                      return bonusName
+                          .replace(/\(Integer\)|\(Float\)/, row.integerValue)
+                          .replace(/\(.*?\)/, row.selectionValue.name);
+                  } else if (row.selectedBonus.type === "SelectionTwo" && row.selection1Value && row.selection2Value) {
+                      return bonusName
+                          .replace(/\(Attack\)|\(Projectile Attack\)/, row.selection1Value.name)
+                          .replace(/\(Damage Type\)|\(Projectile\)/, row.selection2Value.name);
+                  }
+              }
+              return '';
+          }).filter(bonus => bonus !== '');
+        },
+        handleSelectionChange(row, selection) {
+          row.selectionValue = selection;
+          this.updateAvailablePoints();
+          this.updateSaddleBonuses();
+        },
+        generateImage() {
+          let node = document.getElementById('saddleBuilder');
+          let scale = 1;
+          let saddleName = this.saddleName;
+          domtoimage
+            .toPng(node, { quality: 2 , width: node.clientWidth * scale,
+              height: node.clientHeight * scale,
+              style: {
+              transform: 'scale('+scale+')',
+              transformOrigin: 'top left'
+            }})
+            .then(function (dataUrl) {
+                var link = document.createElement('a');
+                link.download = saddleName + '.png';
+                link.href = dataUrl;
+                link.click();
+              });
+        },
+        filterList() {
+          const query = this.query.toLowerCase();
+          this.filteredList = this.speciesList.filter(item => 
+            item.Name.toLowerCase().includes(query)
+          );
+        },
+        selectItem(index = this.selectedIndex) {
+          if (index >= 0 && index < this.filteredList.length) {
+              this.query = this.filteredList[index].Name; // Update the input with the selected item's name
+              this.showDropdown = false; // Close the dropdown
+              this.selectedIndex = -1; // Reset selected index
+
+              // Set maxPoints and availablePoints based on species rarity
+              this.maxPoints = this.getValueForRarity(this.filteredList[index].Rarity);
+              this.availablePoints = this.maxPoints;
+
+              // Clear all existing bonuses when changing species
+              this.rows = []; // Reset all selected bonuses
+
+              // Update other related info
+              this.selectedSpecie = this.query;
+              this.updateSaddleBonuses();  // Ensure saddle bonuses are updated
+              this.extraCost = 0; // Reset extra cost
+          }
+        },
+        openDropdown() {
+          this.showDropdown = true;  // Open the dropdown when input is focused
+        },
+        incrementIndex() {
+          if (this.selectedIndex < this.filteredList.length - 1) {
+            this.selectedIndex++;
+          }
+        },
+        decrementIndex() {
+          if (this.selectedIndex > 0) {
+            this.selectedIndex--;
+          }
+        },
+        getValueForRarity(rarity) {
+          switch (rarity) {
+            case "10":
+              return 300;
+            case "9":
+              return 275;
+            case "8":
+              return 250;
+            case "7":
+              return 225;
+            case "6":
+              return 200;
+            case "5":
+              return 175;
+            case "4":
+              return 150;
+            case "3":
+              return 125;
+            case "2":
+              return 100;
+            case "1":
+              return 75;
+            case "0.25":
+              return 56;
+            default:
+              return 0; // Default value for rarities not between 1 and 10
+          }
+        }
+
+      }
+    });
+  }
+
+  function loadScript(url) {
+  return new Promise((resolve, reject) => {
+    const script = document.createElement("script");
+    script.src = url;
+    script.onload = () => resolve();
+    script.onerror = () => reject(new Error(`Failed to load script: ${url}`));
+    document.body.appendChild(script);
+  });
+}
+
+function initializeVueApp() {
+  if (typeof Vue === "undefined") {
+    Promise.all([
+      loadScript("https://unpkg.com/vue@2.7.16/dist/vue.min.js"),
+      loadScript("assets/dom-to-image.min.js")
+    ]).then(loadVueAppWithData)
+      .catch(error => console.error(error));
+  } else {
+    loadVueAppWithData();
+  }
+}
+
+initializeVueApp();  // Call this method to start initial loading.
+</script>

@@ -1,0 +1,14 @@
+Bosses:
+These are the first group of bosses that you'll summon, by using the Omega Beacon.
+The Omega Beacon is unlocked by killing a wild creature that is Prime tier or higher. You will unlock the
+Tekgram, and can craft it at the Omega Workbench. The Omega Beacon can be used to summon wild tameable
+creatures, or you can place 100 souls inside to summon a Beacon Boss.
+These bosses will spawn with a variant from the group of souls you have used in the beacon. These bosses
+cannot be tamed. They must be killed. Killing them rewards a Boss Soul, which will appear as an orb on the
+ground. They may also unlock Tekgrams.
+
+You have choices from here.
+1. Feed the Boss Soul to an Elite tier of the same variant, to increase its tier to Prime.
+2. Place the Boss Soul back into the beacon to summon a Master of the same variant. The tier of the Master
+will be based on the tier of the Boss Soul used to summon it. Be warned, Masters have 1Ox the base stats of a
+boss, with a random 2nd variant from within their group.

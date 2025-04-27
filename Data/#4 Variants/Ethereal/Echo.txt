@@ -1,0 +1,22 @@
+<span style="color:lightgray;">Echo</span>: These have a reverberating shout that will damage enemies and provide a stacking
+buff to allies which increases ability damage.
+
+Pressing Prone(X) will cause area damage, while giving an ability damage buff to itself and
+allies.
+
+-----
+Cooldown: 15 seconds
+Stamina Cost: 25%
+Ability Damage: lx
+Radius: 30 Meters
+Ability Damage Buff: 2x
+Max Stacks: 3
+
+Variant Information:
+Spawn Chance: 02.13%
+
+Other Information:
+Cooldown 1: 15.0
+Cooldown 2: 0.0
+Uses Activated Ability When Dealing Damage: true
+Uses Activated Ability When Taking Damage: true

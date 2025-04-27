@@ -1,0 +1,65 @@
+Ark Omega 04/25 Patch Notes:
+
+-Fixed a bug preventing Stalker from working properly.
+-Fixed a bug preventing Fellowship boots from working properly.
+-Fixed a bug preventing Multitool from bypassing resource DR.
+-Fixed a bug preventing Unstable Damage Reduction imbues from working properly.
+-Summoners now get full credit for their minion kills, including drops and paragon kill quests. 
+-Old Alpha Uniques from ASE added into their non-alpha versions in ASA.
+-Added Echo variant description into the Omegadex. 
+-Updated most of the boss descriptions in the Omegadex.
+-Fixed the visuals on Thunderstorm not working properly.
+-Killing the Lucky group master can now trigger a miracle that forces a Miniboss to spawn.
+-Fixed a bug preventing Banshee from triggering correctly.
+-Siren no longer unequips the player's weapon.
+-Fixed a bug with Rampage where mounting or dismounting your tame would stop the rampage multiplier from increasing.
+-Further performance improvements through memory reduction.
+-Put in a lot of safety checks for Detonate to help prevent infinite loop issues. 
+-Updated a lot of NPC abilities to use ones from the new ability system.
+-Cleaned up some irrelevant things from the FAQ. 
+-Fixed a bug allowing freezing debuffs to be added to dinos while in Meltdown.
+-Fixed a bug preventing wild Astral dinos from going invisible when in Astral form.
+-Self-Destruct and Phoenix should now function properly before the Reliquary removes them.
+-A tribe log is now posted when a dino is sent to the reliquary.
+-Frenzy roar is now the Giga roar as it was in ASE, but at 50% volume. 
+-The guide buff no longer leaves a blank buff icon on players. 
+-Fixed secondary abilities for uniques and others always sharing the first abilities cooldown checks and also firing with Prone.
+-Legendary stat potions now provide +25 stats instead of +10.
+
+Saddle Builder:
+-Fixed the required kills and displayed kill requirements not matching.
+-Prevent adding a new bonus before the last one has been filled in.
+
+Unique Saddles:
+-Melee damage reduction on unique saddles now working properly.
+-Fixed the "picks up nearby dropped items" bonus on unique saddles.
+-Fixed a bug preventing variant stat multipliers from resetting when removing saddles.
+-Fixed a bug preventing attack range from resetting when removing saddles.
+-The saddle class for unique ravager saddles is now the correct item type.
+-The saddle class for unique daeodon saddles is now the correct item type.
+
+Variant Reworks:
+-Colossus: No longer has a passive 50% damage reduction.
+-Rampage: Players and dinos now use the same rampage buff, and they all stack to 500%. Rampage will deactivate if it spends more than 3 seconds at 100% (except perm rampage).
+-Resource: Resource group variant now has the 1% passive heal that Wood has.
+-Cosmic: Restored all functionality of the Cosmic group variant.
+-Lucky: Lucky group variant no longer has reduced DR/Dodge as health is reduced. 
+-All Resource Variants: Increased the movement speed of the shard projectiles. 
+-All Cosmic Variants: Each variant now has it's own damage type instead of borrowing them from other groups. 
+-Astral: Reworked Astral for improved reliability and added it to the ability system. 
+-Eruption: Added to the ability system. Now fires 12 projectiles instead of 15.
+-Detonate: 
+---Debuffed enemies will no longer randomly explode when attacking Detonate variants. 
+---Debuffed enemies' attacks will increase the damage the death-explosion will do when they die, and auto-trigger the explosion if their health is below the damage amount (killing them in the process).
+---Detonate has been re-added to the ability system as a 'cast debuff' to allow it to be applied by things other than the detonate variant.
+-Stalker:
+---Stalker form no longer prevents taking any damage. 
+---Stalker now has a 50% increased movement speed bonus while invisible. 
+---Stalker form now increases ability damage as well as melee damage. 
+---Wild dinos can now trigger stalker when they have a target instead of only when dealing or taking damage.
+---Cooldown and stamina cost now trigger when going invisible instead of when dealing damage.
+---Stalker form now lasts only 15 seconds.
+-Anti-matter: 
+---Now fires homing projectiles based on the tier of the caster. 12 projectiles, at 50% ability damage each.
+---The projectiles apply a stacking debuff that increases the damage taken from all Cosmic abilities. Each debuff stack increases the cosmic damage taken by 10%, capped at 500%.
+---Stamina cost reduced down to 25%, and the cooldown is at 15 seconds.

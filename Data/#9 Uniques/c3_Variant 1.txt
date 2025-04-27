@@ -167,6 +167,7 @@ Thunderstorm
 Overlord
 Blizzard
 Thunderstorm
+Colossus
 Stalker
 Necromancer
 Tsunami
@@ -177,6 +178,7 @@ Tracker
 Rampage
 Supernova
 Absorbent
+Warp
 Warp
 Frenzy
 Dimensional
@@ -190,9 +192,10 @@ Familiar
 Plague
 Frenzy
 Volatile
-Spectral
+Echo
 Necromancer
 Brutal
+Breeding
 Uncontrollable
 Treasure
 Dimensional

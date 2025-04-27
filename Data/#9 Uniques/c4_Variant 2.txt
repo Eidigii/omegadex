@@ -38,7 +38,7 @@ Shield
 Self-Destructive
 Reflect
 Resilient
-Spectral
+Echo
 Warp
 Obsidian
 Gorgon
@@ -54,7 +54,7 @@ Ghost
 Random
 Paragon
 Lightningburst
-Spectral
+Echo
 Wind
 Banshee
 Siren
@@ -112,7 +112,7 @@ Gamma-Ray
 Paragon
 Breeding
 Taming
-Spectral
+Echo
 Uncontrollable
 Uncontrollable
 Starfire
@@ -167,6 +167,7 @@ Essence
 Psychosis
 Meltdown
 Eruption
+Paragon
 Volatile
 Wood
 Fairy
@@ -178,6 +179,7 @@ Gorgon
 Psychosis
 Self-Destructive
 Self-Destructive
+Colossus
 Banshee
 Spiritual
 Zombie
@@ -193,6 +195,7 @@ Reactive
 Brutal
 Vampire
 Pygmy
+Crystal
 Breeding
 Obsidian
 Loot

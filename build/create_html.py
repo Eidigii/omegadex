@@ -1,7 +1,7 @@
 import re
 import os
 import json
-from lib.Rules.rules import RuleSet, VariantsRuleSet, listRuleSet, defaultRuleSet, DinosRuleSet, BossesRuleSet, FaqsRuleSet
+from lib.Rules.rules import RuleSet, VariantsRuleSet, listRuleSet, defaultRuleSet, DinosRuleSet, BossesRuleSet, FaqsRuleSet, saddleRuleSet
 
 # Define the HTML template
 template = """<h1><span class="[OmegaClass]" style="background-color: rgba(211, 211, 211, 0.5); padding: 5px; border-radius: 10px;">[Title]</span></h1>
@@ -23,8 +23,8 @@ def generate_html(file_path, dir, rule_set, template):
     # Extract the title from the filename
 
     # Get the base filename without the extension
-    base_filename = os.path.splitext(os.path.basename(file_path))[0]
-
+    base_filename = os.path.splitext(os.path.basename(file_path))[0] 
+                 
     # Use a regular expression to remove <number #> from the filename
     title = re.sub(r'^#\d+\s', '', base_filename)
 
@@ -34,7 +34,6 @@ def generate_html(file_path, dir, rule_set, template):
     # Read content from the text file
     with open(file_path, 'r') as file:
         content = file.read()
-
     # Extract sections of the content using the provided rule set
     file_name = os.path.basename(file_path)
     sections = rule_set.extract_content_sections(content, file_name)
@@ -53,7 +52,10 @@ def generate_html(file_path, dir, rule_set, template):
     html_content = re.sub(r'<h\d>Section \d+</h\d>', '', html_content)
 
     # Post-process HTML with rule set specific logic
-    html_content = rule_set.post_process_html(html_content, dir, file_name)
+    if dir.endswith("#14 Saddle Creator"): 
+        html_content = rule_set.post_process_html(content, dir, file_name)
+    else:
+        html_content = rule_set.post_process_html(html_content, dir, file_name)
 
     # Write the populated template to a new HTML file
     output_file = os.path.join(os.path.dirname(file_path), f"{os.path.splitext(os.path.basename(file_path))[0]}")
@@ -72,6 +74,7 @@ def process_txt(dir_path, config_file, rule_set_class):
     span_class = config.get("span_class")
 
     rule_set = rule_set_class()
+    
     for file in os.listdir(dir_path):
         if file.endswith('.txt') and not file == 'additional.txt':
             if os.path.basename(file) == "index.txt":
@@ -104,9 +107,10 @@ dir_class_map = {
     "#11 Paragons": (listRuleSet, 'list_config.json'),
     "#12 NPCs": (listRuleSet, 'list_config.json'),
     "#13 Egg Chart": (listRuleSet, 'list_config.json'),
-    "#14 FAQs": (FaqsRuleSet, 'faqs_config.json'),
-    "#15 Links": (defaultRuleSet, 'default_config.json'),
-    "#16 Changelog": (listRuleSet, 'list_config.json'),
+    "#14 Saddle Creator": (saddleRuleSet, 'default_config.json'),
+    "#15 FAQs": (FaqsRuleSet, 'faqs_config.json'),
+    "#16 Links": (defaultRuleSet, 'default_config.json'),
+    "#17 Changelog": (listRuleSet, 'list_config.json'),
     # Add more directories and corresponding classes as needed
 }
 

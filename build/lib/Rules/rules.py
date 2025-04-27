@@ -479,3 +479,12 @@ class defaultRuleSet(RuleSet):
         if os.path.basename(file_name) == "index.txt":
             html_content = html_content.replace("Index", dir_name)
         return html_content
+    
+# default Rules
+class saddleRuleSet(RuleSet):
+
+    def extract_content_sections(self, content, file_name):
+        return content
+
+    def post_process_html(self, html_content, dir, file_name):
+        return html_content

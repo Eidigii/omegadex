@@ -24,7 +24,12 @@ function getDefaultContent($folder) {
     $defaultFile = realpath(__DIR__ . '/Data/' . urldecode($folder) . '/index');
     if (file_exists($defaultFile)) {
         $content = file_get_contents($defaultFile);
-        return parseCustomFormat($content);
+        
+        if (strpos($defaultFile, '#14 Saddle Creator') !== false) {
+            return $content;
+        } else {
+            return parseCustomFormat($content);
+        }
     }
     return '';
 }

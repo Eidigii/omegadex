@@ -1,0 +1,26 @@
+Ark Omega 04/17 Patch Notes:
+
+Unique Saddle related:
+-Unique saddle drop chance from wild dinos increased from 1-in-2500 (0.04%) to 1-in-1000 (0.1%).
+-Unique saddle drop chance from bosses decreased from 1-in-2500 (0.04%) to 1-in-5000 (0.02%).
+-Unique saddle drop chance from Minibosses increased from 1-in-500 (0.2%) to 1-in-100 (1%).
+-Unique saddle drop chance from Omega max increased from 1-in-500 (0.2%) to 1-in-100 (1%).
+-Fixed a bug causing low-rate spawns to have a 10x unique saddle drop chance when spawned from the beacons. 
+-Unique Saddle Tokens added.  This will provide a primitive quality unique saddle when used, but will not come with imbues. 
+-Wild dinos can now spawn with unique saddle buffs and will drop a unique saddle token when killed.
+-Omega Max have a 10% chance to spawn with a unique saddle buff.
+-Fixed the projectiles becoming unlinked on the Procalypse araneo unique saddle.
+-Fixed some text issues on the Apache meganeura saddle.
+-Unique saddle drop rate miracle no longer applies to beacons.
+-Fixed a bug that could see the unique saddles getting the wrong bonuses applied when equipped.
+-Fixed a bug that can scramble unique saddle data when re-rolling imbues. 
+-Unique saddle drop chance capped at 1% for normal drops.
+-Fixed a bug causing "Cannot be protected by absorbent" to not function properly.
+
+Others:
+-Fixed a bug causing meteor to use Barrage particles.
+-Slightly improved performance on the Waterburst particle.
+-Improved the cone radius calculations on elemental ball projectiles.
+-Removed the cone radius check on resource shards.
+-Changed the logic on omega projectiles for buff application to fix the Element Shards.
+-Improved the performance of the drop system.

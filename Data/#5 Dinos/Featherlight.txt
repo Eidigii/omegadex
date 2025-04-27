@@ -8,6 +8,10 @@ Unique Name: Kamikaze
 Variants: Warp / Self-Destructive
 Spawn Weight: 1.0
 
+Unique Name: Zephyr
+Variants: Warp / Colossus
+Spawn Weight: 0.75
+
 Food Types:
 Raw Meat
 Cooked Meat

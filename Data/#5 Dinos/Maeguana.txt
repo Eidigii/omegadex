@@ -1,0 +1,23 @@
+Name: Maeguana
+Base Damage: 20
+Rarity Group Number: 6
+Paragon Shard Value: 5
+
+Uniques:
+Unique Name: Daycare
+Variants: Breeding / Crystal
+Spawn Weight: 1.0
+
+Food Types:
+Raw Meat
+Cooked Meat
+Cooked Prime Meat
+Raw Prime Meat
+Amarberry
+Azulberry
+Mejoberry
+Tintoberry
+Base Veggie
+Cianberry
+Magenberry
+Verdberry

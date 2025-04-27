@@ -1,17 +1,2 @@
-This section is not yet up to date for ASA!
-------------
 This is where you'll find Information about Ark Omega Bosses. Please Choose a button from the left for
 information.
-
-Boss progression goes as follows:
-1. Beacon Bosses
-2. Gods
-3. Group Gods
-4. Unique Group Gods
-5. Zodiac
-
-World Bosses such as the Titans are not needed for progression, but are very important for many features.
-
-Boss Difficulty:
-Boss Difficulty is effected by various settings, as they change your ability to quickly raise an army, and reduce
-the consequences of losing tames as they have become disposable.

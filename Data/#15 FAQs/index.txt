@@ -28,7 +28,7 @@ also spawn. If you don't have a specific dino type spawning on a specific map, l
 
 Q: What map does this mod work with?
 
-A: All of them. The spawn system grabs vanilla dinos a few seconds after they spawn and then replaces them with Hex's custom ones in a replacement. This means that the vanilla dinos on ANY
+A: All of them. The spawn system grabs vanilla dinos a few seconds after they spawn and then replaces them with Hex's custom ones in a 1:1 replacement. This means that the vanilla dinos on ANY
 map will spawn in Ark Omega dinos, without the possibility of strange overspawn reactions with spawners. Additionally, any map that does not spawn in Ark expansion creatures will now have
 spawners added to it for those, regardless of the map.
 
@@ -37,24 +37,20 @@ EXCEPTIONS:
 2. Abberation Surface Reaper Kings cause massive overspawns on the surface. Disabling them may solve the issue, but Abberation has other issues making the map undesirable to play on for Ark
 Omega.
 
-
 Q: People commonly disable nighttime on their servers, why shouldn't I disable nighttime on my server?
 
 A: Because of the Nightmare variants. Most of these have special abilities at night. In addition, Nightmare bosses may not spawn during the day time, meaning you cannot complete the mod without
 night time.
 
-
 Q: Can dinos transfer between servers in a clusters?
 
 A: Yes. Both Tier and Variant will carry over when transferring dinos to other maps that use this mod. It is HIGHTLY recommended to use Soul Trapped dinos to transfer them between servers.
-
 
 Q: Why do Ark Omega creatures spawn at weird, random numbers?
 
 A: The numbers aren't weird. Ark's default level spawn system only allows 30 levels. It spawns dinos at a level between 1 and 30, and then multiplies the outcome by the difficulty. So on difficulty 10,
 they can only spawn in increments of 10. Hex bypasses this and allow true random levels. The 1-30 system is extremely broken and Hex couldn't believe how many people have gotten hung up on it.
 Why are true random levels weird?
-
 
 Q: What are unique dinos?
 
@@ -65,45 +61,28 @@ They can also be obtained through the very expensive Unique Token in the Soul Gr
 Uniques require unique kibble to tame, and do not lay any special type of egg. They also cannot mate or be cloned, with the exception of mating within the Gene Splicer to create Hybrid Uniques at the
 cost of their own paragon levels.
 
-
-Q: How do I get a tameable boss?
-
-A: Tameable bosses are spawned randomly from the beacon when using less than 100 souls. Their chance is 0.1% at 10 souls and 1% at 99 souls.
-The other method of getting them is to grind boss and god souls in the Soul Grinder to purchase a Token that guarantees a tameable boss summon.
-They will ALWAYS be base tier, and when mounting them the quest will appear that tells you exactly what must be killed to rank them up. They can be ranked up all of the way through Godlike through
-this quest. These are mostly the strongest tameable mounts in Ark Omega, with the possible exception of the rarest of the uniques and the very strongest of Alpha dinos.
-
-
-Q: I'm not getting essence or Ark Omega eggs from Vanilla dinos, why?
-
-A: Vanilla dinos are vanilla dinos. Unmodded dinos obviously don't drop modded items.
-
-
 Q: How do I get Boss/God souls? They aren't dropping them.
 
 A: They are a bright, shining, glowing orbs that drops onto the ground. You aren't "given" them like you are with regular souls. They will appear from the dying boss on the killing blow, and will slowly fall
 to the ground. If the boss is killed while running, the soul may very well be thrown in the direction it was traveling.
-
 
 Q: I got a message at the top of my screen that (x) Titan has spawned, what does it mean?
 
 A: It means that one of the three Extinction Titans have spawned on an Omega Beacon somewhere, with Variants and Tiers. They should display on your minimap. Approach with caution, Titans have
 the stats of bosses, the damage of Gods, with many custom abilities and a cap on how much damage they can take.
 
-
 Q: Is Ark Omega compatible with Combat Trainer or Alpha Everything?
 
 A: Alpha Everything will work with Ark Omega as it will not create alphas out of Ark Omega creatures. Alpha Everything grabs natural spawning dinos to create Alphas from, and Ark Omega creatures
 are not naturally spawned. Using the Admin gun to turn an Ark Omega creature to Alpha will overwrite its stats bonuses with the ones from Alpha Everything.
+
 Combat Trainer is not compatible. The stat multiplication system is very complicated in both mods and will not work properly. You will receive many many conflicts attempting to provide stat bonuses
 to Ark Omega creatures with Combat Trainer and Hex doesn't have the time to investigate all stat conflicts between the 2, so support will not be provided when using these 2 mods together.
-
 
 Q: Why can't I see Ark Omega dinos on my S+ Transmitter?
 
 A: The S+ Transmitter doesn't work with Ark Omega because it's searching for the Dino's class name, nothing that Hex has done to it. Every single "Rex" in Ark Omega has the same exact class name,
 so it won't differentiate between them. It just sees them all as Rex.
-
 
 Q: Where are the INI settings, and where do I put them?
 
@@ -116,7 +95,6 @@ Important things to remember.
 2. You should ONLY put in the settings you want to change. It is not required, or recommended to put in every setting with its default value. Putting every setting with its default value means that it is
 then locked into that value, and if I change the default for the mod, you will not notice the changes. An example, the SpawnPercent INI controls the percentage of dinos that spawn as Ark Omega dinos.
 If you put the default of SpawnPercent=50 into the INI, and I change the default going forward to a different %, you will not get these changes without going into the INI and making them yourself.
-
 
 Q: Why are bosses so hard, and why am I doing so much less damage to them?
 
@@ -138,13 +116,11 @@ to the setting itself.
 
 5. Mating Cooldown INI setting. Don't increase this unless you plan to focus on mating! It can have a huge impact on damage taken/dealt by bosses.
 
-
 Q: If mating settings make the bosses harder, how are we supposed to mate when some dinos take days to cool down or grow?
 
 A: Breeding dinos help speed up mating cooldown. If you feed an unfertilized egg to a Breeding dino that is the same tier or higher than the Breeding dino, it will get a timer above its head that indicates
 the duration of the "power-up", This power-up will speed up the mating cooldown of any nearby female dinos that are current in cooldown. The speed of this is based on the Tier. Basic tier Breeding
 dinos will provide an extra 1 second every second of cooldown reduction, while Omegas will remove an additional 6 seconds every second. The Unique Bronto, Mother, does double that amount.
-
 
 Q: What are Paragon Souls and Paragon Levels?
 
@@ -155,16 +131,15 @@ Numberal. For example, a Fire Dodo at Paragon level 6 will display as Fire Dodo 
 Paragon levels are achieved by finding a Paragon soul from a wild dino. Every dino has roughly a I-in- 1000 chance to drop a Paragon Soul. In addition, there are Paragon variant dinos in the wild that
 guarantee a Paragon Soul. These will always spawn in at Paragon level 10 [X]. The soul dropped will always be for the Species that dropped it. A Raptor dropping a Paragon Soul will always drop a
 Raptor Soul. This can only be fed to a Raptor. Uniques are also capable of eating a Paragon soul of their type, so the unique Raptor Dismay can eat a Raptor Soul to gain a Paragon Level.
+
 Paragon levels provide a 100% bonus to your stats, and can be applied in any order, regardless of level, tier, variant, godlike, ancient status, etc. It will all come out to the same end-result.
 
 NOTE: As with ANY soul-fed bonuses, Paragon levels are NOT carried over via mating.
-
 
 Q: Will using a tiered God Soul make my dino stronger than Godlike?
 
 A: No. God souls all make your dino Godlike, regardless of what tier the soul is. Tiered God Souls are used to summon titans of the same tier/variant (useful for ranking up tameable bosses), summon
 group gods of the same tier, and to grind in the soul grinder for additional souls. A basic tier God Soul will give 5 shards in the soul grinder, while an Omega one will give 30 shards.
-
 
 Q: I can't seem to damage utility variant bosses or gods, why is that?
 
@@ -172,11 +147,9 @@ A: Utility variants have no group stat multiplier. They also have no combat abil
 and gods of these variants is to rank up your existing tames. To prevent these bosses and gods from being easy kills and easy upgrades, I've made it so they can only be damaged by other tames with
 any Utility variants.
 
-
 Q: Does the Dino Mind Wipe remove Paragon Levels, Variant, or Tier?
 
 A: No. It removes nothing but levels.
-
 
 Q: What are the Unique saddles and how do I get them?
 
@@ -186,8 +159,8 @@ process.
 
 You obtain them at a 0.02% chance when killing any dino that currently has a saddle implemented. For example, a Dodo has a 0.02% chance to drop the Unique Dodo saddle, War Chicken. The tier of
 the dino determines the quality of the saddle, and the rolls on the random (3-7) imbues on the saddle.
-Note: These unique saddles can only be rerolled via Unique Fragments!
 
+Note: These unique saddles can only be rerolled via Unique Fragments!
 
 Q: What is Ancient Tier?
 
@@ -202,16 +175,14 @@ Example: Using Cosmic/Nature Group God souls to summon Apocalypse, and feeding i
 Unique Group Gods and the group variants that they can upgrade to Ancient.
 Cosmic/Nature: Apocalypse
 Mythical/Summoner: Anima
-Unstable/Elemental: Alchemy
+Unstable/ElementaI: Alchemy
 Guardian/Resource: Indestructus
 Rage/Nightmare: Sin
-Utility/EthereaI: Infinity
-
+Utility/Ethereal: Infinity
 
 Q: How can I spawn in Paragon Souls?
 
 A: No.
-
 
 Q: What is the purpose of the Titans?
 
@@ -220,9 +191,8 @@ A: The Titans serve (or will serve) several purposes.
 1. Mid-game danger. The problem with getting to Omega/Godlike tier is that wild dinos no longer serve much of a risk besides soul farming. Titans were added to reintroduce some of that risk.
 2. Engrams. The titans all give their vanilla engrams, some of which have no other way to unlock.
 3. Special loot system. This part hasn't been activated yet, but there will be many rare/set/unique items that can only be dropped from a titan. These haven't been activated yet because the pool of
-items that will be titan specific will take Hexen —120+ hours to implement, and I haven't reached a point where I can dedicate that time to those items.
+items that will be titan specific will take Hexen 20+ hours to implement, and I haven't reached a point where I can dedicate that time to those items.
 4. Future quests. A questing system IS coming, and titans will undoubtedly be part of that.
-
 
 Q: What are the randomly spawning loot chests, and where can I find them?
 
@@ -234,7 +204,6 @@ In addition to being filled with the loot sets of Loot variant dinos, they also 
 -Boss Souls
 -Omega Souls
 -Paragon Souls
--Boss Tokens
 -Midgame items
 -Imbue wipes
 And much more!
@@ -242,17 +211,14 @@ And much more!
 Other items being added or changes to the costing system can happen with any patch.
 Currently, up to 500 of them can spawn on the map at any given time. There are no easy ways to find them, other than keeping an eye
 
-
 Q: What is Zytharian Critters?
 
 A: Zytharian Critters is a dino mod that adds many vanilla-balanced Tek and Skeletal creatures as well as a few custom ones. A lot of time was spent making it fully compatible with Ark Omega, so that
 the custom dinos from that mod can spawn with Tiers/Variants, get Paragon levels, use all abilities, etc. It adds dozens of new dinos, all perfectly compatible and balanced to Ark Omegas progression.
 
-
 Q: Do unique/set item drops on the ground or go to your inventory?
 
 A: They drop on the ground, and glow bright colors. Can't miss them.
-
 
 Q: Do my stats go up converting my godlike to a group variant?
 
@@ -263,11 +229,9 @@ The exceptions:
 3. Rage takes the multipliers of Uncontrollable. Going from Uncontrollable to Rage will not increase your stats, other rage variants will get 4x health/damage.
 4. Nightmare takes the multipliers of Ghost. Going from Ghost to Nightmare will not increase your stats, other nightmare variants will get 4x health/damage.
 
-
 Q: How do you get Paragon Souls for Tameable Bosses?
 
 A: The same ways you obtain them for any other dino.
-
 
 Q: Creature Finder Deluxe catches a lot of hate in this mod, why?
 
@@ -297,15 +261,13 @@ himself in his many years of hosting Extinction Core and Primal Fear servers.
 
 4. The single biggest reason we have an issue with CFD. Bug reports.
 -This applies to other mods, boosted rates, etc. It is a constant issue for Hexen. You use a mod that enables you to do something unintended, and you find a problem with the resulting math, balancing,
-spawn chances, taming methods, broken feature, etc, and report it as a bug that He now spends hours investigating only to find out it has nothing to do with Ark Omega. He's spent possibly 00 hours
+spawn chances, taming methods, broken feature, etc, and report it as a bug that He now spends hours investigating only to find out it has nothing to do with Ark Omega. He's spent possibly hours
 since Ark Omega hit beta investigating bogus bug reports and balancing issues.
 
 CFD's biggest hand in this is using it to tame Uniques, which are creatures added to the mod to reward players who spend time exploring with a chance encounter at a powerful dino. Posting bug reports
 that a specific unique isn't spawning isn't a bug. UNIQUES ARE RARE. A lot of them, you will never see. Your unintended awareness with them not spawning because you're using CFD isn't a bug.
 Reporting balancing issues that you went and force-tamed 40 uniques and stormed through all of the bosses is also unintended, and CFD usually gets looked down upon when this happens.
-
 Your play style is YOUR play style, but please, don't make it OUR problem.
-
 
 Q: What effects loot chest opening costs?
 
@@ -316,34 +278,28 @@ filled with normal loot and 12 Paragon souls could still require Beta Essence, a
 Every item that determines unlock cost also has a value assigned based on rarity. Paragon souls for common dinos will have less impact than rare dinos. Omega souls for common variants will have
 less impact on the cost than more rare variants.
 
-
 Q: Can I make my Uniques Double Group Variant?
 
 A: You cannot cake uniques Group at all. As of now, the highest they can go is Ancient.
-
 
 Q: What dino drops Unique Weapons and Set items?
 
 A: Unique weapons drop from ALL dinos randomly. Set items drop based off the variant of dino.
 
-
 Q: Why can't I imbue weapons?
 
 A: Because they can't be imbued.
-
 
 Q: What Color/lcon/lndicator do Tracker dinos give for Uniques?
 
 A: They only tell you that one is nearby. Godlike Trackers and the Utility group variant will also give you the Tier/Name of the Unique.
 Other than this, there is no visual indicator of any kind to show you where the Unique is.
 
-
 Q: Does the bonuses from set or unique items apply to the dino I'm riding?
 
 A: No. Player armor is for the player. They do not apply the bonuses to your dinos unless it specifically says so, like on the Piper set.
 Saddle bonuses don't effect your player, just the dino.
 Again, Player armor is for players. Saddles are for dinos.
-
 
 Q: What is Zodiac (not Perfect Zodiac), and how do I kill it?
 
@@ -355,16 +311,15 @@ Zodiac has 6 phases, where it takes the powers of each of the Unique Group Gods,
 groups that Zodiac is currently using (Infinite Zodiac can only be damaged by an Ethereal or Utility creature), and must be killed to move to the next phase. This means you will need at least 6 tames to
 take down Zodiac.
 
--Phase 1: Infinite Zodiac - Ethereal/Utility.
--Phase 2: Indestructible Zodiac - Resource/Guardian.
--Phase 3: Animate Zodiac - Mythical/Summoner.
--Phase 4: Apocalyptic Zodiac - Cosmic/Nature.
--Phase 5: Alchemist Zodiac - Unstable/EIemental.
--Phase 6: Sinful Zodiac - Rage/Nightmare.
+Phase 1: Infinite Zodiac - Ethereal/UtiIity.
+Phase 2: Indestructible Zodiac - Resource/Guardian.
+Phase 3: Animate Zodiac - Mythical/Summoner.
+Phase 4: Apocalyptic Zodiac - Cosmic/Nature.
+Phase 5: Alchemist Zodiac - Unstable/Elemental.
+Phase 6: Sinful Zodiac - Rage/Nightmare.
 
 The reward for killing Zodiac is currently a Zodiac Soul, which grants Unique Group God Variants to your tames, such as Sinful granting the Rage and Nightmare groups to your tames, but only the
 highest multiplier of either group, being 24x for Sinful.
-
 
 Q: Can you add a notification/sound/message/text/etc to X item when it drops so that I don't miss it?
 
@@ -372,35 +327,26 @@ A: You not paying attention is your play style. If you don't want to miss drops,
 the corpses. The items are meant to be a reward. This is also the reason that they drop more often on foot in the normal game mode and not just in No-Tame, because you're more likely to notice them
 when not soaring away on a mount.
 
-
 Q: How do we kill Indestructus, it takes no damage???
 
 A: One common option is a Mantis holding a Multitool, which will bypass the Resource DR that Indestructus has.
-
 
 Q: What are Paragon Breakers and how do I find/use them?
 
 A: Paragon Breakers allow a dino to breach the cap of 50 Paragon Levels. They can be obtained rarely from Loot Chests, Paragon Monsters, and Jackpot will always drop 1 breaker per tier. To use
 them, drag a paragon soul of the dino onto the breaker, and feed the new item to the dino. You need a Breaker and a Paragon Soul for each level beyond 50, up to the new absolute cap of 100.
 
-
-Q: How do I rank up my Unique to Ancient?
-
-A: First rank it up to godlike by crafting the Unique God token in the Soul Grinder. Then, craft the Ancient Unique Token in any Unique Group God Trophy (You must defeat a unique group god to get one)
-and use the token to summon the Ancient Unique God.
-
-
 Q: How do you tame reactive water dinos?
 
 A:
--Use an Immortality potion to make you immune to the damage for 15 seconds.
--Use an absorbent dino to protect you and soak up the damage.
--Get armor imbued with high reactive resistance, or wear the Abruption set.
-
+1. Use an Immortality potion to make you immune to the damage for 15 seconds.
+2. Use an absorbent dino to protect you and soak up the damage.
+3. Get armor imbued with high reactive resistance, or wear the Abruption set.
 
 Q: For Dynamic item drops, what causes them to drop, and what exactly is considered "on foot" for the increased drop chance?
 
 A: Souls can all be dropped when a creature is killed regardless of circumstances. Nothing alters their drop chance.
+
 Other dynamic items including Unique Saddles, Unique Weapons, Set Items, Charms, Unique Charms, and Legendaries, all come from the dynamic drop system.
 For an item to drop from the dynamic drop system, a player (YOU, not your character) must be in control of what gets the kill, meaning your keyboard/mouse or controller must be currently controlling
 what gets the kill or the item will not drop. This means that unmounted tames have ZERO chance to cause these items to drop. Either your player character gets the kill, or the dino you are mounted on,
@@ -413,8 +359,8 @@ items.
 
 To reiterate: Unmounted dinos, including minions or dinos that have been whistled to attack, have ZERO chance to cause dynamic items to drop (excluding souls). YOU must be using your character, or
 the dino it is riding, for items to drop. You must NOT be mounted on a dino, even if you are using a weapon to get the kill, for the increased drop chance.
-No exceptions.
 
+No exceptions.
 
 Q: Why doesn't the incubator, propagator, and other structures work with the eggs?
 
@@ -429,29 +375,25 @@ baby. If the egg hatches inside of a structure, these checks are impossible to d
 
 The eggs MUST be hatched on the ground, and should not be modified by other structures as it may break the tier/variant stored data.
 
-
 Q: How do we get paragons for hybrids?
 
 A: Currently, you can find their paragons by killing the paragon bosses/titans/gods or in loot chests.
-You can also merge the paragons of the parent by placing them both in the Gene Splicer and pressing the merge button.
 
+You can also merge the paragons of the parent by placing them both in the Gene Splicer and pressing the merge button.
 
 Q: Why can't I ride my Rage Therizinosaurus with the Unique Saddle?
 
 A: Rage and Uncontrollable are completely separate variants, while rage has some aspects of uncontrollable they are not the same.
 
-
 Q: What is damage impulse?
 
-A: Damage impulse is any sort of knockback. The impulse reduction imbue will reduce knockback taken via attacks. It will not reduce capsule impulse, i.e the occasional push from another dino, not it'
+A: Damage impulse is any sort of knockback. The impulse reduction imbue will reduce knockback taken via attacks. It will not reduce capsule impulse, i.e the occasional push from another dino, not it's
 attacks.
-
 
 Q: Will (x hybrid) damage (x component dino from said hybrid) Saddle God / Unique God?
 
 A: No. Saddle Gods and Unique god damage restrictions are absolute. You must use an Achatina to damage the Achatina god, a Gacha to damage the Gacha god. The Gachatina will not work.
 Achatinas and Gachas cannot damage the Gachatina God either.
-
 
 Q: How do I get mid-game sets?
 
@@ -459,13 +401,12 @@ A: Mid game sets currently drop from wild Omegas (or Godlike/Ancient in no-tame)
 Zodiac.
 
 The chances are:
--Omegas: 1-in-1000
--Beacon Bosses: 1-in-500
--Titans: 1-in-250
--Gods: 1-in-100
+Omegas: 1-in-1000
+Beacon Bosses: 1-in-500
+Titans: 1-in-250
+Gods: 1-in-100
 
-Killing these on foot has 1Ox greater drop chances.
-
+Killing these on foot has 1 Ox greater drop chances.
 
 Q: Whats the best way to farm souls?
 
@@ -473,7 +414,7 @@ A: In a mod with ~200k possible creatures, you can't expect a single dino as an 
 However, here are some tips to greatly increase your soul farming efforts.
 
 1. The easiest way to increase the number of souls gotten is to change the INI setting for SpawnPercent to increase the number of Ark Omega creatures that spawn in. Setting it to 100 will make
-everything except Iow-rate spawn creatures like fish and Dodos spawn in as Ark Omega creatures every time. This will double your souls above the default setting of 50%.
+everything except low-rate spawn creatures like fish and Dodos spawn in as Ark Omega creatures every time. This will double your souls above the default setting of 50%.
 2. Increase your dino spawns INI setting. This is a default ark setting that multiplies the number of dinos that spawn. For example, setting it to 2 will make twice as many dinos spawn on your map. This
 can lead to overcrowding, though.
 3. AOE attacks. Cosmic, Nature, Unstable have amazing AOE attacks. Unique dinos have some combinations of different abilities that make them capable of wiping out hundreds of dinos a minute.
@@ -482,24 +423,20 @@ Colossus dinos can attack huge areas both with melee and ground stomp. Reactives
 creature.
 5. Areas with weaker, tightly grouped enemies. Caves, the ocean, etc, are all easy ways to kill creatures in large groups for the greatest number of souls rewarded.
 
-
 Q: Do Taming variants of dinos that naturally deal torpor have any benefit?
 
 A: No. Torpor is deal through the damage type that the dino is setup to use. Taming dinos use a custom damage type that deals 5x damage as torpor. It overwrites whatever damage type the dino was
 setup to use vanilla, including torpor dealing ones. Taming dinos deal 5x damage as torpor, under any and all circumstances, only Infinite dinos gained from Zodiac's soul will deal Raid Torpor. No
 exceptions.
 
-
 Q: What is Magic Find?
 
 A: Magic Find is a stat bonus that is available on armor imbues. It increases drop rates. 100% will double your droprate, for example 100% magic find makes a 1/25 drop into a 1/12.5 drop. 200% magic
 find makes a 1/25 drop into a 1/8.33 drop. The Magic Find potion adds a non multiplicative 100% magic find value. Magic Find does affect drops while on tamed dinos, but only at 10% efficacy.
 
-
 Q: Which creatures lay eggs?
 
 A: All of them. Everything. Obviously only the females will naturally drop eggs. Dinos setup to poop eggs, like Dodos, can drop them even if male.
-
 
 Q: How does mating in Ark Omega work?
 
@@ -512,7 +449,6 @@ mate as of recently, but will only ever give you an Omega baby.
 Note: Using things that pick up, incubate, or modify eggs will typically wipe the data from them that stores tier/variant, giving you a plain dino with no abilities or stat tier. Dino Storage V2 Soul
 Terminals, S+ Hatcheries and S+ Item Aggregators are notable exceptions.
 
-
 Q: Why isn't my XYZ omega dino laying passive eggs?
 
 A: The often most common issue is that you have not got a mate boosted pair, to mate boost you must have a male modded dino of the same species.
@@ -523,14 +459,12 @@ is an issue with the vanilla dino this is an ark problem and unfortunately is no
 My Vivarium or other egg item isn't working? Many of the egg collectors are not compatible with the dynamic generation of this mod, we personally recommend Dino Storage V2 as Lethal has gracefully
 implemented compatibility for its egg laying.
 
-
 Q: Why did my egg hatch a vanilla dodo?
 
 A: Eggs are another thing dynamically edited in Ark Omega. Every single fertilized egg is the same base egg, unlike the vanilla game. When the dynamic egg is laid, I grab the dino that dropped it, and
 the dino it was mating with at the time, and save their info on the egg. I also save the required egg size, color, min/max temperatures, as well as the variant and tier for both parents, and the type of dino
 that needs to hatch from the egg. This all takes a little time to run, so if you have any modded structures that pick up fertilized eggs when they drop (like the hatchery), or you pick them up yourself
 before the code has time to finish running, the egg is corrupted and the data is not generated. Once this happens, nothing can fix the egg, and it will default to a baby dodo.
-
 
 Q: How do I get Ark Omega dinos to produce eggs, both out in the world, or in the Soul Terminal?
 
@@ -540,34 +474,28 @@ terminal as well. Without mate boosting, no eggs will be produced! The dropped e
 
 Oviraptors increase egg laying rates and works in the Soul Terminal. This counts for all Oviraptors, modded and vanilla.
 
-
 Q: How can I mate boost Ark Omega dinos?
 
 A: Ark Omega dinos become mate boosted near another dino of the same type, regardless of variant/tier. An Omega Singularity Rex can mate boost with a Beta Gorgon Rex. The ONLY requirement is
 that they are BOTH modded dinos. YOU CANNOT MATE BOOST AN ARK OMEGA DINO WITH A VANILLA ONE..
-
 
 Q: Why do I get an error in the gene splicer saying something about BreedingMode?
 
 A: If the tiers and variants of the dinos you have cannot mate on your server due to breedingmode INI settings, then they cannot mate in the Gene Splicer. The Gene Splicer does not bypass
 Breedingmode INI settings. You cannot just mate whatever variants you want in it.
 
-
 Q: How Does Breeding for hybrids work?
 
 A: Breeding in the gene splicer follows exactly the same settings as breeding anything else in the mod. Aka It follows your breeding mode. So if you are on breeding mode 1 for example you can breed
 any tier and same variant only.
 
-
 Q: How is "on foot" determined for drops and engram unlocks?
 
 A: Are you on foot, and did you get the kill?
 
-
 Q: What drops ancient essence?
 
 A: 5 per tier of the Unique group gods; Anima, Indestructus, Sin, Alchemy, Infinity or Apocalypse
-
 
 Q: Why are Uncontrollables the way they are? / Why can't we ride uncontrollables?
 

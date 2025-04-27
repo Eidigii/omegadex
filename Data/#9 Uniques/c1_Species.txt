@@ -167,6 +167,7 @@ Manticore
 Broodmother
 DodoRex
 Dragon
+Dragon
 Dodo Wyvern
 Oil Jug Bug
 Water Jug Bug
@@ -177,6 +178,7 @@ Lightning Wyvern
 Lightning Wyvern
 Poison Wyvern
 Rock Elemental
+Featherlight
 Featherlight
 Shinehorn
 Glowtail
@@ -193,6 +195,7 @@ Rock Drake
 Roll Rat
 Lamprey
 Xiphactinus
+Maeguana
 Gigantoraptor
 Gigantoraptor
 Archelon

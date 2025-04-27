@@ -1,19 +1,13 @@
-Gods:
-The Gods are powerful mid-game bosses. Meant to be the strongest of their variant, they have enhanced
-versions of their abilities. It is not recommended to move into fighting Gods until you are able to farm a Prime
-tier beacon boss of that variant. However with great risk, comes great reward. The Gods offer something of
-great value, their soul. Unlike a Boss Soul, the God Soul has other benefits.
+Masters:
+The Masters will likely be your first real challenge. It is not recommended to move into fighting Masters until
+you are able to farm a Prime tier beacon boss of that variant.
+Summon a Master by placing a Boss Soul into the Omega Beacon. The variant/tier of the Master will match
+that of the Boss Soul used to create it. Make sure you always summon a basic tier Master first, before
+attempting to move onto the higher tiers.
 
-Summon a God by placing a Boss Soul into the God Egg. The God Egg will be unlocked when killing a beacon
-boss and can be crafted in the Omega Workbench. The variant/tier of the God will match that of the Boss Soul
-used to create it. Make sure you always summon a basic tier God first, before attempting to move onto the
-higher tiers.
-
-Killing a God will unlock the Omega Altar, and drop a bright shining God Soul on the ground.
+Killing a Master will unlock the Omega Altar, and drop a Master Soul on the ground. The Master Soul can be
+used to rank up your tame to Apex tier.
 
 You have choices from here.
-1. Feed the Soul to an Omega of the same variant. This will rank it up to Godlike, doubling its stats and possibly
-giving it a custom skin and version of its ability.
-2. Put the Soul back into the God Egg to summon a Titan of the same tier and variant. This is mainly done to
-rank up your tameable boss by giving you the titan you need.
-3. Collect the souls of every variant within that group, to place in the Omega Altar to summon a Group God.
+1. Feed the Soul to a Prime of the same variant. This will rank it up to Apex, doubling its stats.
+2. Collect the souls of every variant within that group, to place in the Omega Altar to summon a Group Master.

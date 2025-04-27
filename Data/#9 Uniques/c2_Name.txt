@@ -13,11 +13,11 @@ Selfish
 Dracula
 Cannibal
 Bigfoot
-Hollow Purple
+HollowPurple
 Menace
 Impulse
 Fallout
-Major Payne
+MajorPayne
 Jawbreaker
 Ironhide
 Sodium
@@ -34,8 +34,8 @@ Pooh
 Frostbite
 Chernobyl
 Kenny
-Amy The Amers
-The D20
+AmyTheAmers
+TheD20
 Feedback
 Rubber
 Ninja
@@ -69,7 +69,7 @@ Contamination
 Treant
 Sharknado
 Sloth
-Lich King
+LichKing
 Otis
 Sid
 Flash
@@ -103,9 +103,9 @@ Dismay
 Reptar
 Reel-Rex
 Bulldozer
-Pain Train
+PainTrain
 Pride
-Mama Puma
+MamaPuma
 Flower
 Fluke
 Oblivion
@@ -117,15 +117,15 @@ Hush
 Intern
 Weaver
 Biohazard
-The Lord Of Slaps
+TheLordOfSlaps
 Dryad
-Chesty Puller
+ChestyPuller
 Halley
 Solid
 Surge
 Horde
 Dawson
-Moira Rose
+MoiraRose
 Greed
 Psycho
 Jester
@@ -150,7 +150,7 @@ Immobilizer
 Lolipop
 Violence
 Vermivorous
-Aedes Aegypti
+AedesAegypti
 Rime
 Unbearable
 Ghost
@@ -165,8 +165,9 @@ Kong
 Sphinx
 Thundercat
 Arachnophobia
-Global Warming
+GlobalWarming
 Alduin
+BorchTrzyKawki
 Nidhogg
 Sulfur
 Mermaid
@@ -178,8 +179,9 @@ Raiden
 Riot
 Vash
 Kamikaze
+Zephyr
 Terror
-Warp
+warp
 Viral
 Copycat
 Moltres
@@ -192,7 +194,8 @@ Flocker
 Radiation
 Splinter
 Alucard
-Mean Teeth
+MeanTeeth
+Daycare
 Hostrich
 Morgan
 Tortuga

@@ -1,10 +1,23 @@
-Group Gods:
-Group Gods are the late-game bosses. They are incredibly powerful, and have the abilities of all 6 variants,
-often the God versions, with additional twists. Killing them is meant to be a raid, and killing them with just a
-single creature is very unlikely. Strategy is a must, and fighting them in tribes or even with allied tribes will make
-these fights considerably easier.
+Aspects:
+Aspects are where things can get tricky. They each have one variant from each of the 1 2 main groups which
+gives them a wide variety of abilities. To summon one, put a Unique Group Master Soul into the Omega Beacon.
 
-Upon killing them, they will drop a bright shining soul on the ground. This soul is the greatest upgrade you will
-give your creature. Feeding this soul to a Godlike within that group will give it the ability of the group god. This
-ability, while often incredibly overpowered, is your reward for killing these bosses. Wild enemies will not stand a
-chance against you. But something else might...
+Current Aspects and their variants:
+Aspect of Anarchy: Gamma-Ray, Fireburst, Teleporter, Resilient, Colossus, Banshee, Eruption, Uncontrollable,
+Stone, Random, Meltdown, Crafting
+Aspect of Eternity: Meteor, Windburst, Astral, Collective, Phoenix, Vampire, Tornado, Brutal, Obsidian,
+Necromancer, Self-Destructive, Harvesting
+Aspect of Exploitation: Comet, Lightningburst, Echo, Absorbent, Gorgon, Stalker, Thunderstorm, Rampage,
+Metal, Cloner, Detonate, Taming
+Aspect of Infection: Starfire, Earthburst, Warp, Shield, Pygmy, Zombie, Plague, Frenzy, Wood, Overlord,
+Explosive, Breeding
+Aspect of Madness: Singularity, Iceburst, Spiritual, Control, Siren, Boogeyman, Blizzard, Psychosis, Crystal,
+Familiar, Volatile, Farming
+Aspect of Void: Supernova, Waterburst, Dimensional, Reflective, Fairy, Ghost, Tsunami, Knockback, Pearl,
+Companion, Reactive, Tracker
+
+Upon killing them, they will drop an Aspect Soul on the ground. Feeding this soul to an Ancient tier will increase
+its tier to Endless.
+
+You have choices from here.
+1. Feed the Soul to an Ancient tier tame. This will rank it up to Endless, doubling its stats.

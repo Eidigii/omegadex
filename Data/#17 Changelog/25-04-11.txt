@@ -1,0 +1,53 @@
+Ark Omega 04/11 Patch Notes:
+
+-Completely revamped the dino data system to prevent the file corruptions that have happened every single update. 
+-Colossus stomp is now part of the new ability system and should have working damage and particles again.
+-Fixed a bug with Outburst not firing unless you have basic essence in your inventory.
+-Removed the fertilizer crafting feature from Dung Beetle's to prevent them from conflicting with Farmer as it has high potential for crashes. 
+-All bosses in the mod now have their cooldowns reduced by 50% for all variants they have.
+-The item drop sound volume reduced and should now scale with settings. 
+-Nightvision given by nightmare variants is now only given to the rider and isn't given to every nightmare variant at night to help with server performance. 
+-Nightvision can now be toggled off on consoles. 
+-Nightvision from Eclipse and Nightvision from potions is now the same buff given from riding nightmare variants, for improved performance and consistency. 
+-Uniques no longer have their 2nd variant revert to base tier on server restarts. 
+-Fixed particle and sound on Banshee.
+-Players now have a base ability damage of 100, multiplied by their damage stat and doubled for each player rank. This will apply to most player cast abilities going forward.
+-"Fire Timed Ability" functionality restored to many variants to ensure that their owners can cast abilities without being hit or dealing damage, and instead as soon as their cooldown is up and they have a target.
+-Wild Omega Max dinos now have a large particle effect making them easier to spot. 
+-NPC Chiefs and Omega Max dinos now count towards a player's Elite rank to alleviate some of the difficulty of finding appropriate minibosses. 
+-Fixed a bug preventing wild dinos from using Siren.
+-Omega tier NPCs can no longer spawn as Omega Max, preventing a lot of bugs that came with it. 
+-Mode 2 for Soul Distribution has been reworded to explain that a player must get the kill.
+-Mode 4 for Soul Distribution added, which works exactly the way it did in ASE and wild dinos killing other wild dinos can reward souls/essence to the area. 
+-Fixed the newbie buff duration not extending to 6 hours properly for new characters.
+
+Variant Changes:
+-Boogeyman no longer makes the rider go invisible at night.
+-Fixed the particle effect scaling on Boogeyman, and the sound attenuation settings from it's roar. 
+-Improved nightmare vision for all nightmare variants, with less grains, better colors, and no more strange blocks showing in the X-ray for creatures behind objects. 
+-Fixed many errors with how dimensional functions for water hiding. It should now be instant when riding instead of still trying to proc during ability casting. Also greatly improved how it affects server performance.
+-Absorbent health increase dropped from 5x to 4x, and melee damage increased from 20% to 25%. This is to help make other options for tanks look more viable in coming updates.
+-Harvesting now uses "buff modified damage", meaning it will benefit from bonuses to melee damage as well as ability damage.
+-Removed the 25% initial heal on Fairy, but restored its ability to drain torpor from itself and allies. 
+-Siren now slows players and unequips their weapon to provide them with some form of defense against players.
+-Since spectral is basically just an inferior version of Astral, it has been changed to Echo, a damaging ability similar to Frenzy that instead gives a stacking boost to Ability damage.
+-Elemental Ball projectiles are no longer affected by gravity.
+Early Game Unique Weapon Changes:
+-String Theory: Cosmic Grenades create Starfires changed to "Attacks against bosses can summon Starfire"
+-Soul Pact: Summons are Paragon X replaced with "Summons gain 10 paragon levels" to stack with Piper set bonuses.
+-Nitroglycerin: Self-Destruct unequips the boomstick bonus removed, and the stun duration increased from 1s to 3s. 
+-Kaleidoscope: Projectiles spawn slower, but fire in the direction that the boomerang was thrown instead of in random directions.
+-Kaleidoscope/Refraction: Elemental balls fired from the flying boomerang are now based on player ability damage and not a fraction of the weapon's base damage. 
+-Refraction: Reduced Refraction search range.
+-Fire Pact/Soul Pact: Minions kills now count towards the player's kills. 
+
+Early Game Set Item Changes:
+-Tempest: Chance on hit to create storm is now chance to create burst.
+-Soul Scream: "Astral Debuffs" changed to Weaken.
+
+Mid Game Set Item Changes:
+-Beyonder Supernova and Gamma-Ray are now the ASA versions, with updated damage calculations.
+
+Saddle Builder:
+-Detonate removed from the ability list, since its not actually an ability, and instead a debuff applied that causes Explosion.
+-Shield and Echo added as (ability) options. 
