@@ -1,6 +1,7 @@
 name: 🚀 Run Python Script and Deploy Changes to omagedex.info
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
