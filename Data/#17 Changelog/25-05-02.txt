@@ -1,0 +1,37 @@
+Ark Omega 05/02 Patch Notes:
+
+-Element Sickness can now proc from the AoE damage of Element Shards instead of only from direct hits by the shards. 
+-Fixed a bug that was causing affinity medallions and stat potions to not drop from bosses, masters, and minibosses.
+-Unique tokens are now capped at Elite tier.
+-Revived mythical group variants no longer provide rewards again.
+-Thunderstorm moved to the ability system.
+-Greatly reduced the volume on Boogeyman roar.
+-Fixed a bug with melee and ability damage reductions on saddles causing them to deal no damage at all.
+-Fixed a missing texture on Frenzy roar as the current one doesn't exist in the live-game files. 
+-Achatina has a new attack animation, which deals damage twice while attacking.
+-Yet more safety checks to prevent Detonate from causing occasional crashes. 
+-Wild Rampage variants no longer play the Rampage sound. 
+-The played Rampage sound is now a sound cue and will follow volume rules. 
+-Variants added by cursed saddles are now the same tier as the dino they're added to.
+-Fixed a bug causing getaway orb minions and piper NPC minions to be able to have the unique saddle buff. 
+-Quest scrolls can now be consumed while riding dinos.
+
+Unique Saddles: 
+-Fixed a bug causing Permanent Rampage to not work properly on unique saddles.
+-"Saddle Is Always Cursed" bonus now works properly. May not work on existing saddles.
+-Fixed a bug preventing unique saddles from showing in the species pages for their info.
+-Torpor regen bonuses no longer fill your torpor bar instead of draining it. 
+-Fixed minigun attack on Meganeura saddle not working properly.
+-Fixed multiple upgrade/reroll bugs on saddles preventing them from working properly.
+-Fixed a math error that was preventing the nearby item pickup bonus on saddles from working properly.
+-Fixed multiple bugs involving upgrading a rerolling saddles that could cause the custom item data to become misaligned. 
+-Fixed a bug caused by swapping unique saddles on a dino preventing the old bonuses from deactivating. 
+
+Saddle Builder:
+-Permanent Reactive now integrated into the (Permanent Buff) bonus and is functional.
+-Permanent Rampage is now a Permanent (Buff) option that is meant to allow permanent versions of channeled buffs. 
+-Options added to the Permanent (Buff) list: Rampage, Reactive, Thunderstorm, Reflect.
+-Fixed a bug causing only one submission at a time to show per species.
+-Fixed a bug with various "Echo" related bonuses not having a cost. 
+-Fixed the projectile list not having listed names for the Resource shards. 
+-Tweaked the cost of most ability multipliers to make some abilities much cheaper and some more expensive.

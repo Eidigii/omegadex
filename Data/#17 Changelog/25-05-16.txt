@@ -1,0 +1,48 @@
+Ark Omega 05/16 Patch Notes:
+
+General:
+-Fixed a bug preventing Eruption from working correctly.
+-Fixed a bug preventing Tracker from working correctly on servers.
+-All shard types can now be compressed in the quantum compactor.
+-Fixed the attack animation and functionality on Trilobite's melee attack.
+-Essence colors per tier for Essence variants fixed.
+-Fairy now has a 30 second cooldown instead of zero cooldown.
+-Saddle buff spawn chance (and saddle token drop chance) increased by 1000%.
+-Dodos and queen bees are no longer in the low rate spawn system, and will 100% be converted to Omega variants. 
+-Fixed the description on a lot of buffs showing as "Reflecting".
+-Fixed the functionality on culling strike to fix rewards not being given out correctly.
+-Basic tier kibble crafting requirements changed to align with Dodos no longer being low-rate spawns: Instead of 3 basic essence and 1 egg (of any kind), they now require 5 basic essence and no eggs.
+-Ichthyornis can no longer steal items that are not consumable, and will only be able to steal from each character once.
+-Resource variants will no longer produce resources once less than 10 inventory slots are full. 
+-Fixed a bug allowing resource dinos to produce resources in slots that they do not actually have.
+-Tames no longer have spyglass tags added to show their tier/group or species when unique to help reduce the amount of replicated data clogging up buffers.
+-Altar functionality massively overhauled to support new content.
+-Updated the "combinations" shown in the Altar. 
+-Fixed a bug causing some minions to disappear when summoned.
+
+30 New Uniques added from Hardcore Tournaments and all of the ASE alpha uniques were added to their base species.
+
+Quantum Storage System Introduced:
+---The quantum storage system is designed to be cloud-based infinite storage that removes the need for structures of any kind to store crafting materials. 
+---You can instantly compress/decompress stored resources from anywhere. 
+---This will remove the need for all dedicated storages and mods with their own pull system. 
+
+Quantum Storage Button Explanation:
+-Quantum storage buttons added to player inventory.
+-These buttons (and their functions):
+---Dimensional Sort Inventory: Pre-existing, this works almost the same as turning your inventory into a void vacuum, auto sorting anything in it that needs sorted.
+---Quantum Compress Personal Resources: This will instantly compress any resources in your inventory into personal storage. This storage takes up no weight and can travel across maps.
+---Quantum Compress Tribe Storage: This will instantly compress any resources into a tribe storage, accessible by all tribe members. This does NOT travel across maps.
+---Personal Quantum Pull Menu: This pulls up a list of your personal stored items for you to pull into your own inventory.
+---Tribe Quantum Pull Menu: This pulls up a list of your tribe's stored items for you to pull into your own inventory.
+---Pull To Repair: Clicking an item and then clicking this button will instantly pull the resources from storages and repair the item in one click. Without selecting an item, it will attempt to repair all items in your inventory.
+---Pull To Craft: Click an item and clicking this button will instantly pull the resources needed to craft this item from storages.
+
+Ark Omega 5/16 Hotfix Patch Notes:
+
+-Fixed a bug causing the minion tag to not be added to some minions, allowing Overlord to infinite-loop.
+-Fixed some odd bugs with the pull to craft and pull to repair. EDIT, IT IS STILL IGNORING AMOUNTS IN PERSONAL STORAGE, BUT NOT TRIBE STORAGE. 
+-Fixed a bug with the harvesting component on the Resource group variant to be invalid. 
+-Fixed a bug preventing the blue ring for Cosmic variants when using tracker from displaying correctly.
+-Fixed a bug with Tracker having client relevancy issues that could stop the icons from displaying correctly.
+-Fixed a bug with the Splintered debuff not able to increase stacks due to invalid damage type reference.

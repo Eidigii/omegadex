@@ -1,0 +1,36 @@
+Ark Omega 05/07 Patch Notes: 
+
+-Fixed Plague tornados on Gaia's Wrath not dealing damage.
+-Fixed Barrage not applying the correct stacks of Elemental Weakness.
+-Fixed the particle on Control being invisible.
+-Tracker added to the ability system.
+-Unique/Legendary net gun now use the tracker ability from the ability system, hopefully fixing the disconnects/crashes from firing the flare.
+-Edited how a lot of variables are handled to improve performance.
+-Most Summoning variants are now part of the ability system.
+-Significant memory improvements by improving how materials and skeletal mesh components are stored.
+-Fixed a lot of memory leaks from the Boogeyman and Ghost variants. 
+-Several new uniques added from tournament prizes and various requests.
+-Fixed an infinite loop crash with Detonate caused by players getting killed by wild enemies giving the detonate debuff.
+-Fixed a bug preventing Detonate explosions caused by players from dealing damage.
+-Fixed a bug preventing Eruption variants from functioning correctly.
+-Fixed a bug causing Rampage to have a 90 second duration, as it was supposed to be 30.
+-Fixed a bug causing the Yuty unique saddles to be saddle armor instead of Yuty saddles. 
+-Fixed a bug with meteor dropping all projectiles in one location.
+-Fixed the missing impact emitter on Meteor projectiles.
+-Fixed a bug causing meteor projectiles to stay in memory after impact. 
+-The Tempest NPCs now use the same ability system cast for the projectiles that Kaleidoscope and Refraction use. 
+
+Saddle Builder:
+-Many new abilities added to the (ability) options: Plague Tornado, Tracker, Hive, Overlord, Familiar, Cloner, Necromancer, Random, Companion, Warp
+-Fixed bugs with the permanent buff list not populating.
+-Fixed bugs with existing saddles not showing Permanent Rampage. 
+
+Variant Reworks:
+Fairy: Fairy heal can now be stacked up to 3 times. 
+Astral: Astral form now lasts 10 seconds instead of 30 and will also work on players. 
+Essence: Updated the colors of the essence variants to match ASA's color scheme for tiers. Also added new colors for all tiers, as there were only 9 until now instead of 12.
+Earthquake: 
+---No longer causes any kind of screen shake.
+---Spikes shoot from the ground damaging enemies and applying a new stacking debuff called Aftershock that increases all Nature damage taken.
+---Instead of being a channeled ability, the spikes now shoot from the ground instantly in the location of a number of targets based on Tier. Targets can be hit multiple times and the spikes do area damage.
+---Flyers can avoid the attack, but will get grounded.

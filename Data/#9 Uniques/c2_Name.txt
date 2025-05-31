@@ -1,6 +1,7 @@
 Eternal
 Wrath
 Adamantogar
+Fragnub
 Deep
 Undying
 Workaholic
@@ -19,12 +20,16 @@ Impulse
 Fallout
 MajorPayne
 Jawbreaker
+Warpath
 Ironhide
 Sodium
 Static
+Fin Diesel
 Firecracker
 Compfrey
 Gargoyle
+Heartbane
+Piggyback
 Opal
 Heatwave
 Salt
@@ -33,13 +38,16 @@ Silicate
 Pooh
 Frostbite
 Chernobyl
+Lesoanar
 Kenny
 AmyTheAmers
 TheD20
+Quackhead
 Feedback
 Rubber
 Ninja
 Rox
+Feastling
 Scarab
 Silent
 Dread
@@ -60,7 +68,9 @@ Mentor
 Elsa
 Dynamite
 Martyr
+Revenant
 Hindenburg
+Moby Dick
 Lootopleurodon
 Collider
 Mercury
@@ -68,6 +78,7 @@ Mammoroth
 Contamination
 Treant
 Sharknado
+Shiver
 Sloth
 LichKing
 Otis
@@ -76,11 +87,13 @@ Flash
 Octavia
 Shepherd
 Fragment
+Protostar
 Medic
 Whowie
 Coldsnap
 Nugget
 Revenous
+Potter
 Nest
 Fuel
 Bag-A-Lag
@@ -100,8 +113,11 @@ Surprise
 Debris
 Guten
 Dismay
+Doomsday
 Reptar
 Reel-Rex
+Calamity
+Andromeda
 Bulldozer
 PainTrain
 Pride
@@ -130,6 +146,7 @@ Greed
 Psycho
 Jester
 Koda
+Thermite
 Envy
 Seiya
 Mittens
@@ -142,6 +159,7 @@ Brood
 Fright
 Leonardo
 Cthulhu
+Ursula
 Abominable
 Aethersnow
 Novastrike
@@ -173,29 +191,38 @@ Sulfur
 Mermaid
 Smelt
 Bowzer
+Hellstorm
 Storm
 Spyro
 Raiden
 Riot
 Vash
+Juggernaut
 Kamikaze
 Zephyr
+Zyka
 Terror
-warp
+Billy
+Warp
 Viral
 Copycat
 Moltres
+Proven
 Polarity
 Gluttony
 Medusa
+Jörmungandr
 Ruin
+Bloody Tyrant
 Cancer
+Infernal
 Flocker
+Poultrygeist
 Radiation
 Splinter
 Alucard
+Haementeria Ghilianii
 MeanTeeth
-Daycare
 Hostrich
 Morgan
 Tortuga

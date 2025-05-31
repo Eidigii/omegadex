@@ -3,8 +3,8 @@
 Shield is a form of tanking, applying a buff to nearby allies that negates damage they take
 for a certain amount of hits.
 
-Pressing Prone (X) will create an expanding Tek Shield, pushing away enemies and
-protecting allies. Nothing can pass through the shield, not even projectiles.
+Pressing Prone (X) buff all nearby allies with the "shielded" buff, which negates all damage
+taken for an amount of hits based on the tier of the caster.
 
 -----
 Cooldown: 30s

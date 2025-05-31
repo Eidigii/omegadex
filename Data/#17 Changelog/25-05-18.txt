@@ -1,0 +1,15 @@
+Ark Omega 05/18 Patch Notes:
+
+-Quantum Compactor arrays will now automatically go into quantum tribe storage on server start, unless they don't belong to a tribe and they will attempt to go into their owning player's personal storage.
+-Fixed cloner and companion not having the right checks in place to prevent mass summoning from the new ability system.
+-Wild uniques can now be spawned through the admin panel.
+-Fixed a math error where resources in personal storage weren't counted for pull-to-craft/repair amounts.
+-Absorbent can now be toggled off through the multiuse wheel, but cannot be toggled by pressing X again while mounted.
+-Fixed a bug allowing absorbent buffs to stack.
+-Fixed a bug causing the absorbent bubble size to depend on what dino its attached to.
+-Unique saddle armor can no longer be equipped on the wrong species.
+-Unique saddle armor will now say "Unique" at the bottom of the icon.
+-Fixed a bug causing the "cull" bonus on unique saddles to infinite-loop.
+-Removed the generator capabilities from the red dwarf/blue star description.
+-Fixed a compile error on Hive that could cause the bees to not properly explode.
+-Fixed a relevancy issue taht was causing some issues with the tracker effect on tames.
