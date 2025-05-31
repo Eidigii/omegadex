@@ -1,6 +1,7 @@
 name: 🚀 Run Python Script and Deploy Changes to omagedex.info
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -35,3 +36,8 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/adgscape/**
+            **/.well-known/**
