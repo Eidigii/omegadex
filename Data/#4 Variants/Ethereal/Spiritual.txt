@@ -6,7 +6,7 @@ weight.
 
 -----
 Does not use stamina for movement.
-Weight Bonus: 1Ox
+Weight Bonus: 10x
 Speed Bonus: 2x
 
 Variant Information:
