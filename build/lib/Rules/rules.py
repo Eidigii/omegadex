@@ -214,7 +214,7 @@ class listRuleSet(RuleSet):
             line = line.strip()
             if not line:
                 continue
-            if key_value_pattern.match(line):
+            if key_value_pattern.match(line) and not re.fullmatch(r"\d{2}-\d{2}-\d{2}\.txt", file_name):
                 key, value = key_value_pattern.match(line).groups()
                 section_content.append(f'<span class="list-key">{key}:</span> <span class="list-value">{value}</span>')
             elif line.startswith('- ') or line.startswith('-'):

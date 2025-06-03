@@ -110,14 +110,22 @@ def process_txt(dir_path, config_file, rule_set_class_ref):
 
 base_dir = os.path.join(os.path.dirname(__file__), '../Data')
 dir_class_map = {
-    "#1 Welcome": (listRuleSet, 'list_config.json'), "#2 Getting Started": (listRuleSet, 'list_config.json'),
-    "#3 Progression Guide": (listRuleSet, 'list_config.json'), "#4 Variants": (VariantsRuleSet, 'variants_config.json'), 
-    "#5 Dinos": (DinosRuleSet, 'dinos_config.json'), "#6 Equipment": (listRuleSet, 'list_config.json'),
-    "#7 Bosses": (BossesRuleSet, 'bosses_config.json'), "#8 Items": (listRuleSet, 'list_config.json'),
-    "#10 Mating": (listRuleSet, 'list_config.json'), "#11 Paragons": (listRuleSet, 'list_config.json'),
-    "#12 NPCs": (listRuleSet, 'list_config.json'), "#13 Egg Chart": (listRuleSet, 'list_config.json'),
-    "#14 Saddle Creator": (saddleRuleSet, 'default_config.json'), "#15 FAQs": (FaqsRuleSet, 'faqs_config.json'),
-    "#16 Links": (defaultRuleSet, 'default_config.json'), "#17 Changelog": (listRuleSet, 'list_config.json'),
+    "#1 Welcome": (listRuleSet, 'list_config.json'), 
+    "#2 Getting Started": (listRuleSet, 'list_config.json'),
+    "#3 Progression Guide": (listRuleSet, 'list_config.json'), 
+    "#4 Variants": (VariantsRuleSet, 'variants_config.json'), 
+    "#5 Dinos": (DinosRuleSet, 'dinos_config.json'), 
+    "#6 Equipment": (listRuleSet, 'list_config.json'),
+    "#7 Bosses": (BossesRuleSet, 'bosses_config.json'), 
+    "#8 Items": (listRuleSet, 'list_config.json'),
+    "#10 Mating": (listRuleSet, 'list_config.json'), 
+    "#11 Paragons": (listRuleSet, 'list_config.json'),
+    "#12 NPCs": (listRuleSet, 'list_config.json'), 
+    "#13 Egg Chart": (listRuleSet, 'list_config.json'),
+    "#14 Saddle Creator": (saddleRuleSet, 'default_config.json'), 
+    "#15 FAQs": (FaqsRuleSet, 'faqs_config.json'),
+    "#16 Links": (defaultRuleSet, 'default_config.json'), 
+    "#17 Changelog": (listRuleSet, 'list_config.json'), 
 }
 
 if __name__ == "__main__":

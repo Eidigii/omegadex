@@ -26,10 +26,10 @@ Saddle Builder:
 -Fixed bugs with existing saddles not showing Permanent Rampage. 
 
 Variant Reworks:
-Fairy: Fairy heal can now be stacked up to 3 times. 
-Astral: Astral form now lasts 10 seconds instead of 30 and will also work on players. 
-Essence: Updated the colors of the essence variants to match ASA's color scheme for tiers. Also added new colors for all tiers, as there were only 9 until now instead of 12.
-Earthquake: 
+-Fairy: Fairy heal can now be stacked up to 3 times. 
+-Astral: Astral form now lasts 10 seconds instead of 30 and will also work on players. 
+-Essence: Updated the colors of the essence variants to match ASA's color scheme for tiers. Also added new colors for all tiers, as there were only 9 until now instead of 12.
+-Earthquake: 
 ---No longer causes any kind of screen shake.
 ---Spikes shoot from the ground damaging enemies and applying a new stacking debuff called Aftershock that increases all Nature damage taken.
 ---Instead of being a channeled ability, the spikes now shoot from the ground instantly in the location of a number of targets based on Tier. Targets can be hit multiple times and the spikes do area damage.
