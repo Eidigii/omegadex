@@ -3,16 +3,22 @@ Aspects are where things can get tricky. They each have one variant from each of
 gives them a wide variety of abilities. To summon one, put a Unique Group Master Soul into the Omega Beacon.
 
 Current Aspects and their variants:
+
 Aspect of Anarchy: Gamma-Ray, Fireburst, Teleporter, Resilient, Colossus, Banshee, Eruption, Uncontrollable,
 Stone, Random, Meltdown, Crafting
+
 Aspect of Eternity: Meteor, Windburst, Astral, Collective, Phoenix, Vampire, Tornado, Brutal, Obsidian,
 Necromancer, Self-Destructive, Harvesting
+
 Aspect of Exploitation: Comet, Lightningburst, Echo, Absorbent, Gorgon, Stalker, Thunderstorm, Rampage,
 Metal, Cloner, Detonate, Taming
+
 Aspect of Infection: Starfire, Earthburst, Warp, Shield, Pygmy, Zombie, Plague, Frenzy, Wood, Overlord,
 Explosive, Breeding
+
 Aspect of Madness: Singularity, Iceburst, Spiritual, Control, Siren, Boogeyman, Blizzard, Psychosis, Crystal,
 Familiar, Volatile, Farming
+
 Aspect of Void: Supernova, Waterburst, Dimensional, Reflective, Fairy, Ghost, Tsunami, Knockback, Pearl,
 Companion, Reactive, Tracker
 

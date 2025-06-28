@@ -1,0 +1,23 @@
+Unique Group Masters:
+Unique Group Masters are typically where the late-game starts. They take things significantly further than
+Group Masters. They have Group Variants, but 2 of them, and 10x the base stats of a Group master. To
+Summon one, put the 2 matching Group Masters Souls in the Omega Altar. Be warned, Unique Group Masters
+have 12 variant abilities and the fight can be visually intense.
+
+Current Unique Group Masters:
+-Apocalypse: Cosmic/Nature
+-Anima: Mythical/Summoner
+-Alchemy: Unstable/Elemental
+-Indestructus: Guardian/Resource
+-Infinity: Ethereal/Utilit
+-Sin: Nightmare/Rage
+
+Killing a Unique Group Master will drop a Unique Group Master Soul on the ground. The Group Master Soul can
+be used to rank up your tame to Ancient tier.
+
+You have choices from here.
+1. Feed the Soul to an Ultimate of a variant within the grousp of the Unique Group Master killed. This will rank it
+up to Ancient, doubling its stats.
+2. Place the Unique Group Master soul into the Omega Beacon to summon an Aspect.
+3. Place the Unique Group Master soul into the Altar with the 2 matching 7th variant Master souls from the
+same groups to summon the Perfect Unique Group Master.
