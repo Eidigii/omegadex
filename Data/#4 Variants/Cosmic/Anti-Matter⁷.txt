@@ -12,7 +12,7 @@ Applies a buff to allies that prevents Anti-Matter cooldown reset for 5 seconds.
 Applies a buff to enemies that prevents Anti-Matter cooldown trigger for 45 seconds.
 
 Variant Information:
-Spawn Chance: 00.09%
+Spawn Chance: 00.08%
 
 Other Information:
 Cooldown 1: 15.0

@@ -15,7 +15,7 @@ AOE Impact Radius: 3000 (10 Foundations)
 AOE Impact Damage: 100% of Ability Damage.
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 00.84%
 
 Other Information:
 Cooldown 1: 30.0

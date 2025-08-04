@@ -8,7 +8,7 @@ Unique Name: Vermivorous
 Variants: Overlord / Plague
 Spawn Weight: 1.0
 
-Unique Name: Aedes Aegypti
+Unique Name: AedesAegypti
 Variants: Colossus / Plague
 Spawn Weight: 1.0
 

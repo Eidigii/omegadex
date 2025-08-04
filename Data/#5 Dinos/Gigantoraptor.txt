@@ -12,6 +12,10 @@ Unique Name: Morgan
 Variants: Treasure / Obsidian
 Spawn Weight: 0.75
 
+Unique Name: Kialani
+Variants: Absorbent / Colossus
+Spawn Weight: 0.75
+
 Food Types:
 Raw Meat
 Cooked Meat

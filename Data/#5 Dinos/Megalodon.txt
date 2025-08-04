@@ -8,6 +8,10 @@ Unique Name: Sharknado
 Variants: Tornado / Dimensional
 Spawn Weight: 1.0
 
+Unique Name: Shiver
+Variants: Blizzard / Ghost
+Spawn Weight: 1.0
+
 Food Types:
 Raw Meat
 Cooked Meat

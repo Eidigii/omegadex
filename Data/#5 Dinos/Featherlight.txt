@@ -12,6 +12,10 @@ Unique Name: Zephyr
 Variants: Warp / Colossus
 Spawn Weight: 0.75
 
+Unique Name: Zyka
+Variants: Starfire / Colossus
+Spawn Weight: 0.5
+
 Food Types:
 Raw Meat
 Cooked Meat

@@ -9,6 +9,10 @@ Unique Name: Nidhogg
 Variants: Stalker / Volatile
 Spawn Weight: 1.0
 
+Unique Name: Grigori
+Variants: Colossus / Stalker
+Spawn Weight: 1.0
+
 Food Types:
 Raw Meat
 Cooked Meat

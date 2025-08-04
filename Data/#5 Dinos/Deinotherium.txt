@@ -1,0 +1,18 @@
+Name: Deinotherium
+Base Damage: 30
+Rarity Group Number: 2
+Paragon Shard Value: 9
+
+Uniques:
+
+Food Types:
+Amarberry
+Azulberry
+Tintoberry
+Mejoberry
+Base Veggie
+Sweet Vegetable Cake
+Beer Jar
+Cianberry
+Magenberry
+Verdberry

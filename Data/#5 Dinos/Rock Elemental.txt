@@ -9,6 +9,10 @@ Unique Name: Vash
 Variants: Absorbent / Self-Destructive
 Spawn Weight: 1.0
 
+Unique Name: Juggernaut
+Variants: Colossus / Armored
+Spawn Weight: 0.25
+
 Food Types:
 Clay
 Sulfur

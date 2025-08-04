@@ -1,3 +1,23 @@
+Welcome to Ark Omega Ascended! Before we begin, stop. The game can be played as is, but for the ideal gameplay experience, there
+are several (non-premium) mods that are run on official, and recommended for use with all installs.
+
+<h4>Recommended mods include:</h4>
+
+- a modded spyglass (Awesome, Super, Nanoh's, etc) for a quicklook indication of what kibble is needed to tame a dino, and how much of it.
+The Omega teleporter and dino storage mods — these are mods that were copied into discrete mods of their own from
+the ASE version of Omega.
+- An AOE drop collection mod such as Loot Grabber — Omega has quite a few drops that fall to the floor, and it's very nice to not have to run around
+mashing E on everything in sight.
+- A reusable item mod such as QOL+ or Nanoh's
+- A death inventory keeping mod is recommended as well, as Ark Omega Ascended is not intended to be played quite like vanilla ARK, but more like
+an ARPG such as Diablo or Path of Exile. Best mod for that is "Inventory Backup Saver" with GameUserSettings.ini addition:<br> 
+<span style="color:lightblue">[InventorySaver]</span><br>
+<span style="color:lightblue">ReturnItems=True</span>
+- Stack mods are convenient, but use caution — some of them change items such as meat, which can cause your Ark Omega Ascended dinos to not
+eat the altered items properly.
+
+Now that you've got your install squared away, let's look at getting started.
+
 <h3>New character? First time playing? Here are the things you need to know immediately.</h3>
 
 1.) You have a newbie buff, with a countdown timer in your buff list at the bottom right. This gives you damage reduction, increased magic find
@@ -5,7 +25,7 @@
 provoked. Make use of it, because once it wears out, they will come after you, and you cannot get the buff back.
 2.) You were given a number of starter items, make use of these for a much quicker start.
 -The Knockout Club deals much more torpor than a regular club.
--The Gathering Tool works as a Metal Hatchet and Metal Pick. Middle mouse button to switch modes.
+-The Gathering Tool works as a Metal Hatchet and Metal Pick. Toggle weapon attachment button to switch modes.
 -The Gathering Sickle works the same as using your hands to harvest, but at 7x the rate.
 
 <h4>The things you should focus on first:</h4>

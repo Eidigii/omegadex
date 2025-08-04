@@ -1,0 +1,7 @@
+Ark Omega 06/07 Patch Notes: 
+
+-Fixed a crash related to the Meganeura.
+-Fixed a problem with many species not being able to be KO tamed.
+-Temporarily disabled imprint/mating boost bonuses on Unique Saddles (they will be changed/improved/reactivated soon).
+-Changed the way Cloner works in an attempt to prevent unnecessary lag and interaction complications.
+-Fixed an immortality bug.

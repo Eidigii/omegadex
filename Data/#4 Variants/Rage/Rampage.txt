@@ -10,7 +10,7 @@ Rampage meter, which increases with every attack, and decreases if time goes by 
 dealing damage. The % displayed is how much attack damage is increased.
 
 -----
-Cooldown: 60x
+Cooldown: 60s
 Stamina Cost: 10%
 Rampage Duration: 30s
 Maximum Rampage: 500%
@@ -20,7 +20,7 @@ Time before Rampage Decay: 3s
 Percent Rampage decrease per second: 0.5s
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 00.84%
 
 Other Information:
 Cooldown 1: 60.0

@@ -1,7 +1,7 @@
 Crafting Requirements:
-Metal: 10.0
-Wood: 20.0
-Fiber: 10.0
+Metal: 10
+Wood: 20
+Fiber: 10
 
 Can Only Be Crafted At: Omega Workbench
 

@@ -12,13 +12,17 @@ Unique Name: Fallout
 Variants: Meteor / Reactive
 Spawn Weight: 0.5
 
-Unique Name: Major Payne
+Unique Name: MajorPayne
 Variants: Stalker / Gorgon
 Spawn Weight: 0.75
 
 Unique Name: Jawbreaker
 Variants: Colossus / Spiritual
 Spawn Weight: 1.0
+
+Unique Name: Warpath
+Variants: Warp / Rampage
+Spawn Weight: 0.5
 
 Food Types:
 Raw Meat

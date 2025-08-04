@@ -8,7 +8,7 @@ Unique Name: Dryad
 Variants: Reflect / Fairy
 Spawn Weight: 1.0
 
-Unique Name: Chesty Puller
+Unique Name: ChestyPuller
 Variants: Supernova / Obsidian
 Spawn Weight: 0.5
 

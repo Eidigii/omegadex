@@ -1,3 +1,3 @@
 Crafting Requirements:
-Paragon Soul: 1.0
-Gamma Essence: 100.0
+Paragon Soul: 1
+Gamma Essence: 100

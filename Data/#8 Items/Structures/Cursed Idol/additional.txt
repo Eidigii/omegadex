@@ -1,7 +1,7 @@
 Crafting Requirements:
-Nightmare Soul: 50.0
-Hide: 30.0
-Elite Essence: 10.0
+Nightmare Soul: 50
+Hide: 30
+Elite Essence: 10
 
 Can Only Be Crafted At: Omega Workbench
 

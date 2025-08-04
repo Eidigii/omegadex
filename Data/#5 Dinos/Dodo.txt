@@ -16,6 +16,10 @@ Unique Name: The D20
 Variants: Loot / Self-Destructive
 Spawn Weight: 0.5
 
+Unique Name: Quackhead
+Variants: Overlord / Colossus
+Spawn Weight: 0.5
+
 Food Types:
 Amarberry
 Azulberry

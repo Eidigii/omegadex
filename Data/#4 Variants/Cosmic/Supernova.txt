@@ -13,7 +13,7 @@ Supernova Radius: 3000 (10 Foundations)
 Stun Length: 2s
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 00.84%
 
 Other Information:
 Cooldown 1: 15.0

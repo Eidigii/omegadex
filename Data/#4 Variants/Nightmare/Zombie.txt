@@ -14,7 +14,7 @@ Nighttime Speed Bonus: 50%
 Zombie Minion Duration: 25s
 
 Variant Information:
-Spawn Chance: 02.55%
+Spawn Chance: 02.53%
 
 Other Information:
 Cooldown 1: 0.0

@@ -56,6 +56,7 @@ Equus
 Unicorn
 Unicorn
 Eurypterid
+Eurypterid
 Titanomyrma Soldier
 Titanomyrma Soldier
 Gallimimus
@@ -187,6 +188,7 @@ DodoRex
 Dragon
 Dragon
 Dodo Wyvern
+Dodo Wyvern
 Oil Jug Bug
 Water Jug Bug
 Fire Wyvern
@@ -201,6 +203,7 @@ Rock Elemental
 Featherlight
 Featherlight
 Featherlight
+Shinehorn
 Shinehorn
 Shinehorn
 Glowtail
@@ -218,6 +221,7 @@ Karkinos
 Karkinos
 Murder Turkey
 Murder Turkey
+Murder Turkey
 Rock Drake
 Roll Rat
 Lamprey
@@ -225,4 +229,7 @@ Lamprey
 Xiphactinus
 Gigantoraptor
 Gigantoraptor
+Gigantoraptor
 Archelon
+Cat
+Deinosuchus

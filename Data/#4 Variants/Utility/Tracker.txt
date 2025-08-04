@@ -13,7 +13,7 @@ Tracking Radius Per Tier: 3900 (13 Foundations)
 Notification is provided when a Unique is found.
 
 Variant Information:
-Spawn Chance: 00.43%
+Spawn Chance: 00.42%
 
 Other Information:
 Cooldown 1: 30.0

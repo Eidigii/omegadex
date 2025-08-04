@@ -1,0 +1,7 @@
+Quantum Crafting will let you use the inventory button to craft items using materials directly from your Quantum
+Storage.
+
+Select an engram or blueprint in your personal or a remote inventory to be crafted, and use the text box to the left of
+the quantum buttons to enter in how many you would like to craft. If no number is entered, it will default to 1.
+
+The priority for material pulls is Tribe Storage, then Personal Storage, then your personal inventory.

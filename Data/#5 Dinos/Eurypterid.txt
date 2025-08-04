@@ -8,6 +8,10 @@ Unique Name: Host
 Variants: Siren / Necromancer
 Spawn Weight: 1.0
 
+Unique Name: Horn Of Jericho
+Variants: Banshee / Earthquake
+Spawn Weight: 0.25
+
 Food Types:
 Amarberry
 Azulberry

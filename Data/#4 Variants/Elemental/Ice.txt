@@ -12,7 +12,7 @@ Projectile Damage: lx Attack Damage
 Projectile Effect: Slows and eventually freezes targets.
 
 Variant Information:
-Spawn Chance: 01.28%
+Spawn Chance: 01.27%
 
 Other Information:
 Cooldown 1: 3.0

@@ -17,7 +17,7 @@ Fissure Damage: 100% of Ability Damage dealt as a random Nature damage type.
 No Limit to the number of fissures within range.
 
 Variant Information:
-Spawn Chance: 00.09%
+Spawn Chance: 00.08%
 
 Other Information:
 Cooldown 1: 30.0

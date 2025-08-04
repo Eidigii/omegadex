@@ -1,0 +1,16 @@
+Name: Cat
+Base Damage: 10
+Rarity Group Number: 10
+Paragon Shard Value: 1
+
+Uniques:
+Unique Name: Saber
+Variants: Anti-Matter / Singularity
+Spawn Weight: 1.0
+
+Food Types:
+Raw Meat
+Cooked Meat
+Cooked Prime Meat
+Raw Prime Meat
+Wyvern Milk

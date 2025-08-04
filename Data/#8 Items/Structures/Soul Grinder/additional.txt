@@ -1,7 +1,7 @@
 Crafting Requirements:
-Utility Soul: 10.0
-Elite Essence: 30.0
-Metal: 250.0
+Utility Soul: 10
+Elite Essence: 30
+Metal: 250
 
 Can Only Be Crafted At: Omega Workbench
 

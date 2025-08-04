@@ -8,3 +8,9 @@ Uniques:
 Unique Name: Arachnophobia
 Variants: Overlord / Psychosis
 Spawn Weight: 1.0
+
+Food Types:
+Raw Meat
+Cooked Meat
+Cooked Prime Meat
+Raw Prime Meat

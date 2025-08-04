@@ -1,0 +1,17 @@
+Name: Leechicurus
+Base Damage: 39
+Rarity Group Number: 0
+Paragon Shard Value: 0
+
+Uniques:
+
+Food Types:
+Amarberry
+Azulberry
+Tintoberry
+Mejoberry
+Base Veggie
+Sweet Vegetable Cake
+Cianberry
+Magenberry
+Verdberry

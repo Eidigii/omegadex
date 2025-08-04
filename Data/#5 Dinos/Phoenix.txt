@@ -8,6 +8,10 @@ Unique Name: Moltres
 Variants: Fire / Eruption
 Spawn Weight: 1.0
 
+Unique Name: Proven
+Variants: Colossus / Iceburst
+Spawn Weight: 0.5
+
 Food Types:
 Sulfur
 

@@ -1,0 +1,6 @@
+The Quantum Storage system can unlock loot chests for you automatically using stored essence.
+
+If you do not have enough essence in your personal inventory, you'll be given the option to attempt to use your
+Quantum Storage.
+
+The priority for material pulls is Tribe Storage, then Personal Storage, then your personal inventory.

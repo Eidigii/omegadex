@@ -8,6 +8,10 @@ Unique Name: Dismay
 Variants: Meteor / Random
 Spawn Weight: 1.0
 
+Unique Name: Doomsday
+Variants: Colossus / Stalker
+Spawn Weight: 0.5
+
 Food Types:
 Raw Meat
 Cooked Meat

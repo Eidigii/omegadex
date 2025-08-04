@@ -15,7 +15,7 @@ Gamma-Ray Height: 6000 (20 Foundations)
 Gamma-Ray Damage: 50% of Ability Damage Every 1/2 Second as Reactive Damage.
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 00.84%
 
 Other Information:
 Cooldown 1: 30.0

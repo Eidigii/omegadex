@@ -1,0 +1,13 @@
+Name: Pulmonoscorpius
+Base Damage: 20
+Rarity Group Number: 7
+Paragon Shard Value: 4
+
+Uniques:
+Unique Name: Sandman
+Variants: Gorgon / Taming
+Spawn Weight: 1.0
+
+Food Types:
+Spoiled Meat
+Raw Meat

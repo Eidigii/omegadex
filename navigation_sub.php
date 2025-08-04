@@ -6,7 +6,7 @@ function readDirectorySubNav_V612($dir, $currentDirNameForSort = '') { // Rename
     $result_map = []; 
     $result_list = []; 
     // CORRECTED FOLDER NAME CHECK:
-    $is_changelog_dir_flag = (strtolower($currentDirNameForSort) == strtolower("#17 Changelog")); // Use #17
+    $is_changelog_dir_flag = (strtolower($currentDirNameForSort) == strtolower("#18 Changelog")); // Use #18
 
     if (!is_dir($dir)) { 
         // echo "<!-- DEBUG: V612 readDirectorySubNav - DIR NOT FOUND: $dir -->\n";

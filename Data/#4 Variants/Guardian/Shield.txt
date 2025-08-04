@@ -12,7 +12,7 @@ Stamina Cost: 25%
 Radius: 2400 (8 Foundations)
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 00.84%
 
 Other Information:
 Cooldown 1: 30.0

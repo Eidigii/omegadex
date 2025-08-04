@@ -12,6 +12,14 @@ Unique Name: Reel-Rex
 Variants: Water / Supernova
 Spawn Weight: 1.0
 
+Unique Name: Calamity
+Variants: Colossus / Cursed
+Spawn Weight: 0.5
+
+Unique Name: Andromeda
+Variants: Gamma-Ray / Soul
+Spawn Weight: 0.5
+
 Food Types:
 Raw Meat
 Cooked Meat

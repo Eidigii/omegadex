@@ -1,0 +1,19 @@
+Name: Pteranodon
+Base Damage: 15
+Rarity Group Number: 8
+Paragon Shard Value: 3
+
+Uniques:
+Unique Name: Bolt
+Variants: Lightning / Spiritual
+Spawn Weight: 1.0
+
+Unique Name: Typhoid
+Variants: Plague / Zombie
+Spawn Weight: 0.5
+
+Food Types:
+Raw Meat
+Cooked Meat
+Cooked Prime Meat
+Raw Prime Meat

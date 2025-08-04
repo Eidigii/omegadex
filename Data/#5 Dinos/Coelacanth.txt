@@ -8,6 +8,10 @@ Unique Name: Static
 Variants: Wind / Lightning
 Spawn Weight: 1.0
 
+Unique Name: Fin Diesel
+Variants: Gorgon / Loot
+Spawn Weight: 0.5
+
 Food Types:
 Raw Meat
 Cooked Meat

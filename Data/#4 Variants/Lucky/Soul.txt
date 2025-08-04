@@ -14,7 +14,7 @@ Number of souls dropped: Paragon Shard Value x Tier X 10.
 Does not provide Souls when tamed.
 
 Variant Information:
-Spawn Chance: 00.26%
+Spawn Chance: 00.42%
 
 Other Information:
 Cooldown 1: 0.0

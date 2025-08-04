@@ -1,7 +1,7 @@
 Crafting Requirements:
-Metal Ingot: 20.0
-Mythical Soul: 3.0
-Basic Essence: 15.0
+Metal Ingot: 20
+Mythical Soul: 3
+Basic Essence: 15
 
 Can Only Be Crafted At: Omega Workbench
 

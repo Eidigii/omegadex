@@ -12,7 +12,7 @@ Unique Name: Dawson
 Variants: Colossus / Uncontrollable
 Spawn Weight: 0.5
 
-Unique Name: Moira Rose
+Unique Name: MoiraRose
 Variants: Dimensional / Detonate
 Spawn Weight: 1.0
 

@@ -13,7 +13,7 @@ AOE radius: 600 (2 foundations)
 Chance to Teleport when hit: 33%
 
 Variant Information:
-Spawn Chance: 02.55%
+Spawn Chance: 02.53%
 
 Other Information:
 Cooldown 1: 2.0

@@ -1,0 +1,11 @@
+Name: Karkinite
+Base Damage: 56
+Rarity Group Number: 0
+Paragon Shard Value: 0
+Raid Torpor: Can only take torpor from raid torpor sources.
+
+Uniques:
+
+Food Types:
+Spoiled Meat
+Raw Meat

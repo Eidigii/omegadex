@@ -1,35 +1,13 @@
-Welcome, once again, to Ark Omega Ascended! Before we begin, stop. The game can be played as is, but for the ideal gameplay experience, there
-are several (non-premium) mods that are run on official, and recommended for use with all installs.
-
-<h4>Recommended mods include:</h4>
-
-- a modded spyglass (Awesome, Super, Nanoh's, etc) for a quicklook indication of what kibble is needed to tame a dino, and how much of it.
-The Omega teleporter and dino storage mods, as well as the egg collector — these are mods that were copied into discrete mods of their own from
-the ASE version of Omega.
-- An AOE drop collection mod such as Loot Grabber — Omega has quite a few drops that fall to the floor, and it's very nice to not have to run around
-mashing E on everything in sight.
-- A reusable item mod such as QOL+ or Nanoh's
-- A pulling system such as QOL+, Pulllt! Or Automated Ark is very helpful.
-- A death inventory keeping mod is recommended as well, as Ark Omega Ascended is not intended to be played quite like vanilla ARK, but more like
-an ARPG such as Diablo or Path of Exile.
-- Stack mods are convenient, but use caution — some of them change items such as meat, which can cause your Ark Omega Ascended dinos to not
-eat the altered items properly.
-
-Now that you've got your install squared away, let's look at getting started
-
 When you first spawn in, you'll notice you have a buff on your character and some neat new tools in your inventory. The buff is the Ark Omega
 newbie buff, which lasts for 10,000 seconds (slightly less than 3 hours), increases your Ark Omega rare item drop rate, gives you 90% damage
 mitigation, and massively reduces your aggro radius, allowing you to dodge most enemy dinos. The gathering tool functions as both a metal axe
 and metal pick — you can switch between the two by pressing the "Change Weapon Attachment" button. The knockout club delivers little damage
 but heavy torpor and occasional stun, useful for knocking out your first tames. The gathering sickle gathers anything you could gather by hand (e.g.
-berries, seeds, fiber) in a wide radius. It's recommended to equip all these tools to your hotbar first thing
+berries, seeds, fiber) in a wide radius. It's recommended to equip all these tools to your hotbar first thing.
 
 And now you can get started in earnest! Your first goal is to acquire the material for an omega workbench, which is a level one engram, craftable in
-your inventory. Ideally you'll also make an imbue workbench, with more of the same materials, for later. Then you can get to work getting the
-materials for your egg collector (if using as recommended), and then you can get to work knocking out dodos. If you have the egg collector, just
-females are fine — you can upload them and the egg collector will produce eggs according to your server egg laying rate setting. Otherwise you'll
-want a male too, as dinos need to be mate-boosted to lay eggs. Next, you'll want to make your kibble machine, a level six engram which is crafted in
-the omega workbench.
+your inventory. Ideally you'll also make an imbue workbench, with more of the same materials, for later. Next, you'll want to make your kibble machine, 
+a level six engram and your egg collector, a level twelve engram both crafted in the omega workbench.
 
 Now that you have your basic amenities built and perhaps have a little starter base to place them in, you need to begin killing things. You need
 souls and essence to make kibble to tame creatures for progression, and those only come from killing creatures with tiers and variants. If you have
@@ -47,21 +25,25 @@ as well as a primitive reflect shield in the omega workbench, then place them al
 essence you put in the workbench from the list, and click "imbue all" to give this gear some random stats when you wear it. This is very helpful
 early-game, before you've started getting gear drops.
 
-Once you have at least one soul (such as a mythical soul) and five basic essence, as well as some raw meat, a dodo egg and some mejoberries, you
-can look into crafting your first kibble. Be warned: getting your first dino in Omega is not actually a power boost like it is in vanilla; you're going to
-do more damage than your early tames, and (while you have the newbie buff) you're also going to take less damage than they do. Ideally you'll just
+Make use of your newbie buff and kill as many wild dinosaurs as you can to get drops and level up your player rank. Taming dinosaurs can wait until
+the buff runs out.
+
+Once you are ready to start taming, you need at least one soul (such as a mythical soul), five basic essence, as well as some raw meat and some 
+mejoberries to craft your first basic kibble in the kibble machine. Knock out basic tier dinosaurs and tame them using the corresponding kibble. 
+For egg collector, just females are fine — you can upload them and the egg collector will produce eggs according to Egg Collector Generation Rate 
+changeable in the Omegadex Admin section. Otherwise you'll want a male too, as dinos need to be mate-boosted to lay eggs.
+
+Be warned - getting your first dino in Omega is not actually a power boost like it is in vanilla. You're going to
+do more damage than your early tames and (while you have the newbie buff) you're also going to take less damage than they do. Ideally you'll just
 tame one single-kibble female creature of each variant and tier up until elite, and keep them for egg production, rather than combat.
 
 <h4>So, to summarize getting started.</h4>
 
-- Gather until you can craft your Omega Workbench (and optionally your Imbue Workbench)
-- Find a safe place to set up a starter base, ideally away from dino spawns
-- Use your Omega Workbench to craft a Kibble Machine
-- Use your Knockout Club and Gathering Sickle to knock out and acquire berries to tame some dodos, which are one of a select few dinos in Ark
-Omega that don't always spawn with variants.
-- Kill wild dinos for souls and essence while your tamed dodos lay eggs. (Crafting an Ethereal Spear and imbuing some armor will make this step
+- Gather until you can craft your Omega Workbench (and optionally your Imbue Workbench).
+- Find a safe place to set up a starter base, ideally away from dino spawns.
+- Use your Omega Workbench to craft a Kibble Machine and Egg Collector.
+- Kill wild dinos for souls, essence and loot drops to get stronger. (Crafting an Ethereal Spear and imbuing some armor will make this step
 easier and faster!)
-- Once you have an egg, a soul, and some basic essence, you're on your way to making your first basic kibble, which you can use to tame a basic
-dino with a variant.
+- Use your Knockout Club and Gathering Sickle to knock out and tame some basic tier dinos.
 
 Once you've done all of this, you're officially on your way in the early game — congratulations!

@@ -1,0 +1,2 @@
+The Beacon system has not yet been implemented, but will give you a simple way of pulling items into summoning
+structures directly from the qauntum storage system.

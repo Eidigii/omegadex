@@ -9,7 +9,7 @@ Current Unique Group Masters:
 -Anima: Mythical/Summoner
 -Alchemy: Unstable/Elemental
 -Indestructus: Guardian/Resource
--Infinity: Ethereal/Utilit
+-Infinity: Ethereal/Utility
 -Sin: Nightmare/Rage
 
 Killing a Unique Group Master will drop a Unique Group Master Soul on the ground. The Group Master Soul can

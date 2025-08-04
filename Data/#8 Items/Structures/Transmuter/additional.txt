@@ -1,0 +1,7 @@
+Crafting Requirements:
+Utility Soul: 10
+Stat Potion: 10
+Metal Ingot: 100
+Basic Essence: 500
+
+Can Only Be Crafted At: Omega Workbench

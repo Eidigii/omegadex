@@ -14,7 +14,7 @@ All Incoming Damage Reduced By 75%.
 All Outgoing Melee Damage Is Increased By 300%.
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 00.84%
 
 Other Information:
 Cooldown 1: 60.0

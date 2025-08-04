@@ -1,0 +1,17 @@
+Ark Omega 06/18 Patch Notes: 
+
+Bug Fixes: 
+-Fixed some egg related issues with originally gestating dinos.
+-Fixed an issue with quests no longer being completed due to Wildcard removing functionality of the event I was using to trigger the completions.
+-Fixed a problem with Ovis giving so many resources when harvesting their corpses, causing servers to crash.
+-Fixed a loophole that could prevent Lucky dinos from being able to tier up using unique group master souls.
+-Fixed an issue with the absorbent bubble being visually twice as large as intended.
+-Fixed a bug preventing blacklist and stat potion search bars from working.
+-Fixed a bug causing some things to go into the wrong storage. 
+-Fixed a bug preventing the Echo buff from stacking properly. 
+
+Other: 
+-Updated the progression guide to remove the text about taming vanilla dodos for eggs. 
+-Quantum Compactor compressing functionality removed. Void Vacuum will automatically compress to tribe storage (or personal, if not in a tribe).
+-Updated description on Soul Pact to say "Summoner" instead of "Rider".
+-Updated the tooltip for each of the quantum system buttons to better describe what they do.

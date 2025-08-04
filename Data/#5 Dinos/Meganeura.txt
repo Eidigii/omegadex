@@ -12,6 +12,10 @@ Unique Name: Rox
 Variants: Overlord / Warp
 Spawn Weight: 0.5
 
+Unique Name: Feastling
+Variants: Overlord / Ghost
+Spawn Weight: 0.5
+
 Food Types:
 Raw Meat
 Cooked Meat

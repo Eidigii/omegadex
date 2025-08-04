@@ -8,6 +8,10 @@ Unique Name: Hindenburg
 Variants: Dimensional / Self-Destructive
 Spawn Weight: 1.0
 
+Unique Name: Moby Dick
+Variants: Absorbent / Pearl
+Spawn Weight: 1.0
+
 Food Types:
 Raw Meat
 Cooked Meat

@@ -1,8 +1,8 @@
 Crafting Requirements:
-Cosmic Soul: 10.0
-Alpha Essence: 50.0
-Metal Ingot: 100.0
-Crystal: 10.0
+Cosmic Soul: 10
+Alpha Essence: 50
+Metal Ingot: 100
+Crystal: 10
 
 Can Only Be Crafted At: Omega Workbench
 

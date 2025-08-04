@@ -1,0 +1,10 @@
+Personal Quantum Storage is your character's very own quantum storage. This is only accessible by your player, and
+will travel across maps with you.
+
+Please note that this storage system isn't quite as reliable as the Tribe storage, although there is an automated backup
+system that will restore your data to you if it is lost. If you travel maps and find that you've lost your storage, travel
+back to the previous map to have it all restored. Quests, Rank, and Personal Storage are all saved in the same system,
+so its impossible to lose one without the other.
+
+When it comes to pulling from your personal storage for more automated options like repairing, crafting, or unlocking
+chests, Personal Storage is 2nd in priority behind tribe storage.

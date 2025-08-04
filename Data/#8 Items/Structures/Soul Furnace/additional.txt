@@ -1,9 +1,9 @@
 Crafting Requirements:
-Metal Ingot: 100.0
-Stone: 1000.0
-Cementing Paste: 100.0
-Resource Soul: 30.0
-Alpha Essence: 30.0
+Metal Ingot: 100
+Stone: 1000
+Cementing Paste: 100
+Resource Soul: 30
+Alpha Essence: 30
 
 Can Only Be Crafted At: Omega Workbench
 

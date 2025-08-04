@@ -1,0 +1,16 @@
+Name: Spinego
+Base Damage: 92
+Rarity Group Number: 0
+Paragon Shard Value: 0
+
+Uniques:
+
+Food Types:
+Raw Fish Meat
+Cooked Fish Meat
+Cooked Prime Fish Meat
+Raw Prime Fish Meat
+Raw Meat
+Cooked Meat
+Cooked Prime Meat
+Raw Prime Meat

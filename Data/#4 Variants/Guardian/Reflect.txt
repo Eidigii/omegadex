@@ -11,7 +11,7 @@ Duration: 30s
 Damage Reflected: 100% of Damage Taken.
 
 Variant Information:
-Spawn Chance: 02.13%
+Spawn Chance: 02.11%
 
 Other Information:
 Cooldown 1: 60.0

@@ -11,7 +11,7 @@ Reactive AOE Damage: 100% of Attack Damage Per Second
 Reactive AOE Radius: 1500 (5 Foundations)
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 00.84%
 
 Other Information:
 Cooldown 1: 0.0

@@ -8,6 +8,10 @@ Unique Name: Ruin
 Variants: Familiar / Psychosis
 Spawn Weight: 1.0
 
+Unique Name: Bloody Tyrant
+Variants: Overlord / Uncontrollable
+Spawn Weight: 0.5
+
 Food Types:
 Raw Meat
 Cooked Meat

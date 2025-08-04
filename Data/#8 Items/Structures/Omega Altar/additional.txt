@@ -1,9 +1,9 @@
 Crafting Requirements:
-Basic soul: 500.0
-Delta Essence: 100.0
-Stone: 2500.0
-Black Pearl: 100.0
-Cementing Paste: 500.0
+Basic soul: 500
+Delta Essence: 100
+Stone: 2500
+Black Pearl: 100
+Cementing Paste: 500
 
 Can Only Be Crafted At: Omega Workbench
 

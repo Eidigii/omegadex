@@ -9,7 +9,7 @@ Incoming Damage = Damage * Health Percent.
 Melee and Ability Damage = 3 * Health Percent.
 
 Variant Information:
-Spawn Chance: 00.09%
+Spawn Chance: 00.08%
 
 Other Information:
 Cooldown 1: 0.0

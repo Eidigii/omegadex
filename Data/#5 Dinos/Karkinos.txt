@@ -9,6 +9,10 @@ Unique Name: Cancer
 Variants: Plague / Banshee
 Spawn Weight: 1.0
 
+Unique Name: Infernal
+Variants: Meteor / Eruption
+Spawn Weight: 1.0
+
 Food Types:
 Spoiled Meat
 Raw Meat

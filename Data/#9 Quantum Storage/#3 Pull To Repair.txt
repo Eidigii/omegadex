@@ -1,0 +1,6 @@
+Quantum Repairing will let you use the inventory button to repair items directly from your Quantum Storage.
+
+If you don't select any items, the repair button will attempt to repair all items in your personal inventory. Otherwise, you
+can select an item in your inventory, or a remote inventory to be repaired if you're just looking to fix a single item.
+
+The priority for material pulls is Tribe Storage, then Personal Storage, then your personal inventory.

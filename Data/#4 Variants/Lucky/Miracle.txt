@@ -14,7 +14,7 @@ Dodge Chance: 90%
 Does not create Miracles when tamed.
 
 Variant Information:
-Spawn Chance: 00.21%
+Spawn Chance: 00.42%
 
 Other Information:
 Cooldown 1: 0.0

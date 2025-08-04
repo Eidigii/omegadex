@@ -11,7 +11,7 @@ Projectile Damage: lx Ability Damage
 Tick Damage: 25% of Ability Damage Per Tick as Earth Damage (Blinding/Slow) for 4 ticks.
 
 Variant Information:
-Spawn Chance: 01.28%
+Spawn Chance: 01.27%
 
 Other Information:
 Cooldown 1: 3.0

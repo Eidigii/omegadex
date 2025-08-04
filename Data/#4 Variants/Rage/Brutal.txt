@@ -11,7 +11,7 @@ Bleed Damage Decay starts at 4 seconds and reduces by 25% of Abiilty Damage Ever
 Seconds.
 
 Variant Information:
-Spawn Chance: 01.7%
+Spawn Chance: 01.69%
 
 Other Information:
 Cooldown 1: 60.0

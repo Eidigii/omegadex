@@ -28,7 +28,7 @@ or very unlucky, you may find that this chest has a guardian. At a low chance, w
 megapithecus, broodmother, manticore, dodorex or dodowyvern, with a tier and a variant. These are very dangerous and require either the unique or
 legendary warp bow, metal knockout arrows with a compound bow, or a creature with the "Infinite" variant, to knock them unconscious. (This is
 also the case for certain other high tier creatures, like giganotosauruses or rock elementals. This torpor mechanic is specifically called "Raid
-torpor" )
+torpor")
 
 As you progress through the world, there are some things it'll be very helpful to you to find. You'll want to kill cosmic dinos wherever you can for the
 chance of them dropping a unique or legendary warp bow and its armor set, gravity, you'll want to accumulate a gear set and weapon to kill things

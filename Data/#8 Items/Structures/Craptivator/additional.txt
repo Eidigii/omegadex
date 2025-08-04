@@ -1,8 +1,8 @@
 Crafting Requirements:
-Wood: 50.0
-Thatch: 100.0
-Unstable Soul: 3.0
-Basic Essence: 15.0
+Wood: 50
+Thatch: 100
+Unstable Soul: 3
+Basic Essence: 15
 
 Can Only Be Crafted At: Omega Workbench
 

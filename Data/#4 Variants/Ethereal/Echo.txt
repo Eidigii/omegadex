@@ -13,7 +13,7 @@ Ability Damage Buff: 2x
 Max Stacks: 3
 
 Variant Information:
-Spawn Chance: 02.13%
+Spawn Chance: 02.11%
 
 Other Information:
 Cooldown 1: 15.0

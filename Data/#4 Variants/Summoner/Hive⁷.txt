@@ -18,7 +18,7 @@ Damage Dealt if Killed: 50% of Total Martyr Bee Ability Damage as Explosive Dama
 Explosion Radius: 900 (3 Foundations).
 
 Variant Information:
-Spawn Chance: 00.09%
+Spawn Chance: 00.08%
 
 Other Information:
 Cooldown 1: 30.0

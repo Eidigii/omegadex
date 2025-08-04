@@ -11,7 +11,7 @@ Max Pygmy Bonus: 30
 Pygmy Bonus Range: 1800 (6 Foundations)
 
 Variant Information:
-Spawn Chance: 01.7%
+Spawn Chance: 01.69%
 
 Other Information:
 Cooldown 1: 0.0

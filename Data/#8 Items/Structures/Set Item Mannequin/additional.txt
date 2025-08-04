@@ -1,8 +1,8 @@
 Crafting Requirements:
-Thatch: 500.0
-Wood: 80.0
-Fiber: 500.0
-Hide: 10.0
+Thatch: 500
+Wood: 80
+Fiber: 500
+Hide: 10
 
 The Set Mannequin is crafted in the omega workbench. It is a structure that automatically
 receives specific set items. The options to auto-store include each set, plus an option to take

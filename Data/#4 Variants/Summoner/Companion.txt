@@ -18,7 +18,7 @@ Companion Damage: 75 + Summoner's damage.
 Companion Damage Reduction: 50% against all sources.
 
 Variant Information:
-Spawn Chance: 01.28%
+Spawn Chance: 01.27%
 
 Other Information:
 Cooldown 1: 60.0

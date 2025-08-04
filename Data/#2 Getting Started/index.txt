@@ -15,7 +15,7 @@ club and sickle all in one.
 
 4. Next step is to craft a kibble station, used to craft every kibble in Ark Omega.
 
-5. You should begin by taming vanilla dinos for generic eggs required for basic kibbles, followed by basic tier dinos of each group to begin progression through the tiers.
-All dinos require mate boost to lay eggs when outside of an egg collector, with a more detailed explanation in the progression guide.
+5. You should begin by taming basic tier dinos of each group to begin progression through the tiers. All dinos require mate boost to lay eggs when outside of an egg
+collector, with a more detailed explanation in the progression guide.
 
 6. After these steps are complete, the progression guide tab is crucial to understanding Ark Omegas more complex features.

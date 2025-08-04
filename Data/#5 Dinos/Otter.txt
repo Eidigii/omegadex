@@ -16,6 +16,10 @@ Unique Name: Revenous
 Variants: Rampage / Pygmy
 Spawn Weight: 0.5
 
+Unique Name: Potter
+Variants: Colossus / Boogeyman
+Spawn Weight: 0.5
+
 Food Types:
 Raw Fish Meat
 Cooked Fish Meat

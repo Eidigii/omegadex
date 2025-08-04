@@ -4,7 +4,7 @@ Rarity Group Number: 5
 Paragon Shard Value: 6
 
 Uniques:
-Unique Name: Mean Teeth
+Unique Name: MeanTeeth
 Variants: Brutal / Pygmy
 Spawn Weight: 1.0
 

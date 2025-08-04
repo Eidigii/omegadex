@@ -17,7 +17,7 @@ Gas Cloud Radius: 1800 (6 Foundations)
 Gas Cloud Duration: 13 seconds
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 00.84%
 
 Other Information:
 Cooldown 1: 20.0

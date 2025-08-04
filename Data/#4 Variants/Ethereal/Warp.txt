@@ -15,7 +15,7 @@ Damage: 200% Of Ability Damage.
 Warp Damage is affected by buff damage changes.
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 00.84%
 
 Other Information:
 Cooldown 1: 15.0

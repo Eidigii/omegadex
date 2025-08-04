@@ -14,7 +14,7 @@ Chance To Drop Paragon: 100%
 Does not provide Paragons when tamed.
 
 Variant Information:
-Spawn Chance: 00.09%
+Spawn Chance: 00.17%
 
 Other Information:
 Cooldown 1: 0.0

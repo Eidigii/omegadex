@@ -23,7 +23,7 @@ Static Field Tick Damage: 20% of Ability Damage every 1/2 second.
 Lightning Strikes Ground Flyers
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 00.84%
 
 Other Information:
 Cooldown 1: 30.0

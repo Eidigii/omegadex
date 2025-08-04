@@ -12,6 +12,10 @@ Unique Name: Chernobyl
 Variants: Plague / Meltdown
 Spawn Weight: 0.5
 
+Unique Name: Lesoanar
+Variants: Thunderstorm / Brutal
+Spawn Weight: 0.5
+
 Food Types:
 Raw Meat
 Cooked Meat

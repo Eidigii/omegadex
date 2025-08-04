@@ -57,7 +57,7 @@ def generate_html(file_path, dir_param, rule_set_instance, template_param):
 
     final_html_output = ""
     try:
-        if dir_param.endswith("#14 Saddle Creator"): 
+        if dir_param.endswith("#15 Saddle Creator"): 
             final_html_output = rule_set_instance.post_process_html(content, dir_param, file_name_for_rules)
         else:
             final_html_output = rule_set_instance.post_process_html(html_content, dir_param, file_name_for_rules)
@@ -117,27 +117,28 @@ dir_class_map = {
     "#5 Dinos": (DinosRuleSet, 'dinos_config.json'), 
     "#6 Equipment": (listRuleSet, 'list_config.json'),
     "#7 Bosses": (BossesRuleSet, 'bosses_config.json'), 
-    "#8 Items": (listRuleSet, 'list_config.json'),
-    "#10 Mating": (listRuleSet, 'list_config.json'), 
-    "#11 Paragons": (listRuleSet, 'list_config.json'),
-    "#12 NPCs": (listRuleSet, 'list_config.json'), 
-    "#13 Egg Chart": (listRuleSet, 'list_config.json'),
-    "#14 Saddle Creator": (saddleRuleSet, 'default_config.json'), 
-    "#15 FAQs": (FaqsRuleSet, 'faqs_config.json'),
-    "#16 Links": (defaultRuleSet, 'default_config.json'), 
-    "#17 Changelog": (listRuleSet, 'list_config.json'), 
+    "#8 Items": (VariantsRuleSet, 'list_config.json'),
+    "#9 Quantum Storage": (listRuleSet, 'list_config.json'),
+    "#11 Mating": (listRuleSet, 'list_config.json'), 
+    "#12 Paragons": (listRuleSet, 'list_config.json'),
+    "#13 NPCs": (listRuleSet, 'list_config.json'), 
+    "#14 Egg Chart": (listRuleSet, 'list_config.json'),
+    "#15 Saddle Creator": (saddleRuleSet, 'default_config.json'), 
+    "#16 FAQs": (FaqsRuleSet, 'faqs_config.json'),
+    "#17 Links": (defaultRuleSet, 'default_config.json'), 
+    "#18 Changelog": (listRuleSet, 'list_config.json'), 
 }
 
 if __name__ == "__main__":
     print("Starting HTML file generation...")
     
     for root, dirs, files_in_loop_main_walk in os.walk(base_dir): 
-        if "#9 Uniques" in dirs: dirs.remove("#9 Uniques")  
+        if "#10 Uniques" in dirs: dirs.remove("#10 Uniques")  
         dir_path_parts_walk = root.split(os.sep)
         rule_class_for_current_root_walk = defaultRuleSet 
         config_filename_for_current_root_walk = 'default_config.json' 
         for dir_segment_from_path_walk in reversed(dir_path_parts_walk):
-            if dir_segment_from_path_walk == "#9 Uniques": break
+            if dir_segment_from_path_walk == "#10 Uniques": break
             if dir_segment_from_path_walk in dir_class_map:
                 rule_class_for_current_root_walk, config_filename_for_current_root_walk = dir_class_map[dir_segment_from_path_walk]
                 break 

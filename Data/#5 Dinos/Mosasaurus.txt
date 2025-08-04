@@ -8,6 +8,10 @@ Unique Name: Fragment
 Variants: Explosive / Crystal
 Spawn Weight: 1.0
 
+Unique Name: Protostar
+Variants: Starfire / Dimensional
+Spawn Weight: 0.5
+
 Food Types:
 Raw Meat
 Cooked Meat

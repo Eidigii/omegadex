@@ -16,7 +16,7 @@ Warcry Damage Bonus: 75%
 Maximum Warcry Stacks: 3
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 00.84%
 
 Other Information:
 Cooldown 1: 30.0

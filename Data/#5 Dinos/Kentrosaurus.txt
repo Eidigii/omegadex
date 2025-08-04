@@ -8,6 +8,10 @@ Unique Name: Martyr
 Variants: Fairy / Collective
 Spawn Weight: 1.0
 
+Unique Name: Revenant
+Variants: Banshee / Crystal
+Spawn Weight: 1.0
+
 Food Types:
 Amarberry
 Azulberry

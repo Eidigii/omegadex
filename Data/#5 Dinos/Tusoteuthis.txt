@@ -8,6 +8,10 @@ Unique Name: Cthulhu
 Variants: Dimensional / Colossus
 Spawn Weight: 1.0
 
+Unique Name: Ursula
+Variants: Detonate / Obsidian
+Spawn Weight: 0.5
+
 Food Types:
 Black Pearl
 Raw Meat

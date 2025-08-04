@@ -1,0 +1,90 @@
+Ark Omega 08/03 Patch Notes: 
+
+New Species support added:
+-Deinosuchus
+-Deinotherium
+-Rock Drake
+
+Spawn Rates Changed For Tiers: (This will also affect anything in the mod that is depending on these values)
+-Basic: 50% -> 33.59%
+-Delta: 25% -> 22.39%
+-Gamma: 12.5% -> 14.93%
+-Beta: 6.25% -> 9.95%
+-Alpha: 3.13% -> 6.64%
+-Elite: 1.56% -> 4.42%
+-Prime: 0.78% -> 2.95%
+-Apex: 0.39% -> 1.97%
+-Ultimate: 0.2% -> 1.31%
+-Ancient: 0.1% -> 0.87%
+-Endless: 0.05% -> 0.58%
+-Omega: 0.02% -> 0.39%
+
+Variant Changes: 
+-Loot: No longer provides random vanilla consumables (berries, meat, etc) or resources (wood, hide, stone, etc).
+-Ghost: now has 3x ability damage in addition to its melee damage changes at night time. While ghost doesn't have an ability by default, this makes it pair well with unique/cursed saddle added variants. 
+-Teleporter: To/From area explosion increase do 2x ability damage. Now deals 1x ability damage to everything it passes through.  The cooldown has been increased from 3 to 5 seconds. Added extra anti-mesh detection features. 
+-Taming:
+---Massively boosted the food drain and torpor gain they provide per tier, from a (1+Tier)*5 to (Tier+3)^2. 
+---Previously this would be: 5x/10x/15x/20x/25x/30x/35x/40x/45x/50x/55x/60x. Now this would be: 9x/16x/25x/36x/49x/64x/81x/100x/121x/144x/169x/196x.
+---Cost of taming potions has been increased as a result.
+-Breeding:
+---Breeding variants no longer go into stasis when tamed, allowing them to provide bonuses while out of render. 
+---Now provide food to nearby babies (juvenile and above should still use a feeding trough).
+---No longer provides Oviraptor buff for unfertilized egg production to improve server performance. Omega Egg Collector should be used for maximum egg generation.
+
+Quantum Storage System: 
+-Child/Replacement classes will now be used for Craft/Repair functions (any dino egg when it wants "dinosaur egg", etc).
+-Pull to craft will now ignore water as an resource to prevent a failed pull because of a missing material.
+-Fixed the tooltip descriptions not working in live game.
+-Fixed a bug with pulling sometimes telling you that you don't have enough inventory space (stack mod/death recovery mod related so there may still be some cases of this bug, especially with cosmetics).
+-Fixed a bug allowing items to go over the integer cap in tribe storage and become negative. 
+
+Items: 
+-Unstable Resistance Potions added.
+-Cosmic Resistance Potions added.
+-Resistance Potions are now 1 engram point to unlock instead of 6.
+-Resistance Potion icon updated for Nature Resistance Potion.
+-Resistance Potion buffs now use the item's icon.
+-Taming potions are now 25 utility souls to craft. 
+-Getaway orb description updated to show the different summons it can give in different modes.
+-Fixed a bug causing variant paragons to be blank.
+-The glider now does misc checks to make sure it doesn't continuously stack glider buffs.
+
+Other:
+-Ability Damage imbue for players added.
+-Added a search option to the Omega Egg Collector's menus. 
+-Lots of defunct files deleted.
+-Phoenix are no longer tamed with Fire, and are KO tamed like everything else (for simplicity).
+-Updated the descriptions on several buffs to give more detail about what they do.
+-Stat multipliers for speed from Tiers removed. This will help with mounts becoming too fast and flying bosses at higher tiers being far too quick.
+
+Loot Chest Changes: 
+-Loot chests are now 50% larger in size to make them easier to spot in ASA's thick wilderness. 
+-Hoarder chests are 20% larger than before.
+-Loot chests no longer contain random vanilla consumables (berries, meat, etc) or resources (wood, hide, stone, etc).
+-Hoarder chests now get a random unique saddle token.
+
+Hybrids: 
+-Hybrids no longer require the Gene Splicer from ASE to be created. Instead, the dinos can be mated together directly. 
+-Species with valid hybrid offspring will mateboost each other (Spino and Stego can mate boost, etc). 
+-Hybrids will have a 1% chance of spawning wild with either of their parent classes.
+-Hybrids added:
+---Spinego (Spino + Stegosaurus)
+---Karkinte (Karkinos + Ammonite)
+---Leechicurus (Leech + Doedicurus)
+---Phoenix Drake (Rock Drake + Phoenix)
+---Carbopleurodon (Liopleurodon + Carbonemys)
+
+Guide: 
+-Calculators are now working for species comparisons and bosses.
+-Updated the mating tab with the most recent relevant information.
+-Added "Coming Soon" to a lot of the currently blank tabs, and added small descriptions to some of them. 
+-Added a section that goes into detail about the Quantum Storage System. 
+-Updated the Items tab in the Omegadex to show the crafting requirements in whole numbers without decimals.
+-Added the Transmuter to the Items->Structures tab.
+-Removed the Soul Compressor from the Items->Structures tab.
+-Added stat potion information to the items tab. 
+-Added paragon souls information to the items tab.
+-Added variant paragon souls information to the items tab.
+-Added variant souls information to the items tab.
+-Added boss souls information to the items tab.

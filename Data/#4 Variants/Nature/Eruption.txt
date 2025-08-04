@@ -18,7 +18,7 @@ Projectile Damage: lx Ability Damage
 Projectile Tick: 25% of Ability Damage Per Tick as Fire Damage (On Fire) for 6 ticks.
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 00.84%
 
 Other Information:
 Cooldown 1: 30.0

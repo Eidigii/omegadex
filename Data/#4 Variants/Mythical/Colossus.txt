@@ -17,7 +17,7 @@ All Outgoing Melee Damage Is Increased By 100%.
 Colossus size, weight, attack ranges increased by: 300%
 
 Variant Information:
-Spawn Chance: 00.43%
+Spawn Chance: 00.42%
 
 Other Information:
 Cooldown 1: 30.0

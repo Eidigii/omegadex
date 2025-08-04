@@ -8,6 +8,10 @@ Unique Name: Alucard
 Variants: Necromancer / Vampire
 Spawn Weight: 1.0
 
+Unique Name: Haementeria Ghilianii
+Variants: Colossus / Frenzy
+Spawn Weight: 0.5
+
 Food Types:
 Amarberry
 Azulberry

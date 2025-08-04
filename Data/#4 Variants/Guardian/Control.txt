@@ -14,7 +14,7 @@ Damage Reduction While Taunting: 75%
 Taunt Duration: Depends on enemies aggro settings.
 
 Variant Information:
-Spawn Chance: 02.13%
+Spawn Chance: 02.11%
 
 Other Information:
 Cooldown 1: 30.0

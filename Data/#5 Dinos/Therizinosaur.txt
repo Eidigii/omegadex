@@ -20,6 +20,10 @@ Unique Name: Koda
 Variants: Brutal / Soul
 Spawn Weight: 0.5
 
+Unique Name: Thermite
+Variants: Meltdown / Eruption
+Spawn Weight: 0.5
+
 Food Types:
 Amarberry
 Azulberry

@@ -15,7 +15,7 @@ Familiar Base Health: 250
 Familiar Base Damage: 10% of its Summoner's damage.
 
 Variant Information:
-Spawn Chance: 01.28%
+Spawn Chance: 01.27%
 
 Other Information:
 Cooldown 1: 60.0

@@ -17,7 +17,7 @@ Barrage Impact Damage: 100% of Ability Damage.
 Barrage Effect: Damage and Effect based on type of elemental impact.
 
 Variant Information:
-Spawn Chance: 00.09%
+Spawn Chance: 00.08%
 
 Other Information:
 Cooldown 1: 15.0

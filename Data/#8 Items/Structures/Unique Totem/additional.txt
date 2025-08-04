@@ -1,7 +1,7 @@
 Crafting Requirements:
-Silica Pearls: 20.0
-Guardian Soul: 3.0
-Basic Essence: 15.0
+Silica Pearls: 20
+Guardian Soul: 3
+Basic Essence: 15
 
 Can Only Be Crafted At: Omega Workbench
 

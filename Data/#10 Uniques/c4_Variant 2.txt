@@ -28,7 +28,7 @@ Loot
 Self-Destructive
 Potion
 Knockback
-Spiritual
+Echo
 Pygmy
 Stone
 Fireburst
@@ -56,6 +56,7 @@ Gorgon
 Essence
 Brutal
 Necromancer
+Earthquake
 Meteor
 Banshee
 Ghost
@@ -187,6 +188,7 @@ Meltdown
 Eruption
 Paragon
 Volatile
+Stalker
 Wood
 Fairy
 Loot
@@ -203,6 +205,7 @@ Colossus
 Colossus
 Banshee
 Knockback
+Gorgon
 Spiritual
 Zombie
 Random
@@ -218,6 +221,7 @@ Banshee
 Eruption
 Pygmy
 Ghost
+Rampage
 Reactive
 Brutal
 Vampire
@@ -225,4 +229,7 @@ Frenzy
 Pygmy
 Breeding
 Obsidian
+Colossus
 Loot
+Singularity
+Brutal

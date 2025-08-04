@@ -10,7 +10,7 @@ Weight Bonus: 10x
 Speed Bonus: 2x
 
 Variant Information:
-Spawn Chance: 02.55%
+Spawn Chance: 02.53%
 
 Other Information:
 Cooldown 1: 0.0

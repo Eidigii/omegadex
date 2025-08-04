@@ -8,6 +8,14 @@ Unique Name: Flocker
 Variants: Frenzy / Pygmy
 Spawn Weight: 1.0
 
+Unique Name: Poultrygeist
+Variants: Frenzy / Ghost
+Spawn Weight: 1.0
+
+Unique Name: Temperance
+Variants: Colossus / Rampage
+Spawn Weight: 0.5
+
 Food Types:
 Amarberry
 Azulberry

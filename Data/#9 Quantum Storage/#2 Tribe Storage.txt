@@ -1,0 +1,6 @@
+Tribe Quantum Storage is your tribe's very own infinite storage system. You can store all of your resources and items
+and they'll be instantly accessible to everyone in the tribe.
+
+Tribe storage is part of the map save and is very reliable and far less risky than other types of storage.
+
+Tribe storage does not transfer across maps and is tied to the map that items are saved in.

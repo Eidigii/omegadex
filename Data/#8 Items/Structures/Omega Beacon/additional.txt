@@ -1,9 +1,9 @@
 Crafting Requirements:
-Basic Soul: 40.0
-Metal Ingot: 2500.0
-Crystal: 250.0
-Black Pearl: 80.0
-Polymer: 320.0
+Basic Soul: 40
+Metal Ingot: 2500
+Crystal: 250
+Black Pearl: 80
+Polymer: 320
 
 Can Only Be Crafted At: Omega Workbench
 

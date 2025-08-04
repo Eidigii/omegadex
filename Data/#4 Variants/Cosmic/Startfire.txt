@@ -15,7 +15,7 @@ Starfire Radius: 3000 (10 Foundations)
 Starfire Tick Damage: 50% of Ability Damage Every 1/2 Second As Fire Damage
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 00.84%
 
 Other Information:
 Cooldown 1: 30.0

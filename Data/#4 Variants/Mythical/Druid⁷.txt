@@ -20,7 +20,7 @@ Tree Projectile Damage: 100% of Ability Damage As Earth Damage.
 Tree Projectile Impact Radius: 600 (2 Foundations).
 
 Variant Information:
-Spawn Chance: 00.09%
+Spawn Chance: 00.08%
 
 Other Information:
 Cooldown 1: 30.0

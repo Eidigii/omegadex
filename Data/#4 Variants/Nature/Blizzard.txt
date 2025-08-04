@@ -15,7 +15,7 @@ Radius: 3000 (10 Foundations)
 Damage Per Second: 100% of Ability Damage As Blizzard Damage.
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 00.84%
 
 Other Information:
 Cooldown 1: 62.0

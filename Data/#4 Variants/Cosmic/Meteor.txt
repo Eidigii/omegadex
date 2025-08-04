@@ -17,7 +17,7 @@ Meteor Impact Damage: 300% of Ability Damage as Fire Damage
 Meteor Impact Radius: 900 (3 Foundations)
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 00.84%
 
 Other Information:
 Cooldown 1: 30.0

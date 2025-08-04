@@ -12,6 +12,10 @@ Unique Name: Bowzer
 Variants: Stalker / Fireburst
 Spawn Weight: 1.0
 
+Unique Name: Hellstorm
+Variants: Tornado / Fireburst
+Spawn Weight: 1.0
+
 Food Types:
 Raw Meat
 Cooked Meat

@@ -8,6 +8,14 @@ Unique Name: Terror
 Variants: Frenzy / Banshee
 Spawn Weight: 1.0
 
+Unique Name: Billy
+Variants: Frenzy / Knockback
+Spawn Weight: 0.5
+
+Unique Name: Shuf
+Variants: Colossus / Gorgon
+Spawn Weight: 1.0
+
 Food Types:
 Amarberry
 Azulberry

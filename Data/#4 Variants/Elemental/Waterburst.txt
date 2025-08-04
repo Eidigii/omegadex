@@ -9,7 +9,7 @@ Weak Against (2x damage taken): Lightning
 Resists (0.5x damage taken): Wind, Earth
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 00.84%
 
 Other Information:
 Cooldown 1: 10.0

@@ -19,7 +19,7 @@ Can turn water to air, hiding the ocean completely from sight.
 Stamina drain per second in Dimensional Vision: 1%
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 00.84%
 
 Other Information:
 Cooldown 1: 15.0

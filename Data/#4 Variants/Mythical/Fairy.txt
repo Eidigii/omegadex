@@ -13,7 +13,7 @@ Healing Amount: (0.5% x Tier) of Max Health Per Second
 Healing Radius: 3000 (10 Foundations)
 
 Variant Information:
-Spawn Chance: 02.13%
+Spawn Chance: 02.11%
 
 Other Information:
 Cooldown 1: 30.0

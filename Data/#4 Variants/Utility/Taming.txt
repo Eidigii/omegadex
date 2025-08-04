@@ -12,7 +12,7 @@ Food Drain Speed: Original Speed x Tier.
 Food Drain Radius: 1500 (5 Foundations)
 
 Variant Information:
-Spawn Chance: 00.43%
+Spawn Chance: 00.42%
 
 Other Information:
 Cooldown 1: 0.0

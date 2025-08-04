@@ -15,7 +15,7 @@ Herbivores Harvest as a Pick
 Additional Weight Multiplier: 5x
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 00.84%
 
 Other Information:
 Cooldown 1: 5.0

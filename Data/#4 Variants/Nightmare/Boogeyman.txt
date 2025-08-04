@@ -17,7 +17,7 @@ Damage Reduction at Night: 75%
 Boogeyman cannot be targeted by enemies at night.
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 00.84%
 
 Other Information:
 Cooldown 1: 15.0

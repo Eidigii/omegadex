@@ -14,7 +14,7 @@ Minion Size: 40%
 Minion Duration: 20s
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 00.84%
 
 Other Information:
 Cooldown 1: 45.0

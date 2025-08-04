@@ -17,7 +17,7 @@ Only Basic through Omega potions can be used.
 Health % to start feeding potions adjustable via wheel.
 
 Variant Information:
-Spawn Chance: 00.09%
+Spawn Chance: 00.08%
 
 Other Information:
 Cooldown 1: 0.0

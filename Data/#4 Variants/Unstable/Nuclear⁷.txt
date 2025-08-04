@@ -20,7 +20,7 @@ Nuclear Explosion Radius Per Second of Meltdown: 900 (3 Foundations).
 maximum Nuclear Explosion Radius: 9000 (30 Foundations).
 
 Variant Information:
-Spawn Chance: 00.09%
+Spawn Chance: 00.08%
 
 Other Information:
 Cooldown 1: 30.0

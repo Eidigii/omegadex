@@ -1,7 +1,7 @@
 Crafting Requirements:
-Stone: 10.0
-Wood: 20.0
-Fiber: 10.0
+Stone: 10
+Wood: 20
+Fiber: 10
 
 The Omega Workbench is crafted in your inventory. Almost every other modded structure is
 crafted in the Omega Workbench.

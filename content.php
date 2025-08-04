@@ -68,7 +68,7 @@ function getDefaultContentForFolder($folder_param) {
     $content_data = file_get_contents($defaultFile_path);
     
     // Specific case for Saddle Creator which might be raw HTML not needing parseCustomFormat
-    if (strpos($defaultFile_path, DIRECTORY_SEPARATOR . '#14 Saddle Creator' . DIRECTORY_SEPARATOR) !== false) {
+    if (strpos($defaultFile_path, DIRECTORY_SEPARATOR . '#15 Saddle Creator' . DIRECTORY_SEPARATOR) !== false) {
         return $content_data; 
     } else {
         return parseCustomFormat($content_data);

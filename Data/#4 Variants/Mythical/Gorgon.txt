@@ -13,7 +13,7 @@ Post-Stoned buff only allows creatures to be turned to stone once every 30 secon
 Attack Damage Increase vs stoned creatures: 3x
 
 Variant Information:
-Spawn Chance: 01.7%
+Spawn Chance: 01.69%
 
 Other Information:
 Cooldown 1: 20.0

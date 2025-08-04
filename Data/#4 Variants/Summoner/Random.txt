@@ -12,7 +12,7 @@ Number of Minions: 2-3
 Duration of the Minion: 10-60 seconds.
 
 Variant Information:
-Spawn Chance: 01.7%
+Spawn Chance: 01.69%
 
 Other Information:
 Cooldown 1: 30.0

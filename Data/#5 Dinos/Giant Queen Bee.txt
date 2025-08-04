@@ -14,6 +14,7 @@ Cooked Meat
 Cooked Prime Meat
 Raw Prime Meat
 Rare Flower
+
 Additional Information: Bees passively produce honey in their inventory at a rate of 1 honey every 45
 minutes. This timer is divided by the tier of the Bee, so an Alpha being Tier 5 would produce one honey
 every 9 minutes.

@@ -56,6 +56,7 @@ Singularity
 Soul
 Rampage
 Siren
+Banshee
 Starfire
 Rampage
 Teleporter
@@ -187,6 +188,7 @@ Blizzard
 Thunderstorm
 Colossus
 Stalker
+Colossus
 Necromancer
 Tsunami
 Eruption
@@ -203,6 +205,7 @@ Warp
 Starfire
 Frenzy
 Frenzy
+Colossus
 Dimensional
 Plague
 Cloner
@@ -218,6 +221,7 @@ Plague
 Meteor
 Frenzy
 Frenzy
+Colossus
 Volatile
 Echo
 Necromancer
@@ -225,4 +229,7 @@ Colossus
 Brutal
 Uncontrollable
 Treasure
+Absorbent
 Dimensional
+Anti-Matter
+Stalker

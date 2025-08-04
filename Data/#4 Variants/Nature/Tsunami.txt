@@ -13,7 +13,7 @@ Radius: 3600 (12 Foundations)
 Damage: 600% of Ability Damage as Tsunami Damage
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 00.84%
 
 Other Information:
 Cooldown 1: 30.0

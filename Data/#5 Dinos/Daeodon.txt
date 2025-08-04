@@ -8,6 +8,14 @@ Unique Name: Gargoyle
 Variants: Stone / Knockback
 Spawn Weight: 1.0
 
+Unique Name: Heartbane
+Variants: Frenzy / Echo
+Spawn Weight: 0.5
+
+Unique Name: Piggyback
+Variants: Loot / Pygmy
+Spawn Weight: 1.0
+
 Food Types:
 Raw Meat
 Cooked Meat

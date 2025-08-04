@@ -20,7 +20,7 @@ Explosive Damage.
 All Singularity Creatures are Immune to the Gravity Effect.
 
 Variant Information:
-Spawn Chance: 00.85%
+Spawn Chance: 00.84%
 
 Other Information:
 Cooldown 1: 60.0

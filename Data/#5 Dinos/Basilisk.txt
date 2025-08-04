@@ -8,6 +8,10 @@ Unique Name: Medusa
 Variants: Gorgon / Banshee
 Spawn Weight: 1.0
 
+Unique Name: Jörmungandr
+Variants: Earth / Paragon
+Spawn Weight: 1.0
+
 Food Types:
 Raw Meat
 Cooked Meat

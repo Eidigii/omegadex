@@ -15,7 +15,7 @@ Daytime Damage Reduction: 100%
 Nighttime Dodge Chance: Tier x 5%
 
 Variant Information:
-Spawn Chance: 00.43%
+Spawn Chance: 00.42%
 
 Other Information:
 Cooldown 1: 0.0

@@ -1,4 +1,4 @@
 Crafting Requirements:
-Stone: 50.0
-Wood: 100.0
-Fiber: 250.0
+Stone: 50
+Wood: 100
+Fiber: 250

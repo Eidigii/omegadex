@@ -19,7 +19,7 @@ Disruption Cooldown Buff Duration: 30s
 Disruption Removes Lucky Variant Dodge Chance.
 
 Variant Information:
-Spawn Chance: 00.09%
+Spawn Chance: 00.08%
 
 Other Information:
 Cooldown 1: 45.0

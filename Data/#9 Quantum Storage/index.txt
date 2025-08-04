@@ -1,0 +1,10 @@
+Welcome to the Quantum Storage Information section!
+
+The Quantum Storage System is designed to be ASA's best item and inventory management system by giving players
+nearly infinite storage that is accessible and usable from anywhere.
+
+There are no structures involved, as all items are placed in a type of cloud storage. You can store the items no matter
+where you are on the map, and can access them from anywhere as well.
+
+Click the buttons to the left to learn more about the options as well as get a more detailed explanation of the buttons
+you'll see in your inventory.

@@ -1,0 +1,71 @@
+Ark Omega 06/12 Patch Notes: 
+
+Variant Reworks:
+-Armored no longer has changes to melee/ability damage. Armored DR scaling greatly adjusted to scale harder with reduced HP.
+-Tracker:  Formula for tracking is no longer 4000 + ((Tier - 1) * 2500) as this was too small for lower tiers. It is now 9000 + ((Tier - 1) * 2000).
+
+New uniques from Tournaments:
+
+Name: Grigori
+-Dino: Dodo Wyvern
+-Variant 1: Colossus
+-Variant 2: Stalker
+
+Name: Shuf
+-Dino: Shinehorn
+-Variant 1: Colossus
+-Variant 2: Gorgon
+
+Name: Lunara
+-Dino: Snow Owl
+-Variant 1: Miracle
+-Variant 2: Comet
+
+Name: Horn of Jericho
+-Dino: Eurypterid
+-Variant 1: Banshee
+-Variant 2: Earthquake
+
+Name: Kialani
+-Dino: Gigantoraptor
+-Variant 1: Absorbent
+-Variant 2: Colossus
+
+Name: Temperance
+-Dino: Murder Turkey
+-Variant 1: Colossus
+-Variant 2: Rampage
+
+Name: Saber
+-Dino: Cat
+-Variant 1: Anti-Matter
+-Variant 2: Singularity
+
+New Species added:
+-Cats
+
+Bug Fixes: 
+-Fixed a bug with the spawning wild unique that could cause the drop downs to reset when changing options and become glitched into being blank.
+-Fixed a bug causing the tracker scan to last for 30 seconds.
+-Fixed an issue with the Heartbane unique being spiritual instead of Echo.
+-Fixed a bug causing Metal to have 20% DR instead of 80% DR.
+-Fixed a bug preventing quests from working properly.
+-Fixed a bug causing absorbent bubble to visually be larger than its actual effect.
+
+Other: 
+-Lucky variants can now rank up to ancient using any Unique Group Master Soul.
+-Lucky variants can now rank up to endless using any Aspect Soul.
+-The transmuter will no longer attempt to combine potions.
+-Fixed a bug with a number of species trying to gestate instead of laying eggs.
+
+Quantum Storage System:
+-Added a button to the personal pull menu to send to tribe storage instead of pull to inventory.
+-Added a button to the tribe pull menu to send to personal storage instead of pull to inventory.
+-Automated backup system added for player rank data, quests, and personal storages that will automatically restore them when you load in if a loss of data is detected.
+-Resized the UI and the buttons to allow for expanded options and information.
+-Added a number of safety checks to prevent values going negative in tribe storage.
+-Blacklist option added for personal/tribe storage that allows you to select item classes that won't be sent through personal/tribe/dimensional sort functions.
+-Fixed a bug preventing the quantum compactors from automatically sending everything to tribe/personal storage.
+-Clicking a single item and then clicking compress to personal/tribe storage will only send that one item. This also works for items clicked in other inventories.
+-Loot chests can now pull from tribe/personal storage when opening. There will be an "attempt to open from storage" message if you do not have enough in your inventory.
+-Stat potions can now be compressed into personal and tribe storages. NOTE: Pulling them does not seem to work right now, but you should be able to store them just fine.
