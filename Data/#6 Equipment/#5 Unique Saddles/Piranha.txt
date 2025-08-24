@@ -1,0 +1,51 @@
+Blood Frenz
+Unique Saddle - Piranha
+They Never Stop At Just One Bite.
+Unique Bonuses:
+Gains Uncontrollable Variant.
+Gains Brutal Variant.
+300% Increased Melee Damage.
+300% Increased Damage Taken.
+10% Chance To Cast Frenzy Roar On Kill.
+10% Chance To Cast Psychosis On Kill.
+
+Fish Tank
+Unique Saddle - Piranha
+Please Don't Tap On The Glass. They Hate That.
+Unique Bonuses:
+Gains Paragon Variant.
+Gains Dimensional Variant.
+Gains Absorbent Variant.
+385% Increased Variant Stat Multiplier.
+Passively Taunt Enemies.
+
+Terrible Army
+Unique Saddle - Piranha
+You Can Taste The Pain.
+Unique Bonuses:
+Gains Vampire Variant.
+900% Increased Melee Damage.
+80% Damage Reduction.
+Gains Pack Bonus.
+Cannot Be Protected By Absorbent.
+Cannot Be Ridden.
+
+Blinky The Three Eyed Fish
+Unique Saddle - Piranha
+Springfield's Catch Trophy.
+Unique Bonuses:
+Gains Nuclear Variant.
+Gains Colossus Variant.
+100% Increased Melee Damage.
+235% Increased Ability Damage.
+220% Increased Attack Radius.
+
+Cpt. Nautilus
+Unique Saddle - Piranha
+I Am Nothing Without My Crew!
+Unique Bonuses:
+Gains Collective Variant.
+80% Damage Reduction.
+80% Dodge Chance.
+Attacks Apply Medium Stun.
+Gains Pack Bonus.

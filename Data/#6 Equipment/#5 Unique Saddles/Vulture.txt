@@ -1,0 +1,53 @@
+Street Cleaner
+Unique Saddle - Vulture
+Not All Heroes Wear Capes. Some Wear Feathers
+And Steal Your Drops.
+Unique Bonuses:
+Gains Treasure Variant.
+Debuffs Attackers With Drenched.
+235% Increased Attack Radius.
+300% Magic Find While Unridden.
+Picks Up Nearby Dropped Items.
+
+Wings Of The Fallen
+Unique Saddle - Vulture
+Bosses Don't Like Mosquitoes.
+Unique Bonuses:
+Gains Knockback Variant.
+Gains Pygmy Variant.
+200% Increased Melee Damage.
+125% Increased Attack Radius.
+Can Ride Pygmy.
+Gains Pack Bonus.
+
+Dark
+Unique Saddle - Vulture
+A Storm Is Coming.
+Unique Bonuses:
+Gains Thunderstorm Variant.
+500% Increased Ability Damage.
+Attacks Apply Drenched.
+Attacks Apply Weaken.
+Shoulder Pet Can Be Ridden.
+
+Acid Reflux
+Unique Saddle - Vulture
+Dont Worry... I'll Save Some Of This Chalk For Your
+Outline.
+Unique Bonuses:
+290% Increased Ability Damage.
+10% Chance To Cast Plague On Kill.
+Bite Damage Type Changed To Plague.
+Greatly Increased Mobility And Turn Radius.
+Shoulder Pet Can Be Ridden.
+Can Strafe.
+
+Perch Petrify
+Unique Saddle - Vulture
+If Looks Could Kill, You'd Still Be Holding The Bird.
+Unique Bonuses:
+Gains Absorbent Variant.
+80% Dodge Chance.
+Debuffs Attackers With Gorgon Stoned.
+Immune To Torpor.
+Passively Taunt Enemies.

@@ -1,0 +1,35 @@
+The Crafting Table
+Unique Saddle - Achatina
+Punch Tree. Ride Snail. Build Empire.
+Unique Bonuses:
+Gains Crafting Variant.
+Gains Resilient Variant.
+Gains Wood Variant.
+Gains Harvesting Variant.
+80% Damage Reduction.
+Can Be Shoulder Mounted.
+Picks Up Nearby Dropped Items.
+Cannot Attack.
+Cannot Move.
+
+The Eternal Void
+Unique Saddle - Achatina
+Where Does It Even Go?
+Unique Bonuses:
+Gains Cursed Variant.
+Gains Absorbent Variant.
+If Crystal, 200% Increased Ability Damage.
+If Obsidian, 200% Increased Variant Stat Multiplier.
+Picks Up Nearby Dropped Items.
+
+Sun Snail
+Unique Saddle - Achatina
+Molten Mayhem, Delivered At A Casual Pace.
+Unique Bonuses:
+800% Increased Ability Damage.
+1% Chance To Cast Starfire On Kill.
+3.5% Chance To Cast Starfire When Hit.
+Reflects 50% Of Damage As StarFire Damage.
+Passively Taunt Enemies.
+Cannot Be Protected By Absorbent.
+Cannot Move.

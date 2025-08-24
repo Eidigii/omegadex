@@ -1,0 +1,54 @@
+Pingu
+Unique Saddle - Kairuku
+Noot Noot!
+Unique Bonuses:
+Gains Supernova Variant.
+100% Reduced Melee Damage.
+900% Increased Ability Damage.
+50% Damage Reduction.
+70% Dodge Chance.
+Heal For Of Damage Dealt.
+Cannot Be Ridden.
+
+Kowalski
+Unique Saddle - Kairuku
+Skipper, We Appear To Be Flightless.
+Unique Bonuses:
+Gains Overlord Variant.
+300% Increased Melee Damage.
+110% Increased Movement Speed.
+100% Increased Size.
+Greatly Increased Mobility And Turn Radius.
+Permanent Rampage.
+Gains Pack Bonus.
+
+Waddle Warframe
+Unique Saddle - Kairuku
+Waddling Has Never Been This Aggressively
+Intentional.
+Unique Bonuses:
+If Colossus, 300% Increased Variant Stat Multiplier.
+200% Increased Variant Stat Multiplier.
+410% Increased Melee Damage.
+Immune To Damage Impulse.
+Permanent Rampage.
+
+"Duck" Of Doom
+Unique Saddle - Kairuku
+That's One Funny Looking Duck.
+Unique Bonuses:
+Gains Dimensional Variant.
+300% Increased Damage Taken.
+1200% Increased Attack Radius.
+225% Increased Attack And Movement Speed.
+
+Frozen Wastelands
+Unique Saddle - Kairuku
+What Elsa Can This Thing Do?
+Unique Bonuses:
+420% Increased Ability Damage.
+4.2% Chance To Cast Iceburst When Hit.
+4.2% Chance To Fire (Projectile) When Hit.
+Debuffs Attackers With Freeze.
+Reflects 42% Of Damage As Blizzard Damage.
+Passively Taunt Enemies.

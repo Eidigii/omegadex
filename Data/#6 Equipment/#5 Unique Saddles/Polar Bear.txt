@@ -1,0 +1,51 @@
+Bear Arms
+Unique Saddle - Polar Bear
+You Have The Right To.
+Unique Bonuses:
+300% Increased Melee Damage.
+100% Increased Attack Radius.
+
+The Lucky Bear
+Unique Saddle - Polar Bear
+I Am A Special Bear.
+Unique Bonuses:
+Gains Treasure Variant.
+50% Damage Reduction.
+50% Dodge Chance.
+Can Jump.
+
+Floppy Ear
+Unique Saddle - Polar Bear
+Lets Grab Some Honey.
+Unique Bonuses:
+210% Increased Ability Damage.
+25% Damage Reduction.
+25% Reduced Cooldowns.
+Immune To Torpor.
+
+Gummy Bear
+Unique Saddle - Polar Bear
+What's Your Favorite Flavor?
+Unique Bonuses:
+Gains Essence Variant.
+250% Increased Melee Damage.
+43% Damage Reduction.
+Passively Taunt Enemies.
+
+Panserbjørne
+Unique Saddle - Polar Bear
+My Armor Is Made Of Shy Iron. A Bear's Armor Is His
+Soul.
+Unique Bonuses:
+Gains Armored Variant.
+If Colossus, 125% Increased Variant Stat Multiplier.
+
+Climate Change
+Unique Saddle - Polar Bear
+You Must Adapt To Survive.
+Unique Bonuses:
+Gains Meltdown Variant.
+100% Reduced Melee Damage.
+500% Increased Ability Damage.
+250% Increased Damage Taken.
+Heal For 50% Of Damage Dealt.

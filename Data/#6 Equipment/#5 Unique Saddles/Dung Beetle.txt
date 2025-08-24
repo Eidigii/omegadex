@@ -1,0 +1,45 @@
+Anubis
+Unique Saddle - Dung Beetle
+The God Of Death, And Dung?
+Unique Bonuses:
+Gains Colossus Variant.
+Gains Uncontrollable Variant.
+200% Increased Variant Stat Multiplier.
+200% Increased Melee Damage.
+300% Increased Damage Taken.
+Can Ride Uncontrollable Variant.
+Permanent Rampage.
+Passively Taunt Enemies.
+
+Porcelain Throne
+Unique Saddle - Dung Beetle
+A Throne Fit For... You know.
+Unique Bonuses:
+Gains Pearl Variant.
+Gains Volatile Variant.
+200% Increased Variant Stat Multiplier.
+500% Increased Ability Damage.
+5.0% Chance To Fire (Projectile) When Hit.
+Passively Taunt Enemies.
+
+Curse Of The Mummy
+Unique Saddle - Dung Beetle
+Unwrap The Past, Unleash The Problems.
+Unique Bonuses:
+Gains Overlord Variant.
+Gains Zombie Variant.
+365% Increased Melee Damage.
+Attacks Apply Weaken.
+Gains Pack Bonus.
+Saddle Is Always Cursed.
+
+Sacarb's Curse
+Unique Saddle - Dung Beetle
+For Every Gem You Find, Expect A Curse Or Two.
+Unique Bonuses:
+Gains Cursed Variant.
+Gains Treasure Variant.
+Debuffs Attackers With Banshee Curse.
+Reflects 30% Of Damage As Plague Damage.
+Can Be Shoulder Mounted.
+Saddle Is Always Cursed.

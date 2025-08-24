@@ -1,0 +1,32 @@
+Aurex
+Unique Saddle - Thorny Dragon
+I Am The Crown In Every Kingdom, The Jewel In
+Every Crown.
+Unique Bonuses:
+Custom Bonus: AttacksApplyMidasTouch.
+Gains Loot Variant.
+Gains Treasure Variant.
+Gains Paragon Variant.
+125% Magic Find While Ridden.
+
+Earth Dragon
+Unique Saddle - Thorny Dragon
+Fear Not The Sky Or The Water. It Is The Earth You
+Stand On You Must Fear.
+Unique Bonuses:
+Custom Bonus: TailSpikesReplacedWithEarthBalls.
+Gains Stone Variant.
+Claws Damage Type Changed To Gorgon.
+200% Increased Attack And Movement Speed.
+Greatly Increased Mobility And Turn Radius.
+
+Horny Dragon
+Unique Saddle - Thorny Dragon
+It Means What You Think It Means.
+Unique Bonuses:
+Gains Uncontrollable Variant.
+Gains Breeding Variant.
+300% Increased Melee Damage.
+95% Reduced Ability Damage.
+80% Increased Attack And Movement Speed.
+Permanent Rampage.

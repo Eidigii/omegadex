@@ -1,0 +1,57 @@
+Torpedo
+Unique Saddle - Pteranodon
+Built Like A Missile, Flies Like It Forgot Its Brakes.
+Unique Bonuses:
+Gains Armored Variant.
+300% Increased Melee Damage.
+100% Magic Find While Ridden.
+Can Use Mounted Weaponry.
+Can Strafe.
+Passively Taunt Enemies.
+
+U. A. V.
+Unique Saddle - Pteranodon
+Nice Kill Streak, Keep It Up.
+Unique Bonuses:
+Gains Tracker Variant.
+145% Increased Ability Damage.
+100% Increased Attack And Movement Speed.
+175% Magic Find While Ridden.
+Can Ignore Water
+Saddle Is Always Cursed.
+Cannot Be Protected By Absorbent.
+
+Little Flash
+Unique Saddle - Pteranodon
+I Am Speed!
+Unique Bonuses:
+Gains Spiritual Variant.
+Gains Pygmy Variant.
+200% Increased Movement Speed.
+Can Ignore Water
+Enemies Ignore You Unless Provoked.
+Can Ride Pygmy.
+Can Strafe.
+
+Thunderbird
+Unique Saddle - Pteranodon
+Myth Becomes Reality. The Master Of The Shies.
+Unique Bonuses:
+Gains Thunderstorm Variant.
+Gains Tsunami Variant.
+Gains Tornado Variant.
+100% Increased Movement Speed.
+100% Increased Size.
+Greatly Increased Mobility And Turn Radius.
+
+Sung Drip Woo
+Unique Saddle - Pteranodon
+Wakey Wakey!
+Unique Bonuses:
+Gains Overlord Variant.
+If Necromancer, 400% Increased Variant Stat
+Multiplier.
+100% Increased Movement Speed.
+Gains Pack Bonus.
+Can Strafe.
+Saddle Is Always Cursed.

@@ -5,12 +5,12 @@ import subprocess
 import sys        
 
 try:
-    from lib.Rules.rules import RuleSet, VariantsRuleSet, listRuleSet, defaultRuleSet, DinosRuleSet, BossesRuleSet, FaqsRuleSet, saddleRuleSet
+    from lib.Rules.rules import RuleSet, VariantsRuleSet, listRuleSet, defaultRuleSet, DinosRuleSet, BossesRuleSet, FaqsRuleSet, saddleRuleSet, UniqueSaddlesRuleSet
 except ImportError:
     current_script_path = os.path.dirname(os.path.abspath(__file__))
     project_root_path = os.path.abspath(os.path.join(current_script_path, '..'))
     if project_root_path not in sys.path: sys.path.insert(0, project_root_path)
-    from lib.Rules.rules import RuleSet, VariantsRuleSet, listRuleSet, defaultRuleSet, DinosRuleSet, BossesRuleSet, FaqsRuleSet, saddleRuleSet
+    from lib.Rules.rules import RuleSet, VariantsRuleSet, listRuleSet, defaultRuleSet, DinosRuleSet, BossesRuleSet, FaqsRuleSet, saddleRuleSet, UniqueSaddlesRuleSet
 
 template_g = """<h1><span class="[OmegaClass]" style="background-color: rgba(211, 211, 211, 0.5); padding: 5px; border-radius: 10px;">[Title]</span></h1>
 <div style="background-color: rgba(111, 111, 111, 0.6); padding: 10px; border-radius: 10px; display: inline-block;">[Sections]
@@ -116,6 +116,7 @@ dir_class_map = {
     "#4 Variants": (VariantsRuleSet, 'variants_config.json'), 
     "#5 Dinos": (DinosRuleSet, 'dinos_config.json'), 
     "#6 Equipment": (listRuleSet, 'list_config.json'),
+    "#5 Unique Saddles": (UniqueSaddlesRuleSet, 'default_config.json'),
     "#7 Bosses": (BossesRuleSet, 'bosses_config.json'), 
     "#8 Items": (VariantsRuleSet, 'list_config.json'),
     "#9 Quantum Storage": (listRuleSet, 'list_config.json'),

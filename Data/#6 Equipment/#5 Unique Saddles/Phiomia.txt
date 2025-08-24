@@ -1,0 +1,42 @@
+Pumbaa
+Unique Saddle - Phiomia
+Hakuna Matata
+Unique Bonuses:
+Gains Armored Variant.
+300% Increased Melee Damage.
+Attacks Apply Weaken.
+195% Increased Attack Radius.
+Can Jump.
+
+Stink Bomb
+Unique Saddle - Phiomia
+Silent But Catastrophically Violent.
+Unique Bonuses:
+Gains Volatile Variant.
+Gains Explosive Variant.
+500% Increased Ability Damage.
+3.5% Chance To Cast Volatile When Hit.
+
+Limos
+Unique Saddle - Phiomia
+Feed Me! Satiate My Hunger!
+Unique Bonuses:
+700% Increased Melee Damage.
+Attacks Apply Weaken.
+150% Increased Attack Radius.
+Heal For 75% Of Melee Damage Dealt.
+
+Bad Stomach
+Unique Saddle - Phiomia
+Fueled By Fumes, Driven By Discomfort.
+Unique Bonuses:
+100% Reduced Melee Damage.
+300% Increased Ability Damage.
+38% Damage Reduction.
+1.0% Chance To Cast Earthburst When Hit.
+1.0% Chance To Cast Explosive When Hit.
+1.0% Chance To Cast Plague When Hit.
+1.0% Chance To Cast Volatile When Hit.
+Debuffs Attackers With Elemental Weakness.
+Passively Taunt Enemies.
+Cannot Be Protected By Absorbent.

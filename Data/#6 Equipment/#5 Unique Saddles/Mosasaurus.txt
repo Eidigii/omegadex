@@ -1,0 +1,31 @@
+Leviathan Wakes
+Unique Saddle - Platform Mosasaurus
+What Kind Of Half Baked Apocalypse Are They
+Running Down Here?
+Unique Bonuses:
+Gains Dimensional Variant.
+50% Damage Reduction.
+Immune To Torpor.
+Greatly Increased Mobility And Turn Radius.
+Saddle Is Always Cursed.
+Cannot Attack.
+
+Cumulonimbus
+Unique Saddle - Platform Mosasaurus
+It's A Bird. It's A Plane. No, It's... I'm Dead.
+Unique Bonuses:
+Gains Dimensional Variant.
+450% Increased Melee Damage.
+100% Reduced Ability Damage.
+Bite Damage Type Changed To Thunderstorm.
+Attacks Apply Drenched.
+
+Aircraft Carrier
+Unique Saddle - Platform Mosasaurus
+The Bigger Boat You've Been Needing.
+Unique Bonuses:
+Custom Bonus: MinionsGainFireVariant.
+Gains Fire Variant.
+Gains Familiar Variant.
+Gains Metal Variant.
+75% Reduced Melee Damage.

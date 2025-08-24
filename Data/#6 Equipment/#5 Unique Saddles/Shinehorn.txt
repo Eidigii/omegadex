@@ -1,0 +1,31 @@
+Demon Goat
+Unique Saddle - Shinehorn
+You Can't Spell Murder Without Shinehorn.
+Unique Bonuses:
+Gains Uncontrollable Variant.
+If Meteor, 900% Increased Ability Damage.
+If Meteor, 400% Increased Variant Stat Multiplier.
+9% Chance To Cast Meteor On Kill.
+Reflects 10% Of Damage As Banshee Damage.
+
+Demonic Shinehorn
+Unique Saddle - Shinehorn
+Something About This Seems Familiar...
+Unique Bonuses:
+Gains Meteor Variant.
+Gains Comet Variant.
+If Banshee, 900% Increased Ability Damage.
+If Frenzy, 400% Increased Variant Stat Multiplier.
+75% Reduced Melee Damage.
+75% Reduced Cooldowns.
+
+Cosmogoat
+Unique Saddle - Shinehorn
+Welcome To The Cosmos.
+Unique Bonuses:
+Gains Starfire Variant.
+Gains Gamma-Ray Variant.
+Gains Singularity Variant.
+450% Increased Ability Damage.
+35% Dodge Chance.
+Immune To Fall Damage.

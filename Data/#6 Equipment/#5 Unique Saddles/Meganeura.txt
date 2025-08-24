@@ -1,0 +1,8 @@
+Apache
+Unique Saddle - Meganeura
+Get Some!
+Unique Bonuses:
+Custom Bonus: RightClickFiresAMinigunAttack.
+Custom Bonus: KillRestore10%Stamina.
+200% Increased Movement Speed.
+Riders Always Have A Crosshair.

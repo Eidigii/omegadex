@@ -1,0 +1,29 @@
+Lightning Strike
+Unique Saddle - Cnidaria
+I've Heard You Like Farming?
+Unique Bonuses:
+Gains Dimensional Variant.
+300% Increased Damage Taken.
+Attacks Apply Total Shock.
+1000% Increased Attack Radius.
+80% Increased Attack And Movement Speed.
+
+We Are Jellyfish
+Unique Saddle - Cnidaria
+We Are Stronger Together.
+Unique Bonuses:
+Gains Dimensional Variant.
+230% Increased Melee Damage.
+Permanent Rampage.
+Gains Pack Bonus.
+Damage is Taken From Stamina Before Health.
+
+Biotoxin
+Unique Saddle - Cnidaria
+The Light Draws Me In.
+Unique Bonuses:
+Gains Brutal Variant.
+605% Increased Ability Damage.
+Melee Damage Type Changed To Thunderstorm.
+450% Increased Attack Radius.
+Passively Taunt Enemies.

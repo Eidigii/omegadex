@@ -1,0 +1,88 @@
+Rent-A-Pack
+Unique Saddle - Direwolf
+Every Good Boy Deserves Backup.
+Unique Bonuses:
+Gains Companion Variant.
+Gains Overlord Variant.
+100% Reduced Ability Damage.
+75% Reduced Cooldowns.
+275% Increased Mate Boost Bonus.
+Gains Pack Bonus.
+Cannot Be Ridden.
+
+Dream Team
+Unique Saddle - Direwolf
+Teamwork Makes The Dream Work.
+Unique Bonuses:
+500% Increased Melee Damage.
+120% Increased Ability Damage.
+200% Increased Mate Boost Bonus.
+Saddle Is Always Cursed.
+
+Hot Dog
+Unique Saddle - Direwolf
+With Mustard And Relish.
+Unique Bonuses:
+200% Increased Melee Damage.
+205% Increased Ability Damage.
+30% Chance To Ignore Dodge.
+70% Increased Damage To Bosses.
+Heal For 20% Of Damage Dealt.
+
+Flash Bang
+Unique Saddle - Direwolf
+All I Could Hear Was Explosions In The Chaos.
+Unique Bonuses:
+Gains Warp Variant.
+300% Increased Ability Damage.
+4% Chance To Cast Explosive On Kill.
+300% Increased Imprint Bonus.
+
+Magic Zone
+Unique Saddle - Direwolf
+Kill, Magic & Pick Up.
+Unique Bonuses:
+210% Increased Melee Damage.
+115% Increased Attack And Movement Speed.
+120% Magic Find While Ridden.
+Picks Up Nearby Dropped Items.
+
+Ruby's Wrath
+Unique Saddle - Direwolf
+Bark Bark Bark Bark!
+Unique Bonuses:
+Gains Banshee Variant.
+Gains Boogeyman Variant.
+Gains Frenzy Variant.
+Kills Reduce Current Cooldown By 1.0%.
+Permanent Rampage.
+
+Human's Best Friend
+Unique Saddle - Direwolf
+Dogo Loves Humans.
+Unique Bonuses:
+60% Damage Reduction.
+Debuffs Attackers With Weaken.
+60% Increased Movement Speed.
+200% Magic Find While Ridden.
+
+Hot Dodge
+Unique Saddle - Direwolf
+Chief's Choice.
+Unique Bonuses:
+235% Increased Ability Damage.
+50% Dodge Chance.
+Dodge Has 10% Chance To Trigger Starfire.
+Dodge Has 10% Chance To Trigger Gamma-Ray.
+Cannot Be Protected By Absorbent.
+
+Full Moon
+Unique Saddle - Direwolf
+When Night Falls, Wolves Rise.
+Unique Bonuses:
+400% Increased Melee Damage At Night.
+100% Reduced Ability Damage.
+75% Increased Damage Reduction At Night.
+1.45% Chance To Cast Frenzy Roar When Hit.
+Attacks Apply Banshee Curse.
+Heal For 15% Of Damage Dealt At Night.

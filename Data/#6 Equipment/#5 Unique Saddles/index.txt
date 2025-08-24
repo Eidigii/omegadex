@@ -1,0 +1,12 @@
+Web Omegadex Unique Saddles updated on 08/24/2025
+
+Unique saddles were designed to make dinos much more viable, especially weaker
+dinos, but require either luck or skill to unlock.
+Please note: They will only provide bonuses to the dino listed on the saddle, and no
+other version of that dino.
+
+Unique saddles are obtained by:
+1. Killing the dino that the saddle belongs to. This does not include vanilla dinos.
+2. Killing a saddle-buffed wild dinos. These are indicated by a golden ring around the
+dino, and drop a token for a saddle when killed.
+3. Killing minibosses that offer saddle tokens as rewards.

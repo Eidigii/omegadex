@@ -1,0 +1,73 @@
+Triketops
+Unique Saddle - Triceratops
+Do You Believe In The Trike Team?
+Unique Bonuses:
+Gains Brutal Variant.
+Gains Gorgon Variant.
+450% Increased Melee Damage.
+50% Damage Reduction.
+225% Increased Mate Boost Bonus.
+
+Container
+Unique Saddle - Triceratops
+The Safest Place To Be Is Right Behind It.
+Unique Bonuses:
+Gains Absorbent Variant.
+Gains Fairy Variant.
+40% Damage Reduction.
+40% Dodge Chance.
+Debuffs Attackers With Long Stun.
+Immune To Boogeyman Fear.
+Immune To Damage Impulse.
+
+Road Rage
+Unique Saddle - Triceratops
+Blinded By Rage, Could Hurt Himself.
+Unique Bonuses:
+Gains Uncontrollable Variant.
+400% Increased Melee Damage.
+50% Increased Damage Taken.
+100% Increased Attack Radius.
+25% Increased Attack And Movement Speed.
+60% Increased Size.
+Immune To Torpor.
+Greatly Increased Mobility And Turn Radius.
+Cannot Be Protected By Absorbent.
+
+Metalhorn
+Unique Saddle - Triceratops
+This Is Going To Hurt The Both Of Us.
+Unique Bonuses:
+Gains Metal Variant.
+If Reflect, 300% Increased Variant Stat Multiplier.
+100% Increased Damage Taken.
+100% Increased Size.
+Reflects 50% Of Damage Taken.
+Immune To Damage Impulse.
+Cannot Be Protected By Absorbent.
+
+Spiked Wall
+Unique Saddle - Triceratops
+Why Are You Hitting Yourself?
+Unique Bonuses:
+Gains Armored Variant.
+Gains Reflect Variant.
+Gains Collective Variant.
+300% Increased Damage Taken.
+Heal For 60% Of Damage Dealt.
+Reflects 50% Of Damage Taken.
+Immune To Damage Impulse.
+Passively Taunt Enemies.
+Cannot Be Protected By Absorbent.
+
+Bighorner
+Unique Saddle - Triceratops
+He's An Outlaw Loose And Running Came The
+Whisper From Each Lip, And He's Here To Do Some
+Business With The Big Iron On His Hip
+Unique Bonuses:
+Gains Metal Variant.
+Gains Colossus Variant.
+300% Increased Melee Damage.
+50% Dodge Chance.
+100% Increased Attack And Movement Speed.

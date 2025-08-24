@@ -1,0 +1,51 @@
+Immovable Stone
+Unique Saddle - Yeti
+Infinity Stone Roleplay.
+Unique Bonuses:
+Gains Stone Variant.
+Immune To Torpor.
+Passively Taunt Enemies.
+Cannot Attack.
+Cannot Move.
+
+Apesfit
+Unique Saddle - Yeti
+The Cameraman Is Not Gonna Make It Out This
+Time.
+Unique Bonuses:
+Gains Uncontrollable Variant.
+40% Damage Reduction.
+Immune To Torpor.
+Can Ride Uncontrollable Variant.
+Permanent Rampage.
+Cannot Be Protected By Absorbent.
+
+Timex
+Unique Saddle - Yeti
+Takes A Lickin' And Keeps Tickin'.
+Unique Bonuses:
+300% Increased Ability Damage.
+300% Increased Damage Taken.
+45% Dodge Chance.
+Dodge Has 10% Chance To Trigger Supernova.
+Melee Damage Type Changed To Gorgon.
+Immune To Damage Impulse.
+Passively Taunt Enemies.
+
+Snowfall
+Unique Saddle - Yeti
+It's Snowy, Charles.
+Unique Bonuses:
+Gains Blizzard Variant.
+150% Increased Ability Damage.
+5% Chance To Cast Blizzard On Kill.
+Immune To Freeze.
+
+Rebound
+Unique Saddle - Yeti
+Stop Hitting Yourself, Stop Hitting Yourself.
+Unique Bonuses:
+100% Increased Damage Taken.
+1.0% Chance To Cast Frenzy Roar When Hit.
+Reflects 50% Of Damage Taken.
+Immune To Damage Impulse.

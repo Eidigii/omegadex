@@ -1,0 +1,28 @@
+Bat Swarm
+Unique Saddle - Onyc
+Listen To Them, The Children Of The Night. What
+Music They Make!
+Unique Bonuses:
+Gains Familiar Variant.
+Gains Overlord Variant.
+If Vampire, 400% Increased Variant Stat Multiplier.
+50% Reduced Cooldowns.
+Heal For 50% Of Damage Dealt At Night.
+
+Milky Way
+Unique Saddle - Onyc
+Wingspan: Modest. Power Level: Galactic.
+Unique Bonuses:
+Gains Starfire Variant.
+Gains Gamma-Ray Variant.
+Gains Supernova Variant.
+685% Increased Ability Damage.
+
+Batman
+Unique Saddle - Onyc
+A Real Fighter.
+Unique Bonuses:
+Gains Stalker Variant.
+Gains Uncontrollable Variant.
+485% Increased Melee Damage.
+250% Increased Attack Radius.

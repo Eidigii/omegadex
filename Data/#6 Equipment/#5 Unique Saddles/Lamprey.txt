@@ -1,0 +1,29 @@
+Plague Inc
+Unique Saddle - Lamprey
+There Won't Be Enough Time For A Vaccine.
+Unique Bonuses:
+Gains Soul Variant.
+100% Reduced Melee Damage.
+600% Increased Ability Damage.
+60% Damage Reduction.
+Dodge Has 10% Chance To Trigger Plague.
+Dodge Has 10% Chance To Trigger Volatile.
+Cannot Be Protected By Absorbent.
+
+Oprah Lamprey
+Unique Saddle - Lamprey
+You Get A Debuff, You Get A Debuff, Everyone Gets
+A Debuff!
+Unique Bonuses:
+99% Reduced Melee Damage.
+100% Reduced Ability Damage.
+250% Increased Damage Taken.
+Attacks Have A 25% Chance To Apply Element
+Sickness.
+Attacks Have A 25% Chance To Apply Banshee
+Curse.
+Attacks Have A 25% Chance To Apply Disruption.
+Attacks Have A 25% Chance To Apply Gorgon
+Stoned.
+1000% Increased Attack Radius.
+Can Be Shoulder Mounted.

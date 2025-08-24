@@ -1,5 +1,5 @@
 <h3>Welcome to Ark Omega Ascended <b><u>unofficial</u> Web OMEGADEX!</b><br>
-<small><i>&emsp;updated 08/04/2025 to ASA Omega version 132.</i></small></h3>
+<small><i>&emsp;updated 08/24/2025. Added all current unique saddles.</i></small></h3>
 
 If the Web OMEGADEX differs from the in-game one, then always trust the in-game OMEGADEX. This web version is unofficial, meaning don't post bugs to the official
 Ark Omega Ascended Discord server.

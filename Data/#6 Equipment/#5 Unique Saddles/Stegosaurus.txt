@@ -1,0 +1,42 @@
+Supasaurus
+Unique Saddle - Stegosaurus
+Supa Strong, Supa Smart, Supa Sick Of Carrying The
+Team.
+Unique Bonuses:
+Gains Frenzy Variant.
+Gains Banshee Variant.
+315% Increased Melee Damage.
+50% Reduced Ability Damage.
+50% Reduced Cooldowns.
+
+Third Law
+Unique Saddle - Stegosaurus
+For Every Action, There Is An Equal And Opposite
+Reaction.
+Unique Bonuses:
+Gains Armored Variant.
+300% Increased Damage Taken.
+Heal For 65% Of Damage Dealt.
+Reflects 50% Of Damage Taken.
+Immune To Damage Impulse.
+Cannot Be Protected By Absorbent.
+
+Steg The Tankinosaur
+Unique Saddle - Stegosaurus
+Built To Last, And Then Some.
+Unique Bonuses:
+Gains Armored Variant.
+Gains Resilient Variant.
+50% Damage Reduction.
+30% Dodge Chance.
+Immune To Damage Impulse.
+
+Stormplate
+Unique Saddle - Stegosaurus
+Shockingly Durable. Literally.
+Unique Bonuses:
+Gains Thunderstorm Variant.
+210% Increased Ability Damage.
+50% Damage Reduction.
+Melee Damage Type Changed To Thunderstorm.
+30% Reduced Cooldowns.

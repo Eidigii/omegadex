@@ -1,0 +1,43 @@
+Frill Issue
+Unique Saddle - Dilophosaur
+Pops Its Collar Right Before It Ends You.
+Unique Bonuses:
+Gains Cursed Variant.
+300% Increased Melee Damage.
+Debuffs Attackers With Total Blind.
+80% Increased Movement Speed.
+75% Increased Size.
+Reflects 10% Of Damage As Plague Damage.
+
+Earthy Dork
+Unique Saddle - Dilophosaur
+Shooting Is My Specialty.
+Unique Bonuses:
+Gains Starfire Variant.
+Gains Earth Variant.
+Attacks Apply Total Blind.
+70% Reduced Cooldowns.
+Immune To Fall Damage.
+Culling Strike On Enemies Below 5% Health.
+Passively Taunt Enemies.
+
+Space Laser Operator
+Unique Saddle - Dilophosaur
+For Long People Have Wondered What The Lizard
+People Are Up To.
+Unique Bonuses:
+If Supernova, 745% Increased Ability Damage.
+100% Reduced Melee Damage.
+900% Increased Ability Damage.
+10% Chance To Cast Supernova On kill.
+
+Visage Of The Harlequin
+Unique Saddle - Dilophosaur
+The Joke Is Always On Them.
+Y Unique Bonuses:
+Gains Boogeyman Variant.
+Gains Psychosis Variant.
+150% Increased Melee Damage.
+40% Damage Reduction.
+Debuffs Attackers With Freeze.
+Attacks Apply Weaken.

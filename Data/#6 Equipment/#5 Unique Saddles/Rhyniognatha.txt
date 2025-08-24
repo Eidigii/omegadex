@@ -1,0 +1,42 @@
+S(CH2CH2Cl)2
+Unique Saddle - Rhyniognatha
+More Mustard Please.
+Unique Bonuses:
+If Plague, 500% Increased Ability Damage.
+50% Reduced Cooldowns.
+Kills Reduce Current Cooldown By 1.1%.
+Cannot Be Protected By Absorbent.
+
+Chapulines
+Unique Saddle - Rhyniognatha
+Crispy With A Little Lime And Chili.
+Unique Bonuses:
+60% Damage Reduction.
+100% Increased Attack And Movement Speed.
+Saddle Is Always Cursed.
+Cannot Be Protected By Absorbent.
+
+Rhyno Matata
+Unique Saddle - Rhyniognatha
+Looks Normal. Stays Normal.
+Unique Bonuses:
+150% Increased Melee Damage.
+150% Increased Ability Damage.
+35% Damage Reduction.
+
+Oversized Mosquito
+Unique Saddle - Rhyniognatha
+I Hope You Have A Big Can Of Bug Spray.
+Unique Bonuses:
+300% Increased Melee Damage At Night.
+40% Increased Damage Reduction At Night.
+Heal For 50% Of Damage Dealt At Night.
+
+Parasite
+Unique Saddle - Rhyniognatha
+Still Better Than A Tapeworm.
+Unique Bonuses:
+Gains Necromancer Variant.
+If Plague, 600% Increased Ability Damage.
+If Plague, 200% Increased Variant Stat Multiplier.
+150% Increased Damage Taken.

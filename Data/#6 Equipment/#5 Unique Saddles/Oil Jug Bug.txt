@@ -1,0 +1,33 @@
+Fire Bender
+Unique Saddle - Oil Jug Bug
+Slick, Spicy, And Highly Discouraged By Safety
+Inspectors.
+Unique Bonuses:
+Gains Fire Variant.
+Attacks Apply Detonate.
+600% Increased Attack Radius.
+50% Reduced Cooldowns.
+Can Be Shoulder Mounted.
+Cannot Move.
+
+Firefly
+Unique Saddle - Oil Jug Bug
+I Am But A Star That Could Not Make The Journey
+Into The Sky.
+Unique Bonuses:
+Gains Fire Variant.
+If Wood, 900% Increased Ability Damage.
+If Wood, 400% Increased Variant Stat Multiplier.
+100% Reduced Melee Damage.
+80% Dodge Chance.
+Dodge Has 10% Chance To Trigger Fireburst.
+
+Spontaneous Combustion
+Unique Saddle - Oil Jug Bug
+Suddenly, Boom.
+Unique Bonuses:
+Gains Fireburst Variant.
+Gains Tornado Variant.
+If Detonate, 400% Increased Variant Stat Multiplier.
+2.6% Chance To Cast Explosive When Hit.
+5.0% Chance To Fire Fire Ball When Hit.

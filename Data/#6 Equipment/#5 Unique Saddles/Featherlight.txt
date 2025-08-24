@@ -1,0 +1,61 @@
+Hive Light
+Unique Saddle - Featherlight
+We Are One While We Are Many.
+Unique Bonuses:
+Gains Pygmy Variant.
+500% Increased Ability Damage.
+70% Damage Reduction.
+Heal For 30% Of Damage Dealt.
+Gains Pack Bonus.
+
+Lovely Wren
+Unique Saddle - Featherlight
+Small But Mighty.
+Unique Bonuses:
+Gains Pygmy Variant.
+Gains Ghost Variant.
+300% Increased Movement Speed.
+Immune To Torpor.
+Can Ride Pygmy.
+
+Groot's Vengeance
+Unique Saddle - Featherlight
+His Curse Spreads From Glowtails To Featherlights.
+Unique Bonuses:
+Gains Druid Variant.
+Gains Soul Variant.
+Gains Treasure Variant.
+38% Reduced Melee Damage.
+300% Increased Ability Damage.
+50% Reduced Cooldowns.
+
+Flicker Strike
+Unique Saddle - Featherlight
+Catch Me If You Can.
+Unique Bonuses:
+Gains Armored Variant.
+If Warp, 900% Increased Ability Damage.
+If Warp, 400% Increased Variant Stat Multiplier.
+75% Reduced Cooldowns.
+
+Feral Feather
+Unique Saddle - Featherlight
+Is This What The Youth Listen To?
+Unique Bonuses:
+Gains Disruptor Variant.
+Gains Uncontrollable Variant.
+Gains Brutal Variant.
+If Metal, 200% Increased Variant Stat Multiplier.
+230% Increased Attack Radius.
+
+Hurricane Phoenix
+Unique Saddle - Featherlight
+What Once Protected Life, Now Takes It.
+Unique Bonuses:
+Gains Starfire Variant.
+Gains Tornado Variant.
+100% Reduced Melee Damage.
+700% Increased Ability Damage.
+Enemies Ignore You Unless Provoked.
+Shoulder Pet Can Be Ridden.
+Can Strafe.

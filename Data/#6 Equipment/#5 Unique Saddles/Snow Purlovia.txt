@@ -1,0 +1,30 @@
+Sneak Attack
+Unique Saddle - Snow Purlovia
+Boo!
+Unique Bonuses:
+Gains Stalker Variant.
+150% Increased Melee Damage At Night.
+50% Increased Damage Reduction At Night.
+1% Chance To Cast Banshee Scream On Kill.
+Debuffs Attackers With Boogeyman Fear.
+Enemies Ignore You Unless Provoked.
+
+Cave Dweller
+Unique Saddle - Snow Purlovia
+Technically Not Hiding If It Hits You First.
+Unique Bonuses:
+Gains Thunderstorm Variant.
+400% Increased Ability Damage.
+50% Damage Reduction.
+200% Magic Find While Ridden.
+
+Fulgor
+Unique Saddle - Snow Purlovia
+The Beast Of The Tundra Shines In The Dark.
+Unique Bonuses:
+Gains Dimensional Variant.
+Gains Ghost Variant.
+80% Reduced Melee Damage.
+500% Increased Ability Damage.
+200% Increased Movement Speed.
+50% Reduced Cooldowns.

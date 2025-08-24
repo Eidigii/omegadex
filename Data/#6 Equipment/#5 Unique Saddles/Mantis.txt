@@ -1,0 +1,70 @@
+Scyther
+Unique Saddle - Mantis
+Gotta Catch Em' All!
+Unique Bonuses:
+Gains Miracle Variant.
+365% Increased Melee Damage.
+250% Increased Attack Radius.
+50% Increased Attack And Movement Speed.
+
+Richard
+Unique Saddle - Mantis
+Unique Bonuses:
+Gains Frenzy Variant.
+Gains Rampage Variant.
+Gains Stalker Variant.
+405% Increased Melee Damage.
+
+Blade Master
+Unique Saddle - Mantis
+Swift As The Wind, I Shall Carve Down My Foes.
+Unique Bonuses:
+Gains Warp Variant.
+225% Increased Melee Damage.
+45% Dodge Chance.
+Dodge Has 3% Chance To Trigger Frenzy Roar.
+Culling Strike On Enemies Below 5% Health.
+
+Nano Blade
+Unique Saddle - Mantis
+Ryk! Jinnoken Wo Kurae!
+Unique Bonuses:
+Gains Warp Variant.
+50% Increased Melee Damage.
+50% Damage Reduction.
+Kills Reduce Current Cooldown By 5.0%.
+Heal For 9% Of Damage Dealt.
+
+Grim Reaper
+Unique Saddle - Mantis
+I Am The Harvester Of Souls. No One Can Touch Me,
+Nor Escape My Scythe.
+Unique Bonuses:
+Gains Miracle Variant.
+Gains Essence Variant.
+300% Increased Melee Damage.
+Immune To Torpor.
+Immune To Damage Impulse.
+
+The Bad Touch
+Unique Saddle - Mantis
+Just Don't Let Me Touch You.
+Unique Bonuses:
+100% Increased Melee Damage.
+Attacks Have A 20% Chance To Apply Gorgon
+Stoned.
+Attacks Have A 20% Chance To Apply Banshee
+Curse.
+Attacks Have A 20% Chance To Apply Disruption.
+Attacks Have A 20% Chance To Apply Element
+Sickness.
+
+Translocation
+Unique Saddle - Mantis
+Blink And You'll Miss It.
+Unique Bonuses:
+Gains Warp Variant.
+100% Increased Variant Stat Multiplier.
+300% Increased Ability Damage.
+75% Increased Damage Taken.
+75% Reduced Cooldowns.

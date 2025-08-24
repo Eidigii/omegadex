@@ -1,0 +1,9 @@
+Demonic Monster
+Unique Saddle - Megalosaurus
+The King Of The Night.
+Unique Bonuses:
+Gains Demon Variant.
+350% Increased Melee Damage At Night.
+50% Increased Damage Reduction At Night.
+Heal For 10% Of Melee Damage Dealt.
+Permanent Rampage.

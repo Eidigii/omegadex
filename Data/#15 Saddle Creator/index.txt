@@ -10,7 +10,7 @@
         <div class="top-right" v-if="isChecked != false">Points used: <span :style="availablePoints < 0 ? { 'color': 'red'} : ''">{{ maxPoints - availablePoints }}</span>/{{ maxPoints }}</div>
         <div class="info-section">
             <div class="image-container">
-                <img src="assets/saddle.png" alt="Saddle Icon" />
+                <img src="assets/saddles/Saddle.png" alt="Saddle Icon" />
             </div>
             <div class="text-container">
                 <div class="subtitle">Unique Saddle - {{ selectedSpecie }}</div>

@@ -1,0 +1,39 @@
+Zipstream
+Unique Saddle - Ravager
+We Don't Need A Runway Here.
+Unique Bonuses:
+If Warp, 900% Increased Ability Damage.
+If Warp, 400% Increased Variant Stat Multiplier.
+150% Increased Melee Damage.
+150% Increased Ability Damage.
+100% Increased Movement Speed.
+
+Brutality
+Unique Saddle - Ravager
+Oh Man, That Was Hard To Watch.
+Unique Bonuses:
+Gains Brutal Variant.
+Gains Colossus Variant.
+If Uncontrollable, 300% Increased Variant Stat
+Multiplier.
+150% Increased Damage Taken.
+Can Ride Uncontrollable Variant.
+Permanent Rampage.
+
+Rav Tack Tack
+Unique Saddle - Ravager
+Tack. Tack. Tack.
+Unique Bonuses:
+Gains Uncontrollable Variant.
+265% Increased Melee Damage.
+Attacks Apply Banshee Curse.
+Permanent Rampage.
+
+Hound Of Baskerville
+Unique Saddle - Ravager
+Fear The Hunt!
+Unique Bonuses:
+Gains Echo Variant.
+Gains Cursed Variant.
+300% Increased Melee Damage.
+200% Increased Attack Radius.

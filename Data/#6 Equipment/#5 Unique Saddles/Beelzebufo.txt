@@ -1,0 +1,62 @@
+Frog Norris
+Unique Saddle - Beelzebufo
+When Danger Lurks In The Pond, Only One
+Amphibian Dares To Take A Stand.
+Unique Bonuses:
+Gains Barrage Variant.
+250% Increased Ability Damage.
+80% Increased Attack And Movement Speed.
+Kills Reduce Current Cooldown By 3.0%.
+
+Poison Frog
+Unique Saddle - Beelzebufo
+Don't Let The Pretty Colors Fool You.
+Unique Bonuses:
+Gains Plague Variant.
+Attacks Have A 50% Chance To Apply Element
+Sickness.
+tongue Damage Type Changed To Plague.
+170% Increased Attack Radius.
+100% Increased Movement Speed.
+
+Licky Tongue
+Unique Saddle - Beelzebufo
+Lick 'Em In The Face!
+Unique Bonuses:
+Gains Taming Variant.
+Attacks Apply Electrocution.
+140% Increased Movement Speed.
+80% Reduced Gravity.
+Immune To Torpor.
+Can Use Mounted Weaponry.
+Greatly Increased Mobility And Turn Radius.
+
+Toxic Toad
+Unique Saddle - Beelzebufo
+You Wish I Was A Poison Dart Frog.
+Unique Bonuses:
+10% Chance To Cast Volatile On kill.
+Sweep Damage Type Changed To Plague.
+Attacks Apply Weaken.
+295% Increased Attack Radius.
+
+Fly Swatter
+Unique Saddle - Beelzebufo
+Built To Hop, Designed To Drop.
+Unique Bonuses:
+Gains Thunderstorm Variant.
+Attacks Apply Gorgon Stoned.
+150% Increased Attack Radius.
+70% Reduced Gravity.
+Immune To Fall Damage.
+
+Morphine
+Unique Saddle - Beelzebufo
+I Am Toxic Like Britney Spears.
+Unique Bonuses:
+Gains Dimensional Variant.
+Gains Colossus Variant.
+Gains Taming Variant.
+150% Increased Melee Damage.
+Attacks Apply Short Stun.
+100% Increased Imprint Bonus.

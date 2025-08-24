@@ -1,0 +1,29 @@
+Smaug
+Unique Saddle - Rock Drake
+I Will Defend My Gold With Fire.
+Unique Bonuses:
+Gains Loot Variant.
+250% Increased Ability Damage.
+35% Damage Reduction.
+5% Chance To Cast Starfire On Kill.
+Bite Damage Type Changed To Fire.
+
+Sensei Nellysan's Battle Scythe
+Unique Saddle - Tek Rock Drake
+Hello Darkness, My Old Friend.
+Unique Bonuses:
+200% Increased Variant Stat Multiplier.
+400% Increased Melee Damage At Night.
+100% Reduced Ability Damage.
+25% Chance To Ignore Dodge.
+Bite Damage Type Changed To Explosion.
+100% Increased Attack And Movement Speed.
+
+Demon Core
+Unique Saddle - Rock Drake
+Well, That's It Then.
+Unique Bonuses:
+Gains Nuclear Variant.
+Gains Metal Variant.
+90% Reduced Melee Damage.
+605% Increased Ability Damage.

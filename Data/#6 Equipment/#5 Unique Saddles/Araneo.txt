@@ -1,0 +1,75 @@
+Lifeweaver
+Unique Saddle - Araneo
+A Little Care Always Helps.
+Unique Bonuses:
+Gains Fairy Variant.
+Gains Shield Variant.
+30% Dodge Chance.
+Regen 1.5% Stamina Per Second In Area.
+
+Warlock
+Unique Saddle - Araneo
+It Definitely Sounds Better Than Battlelock.
+Unique Bonuses:
+Gains Frenzy Variant.
+Gains Overlord Variant.
+Gains Zombie Variant.
+25% Damage Reduction.
+Attacks Apply Banshee Curse.
+
+Itsy Bitsy
+Unique Saddle - Araneo
+Along Came A Spider.
+Unique Bonuses:
+Gains Harvesting Variant.
+Gains Shield Variant.
+385% Increased Attack Radius.
+Can Be Shoulder Mounted.
+Culling Strike On Enemies Below 5% Health.
+Passively Taunt Enemies.
+
+Procalypse
+Unique Saddle - Araneo
+Eight Legs, Six Elements, One Apocalypse.
+Unique Bonuses:
+100% Reduced Melee Damage.
+475% Increased Ability Damage.
+5.0% Chance To Fire Wind Ball When Hit.
+5.0% Chance To Fire Earth Ball When Hit.
+5.0% Chance To Fire Water Ball When Hit.
+5.0% Chance To Fire Ice Ball When Hit.
+5.0% Chance To Fire Fire Ball When Hit.
+5.0% Chance To Fire Lightning Ball When Hit.
+Cannot Be Protected By Absorbent.
+Cannot Attack.
+
+Faraway
+Unique Saddle - Araneo
+The Best Distance To keep Spiders.
+Unique Bonuses:
+Gains Gamma-Ray Variant.
+300% Increased Melee Damage.
+300% Increased Ability Damage.
+30% Damage Reduction.
+30% Dodge Chance.
+45% Increased Size.
+
+Juke
+Unique Saddle - Araneo
+That's One Slippery Spider.
+Unique Bonuses:
+Gains Essence Variant.
+300% Increased Ability Damage.
+Dodge Has 10% Chance To Trigger Gamma-Ray.
+200% Increased Damage To Bosses.
+Passively Taunt Enemies.
+
+Quelaag
+Unique Saddle - Araneo
+A Quiet Grief Wrapped In Fire And Fangs.
+Unique Bonuses:
+Gains Fireburst Variant.
+Gains Colossus Variant.
+250% Increased Melee Damage.
+250% Increased Ability Damage.
+Melee Damage Type Changed To Fire.

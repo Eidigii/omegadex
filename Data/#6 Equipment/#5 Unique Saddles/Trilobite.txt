@@ -1,0 +1,55 @@
+Beach Boulder
+Unique Saddle - Trilobite
+My Best Friends Are Dodos And Lystros.
+Unique Bonuses:
+Gains Gorgon Variant.
+Gains Thunderstorm Variant.
+200% Increased Melee Damage.
+200% Increased Ability Damage.
+20% Damage Reduction.
+50% Dodge Chance.
+100% Increased Movement Speed.
+
+Limbo
+Unique Saddle - Trilobite
+Can I Join Boss Fights?
+Unique Bonuses:
+Gains Cursed Variant.
+Attacks Apply Weaken.
+175% Increased Attack Radius.
+100% Increased Damage To Bosses.
+60% Reduced Damage Taken From Bosses.
+Saddle Is Always Cursed.
+Cannot Be Protected By Absorbent.
+
+Thunderous Applause
+Unique Saddle - Trilobite
+I Wanna Scream And Shout And Let It All Out
+Unique Bonuses:
+Custom Bonus:
+20%ChanceForCursedLightningStrihes
+Gains Thunderstorm Variant.
+Gains Frenzy Variant.
+365% Increased Ability Damage.
+75% Reduced Cooldowns.
+
+Roomba Rumble
+Unique Saddle - Trilobite
+Sweeping The Nation.
+Unique Bonuses:
+Gains Colossus Variant.
+250% Increased Melee Damage.
+500% Increased Attack Radius.
+100% Increased Movement Speed.
+500% Increased Step Height.
+
+Tiny Tank
+Unique Saddle - Trilobite
+This Shield Wiggles.
+Unique Bonuses:
+Gains Pearl Variant.
+If Absorbent, 400% Increased Variant Stat
+Multiplier.
+80% Damage Reduction.
+50% Dodge Chance.
+80% Reduced Damage Taken From Bosses.

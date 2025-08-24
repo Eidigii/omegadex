@@ -1,3 +1,4 @@
+import html
 import re
 import os
 
@@ -488,3 +489,109 @@ class saddleRuleSet(RuleSet):
 
     def post_process_html(self, html_content, dir, file_name):
         return html_content
+
+class UniqueSaddlesRuleSet(RuleSet):
+    def extract_content_sections(self, content, file_name):
+        # Index file: render literally (unchanged behavior)
+        if os.path.basename(file_name).lower() == "index.txt":
+            return [html.escape(content).replace('\n', '<br>')]
+        # Derive species name from filename
+        base = os.path.splitext(os.path.basename(file_name))[0]
+        species_default = re.sub(r'^#\d+\s', '', base).replace('-', ' ').strip().title()
+
+        # If file is empty or only whitespace -> show "no saddles" message
+        if not content.strip():
+            msg = f'{species_default} has no unique saddles yet!'
+            return [msg]
+
+        saddles = self._parse_saddles(content, file_name)
+
+        # If parsing found nothing -> also show the message
+        if not saddles:
+            msg = f'*{species_default}* has no unique saddles yet!'
+            return [msg]
+
+        cards = [self._render_card(s) for s in saddles]
+        return ['\n'.join(cards)]
+
+    def post_process_html(self, html_content, dir, file_name):
+        css_tag = '<link rel="stylesheet" href="assets/saddle-builder.css">'
+        if 'saddle-builder.css' not in html_content:
+            html_content = css_tag + '\n' + html_content
+        return html_content
+    
+    def _image_filename_from_label(self, label: str) -> str:
+        # Convert e.g. "Tek Rock Drake" -> "Tek_Rock_Drake.png"
+        if not label:
+            return 'Saddle.png'
+        name = re.sub(r'\s+', '_', label.strip())
+        name = re.sub(r'[^A-Za-z0-9_]', '', name)
+        name = re.sub(r'_+', '_', name)
+        return f'{name}.png'
+
+    def _parse_saddles(self, text, file_name):
+        base = os.path.splitext(os.path.basename(file_name))[0]
+        species_default = re.sub(r'^#\d+\s', '', base).replace('-', ' ').strip().title()
+
+        lines = [ln.rstrip('\r') for ln in text.split('\n')]
+        i, n = 0, len(lines)
+        saddles = []
+
+        def eat_blank():
+            nonlocal i
+            while i < n and not lines[i].strip():
+                i += 1
+
+        while i < n:
+            eat_blank()
+            if i >= n:
+                break
+
+            name = lines[i].strip()
+            i += 1
+
+            species = species_default
+            if i < n and lines[i].strip().lower().startswith('unique saddle -'):
+                after = lines[i].split('-', 1)[1].strip() if '-' in lines[i] else ''
+                species = after or species_default
+                i += 1
+
+            flavor_lines = []
+            while i < n and lines[i].strip() and lines[i].strip().lower() != 'unique bonuses:':
+                flavor_lines.append(lines[i])
+                i += 1
+
+            if i < n and lines[i].strip().lower() == 'unique bonuses:':
+                i += 1
+
+            bonuses = []
+            while i < n and lines[i].strip():
+                bonuses.append(lines[i].strip())
+                i += 1
+
+            # Skip blocks that have no name and no bonuses
+            if name or bonuses or flavor_lines:
+                saddles.append({
+                    'name': name,
+                    'species': species,
+                    'flavor_lines': flavor_lines,
+                    'bonuses': bonuses
+                })
+
+            eat_blank()
+
+        return saddles
+
+    def _render_card(self, s):
+        def esc(x):
+            return html.escape(x or '')
+
+        species_label = s.get('species', '')
+        image_file = self._image_filename_from_label(species_label)
+        icon_web = f'assets/saddles/{image_file}'
+        fallback_web = 'assets/saddles/Saddle.png'
+
+        flavor_html = '<br>'.join(esc(line) for line in (s.get('flavor_lines') or []))
+        bonuses_html = ''.join(f'<li>{esc(b)}</li>' for b in (s.get('bonuses') or []))
+
+        return f'''<div class="saddleContainer"> <div class="saddle"> <div class="title">{esc(s.get("name", ""))}</div> <div class="info-section"> <div class="image-container"> <img src="{icon_web}" alt="Saddle Icon" onerror="this.onerror=null;this.src='{fallback_web}';"> </div> <div class="text-container"> <div class="subtitle">Unique Saddle - {esc(species_label)}</div> <div class="flavor-text">{flavor_html}</div> <div class="bonuses"> <strong>Unique Bonuses:</strong> <ul>{bonuses_html}</ul> </div> </div> </div> </div> </div>'''.strip()

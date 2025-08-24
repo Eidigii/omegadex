@@ -1,0 +1,41 @@
+Swiss Army Knife
+Unique Saddle - Lystrosaurus
+Does Everything But Win A Fair Fight.
+Unique Bonuses:
+Gains Uncontrollable Variant.
+200% Increased Melee Damage.
+300% Increased Attack And Movement Speed.
+Permanent Rampage.
+
+Gigantism
+Unique Saddle - Lystrosaurus
+I Have Hormonal Problems, Okay?
+Unique Bonuses:
+Gains Colossus Variant.
+300% Increased Melee Damage.
+125% Increased Movement Speed.
+200% Increased Step Height.
+Heal For Of Damage Dealt.
+Reflects 25% Of Damage Taken.
+
+Seeing Red
+Unique Saddle - Lystrosaurus
+That's My Secret. I'm Always Angry.
+Unique Bonuses:
+725% Increased Melee Damage.
+100% Increased Size.
+Can Ride Rage Variant.
+
+Hero Complex
+Unique Saddle - Lystrosaurus
+Hits Like A Hero. Folds Like A Sidekick.
+Unique Bonuses:
+Gains Frenzy Variant.
+Gains Thunderstorm Variant.
+Gains Disruptor Variant.
+Gains Fairy Variant.
+Gains Gorgon Variant.
+Gains Uncontrollable Variant.
+300% Increased Damage Taken.
+30% Dodge Chance.
+Passively Taunt Enemies.

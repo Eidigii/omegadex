@@ -1,0 +1,87 @@
+Jafar's Snake Staff
+Unique Saddle - Titanoboa
+You Will Order The Princess To Marry Me.
+Unique Bonuses:
+Gains Siren Variant.
+Gains Gorgon Variant.
+75% Reduced Cooldowns.
+Can Be Shoulder Mounted.
+Picks Up Nearby Dropped Items.
+
+Jones Nightmare
+Unique Saddle - Titanoboa
+Snakes & Why Did It Have To Be Snakes?
+Unique Bonuses:
+Gains Overlord Variant.
+400% Increased Melee Damage.
+100% Increased Attack Radius.
+50% Reduced Cooldowns.
+Gains Pack Bonus.
+
+Sea Snake
+Unique Saddle - Titanoboa
+Summons Tempests With A Twist Of Its Tail.
+Unique Bonuses:
+Gains Thunderstorm Variant.
+Gains Tsunami Variant.
+300% Increased Ability Damage.
+300% Increased Damage To Bosses.
+Immune To Torpor.
+
+Lottery
+Unique Saddle - Titanoboa
+Take Your Chances On The Saturday Draw.
+Unique Bonuses:
+80% Reduced Melee Damage.
+Attacks Have A 15% Chance To Apply Weaken.
+Attacks Have A 15% Chance To Apply Gorgon
+Stoned.
+Attacks Have A 15% Chance To Apply Banshee
+Curse.
+Attacks Have A 15% Chance To Apply Splintered.
+Attacks Have A 15% Chance To Apply Elemental
+Weakness.
+Attacks Have A 15% Chance To Apply Electrocution.
+Attacks Have A 15% Chance To Apply Freeze.
+Attacks Have A 15% Chance To Apply Total Blind.
+Attacks Have A 15% Chance To Apply Total Shock.
+
+Zeus's Pet
+Unique Saddle - Titanoboa
+The Only Thing Louder Than The Hiss Is The
+Thunder.
+Unique Bonuses:
+Gains Armored Variant.
+If Thunderstorm, 270% Increased Variant Stat
+Multiplier.
+100% Reduced Melee Damage.
+300% Increased Ability Damage.
+Attacks Apply Banshee Curse.
+100% Increased Damage To Bosses.
+
+Snek
+Unique Saddle - Titanoboa
+Nope Rope, Danger Noodle, Death Spaghetti.
+Unique Bonuses:
+100% Increased Melee Damage.
+80% Dodge Chance.
+Dodge Has 10% Chance To Trigger Psychosis.
+200% Increased Attack Radius.
+200% Increased Size.
+
+Deadly Poison
+Unique Saddle - Titanoboa
+One Bite Could Make You Go Crazy.
+Unique Bonuses:
+100% Reduced Ability Damage.
+50% Damage Reduction.
+Attacks Have A 15% Chance To Apply Banshee
+Curse.
+Attacks Have A 15% Chance To Apply Weaken.
+Attacks Have A 15% Chance To Apply Gorgon
+Stoned.
+Attacks Have A 15% Chance To Apply Psycho.
+Attacks Have A 15% Chance To Apply Total Blind.
+210% Increased Attack Radius.
+50% Increased Attack And Movement Speed.
+Greatly Increased Mobility And Turn Radius.

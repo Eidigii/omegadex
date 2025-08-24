@@ -1,0 +1,43 @@
+Carcharry Potter
+Unique Saddle - Carcharodontosaurus
+You're A Wizard, Carcharry.
+Unique Bonuses:
+26% Reduced Melee Damage.
+200% Increased Ability Damage.
+200% Increased Damage Taken.
+75% Reduced Cooldowns.
+Saddle Is Always Cursed.
+
+Glass Cannon
+Unique Saddle - Carcharodontosaurus
+Stop Touching Me!
+Unique Bonuses:
+600% Increased Melee Damage.
+300% Increased Damage Taken.
+Heal For 30% Of Melee Damage Dealt.
+
+Strong And Nice.
+Unique Saddle - Carcharodontosaurus
+Crushes Enemies. Cuddles Allies.
+Unique Bonuses:
+225% Increased Melee Damage.
+Can Ride Uncontrollable Variant.
+Passively Taunt Enemies.
+
+Bloodborne
+Unique Saddle - Carcharodontosaurus
+The Sweet Blood. Oh, It Sings To Me.
+Unique Bonuses:
+Custom Bonus: BloodRageStacksT0200.
+Gains Brutal Variant.
+Attacks Apply Psycho.
+Cannot Be Protected By Absorbent.
+
+Dog
+Unique Saddle - Carcharodontosaurus
+Could This Be A Dog?
+Unique Bonuses:
+If Pygmy, 400% Increased Variant Stat Multiplier.
+100% Reduced Ability Damage.
+300% Increased Step Height.
+Can Ride Pygmy.

@@ -1,0 +1,54 @@
+Impending Doom
+Unique Saddle - Dimorphodon
+Death Only Brings More Death.
+Unique Bonuses:
+Gains Uncontrollable Variant.
+75% Increased Melee Damage.
+Melee Damage Type Changed To Plague.
+Attacks Apply Detonate.
+100% Increased Attack And Movement Speed.
+Greatly Increased Mobility And Turn Radius.
+
+Ratbird
+Unique Saddle - Dimorphodon
+Hey, What's Going On Little Guy?
+Unique Bonuses:
+Gains Fairy Variant.
+If Pygmy, 400% Increased Variant Stat Multiplier.
+Attacks Have A 10% Chance To Apply Banshee Curse.
+Attacks Have A 10% Chance To Apply Weaken.
+275% Increased Mate Boost Bonus.
+
+Annoyance
+Unique Saddle - Dimorphodon
+The Shys Most Unwanted Notification.
+Unique Bonuses:
+Gains Overlord Variant.
+80% Dodge Chance.
+Attacks Apply Long Stun.
+200% Increased Movement Speed.
+40% Reduced Cooldowns.
+
+Cluster Bomb
+Unique Saddle - Dimorphodon
+They All Go Boom.
+Unique Bonuses:
+Attacks Have A 95% Chance To Apply Detonate.
+300% Increased Attack Radius.
+100% Increased Movement Speed.
+Can Ignore Water
+Shoulder Pet Can Be Ridden.
+Can Strafe.
+
+Try Hard
+Unique Saddle - Dimorphodon
+It Desperately Wants To Be Useful.
+Unique Bonuses:
+Gains Crafting Variant.
+Gains Taming Variant.
+If Potion, 200% Increased Variant Stat Multiplier.
+25% Reduced Ability Damage.
+40% Dodge Chance.
+200% Increased Movement Speed.
+Enemies Ignore You Unless Provoked.
+Shoulder Pet Can Be Ridden.

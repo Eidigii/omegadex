@@ -1,0 +1,76 @@
+Sedative
+Unique Saddle - Titanomyrma Soldier
+My Bite Is A Sleeping Pill.
+Unique Bonuses:
+Gains Treasure Variant.
+300% Increased Melee Damage.
+Melee Damage Type Changed To Taming.
+Attacks Apply Long Stun.
+50% Increased Size.
+Immune To Torpor.
+Can Strafe.
+
+Tarantula Hawk Wasp
+Unique Saddle - Titanomyrma Soldier
+They Sting Rather Large Prey, Paralyzing Them In
+Tremendous Pain, And Letting Them Slowly Be
+Eaten Alive By A Larvae.
+Unique Bonuses:
+Gains Cursed Variant.
+350% Increased Melee Damage.
+Attacks Have A 20% Chance To Apply Weaken.
+100% Increased Attack And Movement Speed.
+Gains Pack Bonus.
+
+Soldier Of The Night
+Unique Saddle - Titanomyrma Soldier
+Don't Regret Your Choices.
+Unique Bonuses:
+Gains Ghost Variant.
+500% Increased Melee Damage.
+500% Increased Ability Damage.
+Attacks Have A 55% Chance To Apply Splintered.
+
+Colony Commando
+Unique Saddle - Titanomyrma Soldier
+Marching Ants, Raining Death.
+Unique Bonuses:
+140% Increased Melee Damage.
+165% Increased Ability Damage.
+2.75% Chance To Cast Gamma-Ray When Hit.
+235% Increased Damage To Bosses.
+Gains Pack Bonus.
+
+Attractive Ant
+Unique Saddle - Titanomyrma Soldier
+Pheromones Are Strong With This One.
+Unique Bonuses:
+Gains Spiritual Variant.
+200% Increased Melee Damage.
+300% Increased Attack Radius.
+25% Increased Attack And Movement Speed.
+Regen 1.0% Stamina Per Second.
+Greatly Increased Mobility And Turn Radius.
+Passively Taunt Enemies.
+
+Bell A H-1 Z Viper
+Unique Saddle - Titanomyrma Soldier
+Air Support Is On The Way!
+Unique Bonuses:
+Gains Barrage Variant.
+200% Increased Variant Stat Multiplier.
+60% Reduced Melee Damage.
+400% Increased Ability Damage.
+64% Reduced Cooldowns.
+
+Event Horizon
+Unique Saddle - Titanomyrma Soldier
+Where The Light Fades And The Cosmos Unleashes
+Its Wrath.
+Unique Bonuses:
+Gains Supernova Variant.
+Gains Singularity Variant.
+500% Increased Ability Damage.
+35% Damage Reduction.
+35% Dodge Chance.
+Immune To Damage Impulse.

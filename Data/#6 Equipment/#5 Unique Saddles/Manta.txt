@@ -1,0 +1,56 @@
+Jet Stream
+Unique Saddle - Manta
+"Redefining Flying Fish One Supersonic Splash At A
+Time.
+Unique Bonuses:
+Gains Dimensional Variant.
+400% Increased Melee Damage.
+50% Dodge Chance.
+215% Increased Attack Radius.
+50% Increased Attack And Movement Speed.
+
+Bubbles
+Unique Saddle - Manta
+This Is A Nice Pet To Have, Don't You Think?
+Unique Bonuses:
+Gains Dimensional Variant.
+Gains Tracker Variant.
+Gains Spiritual Variant.
+200% Increased Melee Damage.
+160% Magic Find While Ridden.
+
+Surfboard
+Unique Saddle - Manta
+Surfs Up Dude!
+Unique Bonuses:
+Gains Reactive Variant.
+Gains Dimensional Variant.
+300% Increased Ability Damage.
+10% Chance To Cast Explosive On Kill.
+70% Increased Movement Speed.
+
+Rug Man
+Unique Saddle - Manta
+Haven't Seen You In A Few Millennia! Give Me Some
+Tassel!
+Unique Bonuses:
+Gains Tracker Variant.
+Gains Dimensional Variant.
+170% Increased Movement Speed.
+Can Use Mounted Weaponry.
+Greatly Increased Mobility And Turn Radius.
+Enemies Ignore You Unless Provoked.
+Can Strafe.
+Picks Up Nearby Dropped Items.
+Cannot Attack.
+
+Microbe Of Death
+Unique Saddle - Manta
+They Won't Even See Me Coming.
+Unique Bonuses:
+Gains Pygmy Variant.
+50% Dodge Chance.
+Sting Damage Type Changed To Plague.
+400% Increased Attack Radius.
+35% Increased Attack And Movement Speed.
+Can Ride Pygmy.

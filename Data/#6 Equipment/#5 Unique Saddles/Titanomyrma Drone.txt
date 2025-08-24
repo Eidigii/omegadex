@@ -1,0 +1,68 @@
+Queen Ant
+Unique Saddle - Titanomyrma Drone
+Supreme Ruler.
+Unique Bonuses:
+Gains Colossus Variant.
+Gains Brutal Variant.
+90% Increased Melee Damage.
+Attacks Apply Psycho.
+100% Increased Attack Radius.
+200% Increased Size.
+
+A Bug's Life
+Unique Saddle - Titanomyrma Drone
+I Ain't No Worker, Screw The Queen.
+Unique Bonuses:
+Gains Element Variant.
+300% Increased Melee Damage.
+300% Increased Ability Damage.
+25% Damage Reduction.
+30% Dodge Chance.
+Can Use Mounted Weaponry.
+
+Eight Gates
+Unique Saddle - Titanomyrma Drone
+There Is No One Who Surpasses You In Taijutsu. I
+Declare You The Strongest!
+Unique Bonuses:
+Gains Lethal Variant.
+500% Increased Melee Damage.
+100% Reduced Ability Damage.
+50% Damage Reduction.
+150% Increased Attack Radius.
+100% Increased Size.
+Passively Taunt Enemies.
+
+Crawly
+Unique Saddle - Titanomyrma Drone
+Careful Where You Step.
+Unique Bonuses:
+Gains Stalker Variant.
+If Uncontrollable, 125% Increased Variant Stat
+Multiplier.
+300% Increased Damage To Bosses.
+80% Reduced Damage Taken From Bosses.
+Permanent Rampage.
+
+World Eater
+Unique Saddle - Titanomyrma Drone
+"This Bug Was Normal Until One Day When He
+Stumbled Upon A Figure Of Great Power. The Man
+Gave The Tiny Bug A Drop Of Honey. Little Did The
+Bug Know, This Honey Contained The Power To
+Transcend All.
+Unique Bonuses:
+Gains Cursed Variant.
+Gains Lethal Variant.
+900% Increased Melee Damage.
+100% Reduced Ability Damage.
+Cannot Be Protected By Absorbent.
+
+Daycare
+Unique Saddle - Titanomyrma Drone
+Never Knew He Can Look After You.
+Unique Bonuses:
+Gains Breeding Variant.
+Regen 1.1% Health Per Second In Area.
+Regen 1.1% Food Per Second In Area.
+Enemies Ignore You Unless Provoked.

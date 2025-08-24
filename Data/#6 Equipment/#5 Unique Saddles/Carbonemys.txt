@@ -1,0 +1,30 @@
+Nuka Turtle
+Unique Saddle - Carbonemys
+Wanna See What I'm Hiding In My Shell?
+Unique Bonuses:
+Gains Self-Destructive Variant.
+700% Increased Ability Damage.
+300% Increased Damage Taken.
+25% Chance To Ignore Dodge.
+150% Increased Movement Speed.
+50% Increased Damage To Bosses.
+Greatly Increased Mobility And Turn Radius.
+Cannot Be Ridden.
+
+Turtletank
+Unique Saddle - Carbonemys
+Slow Yet Deadly.
+Unique Bonuses:
+Gains Barrage Variant.
+Gains Colossus Variant.
+375% Increased Ability Damage.
+50% Reduced Cooldowns.
+
+Slow Death
+Unique Saddle - Carbonemys
+Slow And Steady Outruns Death.
+Unique Bonuses:
+Gains Barrage Variant.
+300% Increased Ability Damage.
+30% Chance To Ignore Dodge.
+50% Reduced Cooldowns.

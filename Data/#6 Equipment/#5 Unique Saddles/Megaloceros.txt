@@ -1,0 +1,54 @@
+Treebeard
+Unique Saddle - Megaloceros
+Patience Is The Deepest Root Of Wisdom, And From
+Deep Roots Grow Mighty Trees.
+Unique Bonuses:
+Gains Druid Variant.
+500% Increased Ability Damage.
+50% Damage Reduction.
+50% Reduced Cooldowns.
+
+Santa's Little Helper
+Unique Saddle - Megaloceros
+Even Rudolph Is Jealous.
+Unique Bonuses:
+Gains Dimensional Variant.
+Gains Treasure Variant.
+100% Increased Melee Damage At Night.
+200% Increased Ability Damage.
+Melee Damage Type Changed To Blizzard.
+100% Increased Attack And Movement Speed.
+
+Spirit Of The Forest
+Unique Saddle - Megaloceros
+The Legend Says: Once You See The Fog, Its
+Already Too Late.
+Unique Bonuses:
+Permanent Reactive.
+400% Increased Ability Damage.
+80% Dodge Chance.
+30% Reduced Gravity.
+Heal For 20% Of Damage Dealt.
+Greatly Increased Mobility And Turn Radius.
+
+Simple Deer
+Unique Saddle - Megaloceros
+Just A Deer, Running In The Redwoods.
+Unique Bonuses:
+Gains Tracker Variant.
+Gains Earth Variant.
+185% Increased Ability Damage.
+50% Dodge Chance.
+10% Chance To Cast Tornado On Kill.
+100% Increased Movement Speed.
+Cannot Attack.
+
+Private Dancer
+Unique Saddle - Megaloceros
+A Dancer For Money, And Any Old Music Will Do.
+Unique Bonuses:
+Gains Pygmy Variant.
+Gains Lethal Variant.
+100% Increased Melee Damage.
+315% Increased Attack Radius.
+Can Ride Pygmy.

@@ -1,0 +1,35 @@
+Hide And Seeker
+Unique Saddle - Seeker
+Ready Or Not, Here It Comes.
+Unique Bonuses:
+Gains Spiritual Variant.
+Gains Tracker Variant.
+250% Increased Melee Damage.
+250% Increased Ability Damage.
+Can Use Mounted Weaponry.
+Can Strafe.
+
+Cthulhu
+Unique Saddle - Seeker
+Great Old One.
+Unique Bonuses:
+Gains Colossus Variant.
+35% Damage Reduction.
+Attacks Have A 30% Chance To Apply Element
+Sickness.
+Attacks Have A 18% Chance To Apply Boogeyman
+Fear.
+200% Increased Attack Radius.
+
+Abyssal Horrorv 2.0
+Unique Saddle - Seeker
+The Next Stage Of The Lore.
+Unique Bonuses:
+Gains Armored Variant.
+150% Increased Variant Stat Multiplier.
+Attacks Apply Gorgon Stoned.
+80% Reduced Damage Taken From Bosses.
+Gains Pack Bonus.
+Passively Taunt Enemies.
+Cannot Be Protected By Absorbent.
+Cannot Be Ridden.

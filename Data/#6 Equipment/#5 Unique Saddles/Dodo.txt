@@ -1,0 +1,77 @@
+Beacon
+Unique Saddle - Dodo
+Light The Way.
+Unique Bonuses:
+If Starfire, 900% Increased Ability Damage.
+80% Damage Reduction.
+80% Increased Damage Reduction At Night.
+Kills Reduce Current Cooldown By 3.0%.
+Heal For 90% Of Damage Dealt At Night.
+
+Orthochlorobenzalmalononitrile
+Unique Saddle - Dodo
+Geneva? Never Heard Of Her.
+Unique Bonuses:
+If Plague, 900% Increased Ability Damage.
+If Plague, 400% Increased Variant Stat Multiplier.
+115% Increased Variant Stat Multiplier.
+900% Increased Ability Damage.
+Passively Taunt Enemies.
+Cannot Attack.
+
+Sand... Bird
+Unique Saddle - Dodo
+Just5 More Minutes!
+Unique Bonuses:
+If Taming, 400% Increased Variant Stat Multiplier.
+80% Damage Reduction.
+Attacks Have A 75% Chance To Apply Freeze.
+Attacks Have A 75% Chance To Apply Long Stun.
+Reflects 100% Of Damage As Taming Damage.
+
+Cluckzilla
+Unique Saddle - Dodo
+He Just Doesn't Give A Cluck.
+Unique Bonuses:
+Gains Colossus Variant.
+If Uncontrollable, 400% Increased Variant Stat
+Multiplier.
+300% Increased Melee Damage.
+100% Reduced Ability Damage.
+80% Increased Attack And Movement Speed.
+Reflects 10% Of Damage As Ice Damage.
+Reflects 10% Of Damage As Banshee Damage.
+Reflects 10% Of Damage As Gorgon Damage.
+Reflects 10% Of Damage As Plague Damage.
+
+Half-A-Chomper
+Unique Saddle - Dodo
+I Must Prepare For Our Reunion.
+Unique Bonuses:
+If Colossus, 900% Increased Ability Damage.
+If Colossus, 400% Increased Variant Stat Multiplier.
+200% Increased Melee Damage.
+100% Increased Size.
+Permanent Rampage.
+
+Pocket Dodo Rex
+Unique Saddle - Dodo
+Look At Me Now, Big Brother.
+Unique Bonuses:
+Gains Colossus Variant.
+Gains Armored Variant.
+100% Increased Melee Damage.
+300% Increased Ability Damage.
+49% Damage Reduction.
+Melee Damage Type Changed To Explosion.
+
+Dodosaur
+Unique Saddle - Dodo
+Proof That Evolution Has A Sense Of Humor.
+Unique Bonuses:
+Gains Uncontrollable Variant.
+Gains Ghost Variant.
+Gains Colossus Variant.
+260% Increased Melee Damage.
+Melee Damage Type Changed To Tsunami.
+Permanent Rampage.

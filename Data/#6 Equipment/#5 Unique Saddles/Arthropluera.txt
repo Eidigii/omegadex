@@ -1,0 +1,33 @@
+Sliver
+Unique Saddle - Arthropluera
+The End Of The Evolution.
+Unique Bonuses:
+Gains Warp Variant.
+500% Increased Melee Damage.
+80% Dodge Chance.
+Gains Pack Bonus.
+Passively Taunt Enemies.
+
+Avatar
+Unique Saddle - Arthropluera
+He Can Use All Of The Elements?
+Unique Bonuses:
+Gains Earthburst Variant.
+Gains Iceburst Variant.
+Gains Waterburst Variant.
+Gains Windburst Variant.
+Gains Fireburst Variant.
+Gains Lightningburst Variant.
+100% Reduced Melee Damage.
+Kills Reduce Current Cooldown By 1.35%.
+
+Ultimate Reflection
+Unique Saddle - Arthropluera
+It's Best You Don't Test Me.
+Unique Bonuses:
+Gains Reflect Variant.
+Gains Absorbent Variant.
+Debuffs Attackers With Weaken.
+Reflects 50% Of Damage Taken.
+Enemies Ignore You Unless Provoked.
+Cannot Move.

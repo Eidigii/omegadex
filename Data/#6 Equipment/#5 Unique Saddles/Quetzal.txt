@@ -1,0 +1,38 @@
+Stormcaller
+Unique Saddle - Platform Quetzal
+One Flap Of The Wings Can Summon A Storm.
+Unique Bonuses:
+Gains Tornado Variant.
+Gains Thunderstorm Variant.
+80% Reduced Melee Damage.
+500% Increased Ability Damage.
+
+B-52
+Unique Saddle - Platform Quetzal
+Technically A Bird. Functionally An Airstrike.
+Unique Bonuses:
+If Meteor, 900% Increased Ability Damage.
+100% Reduced Melee Damage.
+10% Chance To Cast Meteor On Kill.
+73% Reduced Cooldowns.
+
+Sky Base
+Unique Saddle - Platform Quetzal
+Home Away From Home.
+Unique Bonuses:
+Gains Spiritual Variant.
+Immune To Torpor.
+Greatly Increased Mobility And Turn Radius.
+Enemies Ignore You Unless Provoked.
+Can Strafe.
+Picks Up Nearby Dropped Items.
+
+Concorde
+Unique Saddle - Platform Quetzal
+Fasten Your Seatbelts. This Might Get Bumpy!
+Unique Bonuses:
+Gains Spiritual Variant.
+If Warp, 400% Increased Ability Damage.
+180% Increased Movement Speed.
+Greatly Increased Mobility And Turn Radius.
+Can Strafe.

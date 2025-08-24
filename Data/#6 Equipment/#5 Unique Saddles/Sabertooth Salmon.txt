@@ -1,0 +1,36 @@
+Rainbow Trout
+Unique Saddle - Sabertooth Salmon
+Fly Fishing Just Got A Lot More Dangerous.
+Unique Bonuses:
+Gains Fire Variant.
+Gains Ice Variant.
+Gains Earth Variant.
+Gains Lightning Variant.
+Gains Dimensional Variant.
+250% Increased Ability Damage.
+Can Be Shoulder Mounted.
+
+Thunder Fish
+Unique Saddle - Sabertooth Salmon
+Flow Like Lightning, Strike Like Thunder.
+Unique Bonuses:
+Gains Dimensional Variant.
+If Uncontrollable, 400% Increased Variant Stat
+Multiplier.
+100% Increased Melee Damage.
+100% Reduced Ability Damage.
+Bite Damage Type Changed To Thunderstorm.
+Attacks Apply Drenched.
+200% Increased Attack Radius.
+Can Ride Uncontrollable Variant.
+
+Parrot Fish
+Unique Saddle - Sabertooth Salmon
+Talks Less Than A Parrot, Smells Worse.
+Unique Bonuses:
+Gains Potion Variant.
+Gains Dimensional Variant.
+5.0% Chance To Fire Water Ball When Hit.
+Regen 1.3% Torpidity Per Second In Area.
+Can Be Shoulder Mounted.
+Cannot Attack.

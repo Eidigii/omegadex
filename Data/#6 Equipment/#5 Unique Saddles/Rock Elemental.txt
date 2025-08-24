@@ -1,0 +1,26 @@
+Vash At Home
+Unique Saddle - Rock Elemental
+Mom, Can I Get A Vash? No, Dear, We Have One At
+Home.
+Unique Bonuses:
+Gains Absorbent Variant.
+Gains Self-Destructive Variant.
+Saddle Is Always Cursed.
+
+Pyroclastic Flow
+Unique Saddle - Rock Elemental
+I'll Batter You In Ash, And Fry You Like A Roast
+Dodo.
+Unique Bonuses:
+Custom Bonus: RockThrowchangedtoEruption
+Melee Damage Type Changed To Gorgon.
+100% Increased Attack And Movement Speed.
+
+Enrichment Protocol
+Unique Saddle - Rock Elemental
+It May Not Have Been Weapons Grade When You
+Dug It up, But It Will Be After This.
+Unique Bonuses:
+If Nuclear, 195% Increased Variant Stat Multiplier.
+195% Increased Ability Damage.
+RockThrow Damage Type Changed To Explosion.

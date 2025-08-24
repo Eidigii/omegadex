@@ -1,0 +1,45 @@
+Hydrofoil
+Unique Saddle - Ichthyosaurus
+Please Keep Your Arms And Legs Inside The Vessel
+At All Times.
+Unique Bonuses:
+Gains Dimensional Variant.
+Gains Tracker Variant.
+300% Increased Movement Speed.
+50% Reduced Cooldowns.
+Greatly Increased Mobility And Turn Radius.
+Enemies Ignore You Unless Provoked.
+Can Strafe.
+Cannot Attack.
+
+Zoom Zoom
+Unique Saddle - Ichthyosaurus
+I'm Not Blue, Or A Hedgehog, But I Want To Go Fast.
+Unique Bonuses:
+Gains Warp Variant.
+Gains Dimensional Variant.
+Gains Spiritual Variant.
+300% Increased Attack And Movement Speed.
+
+Echoes Of Velora
+Unique Saddle - Ichthyosaurus
+It Sees What Other Cannot, And Reaches It Before
+They Even Blink.
+Unique Bonuses:
+Gains Spiritual Variant.
+Gains Dimensional Variant.
+Gains Tracker Variant.
+45% Dodge Chance.
+300% Increased Movement Speed.
+Can Use Mounted Weaponry.
+Greatly Increased Mobility And Turn Radius.
+
+Megumin
+Unique Saddle - Ichthyosaurus
+Let The Hammer Of Eternity Descend Unto Me!
+Unique Bonuses:
+Gains Explosive Variant.
+Gains Nuclear Variant.
+30% Damage Reduction.
+3.0% Chance To Cast Echo When Hit.
+45% Reduced Cooldowns.

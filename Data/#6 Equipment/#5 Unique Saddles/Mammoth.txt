@@ -1,0 +1,50 @@
+Exothermic Reaction
+Unique Saddle - Mammoth
+Warning: Dangerous When Wet
+Unique Bonuses:
+Gains Reactive Variant.
+If Metal, 200% Increased Variant Stat Multiplier.
+40% Increased Damage Taken.
+1.75% Chance To Cast Echo When Hit.
+TuskAttack Damage Type Changed To Explosion.
+
+Pictorial
+Unique Saddle - Mammoth
+Like A Cave Painting, But Louder And On Fire.
+Unique Bonuses:
+Gains Overlord Variant.
+If Fireburst, 315% Increased Ability Damage.
+If Colossus, 315% Increased Variant Stat Multiplier.
+Gains Pack Bonus.
+
+Lonely Yell
+Unique Saddle - Mammoth
+In The Boundless Rivers Of Time, The Solitary
+Mammoth Uttered Its Slow, Rumbling Roar.
+Unique Bonuses:
+Gains Soul Variant.
+Gains Boogeyman Variant.
+200% Increased Melee Damage At Night.
+60% Increased Ability Damage.
+Saddle Is Always Cursed.
+
+Baby's First DPS
+Unique Saddle - Mammoth
+You're It, Until You're Dead Or I Find Something
+Better.
+Unique Bonuses:
+If Colossus, 250% Increased Variant Stat Multiplier.
+220% Increased Melee Damage.
+Immune To Torpor.
+Culling Strike On Enemies Below 5% Health.
+
+Donald Tusk
+Unique Saddle - Mammoth
+Me Like Mammoth, He Like Mammoth, We Like
+Mammoth!
+Unique Bonuses:
+285% Increased Melee Damage.
+200% Increased Attack Radius.
+200% Increased Size.
+Can Jump.
+Cannot Be Protected By Absorbent.

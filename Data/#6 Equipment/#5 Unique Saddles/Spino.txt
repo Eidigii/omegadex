@@ -1,0 +1,37 @@
+Slapzilla
+Unique Saddle - Spino
+The Slap Heard Around The World.
+Unique Bonuses:
+200% Increased Melee Damage.
+Attacks Apply Total Shock.
+100% Increased Attack Radius.
+100% Increased Size.
+Passively Taunt Enemies.
+Cannot Be Protected By Absorbent.
+
+Jurassic Spark
+Unique Saddle - Spino
+I Don't Remember That One On In Gen's List.
+Unique Bonuses:
+Gains Thunderstorm Variant.
+200% Increased Ability Damage.
+40% Reduced Cooldowns.
+
+Cpt. Blacklight
+Unique Saddle - Spino
+A Shadow Carved From Neon Light.
+Unique Bonuses:
+Gains Starfire Variant.
+50% Increased Attack And Movement Speed.
+Reflects 50% Of Damage As Lightning Damage.
+Can Jump.
+Greatly Increased Mobility And Turn Radius.
+
+Armored Fury
+Unique Saddle - Spino
+Built Like A Tank, Swings Like A Chainsaw.
+Unique Bonuses:
+Gains Armored Variant.
+100% Increased Melee Damage.
+100% Increased Attack And Movement Speed.
+Cannot Be Ridden.

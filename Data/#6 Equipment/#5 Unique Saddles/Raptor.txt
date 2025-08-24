@@ -1,0 +1,33 @@
+Chicken
+Unique Saddle - Raptor
+I May Not Look Like A Chicken, But I Act Like It.
+Unique Bonuses:
+Gains Element Variant.
+If Frenzy, 200% Increased Variant Stat Multiplier.
+300% Increased Melee Damage.
+100% Reduced Ability Damage.
+25% Dodge Chance.
+Attacks Apply Banshee Curse.
+
+Wren
+Unique Saddle - Raptor
+Small Frame. Sharp Teeth. Worse Friends.
+Unique Bonuses:
+Gains Wood Variant.
+340% Increased Melee Damage.
+100% Reduced Ability Damage.
+100% Increased Attack Radius.
+100% Increased Attack And Movement Speed.
+Can Ride Pygmy.
+Gains Pack Bonus.
+
+Doomsday
+Unique Saddle - Raptor
+Doomsday Returns.
+Unique Bonuses:
+Gains Stalker Variant.
+If Colossus, 400% Increased Variant Stat Multiplier.
+50% Increased Damage Taken.
+100% Increased Attack Radius.
+25% Reduced Cooldowns.
+Permanent Rampage.

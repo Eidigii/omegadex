@@ -1,0 +1,77 @@
+Eagatron
+Unique Saddle - Argentavis
+Pecks Your Mind First, Then Everything Else.
+Unique Bonuses:
+Gains Psychosis Variant.
+180% Increased Melee Damage.
+250% Increased Ability Damage.
+50% Damage Reduction.
+100% Increased Attack Radius.
+
+Big Bird
+Unique Saddle - Argentavis
+Or Is It?
+Unique Bonuses:
+If Pygmy, 300% Increased Variant Stat Multiplier.
+400% Increased Melee Damage.
+Can Ride Pygmy.
+Saddle Is Always Cursed.
+
+DH. 5
+Unique Saddle - Argentavis
+Is It Still WWI?
+Unique Bonuses:
+Gains Comet Variant.
+300% Increased Ability Damage.
+35% Damage Reduction.
+Debuffs Attackers With Short Stun.
+55% Increased Movement Speed.
+Can Ignore Water
+Can Strafe.
+
+Captain Planet
+Unique Saddle - Argentavis
+By Your Powers Combined, I Am Captain Planet!
+Unique Bonuses:
+Gains Wind Variant.
+Gains Water Variant.
+Gains Fairy Variant.
+Gains Earth Variant.
+Gains Fire Variant.
+Can Strafe.
+
+Queen Of The North
+Unique Saddle - Argentavis
+Found Frozen And Alone.
+Unique Bonuses:
+Gains Iceburst Variant.
+Gains Blizzard Variant.
+175% Increased Ability Damage.
+Attacks Apply Freeze.
+95% Increased Movement Speed.
+
+Sun Bird
+Unique Saddle - Argentavis
+Is This Bird Just Trying To Be A Phoenix?
+Unique Bonuses:
+Gains Starfire Variant.
+100% Reduced Melee Damage.
+300% Increased Ability Damage.
+30% Damage Reduction.
+Debuffs Attackers With Detonate.
+45% Increased Movement Speed.
+30% Reduced Cooldowns.
+Greatly Increased Mobility And Turn Radius.
+Passively Taunt Enemies.
+Cannot Be Protected By Absorbent.
+
+U.F.O.
+Unique Saddle - Argentavis
+There's No Way That Was A Bird!
+Unique Bonuses:
+Gains Gamma-Ray Variant.
+Gains Thunderstorm Variant.
+Gains Dimensional Variant.
+Gains Spiritual Variant.
+Can Use Mounted Weaponry.
+Can Strafe.
