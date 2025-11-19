@@ -6,7 +6,7 @@ killed, they drop a number of pre-cursed items using the curses from the Cursed 
 -----
 Speed Bonus: 100%
 Chance to Dodge: 50%
-Damage Reduction: 50%
+Damage Reduction: <span title="Wrong in-game value: 50%" style="color: red;">75%</span>*
 Chance To Apply Debuff When Hit: 50% (10% With a Rider).
 Chance To Apply Debuff On Attack: 50% (10% With a Rider).
 Debuffs: Earth Poison, On Fire, Drenched, Stun, Electrocuted, Freeze, Banshee Curse, Rare
@@ -20,3 +20,5 @@ Cooldown 1: 0.0
 Cooldown 2: 0.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: true
+
+* DR has been fixed here to show the real value. The in-game Omegadex displays an incorrect value.

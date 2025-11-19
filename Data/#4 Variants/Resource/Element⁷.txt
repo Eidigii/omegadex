@@ -19,7 +19,7 @@ Weakness: Explosive Damage
 Harvested For: Element, Element Shards, Element Dust
 Drag weight increased: 3x
 Amount of resource passively produced in inventory every 5 minutes: Tier x 10
-Damage Reduction: 90% (10% damage taken)
+Damage Reduction: <span title="Wrong in-game value: 90% (10% damage taken)" style="color: red;">80%</span>*
 Damage Taken by Elemental Weakness: 100%
 Damage Taken by Multi-Tool: 200%
 Shard Damage: 50% of Ability damage.
@@ -36,3 +36,5 @@ Cooldown 1: 0.0
 Cooldown 2: 0.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: false
+
+* DR has been fixed here to show the real value. The in-game Omegadex displays an incorrect value.

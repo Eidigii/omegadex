@@ -9,7 +9,7 @@ Treasure creatures can only be tamed using Unique Kibble.
 
 -----
 Speed Bonus: 100%
-Damage Reduction: 90%
+Damage Reduction: <span title="Wrong in-game value: 90%" style="color: red;">80%</span>*
 Treasure Hunter Buff Duration: 300 Seconds.
 Does not provide Treasure Hunter Buff when tamed.
 
@@ -21,3 +21,5 @@ Cooldown 1: 0.0
 Cooldown 2: 0.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: true
+
+* DR has been fixed here to show the real value. The in-game Omegadex displays an incorrect value.
