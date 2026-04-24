@@ -8,6 +8,11 @@ window.OMEGADEX_APP = {
     navWrapper: null, 
     mainQueryInputMobile: null, desktopFooterQueryInput: null, 
     fetchSubMenuCallId: 0, isHighlighting: false, contentObserverInstance: null,
+    contentRequestId: 0,
+    networkTimeoutMs: 15000,
+    maxFetchRetries: 1,
+    contentCache: new Map(),
+    subMenuCache: new Map(),
     adjustNavContainerWidth: () => console.warn("adjustNavContainerWidth not loaded"),
     escapeRegExp: (string) => { 
         if (typeof string !== 'string') return '';
@@ -19,6 +24,9 @@ window.OMEGADEX_APP = {
     initializeEggTable: () => console.warn("initializeEggTable not loaded"),
     fetchContent: async () => console.warn("fetchContent not loaded"),
     fetchSubMenu: async () => { console.warn("fetchSubMenu not loaded"); return null; }, 
+    safeFetch: async () => { throw new Error("safeFetch not loaded"); },
+    setCachedValue: () => console.warn("setCachedValue not loaded"),
+    getCachedValue: () => null,
     handleSearchNavigation: async () => console.warn("handleSearchNavigation not loaded"),
     attachEventListeners: () => console.warn("attachEventListeners not loaded")
 };
@@ -26,6 +34,45 @@ window.OMEGADEX_APP = {
 window.addEventListener('unhandledrejection', event => {
     console.error('APP.JS: Unhandled promise rejection:', event.reason, event);
 });
+
+OMEGADEX_APP.setCachedValue = (cacheMap, key, value, maxEntries = 120) => {
+    if (!(cacheMap instanceof Map) || !key) return;
+    if (cacheMap.has(key)) cacheMap.delete(key);
+    cacheMap.set(key, value);
+    if (cacheMap.size > maxEntries) {
+        const oldestKey = cacheMap.keys().next().value;
+        if (oldestKey !== undefined) cacheMap.delete(oldestKey);
+    }
+};
+
+OMEGADEX_APP.getCachedValue = (cacheMap, key) => {
+    if (!(cacheMap instanceof Map) || !key || !cacheMap.has(key)) return null;
+    const value = cacheMap.get(key);
+    cacheMap.delete(key);
+    cacheMap.set(key, value);
+    return value;
+};
+
+OMEGADEX_APP.safeFetch = async (url, options = {}, maxRetries = OMEGADEX_APP.maxFetchRetries) => {
+    const finalRetries = Number.isFinite(maxRetries) ? Math.max(0, maxRetries) : 0;
+    let attempt = 0;
+    while (attempt <= finalRetries) {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), OMEGADEX_APP.networkTimeoutMs);
+        try {
+            const response = await fetch(url, { ...options, signal: controller.signal });
+            clearTimeout(timeoutId);
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+            return response;
+        } catch (error) {
+            clearTimeout(timeoutId);
+            if (attempt >= finalRetries) throw error;
+            await new Promise(resolve => setTimeout(resolve, 350 * (attempt + 1)));
+        }
+        attempt += 1;
+    }
+    throw new Error('Unexpected fetch retry state');
+};
 
 document.addEventListener('DOMContentLoaded', () => {
     // console.log("APP.JS: DOMContentLoaded event fired.");
@@ -102,4 +149,19 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     // console.log("APP.JS: DOMContentLoaded fully processed.");
+});
+
+window.addEventListener('pageshow', (event) => {
+    // iOS Safari sometimes restores stale interaction state from bfcache.
+    if (!event.persisted) return;
+    setTimeout(() => {
+        const hasCriticalUi = !!(OMEGADEX_APP.mainMenu && OMEGADEX_APP.contentElem);
+        if (!hasCriticalUi) {
+            window.location.reload();
+            return;
+        }
+        if (typeof OMEGADEX_APP.handleSearchNavigation === 'function') {
+            OMEGADEX_APP.handleSearchNavigation();
+        }
+    }, 0);
 });

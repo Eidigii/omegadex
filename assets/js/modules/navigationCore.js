@@ -9,11 +9,17 @@ OMEGADEX_APP.fetchContent = async (path, type = 'folder') => {
         console.error(`${logPrefix} contentElem is null!`); 
         return; 
     }
+    const requestId = ++OMEGADEX_APP.contentRequestId;
+    const queryPath = path.replace(/\\/g, '/');
+    const cacheKey = `${type}:${queryPath}`;
     try {
-        const queryPath = path.replace(/\\/g, '/');
-        const response = await fetch(`content.php?${type}=${encodeURIComponent(queryPath)}`);
-        if (!response.ok) throw new Error(`HTTP error ${response.status} for ${path}`);
-        const html = await response.text();
+        let html = OMEGADEX_APP.getCachedValue(OMEGADEX_APP.contentCache, cacheKey);
+        if (html === null) {
+            const response = await OMEGADEX_APP.safeFetch(`content.php?${type}=${encodeURIComponent(queryPath)}`);
+            html = await response.text();
+            OMEGADEX_APP.setCachedValue(OMEGADEX_APP.contentCache, cacheKey, html, 100);
+        }
+        if (requestId !== OMEGADEX_APP.contentRequestId) return;
         OMEGADEX_APP.contentElem.innerHTML = html;
         const scripts = Array.from(OMEGADEX_APP.contentElem.getElementsByTagName('script'));
         scripts.forEach(oldScript => { 
@@ -27,6 +33,7 @@ OMEGADEX_APP.fetchContent = async (path, type = 'folder') => {
         });
     } catch (error) { 
         console.error(`${logPrefix} CATCH BLOCK:`, error); 
+        if (requestId !== OMEGADEX_APP.contentRequestId) return;
         OMEGADEX_APP.contentElem.innerHTML = `<p class="error">Error loading content for ${path}.</p>`; 
     }
 };
@@ -49,15 +56,18 @@ OMEGADEX_APP.fetchSubMenu = async (folder, level, fullNavPathToActivate = [], pa
             return null;
         }
         
-        const response = await fetch(`navigation_sub.php?folder=${encodeURIComponent(folderForFetch)}`);
-        if (!response.ok) { 
-            console.error(`${logPrefix}) HTTP error: ${response.status} for folder "${folderForFetch}"`); 
-            if (!isMobileView && OMEGADEX_APP.navContainer) Array.from(OMEGADEX_APP.navContainer.children).slice(level).forEach(subMenu => subMenu.remove()); 
-            OMEGADEX_APP.adjustNavContainerWidth(); 
-            return null; 
+        const cacheKey = `${folderForFetch}|${level}|${isMobileView ? 'm' : 'd'}`;
+        let data = OMEGADEX_APP.getCachedValue(OMEGADEX_APP.subMenuCache, cacheKey);
+        if (data === null) {
+            const response = await OMEGADEX_APP.safeFetch(`navigation_sub.php?folder=${encodeURIComponent(folderForFetch)}`);
+            data = await response.json(); 
+            OMEGADEX_APP.setCachedValue(OMEGADEX_APP.subMenuCache, cacheKey, data, 180);
         }
-        
-        const data = await response.json(); 
+        if (currentCallId !== OMEGADEX_APP.fetchSubMenuCallId) return null;
+        if (data && typeof data === 'object' && !Array.isArray(data) && data.error) {
+            console.error(`${logPrefix}) Server returned error: ${data.error}`);
+            return null;
+        }
         
         if (!isMobileView && OMEGADEX_APP.navContainer) { Array.from(OMEGADEX_APP.navContainer.children).slice(level).forEach(subMenu => subMenu.remove()); }
         if (isMobileView && parentLiElement) { const existingSubMenu = parentLiElement.nextElementSibling; if (existingSubMenu && existingSubMenu.classList.contains('mobile-submenu')) existingSubMenu.remove(); }

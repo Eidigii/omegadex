@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OMEGADEX</title>
-    <link rel="stylesheet" href="assets/styles.css?v=6.20.layout"> 
+    <link rel="stylesheet" href="assets/styles.css?v=6.21.hud"> 
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
@@ -21,6 +21,7 @@
     <div class="wrapper">
         <div class="nav-wrapper" id="nav-wrapper">
             <div class="nav-menu" id="main-menu-container">
+                <div class="main-menu-heading">NAV MENU</div>
                 <ul id="main-menu">
                     <?php include 'navigation.php'; ?>
                 </ul>
@@ -39,12 +40,12 @@
         </div>
     </div>
 
-    <script src="assets/js/app.js?v=6.20.layout"></script> 
-    <script src="assets/js/modules/utils.js?v=6.20.layout"></script>
-    <script src="assets/js/modules/highlighting.js?v=6.20.layout"></script>
-    <script src="assets/js/modules/eggTable.js?v=6.20.layout"></script>
-    <script src="assets/js/modules/navigationCore.js?v=6.20.layout"></script>
-    <script src="assets/js/modules/eventListeners.js?v=6.20.layout"></script>
-    <script src="assets/js/modules/init.js?v=6.20.layout"></script>
+    <script defer src="assets/js/app.js?v=6.24.resilience"></script> 
+    <script defer src="assets/js/modules/utils.js?v=6.24.resilience"></script>
+    <script defer src="assets/js/modules/highlighting.js?v=6.24.resilience"></script>
+    <script defer src="assets/js/modules/eggTable.js?v=6.24.resilience"></script>
+    <script defer src="assets/js/modules/navigationCore.js?v=6.24.resilience"></script>
+    <script defer src="assets/js/modules/eventListeners.js?v=6.24.resilience"></script>
+    <script defer src="assets/js/modules/init.js?v=6.24.resilience"></script>
 </body>
 </html>

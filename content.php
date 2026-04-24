@@ -150,7 +150,7 @@ function getImagesHtmlForFolder($folder_param) {
             }
 
 
-            $image_tags_html .= "<img src='" . htmlspecialchars($encoded_src, ENT_QUOTES, 'UTF-8') . "' alt='" . htmlspecialchars($file_item, ENT_QUOTES, 'UTF-8') . "' />";
+            $image_tags_html .= "<img loading='lazy' decoding='async' src='" . htmlspecialchars($encoded_src, ENT_QUOTES, 'UTF-8') . "' alt='" . htmlspecialchars($file_item, ENT_QUOTES, 'UTF-8') . "' />";
         }
     }
 
