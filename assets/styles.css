@@ -4,9 +4,11 @@
     --main-bg-color: #091729;
     --main-bg-deep: #030b16;
     --panel-bg-color: #071425;
-    --main-border-color: #2ec3ef;
-    --main-border-soft: rgba(46, 195, 239, 0.45);
+    --main-border-color: #2598be;
+    --main-border-soft: rgba(37, 152, 190, 0.3);
     --header-height: 74px;
+    --layout-max-width: 1900px;
+    --layout-gutter: 12px;
     --text-color-on-active: #ffffff;
     --ancestor-active-bg: #1a3850;
     --ancestor-active-text: #d9f8ff;
@@ -39,9 +41,27 @@ header {
     color: white;
     flex-shrink: 0;
     box-sizing: border-box;
-    background: linear-gradient(180deg, rgba(5, 25, 46, 0.95), rgba(2, 13, 25, 0.98));
-    border-bottom: 2px solid var(--main-border-color);
-    box-shadow: inset 0 -8px 16px rgba(46, 195, 239, 0.08);
+    background: linear-gradient(180deg, rgba(13, 43, 70, 0.95), rgba(4, 20, 37, 0.98));
+    border: 2px solid var(--main-border-color);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: inset 0 0 24px rgba(16, 157, 205, 0.17), 0 0 0 1px rgba(135, 238, 255, 0.18);
+}
+
+header,
+footer {
+    width: min(
+        calc(100% - (var(--layout-gutter) * 2)),
+        calc(var(--layout-max-width) - (var(--layout-gutter) * 2))
+    );
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper {
+    width: min(100%, var(--layout-max-width));
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header::before {
@@ -51,7 +71,7 @@ header::before {
     right: 18%;
     top: 8px;
     height: 2px;
-    background: linear-gradient(90deg, transparent, rgba(56, 224, 255, 0.9), transparent);
+    background: linear-gradient(90deg, transparent, rgba(56, 224, 255, 0.5), transparent);
 }
 
 header::after {
@@ -61,7 +81,7 @@ header::after {
     right: 12px;
     bottom: 6px;
     height: 1px;
-    background: linear-gradient(90deg, rgba(46, 195, 239, 0), rgba(46, 195, 239, 0.85), rgba(46, 195, 239, 0));
+    background: linear-gradient(90deg, rgba(46, 195, 239, 0), rgba(46, 195, 239, 0.5), rgba(46, 195, 239, 0));
 }
 
 header > .menu-toggle {
@@ -131,9 +151,9 @@ header .site-search.mobile-only-search button[type="submit"] {
 
 .wrapper {
     display: flex;
-    gap: 14px;
+    gap: 8px;
     height: calc(100vh - var(--header-height));
-    padding: 12px;
+    padding: var(--layout-gutter);
     box-sizing: border-box;
 }
 
@@ -251,7 +271,7 @@ header .site-search.mobile-only-search button[type="submit"] {
     min-width: 220px;
     width: 220px;
     height: 100%;
-    margin-right: 8px;
+    margin-right: 6px;
     padding: 10px;
     box-sizing: border-box;
     text-align: center;
@@ -260,6 +280,10 @@ header .site-search.mobile-only-search button[type="submit"] {
     background: linear-gradient(180deg, rgba(8, 34, 54, 0.92), rgba(3, 18, 33, 0.96));
     border: 2px solid var(--main-border-soft);
     border-radius: 10px;
+}
+
+#nav-container .nav-menu:last-child {
+    margin-right: 0;
 }
 
 .nav-menu ul { list-style: none; padding: 0; margin: 0; }
@@ -283,7 +307,7 @@ header .site-search.mobile-only-search button[type="submit"] {
 .nav-menu li:hover {
     color: #ffffff;
     background-color: rgba(44, 172, 224, 0.55);
-    box-shadow: 0 0 10px rgba(46, 195, 239, 0.3);
+    box-shadow: 0 0 8px rgba(46, 195, 239, 0.18);
 }
 
 .active {
@@ -291,8 +315,8 @@ header .site-search.mobile-only-search button[type="submit"] {
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.85), 0 0 6px rgba(8, 53, 78, 0.35) !important;
     letter-spacing: 0.2px !important;
     font-weight: 700 !important;
-    border: 1px solid rgba(170, 238, 255, 0.9) !important;
-    box-shadow: inset 0 0 0 1px rgba(8, 60, 90, 0.45), 0 0 8px rgba(46, 195, 239, 0.22) !important;
+    border: 1px solid rgba(170, 238, 255, 0.55) !important;
+    box-shadow: inset 0 0 0 1px rgba(8, 60, 90, 0.36), 0 0 6px rgba(46, 195, 239, 0.14) !important;
     background: linear-gradient(180deg, #2ea9d2, #1a789b) !important;
 }
 
@@ -308,8 +332,8 @@ header .site-search.mobile-only-search button[type="submit"] {
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.85), 0 0 6px rgba(8, 53, 78, 0.35) !important;
     letter-spacing: 0.2px !important;
     font-weight: 700 !important;
-    border: 1px solid rgba(170, 238, 255, 0.9) !important;
-    box-shadow: inset 0 0 0 1px rgba(8, 60, 90, 0.45), 0 0 8px rgba(46, 195, 239, 0.22) !important;
+    border: 1px solid rgba(170, 238, 255, 0.55) !important;
+    box-shadow: inset 0 0 0 1px rgba(8, 60, 90, 0.36), 0 0 6px rgba(46, 195, 239, 0.14) !important;
     background: linear-gradient(180deg, #2ea9d2, #1a789b) !important;
 }
 
@@ -399,6 +423,14 @@ hr { margin-top: 2px; margin-bottom: 2px; border-color: rgba(110, 197, 234, 0.5)
 .utility { color: #9fd2ff; }
 .content img { display: block; margin: 12px auto; max-width: 100%; border: 1px solid rgba(100, 213, 255, 0.45); padding: 4px; background-color: rgba(6, 18, 31, 0.9); border-radius: 4px; } div.nav-menu > ul > li { font-size: 16px; } table { width: 100%; border-collapse: collapse; margin-top: 20px; } table th, table td { padding: 10px; border: 1px solid rgba(105, 183, 214, 0.65); } table th { background-color: #175b84; } .table-container { overflow-x: auto; } a { color: #dff7ff; }
 
+.content table.uniques-table td {
+    background-color: rgba(7, 29, 49, 0.82);
+}
+
+.content table.uniques-table th {
+    background: linear-gradient(180deg, rgba(20, 52, 78, 0.9), rgba(10, 30, 49, 0.92));
+}
+
 /* Override inline gray blocks from generated content files */
 .content [style*="background-color: rgba(211, 211, 211"] {
     background: linear-gradient(180deg, rgba(22, 86, 124, 0.75), rgba(10, 46, 73, 0.82)) !important;
@@ -434,11 +466,12 @@ hr { margin-top: 2px; margin-bottom: 2px; border-color: rgba(110, 197, 234, 0.5)
 mark.search-highlight { background-color: yellow; color: black; padding: 0.1em 0; border-radius: 2px; font-weight: normal; }
 
 @media (max-width: 900px), only screen and (max-width: 900px) and (orientation: landscape) {
+    :root { --layout-gutter: 8px; }
     header > .menu-toggle { display: block; }
     header > span.site-title { font-size: 2rem; letter-spacing: 1px; }
     header .site-search.mobile-only-search { display: flex !important; }
     .nav-column-footer-search.desktop-only-search { display: none !important; }
-    .wrapper { padding: 8px; gap: 0; }
+    .wrapper { gap: 0; }
 
     .nav-wrapper {
         position: absolute;

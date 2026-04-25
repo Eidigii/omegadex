@@ -259,7 +259,9 @@ function getTableHtmlForFolder($folder_param) {
         if (empty($columns)) return null; 
         ksort($columns); 
         
-        $tableHtml = '<div class="table-container"><table border="1"><thead><tr>'; 
+        $isUniquesFolder = stripos(str_replace('\\', '/', $folder_path_segment), '#10 uniques') !== false;
+        $tableClassAttr = $isUniquesFolder ? ' class="uniques-table"' : '';
+        $tableHtml = '<div class="table-container"><table border="1"' . $tableClassAttr . '><thead><tr>'; 
         foreach ($columns as $column) { 
             $tableHtml .= '<th>' . htmlspecialchars($column['header']) . '</th>'; 
         }

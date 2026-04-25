@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OMEGADEX</title>
-    <link rel="stylesheet" href="assets/styles.css?v=6.43.changelog-title-size"> 
+    <link rel="stylesheet" href="assets/styles.css?v=6.50.uniques-table-bg"> 
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
@@ -41,7 +41,7 @@
     </div>
 
     <script defer src="assets/js/app.js?v=6.24.resilience"></script> 
-    <script defer src="assets/js/modules/utils.js?v=6.24.resilience"></script>
+    <script defer src="assets/js/modules/utils.js?v=6.25.nav-width-margin-fix"></script>
     <script defer src="assets/js/modules/highlighting.js?v=6.24.resilience"></script>
     <script defer src="assets/js/modules/eggTable.js?v=6.24.resilience"></script>
     <script defer src="assets/js/modules/navigationCore.js?v=6.31.welcome-updated-date"></script>
