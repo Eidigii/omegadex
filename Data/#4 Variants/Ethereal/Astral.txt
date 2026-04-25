@@ -1,4 +1,4 @@
-<span style="color:lightgray;">Astral</span>: While Astral Projectile doesn't have much combat use, it has a ton of support usage.
+Astral: While Astral Projectile doesn't have much combat use, it has a ton of support usage.
 Astral creatures have the ability to leave their body, moving around in the Astral plane.
 Passing through enemeis will debuff them in several ways, giving either you, or allies, an
 edge in combat.

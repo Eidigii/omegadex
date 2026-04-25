@@ -1,4 +1,4 @@
-<span style="color:red;">Lethal</span>: The 7th Variant of Rage. Lethal can help make quick work of even the most difficult
+Lethal: The 7th Variant of Rage. Lethal can help make quick work of even the most difficult
 boss battles. When attacking with a Lethal creature, there is a percent chanced based on
 the damage dealt vs maximum health of the target to apply the Lethal Critical debuff. This
 buff triples damage taken from all sources, has a very long duration, and can stack up to 5x

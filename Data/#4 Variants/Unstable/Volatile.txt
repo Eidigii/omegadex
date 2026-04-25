@@ -1,4 +1,4 @@
-<span style="color:orange;">Volatile</span>: These creatures are constantly on the edge of a bad reaction. They can
+Volatile: These creatures are constantly on the edge of a bad reaction. They can
 spontaneously erupt into a powerful gas cloud, poisoning enemies and slowing them. This
 can happen both while they are attacking, or even while a passive Volatile creature is
 being attacked. This volatile cloud is dealt as Earth damage, so make sure your

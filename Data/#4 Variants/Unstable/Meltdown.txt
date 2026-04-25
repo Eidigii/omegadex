@@ -1,4 +1,4 @@
-<span style="color:orange;">Meltdown</span>: A very high potential, yet very dangerous ability. Meltdown creatures can
+Meltdown: A very high potential, yet very dangerous ability. Meltdown creatures can
 overheat themselves, sacrificing their own health, to deal stacking damage to enemies in
 the immediate area.
 

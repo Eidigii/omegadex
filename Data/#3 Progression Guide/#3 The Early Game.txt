@@ -43,7 +43,7 @@ tameable bosses so summon with care!
 
 The main mechanic of the beacon, however, is that it is where you can summon bosses. And that is where midgame begins.
 
-<h4>So, to summarize the early game:</h4>
+#### So, to summarize the early game:
 
 - Wander the world, taming female dinos from basic-tier through to elite-tier so that you have one of each tier in each variant group (though it is
 recommended to get one variant group to the point where you can tame elite tier dinos as soon as you can, so you can have a good strong mount

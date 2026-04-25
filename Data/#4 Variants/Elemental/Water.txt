@@ -1,4 +1,4 @@
-<span style="color:yellow;">Water</span>: Launches a water projectile that will drain the oxygen of targets, dealing additional
+Water: Launches a water projectile that will drain the oxygen of targets, dealing additional
 damage if their oxygen has been depleted. Water creatures cannot drown.
 
 -----

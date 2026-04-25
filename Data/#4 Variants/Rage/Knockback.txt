@@ -1,4 +1,4 @@
-<span style="color:red;">Knockback</span>: Keeping enemies at range, that's the point of the Knockback creatures. They
+Knockback: Keeping enemies at range, that's the point of the Knockback creatures. They
 have a chance with every attack to deal a blow that sends the enemy flying a short
 distance, leaving it temporarily stunned before it is able to re-enter battle. With enough
 consecutive attacks, a Knockback creature can keep an enemy outside of attack range,

@@ -1,4 +1,3 @@
-<span style="color:lightgreen;">MYTHICAL</span>:
-All Mythical creatures are based on classic monsters from various mythologies. They
+MYTHICAL: All Mythical creatures are based on classic monsters from various mythologies. They
 possess the powers of these monsters or creatures and can wield them to be extremely
 useful in combat, both as damage mounts or utility.

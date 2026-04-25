@@ -1,4 +1,4 @@
-<span style="color:green;">Thunderstorm</span>: The name Thunderstorm might be a bit misleading. There are definitely
+Thunderstorm: The name Thunderstorm might be a bit misleading. There are definitely
 lightning strikes. When Thunderstorm is activated, a powerful lightning bolt will strike one
 nearby enemy every second, dealing high impact damage, and spreading a static
 discharge in the area that deals tick damage to everything caught in it. The ability doesn't

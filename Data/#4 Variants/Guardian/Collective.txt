@@ -1,4 +1,4 @@
-<span style="color:gray;">Collective</span>: Collective creatures serve many purposes. The main one being to punish
+Collective: Collective creatures serve many purposes. The main one being to punish
 damage dealers with their own damage. A collective dino is capable of going temporarily
 immortal, gathering and biding all damage taken over a short period, before exploding it
 back out evenly amongst all nearby enemies. Even weaker collective creature are

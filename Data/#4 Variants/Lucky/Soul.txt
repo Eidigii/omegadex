@@ -1,4 +1,4 @@
-<span style="color:yellow;">Soul</span>: Soul creatures are made purely of souls. Being made of such means they are also
+Soul: Soul creatures are made purely of souls. Being made of such means they are also
 extremely hard to hit, as your attacks have a great chance of passing right through them.
 When killed, they drop a massive cache of souls. The number of souls dropped it based on
 the number of kibble it would normally require to tame that creature, so taming speed will

@@ -1,4 +1,4 @@
-<span style="color:purple;">Companion</span>: Everyone wants a companion. A minion that stays with you always,
+Companion: Everyone wants a companion. A minion that stays with you always,
 protecting you through thick and thin. The summoned Companion is very strong, takes
 little damage, and has a very special ability. It can steal the variants of anything it kills!
 You can only have 1 companion at a time.

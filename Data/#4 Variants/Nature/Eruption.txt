@@ -1,4 +1,4 @@
-<span style="color:green;">Eruption</span>: Containing the explosive pressure of a Volcano, Eruption creatures are capable
+Eruption: Containing the explosive pressure of a Volcano, Eruption creatures are capable
 of blowing their top, spewing out molten projectiles in every direction that deal heavy
 damage on impact and large-radius explosive damage. With some careful practice, its
 possible to hit enemies with multiple Eruption projectiles for bonus damage.

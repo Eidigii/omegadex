@@ -1,4 +1,4 @@
-<span style="color:yellow;">Fire</span>: Launches a fire projectile that can set enemies on fire.
+Fire: Launches a fire projectile that can set enemies on fire.
 
 -----
 Cooldown: 3s

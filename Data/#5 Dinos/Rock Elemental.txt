@@ -2,7 +2,6 @@ Name: Rock Elemental
 Base Damage: 120
 Rarity Group Number: 2
 Paragon Shard Value: 9
-Raid Torpor: Can only take torpor from raid torpor sources.
 
 Uniques:
 Unique Name: Vash

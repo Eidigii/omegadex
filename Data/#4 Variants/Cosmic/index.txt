@@ -1,5 +1,4 @@
-<span style="color:blue;">COSMIC</span>:
-Cosmic creatures are massive AOE damage dealers. While weakened by their descent to the
+COSMIC: Cosmic creatures are massive AOE damage dealers. While weakened by their descent to the
 world, they still have control of crippling cosmic powers able to do widespread destruction.
 Cosmic creatures are rare, but should absolutely not be taken lightly. Getting one's attention
 early on in your adventure is certain death for you and your tames. Its impossible to miss

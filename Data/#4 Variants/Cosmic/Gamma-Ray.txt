@@ -1,4 +1,4 @@
-<span style="color:blue;">Gamma-Ray</span>: Similar to Starfire in damage output, Gamma-Ray tears a hole in the sky to
+Gamma-Ray: Similar to Starfire in damage output, Gamma-Ray tears a hole in the sky to
 allow powerful gamma-rays to strike the ground, dealing reactive tick damage to enemies
 in the area.
 

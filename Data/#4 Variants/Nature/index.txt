@@ -1,5 +1,4 @@
-<span style="color:green;">NATURE</span>:
-Forces of Nature, literally. Nature creatures are the ultimate elemental creatures, dealing
+NATURE: Forces of Nature, literally. Nature creatures are the ultimate elemental creatures, dealing
 elemental damage with abilities that are based on natural disasters. They easily rival
 Cosmic in their ability to dish out widespread damage and destruction. Afterall, this is their
 home turf. Nature creatures are rare, but should always be approached with caution. Their

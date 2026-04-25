@@ -1,4 +1,4 @@
-<span style="color:brown;">Breeding</span>: Breeding dinos alter various functions of Ark Breeding. They provide the
+Breeding: Breeding dinos alter various functions of Ark Breeding. They provide the
 Oviraptor Egg buff to nearby creatures, without the need to be placed on wander. This buff
 increases egg laying rates for any nearby creature with an egg icon above its head.
 

@@ -1,4 +1,4 @@
-<span style="color:black;">Demon</span>: The 7th Variant of Nightmare. Demon's have the ability to possess enemies, taking
+Demon: The 7th Variant of Nightmare. Demon's have the ability to possess enemies, taking
 control of them, causing damage to them, using them to attack other enemies or allies, and
 more. While possessing another enemy, the demon cannot be damaged, and its location
 marked by a black soul.

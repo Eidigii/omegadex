@@ -2,7 +2,6 @@ Name: Carcharodontosaurus
 Base Damage: 98
 Rarity Group Number: 1
 Paragon Shard Value: 10
-Raid Torpor: Can only take torpor from raid torpor sources.
 
 Uniques:
 Unique Name: Violence

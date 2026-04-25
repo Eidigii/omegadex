@@ -1,4 +1,4 @@
-<span style="color:brown;">Tracker</span>: Trackers are one the rarest of all variants, and for good reason. A Tracker can find
+Tracker: Trackers are one the rarest of all variants, and for good reason. A Tracker can find
 all Ark Omega creatures, displaying their location and using an indicator in their color of
 their Tier.
 

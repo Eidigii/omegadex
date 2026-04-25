@@ -1,4 +1,4 @@
-<span style="color:purple;">Necromancer</span>: Able to manipulate the dead, the Necromancer can revive nearby corpses to
+Necromancer: Able to manipulate the dead, the Necromancer can revive nearby corpses to
 rejoin the fight, although on its side this time. As long as the corpses still exist, the
 Necromancer will bring them back to life, fully healed and ready for combat. They will retain
 almost everything they had in their life, including their abilities. The Necromancer can prove

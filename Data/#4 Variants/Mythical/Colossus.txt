@@ -1,4 +1,4 @@
-<span style="color:lightgreen;">Colossus</span>: Massive creatures, significantly larger than original. They have greatly
+Colossus: Massive creatures, significantly larger than original. They have greatly
 increased attack range, with ones able to land on the ground also being able to perform a
 powerful stomp attack on anything in the area. The stomp will not effect flyers or water
 creatures in the area.

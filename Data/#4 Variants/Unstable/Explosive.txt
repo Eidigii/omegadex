@@ -1,4 +1,4 @@
-<span style="color:orange;">Explosive</span>: As it sounds, these creatures can cause powerful explosions at any minute. Both
+Explosive: As it sounds, these creatures can cause powerful explosions at any minute. Both
 while attacking or being attacked, these explosions may trigger doing damage over a large
 area as if a Grenade has gone off. Its best to avoid them unless prepared, as the explosion
 damage can destroy most structures as well.

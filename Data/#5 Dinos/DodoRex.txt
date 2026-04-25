@@ -2,7 +2,6 @@ Name: DodoRex
 Base Damage: 540
 Rarity Group Number: 0.25
 Paragon Shard Value: 40
-Raid Torpor: Can only take torpor from raid torpor sources.
 
 Uniques:
 Unique Name: Global Warming

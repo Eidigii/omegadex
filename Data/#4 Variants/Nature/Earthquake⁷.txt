@@ -1,4 +1,4 @@
-<span style="color:green;">Earthquake</span>: The 7th Variant of Nature. Creating an Earthquake has a lot of effects, from a
+Earthquake: The 7th Variant of Nature. Creating an Earthquake has a lot of effects, from a
 screenshaking quake that applies stun, to all 6 Nature damage types spewing from the
 fissures in the ground directly on all enemies caught in the Earthquake. While it has
 minimal effect on flying enemies, it can be very damaging to ground based tames.

@@ -1,4 +1,4 @@
-<span style="color:orange;">Nuclear</span>: The 7th Variant of Unstable. Similar to Meltdown, this allows you to sacrifice
+Nuclear: The 7th Variant of Unstable. Similar to Meltdown, this allows you to sacrifice
 some of your own health to build up damage. But things here are a bit more interesting.
 Releasing the ability key, or reaching the limit, causes an explosion which deals a great
 deal of damage over a great area. This is the largest AOE attack in Ark Omega, and one of

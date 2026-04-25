@@ -1,5 +1,4 @@
-<span style="color:purple;">SUMMONER</span>:
-Summoners are able to bring minions into the battle to aid when its needed. Each of them
+SUMMONER: Summoners are able to bring minions into the battle to aid when its needed. Each of them
 has a very unique type of summon, and can be useful in a number of circumstances. The
 minions are not permanent, and will disappear after they're time is up. Minions cannot be
 ridden, or placed into a soul trap or cryopod.

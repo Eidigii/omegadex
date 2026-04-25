@@ -1,4 +1,4 @@
-<span style="color:black;">Banshee</span>: Banshee's release a powerful scream, cursing their enemies and dooming them
+Banshee: Banshee's release a powerful scream, cursing their enemies and dooming them
 to death. The Banshee Scream acts as a powerful debuff, increasing damage taken for all
 nearby enemies.
 

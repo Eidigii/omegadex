@@ -1,4 +1,4 @@
-<span style="color:purple;">Cloner</span>: Similar to Overlord, but against enemies, create multiple clones of your nearest
+Cloner: Similar to Overlord, but against enemies, create multiple clones of your nearest
 enemy.lf the enemy is much stronger than you are, it can clone that enemy, forcing to fight
 itself.
 

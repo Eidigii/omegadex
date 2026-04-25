@@ -1,4 +1,4 @@
-<span style="color:green;">Tornado</span>: A terrifying force of Nature, Tornado creatures can spawn a powerful twister in
+Tornado: A terrifying force of Nature, Tornado creatures can spawn a powerful twister in
 front of them, that can pick up, damage, and toss your enemies with great force.
 
 Pressing Prone(X) creates a large Tornado in front of the Tornado Creature, that will pick up

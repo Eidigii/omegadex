@@ -1,4 +1,4 @@
-<span style="color:blue;">Supernova</span>: A massive AOE damage dealer. During combat, they can release a powerful
+Supernova: A massive AOE damage dealer. During combat, they can release a powerful
 Supernova blast that deals devistating damage to enemies and causes a very brief stun. Its
 best to avoid a Supernova creature until you're ready.
 

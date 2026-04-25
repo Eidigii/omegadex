@@ -1,4 +1,4 @@
-<span style="color:brown;">Taming</span>: Taming dinos can make taming other creatures extremely easy. They all deal
+Taming: Taming dinos can make taming other creatures extremely easy. They all deal
 torpor! Taming dinos deal torpor with every attack, including some minor torpor over-time
 after the hit. This can be used to bypass the need for tranqs in some situations. Taming
 dinos also cause food to drain faster for KO dinos in the immediate area, increasing the rate

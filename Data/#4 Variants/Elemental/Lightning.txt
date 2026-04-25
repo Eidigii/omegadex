@@ -1,4 +1,4 @@
-<span style="color:yellow;">Lightning</span>: Launches a lightning projectile that can electrocute enemies on impact. The
+Lightning: Launches a lightning projectile that can electrocute enemies on impact. The
 projectile is not effected by gravity.
 
 -----

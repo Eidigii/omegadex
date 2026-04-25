@@ -1,4 +1,4 @@
-<span style="color:green;">Plague</span>: Plague is an ability with a lot of potential. When a Plague creature uses this
+Plague: Plague is an ability with a lot of potential. When a Plague creature uses this
 ability, it will release a gas cloud, infecting enemies with a debuff. The infected will take
 tick damage as earth damage over a time, and if they die while infected, will erupt into
 their own Plague. This can create immense chains of Plague spreading across the land,

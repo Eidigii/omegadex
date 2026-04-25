@@ -1,4 +1,4 @@
-<span style="color:yellow;">Earth</span>: Launches an earth projectile that can poison and slow enemies on impact.
+Earth: Launches an earth projectile that can poison and slow enemies on impact.
 
 -----
 Cooldown: 3s

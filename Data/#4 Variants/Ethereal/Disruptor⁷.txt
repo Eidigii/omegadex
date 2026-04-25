@@ -1,4 +1,4 @@
-<span style="color:lightgray;">Disruptor</span>: The 7th Variant of Ethereal. This variant's purpose is to stop enemies from
+Disruptor: The 7th Variant of Ethereal. This variant's purpose is to stop enemies from
 using abilities, which can turn the tide of almost any battle. This will not prevent passive
 abilities like Knockback or Resource shards, but rather activated abilities. It is also
 immune to damage from Disrupted creatures, allowing it to survive retaliation. One major

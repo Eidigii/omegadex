@@ -1,4 +1,4 @@
-<span style="color:green;">Blizzard</span>: Full control over Ice, Blizzard can be invaluable in combat. Activating Blizzard will
+Blizzard: Full control over Ice, Blizzard can be invaluable in combat. Activating Blizzard will
 summon a powerful cold-front that instantly freezes all enemies in the area, also dealing
 damage to them over time and freezing any new enemies that enter the Blizzard.
 

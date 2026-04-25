@@ -1,4 +1,4 @@
-<span style="color:black;">Ghost</span>: Hidden at night, terrifying at night. Ghost creatures are completely invisible during
+Ghost: Hidden at night, terrifying at night. Ghost creatures are completely invisible during
 the day. You can walk right through them without knowing they are there, and they are
 unable to attack or be ridden during the day.
 

@@ -1,4 +1,4 @@
-<span style="color:yellow;">Earthburst</span>: Creates a gaseous nova that will poison and slow enemies.
+Earthburst: Creates a gaseous nova that will poison and slow enemies.
 
 -----
 Cooldown: 10s

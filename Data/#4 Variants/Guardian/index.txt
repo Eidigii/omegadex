@@ -1,4 +1,3 @@
-<span style="color:gray;">GUARDIAN</span>:
-Guardian creatures provide mostly defense based abilities. These can range from
+GUARDIAN: Guardian creatures provide mostly defense based abilities. These can range from
 protecting allies, to punishing attackers. Guardian creatures are very strategy based, with
 many potential purposes.

@@ -105,6 +105,17 @@ OMEGADEX_APP.handleSearchNavigation = async () => {
             await OMEGADEX_APP.fetchSubMenu(folderToFetchSubMenuFor, 0, [folderToFetchSubMenuFor], isMobileView ? activeMainFolderElement : null); 
         }
     }
+    const activeMainFolder = OMEGADEX_APP.mainMenu
+        ? OMEGADEX_APP.mainMenu.querySelector('li.main-folder.active')?.getAttribute('data-folder')?.replace(/\\/g, '/')
+        : null;
+    if (OMEGADEX_APP.contentElem && typeof OMEGADEX_APP.localizeWelcomeUpdatedDate === 'function') {
+        const sourceFolder = activeMainFolder || '#1 Welcome';
+        const currentHtml = OMEGADEX_APP.contentElem.innerHTML;
+        const localizedHtml = OMEGADEX_APP.localizeWelcomeUpdatedDate(currentHtml, sourceFolder, 'folder');
+        if (localizedHtml !== currentHtml) {
+            OMEGADEX_APP.contentElem.innerHTML = localizedHtml;
+        }
+    }
     if (highlightTerm && OMEGADEX_APP.contentElem) { OMEGADEX_APP.applySearchTermHighlighting(); }
     // console.log(`${logPrefix} END.`); // Less verbose
 };

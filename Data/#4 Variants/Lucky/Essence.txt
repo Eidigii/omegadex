@@ -1,4 +1,4 @@
-<span style="color:yellow;">Essence</span>: Often called "gummy" because of their appearance, these creatures are made of
+Essence: Often called "gummy" because of their appearance, these creatures are made of
 100% pure Essence. Being made of such a fluid substance also means they take
 considerably less damage. When killed, they reward a huge cache of Essence based on their
 Tier. The number of essences dropped it based on the number of kibble it would normally

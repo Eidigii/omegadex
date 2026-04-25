@@ -1,4 +1,4 @@
-<span style="color:purple;">Overlord</span>: The boss. Overlord's have dominion over any lesser creature of their species.
+Overlord: The boss. Overlord's have dominion over any lesser creature of their species.
 When they call, a small horde of minions will appear of the same species as the Overlord,
 ready to fight for it to the death. These minions are smaller and slower, but the group of
 them is much stronger than the Overlord itself.

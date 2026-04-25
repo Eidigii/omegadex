@@ -1,4 +1,4 @@
-<span style="color:blue;">Anti-Matter</span>: The 7th variant of Cosmic, Anti-Matter creatures' sole intended purpose is to
+Anti-Matter: The 7th variant of Cosmic, Anti-Matter creatures' sole intended purpose is to
 modify ability cooldowns.
 
 Pressing Prone(X) creates a blast that zeroeos out the cooldown on ally abilities, while

@@ -1,5 +1,4 @@
-<span style="color:brown;">UTILITY</span>:
-Utility dinos aren't meant for combat. They are here to serve a greater purpose. These
+UTILITY: Utility dinos aren't meant for combat. They are here to serve a greater purpose. These
 purposes are usually centered around basic Ark functions, like taming or crafting. They can
 remove the need for increased INI settings for these basic Ark functions that often throw off
 balance and progression, by introducing a balanced way to reduce the need for grinding.

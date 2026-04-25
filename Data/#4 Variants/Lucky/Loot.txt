@@ -1,4 +1,4 @@
-<span style="color:yellow;">Loot</span>: Loot creatures are very elusive, and made of solid gold. They are very fast, have huge
+Loot: Loot creatures are very elusive, and made of solid gold. They are very fast, have huge
 damage resistance, and drop a cache of items when killed. They are the easest way to get
 higher quality Ark Omega gear.
 
@@ -6,7 +6,7 @@ Loot dinos can only be tamed using Unique Kibble.
 
 -----
 Speed Bonus: 100%
-Damage Reduction: <span title="Wrong in-game value: 90%" style="color: red;">80%</span>*
+Damage Reduction: 80%*!tip:Wrong in-game value: 90%
 Drops when killed, with the Quality/Tier based on the Tier of the Loot creature: Tool,
 Weapon, Armor, Saddle, Tranqs, Resources, Food, Kibble, Potion, Ark Omega Item, Ark
 Omega Disposable.

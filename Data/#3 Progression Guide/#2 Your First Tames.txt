@@ -37,7 +37,7 @@ Be warned - getting your first dino in Omega is not actually a power boost like 
 do more damage than your early tames and (while you have the newbie buff) you're also going to take less damage than they do. Ideally you'll just
 tame one single-kibble female creature of each variant and tier up until elite, and keep them for egg production, rather than combat.
 
-<h4>So, to summarize getting started.</h4>
+#### So, to summarize getting started.
 
 - Gather until you can craft your Omega Workbench (and optionally your Imbue Workbench).
 - Find a safe place to set up a starter base, ideally away from dino spawns.

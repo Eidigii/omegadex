@@ -1,4 +1,4 @@
-<span style="color:blue;">Comet</span>: One large Comet. These creatures will create a single large comet that crashes into
+Comet: One large Comet. These creatures will create a single large comet that crashes into
 the ground in front of them. A direct hit means incredible damage is dealt, while an indirect
 impact will cause damage based on proximity to the Comet. Comet can make excellent
 boss fighters with their high direct-hit impact.

@@ -1,4 +1,4 @@
-<h3>Getting Started (Things You Must Know)</h3>
+### Getting Started (Things You Must Know)
 
 So you've just started playing, and don't know where to begin. First off, there will be many new and dangerous creatures wandering around and you may not know how to
 get started taming them.

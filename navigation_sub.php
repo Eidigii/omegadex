@@ -1,6 +1,7 @@
 <?php
 /* navigation_sub.php (V6.12 - Corrected Changelog Folder Name Condition) */
-error_reporting(0); 
+error_reporting(0);
+require_once __DIR__ . DIRECTORY_SEPARATOR . 'lib' . DIRECTORY_SEPARATOR . 'omegadex_config.php';
 
 function readDirectorySubNav_V612($dir, $currentDirNameForSort = '') { // Renamed for version
     $result_map = []; 
@@ -26,8 +27,23 @@ function readDirectorySubNav_V612($dir, $currentDirNameForSort = '') { // Rename
     }
     
     if ($is_changelog_dir_flag) {
-        // echo "<!-- DEBUG V612: Changelog ('$currentDirNameForSort') - Files BEFORE sort: " . htmlspecialchars(json_encode($files_to_process)) . " -->\n";
-        
+        // Prefer dated *.txt over legacy extensionless duplicates (same basename).
+        $datedTxtBasenames = [];
+        foreach ($files_to_process as $f0) {
+            if (preg_match('/^(\d{2}-\d{2}-\d{2})\.txt$/', $f0, $m0)) {
+                $datedTxtBasenames[$m0[1]] = true;
+            }
+        }
+        $filtered_changelog = [];
+        foreach ($files_to_process as $f0) {
+            $ext0 = pathinfo($f0, PATHINFO_EXTENSION);
+            if ($ext0 === '' && preg_match('/^\d{2}-\d{2}-\d{2}$/', $f0) && isset($datedTxtBasenames[$f0])) {
+                continue;
+            }
+            $filtered_changelog[] = $f0;
+        }
+        $files_to_process = $filtered_changelog;
+
         $dated_items = [];
         foreach ($files_to_process as $file_for_date_parse) {
             $filename_no_ext_dp = pathinfo($file_for_date_parse, PATHINFO_FILENAME);
@@ -59,31 +75,59 @@ function readDirectorySubNav_V612($dir, $currentDirNameForSort = '') { // Rename
     }
 
     foreach ($files_to_process as $file) {
-        if ($file == 'additional.txt') continue;
-        $filePath = $dir . DIRECTORY_SEPARATOR . $file;
-        $fileExtension = strtolower(pathinfo($file, PATHINFO_EXTENSION)); 
-
-        if ( $fileExtension === 'txt' || $file === 'index' || 
-             preg_match('/\.(png|jpg|jpeg|gif)$/i', $file) || 
-             (preg_match('/^c\d+_/', $file) && empty($fileExtension)) ||
-             ($file === 'table' && empty($fileExtension)) ) {
+        if ($file == 'additional.txt') {
             continue;
         }
-        
-        $projectRoot = realpath(__DIR__); 
+        $filePath = $dir . DIRECTORY_SEPARATOR . $file;
+        $fileExtension = strtolower(pathinfo($file, PATHINFO_EXTENSION));
+
+        // Sub-menus: recurse into sub-folders first. The "hide legacy extless if .txt exists" rule
+        // applies to files only — never skip a real directory when Foo.txt and Foo/ both exist.
+        if (is_dir($filePath)) {
+            $result_map[$file] = readDirectorySubNav_V612($filePath, $file);
+            continue;
+        }
+
+        if ($file === 'index' ||
+            preg_match('/\.(png|jpg|jpeg|gif|webp)$/i', $file) ||
+            (preg_match('/^c\d+_/', $file) && $fileExtension === '') ||
+            ($file === 'table' && $fileExtension === '')) {
+            continue;
+        }
+
+        $isEligibleTxt = ($fileExtension === 'txt' &&
+            $file !== 'index.txt' &&
+            $file !== 'table.txt' &&
+            !preg_match('/^c\d+_.*\.txt$/', $file) &&
+            !str_starts_with($file, '_'));
+        if ($fileExtension === 'txt' && !$isEligibleTxt) {
+            continue;
+        }
+
+        if (empty($fileExtension) && $file !== 'additional' && $file !== 'table' && !preg_match('/^c\d+_/', $file)) {
+            $txtSibling = $filePath . '.txt';
+            if (is_file($txtSibling)) {
+                continue;
+            }
+        }
+
+        $projectRoot = realpath(__DIR__);
         $projectRootWithSep = rtrim($projectRoot, DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR;
         $relativePath = str_replace($projectRootWithSep, '', $filePath);
         $relativePath = str_replace(DIRECTORY_SEPARATOR, '/', $relativePath);
 
-        if (is_dir($filePath)) {
-            $result_map[$file] = readDirectorySubNav_V612($filePath, $file); 
-        } else {
-            if (empty($fileExtension)) { 
-                if ($is_changelog_dir_flag) {
-                    $result_list[] = ["name" => $file, "path" => $relativePath, "type" => "file"];
-                } else {
-                    $result_map[$file] = $relativePath; 
-                }
+        if ($isEligibleTxt) {
+            $virtualName = pathinfo($file, PATHINFO_FILENAME);
+            if ($is_changelog_dir_flag) {
+                $result_list[] = ['name' => $virtualName, 'path' => $relativePath, 'type' => 'file'];
+            } else {
+                $result_map[$virtualName] = $relativePath;
+            }
+        } elseif (empty($fileExtension)) {
+            if ($is_changelog_dir_flag) {
+                $result_list[] = ['name' => $file, 'path' => $relativePath, 'type' => 'file'];
+            } else {
+                $result_map[$file] = $relativePath;
             }
         }
     }
@@ -110,9 +154,6 @@ if (isset($_GET['folder'])) {
         exit;
     }
     
-    // Use the basename of the *requested and validated* folder segment for sort logic
-    $currentDirNameForSortLogic = basename($folder_param_cleaned_if_used_or_folder_param_itself);
-    // More robust:
     $path_parts_for_name = explode('/', str_replace('\\', '/', $folder_param));
     $currentDirNameForSortLogic = end($path_parts_for_name); // Get the last segment
     if (empty($currentDirNameForSortLogic) && ($folder_param === "" || $folder_param === ".")) {

@@ -233,3 +233,6 @@ Colossus
 Loot
 Singularity
 Brutal
+Ice
+Uncontrollable
+Spiritual

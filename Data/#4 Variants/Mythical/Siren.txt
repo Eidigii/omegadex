@@ -1,4 +1,4 @@
-<span style="color:lightgreen;">Siren</span>: These possess the ability to lull enemies into a completely passive state, forcing
+Siren: These possess the ability to lull enemies into a completely passive state, forcing
 them to wander towards the music they hear. Siren's are capable of making even the most
 powerful of bosses go completely passive, wandering towards the Siren completely
 unaware of its own demise, ignoring all damage dealt to it in the meantime. If your tame is

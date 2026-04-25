@@ -1,4 +1,4 @@
-<span style="color:brown;">Harvesting</span>: Harvesting creatures are able to harvest anything in sight. Even a Harvesting
+Harvesting: Harvesting creatures are able to harvest anything in sight. Even a Harvesting
 Rex can harvest stone, wood, and berries. They're meant to make gathering extremely quick
 and easy, reducing the need to boost harvesting rates (which would just obselete this
 variant).

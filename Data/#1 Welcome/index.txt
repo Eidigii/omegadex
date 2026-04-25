@@ -1,15 +1,13 @@
-<h3>Welcome to Ark Omega Ascended <b><u>unofficial</u> Web OMEGADEX!</b><br>
-<small><i>&emsp;updated 11/19/2025. Fixed DR under variants to real values (credit Varish for doing the testing). Added missing Ovis unique saddles (thank you Laylo for reporting).</i></small></h3>
-
+### Welcome to Ark Omega Ascended **__unofficial__** Web OMEGADEX! <<br>>
+!small! *updated 25/04/2026. New site design with lots of background changes! Updated to Omega mod version 137.*
+<<br>>
 If the Web OMEGADEX differs from the in-game one, then always trust the in-game OMEGADEX. This web version is unofficial, meaning don't post bugs to the official
 Ark Omega Ascended Discord server.
-
-You can directly Discord Message me (in case something is not working/needs updating) - <a href="https://discordapp.com/users/147783361107066881">adg.</a>
-
-Big thanks to straightCrimpin for making this Omagadex look nice!
+<<br>>
+<<br>>
+You can directly Discord Message me (in case something is not working/needs updating) - [adg.](https://discordapp.com/users/147783361107066881)
 --------
-
-Whether you're new to the concept of this mod or have played the Ark: Survival Evolved Ark Omega, this guide is a very important
+Whether you're new to the concept of this mod or have played the ARK: Survival Evolved Omega, this guide is a very important
 resource, so consult it often.
 
 If this is your very first time opening the guide, try clicking the "Getting Started" button above for a quick-start guide.

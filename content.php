@@ -2,6 +2,32 @@
 /* content.php (V6.5 - Complete, Corrected Image Path Generation) */
 error_reporting(0); // As per your original setup
 
+require_once __DIR__ . DIRECTORY_SEPARATOR . 'lib' . DIRECTORY_SEPARATOR . 'omegadex_config.php';
+require_once __DIR__ . DIRECTORY_SEPARATOR . 'lib' . DIRECTORY_SEPARATOR . 'renderer' . DIRECTORY_SEPARATOR . 'OmegadexRenderer.php';
+require_once __DIR__ . DIRECTORY_SEPARATOR . 'lib' . DIRECTORY_SEPARATOR . 'search_index.php';
+
+if (defined('OMEGADEX_USE_RUNTIME_RENDERER') && OMEGADEX_USE_RUNTIME_RENDERER) {
+    OmegadexSearchIndex::ensureFresh();
+}
+
+function omegadex_is_saddle_creator_path(string $path): bool {
+    return strpos(str_replace('\\', '/', $path), '#15 Saddle Creator') !== false;
+}
+
+// Helper: detect Omegadex / rich HTML (must be defined before wrap function)
+function isLikelyHtml($string) {
+    if (empty($string)) {
+        return false;
+    }
+    if (preg_match("/<(div|table|ul|ol|h[1-6]|span|a\\b|section|article|aside|header|footer|nav|figure|blockquote|hr)[^>]*>/i", $string)) {
+        return true;
+    }
+    if (substr_count($string, "<") > 3 && substr_count($string, ">") > 3) {
+        return true;
+    }
+    return false;
+}
+
 // YOUR ORIGINAL parseCustomFormat function
 function parseCustomFormat($content) {
     //Convert single newlines to paragraph tags
@@ -9,70 +35,102 @@ function parseCustomFormat($content) {
     return "<p>" . $content . "</p>";
 }
 
-// Helper to check if content is likely already significantly HTML-structured
-function isLikelyHtml($string) {
-    if (empty($string)) return false;
-    // Look for common block tags or multiple HTML tags.
-    if (preg_match("/<(div|table|ul|ol|h[1-6]|section|article|aside|header|footer|nav|figure|blockquote|hr)[^>]*>/i", $string)) {
-        return true;
+/**
+ * Prebuilt/ rendered Omegadex pages are full HTML (div/h1/ol/...). parseCustomFormat()
+ * was meant for a single paragraph of plain text; on multi-line HTML it shreds tags and
+ * reintroduces every .txt line break in the page. Return structured HTML as-is.
+ */
+function omegadex_wrap_or_pass_through(string $html, bool $forceRaw = false): string
+{
+    if ($forceRaw) {
+        return $html;
     }
-    if (substr_count($string, "<") > 3 && substr_count($string, ">") > 3) { // Heuristic: more than 3 tags
-        return true;
+    if (isLikelyHtml($html) || (strpos($html, 'background-color: rgba(111, 111, 111, 0.6') !== false)) {
+        return $html;
     }
-    return false;
+    return parseCustomFormat($html);
 }
 
 function getContentFromFile($file_path_param) {
     // $file_path_param is expected to be like "Data/Folder/FileNoExt" from JS,
     // or could be a direct path if called by PHP itself.
-    // We need to construct the full server path to the generated extensionless file.
     $decoded_path = urldecode($file_path_param);
-    // Ensure path is treated as relative to this script's directory if not absolute
+    $decoded_path = str_replace('\\', '/', $decoded_path);
+    $decoded_path = ltrim($decoded_path, '/');
+
+    $mainDataDir = realpath(__DIR__ . DIRECTORY_SEPARATOR . 'Data');
+
+    if (defined('OMEGADEX_USE_RUNTIME_RENDERER') && OMEGADEX_USE_RUNTIME_RENDERER) {
+        $txtAbs = OmegadexRenderer::virtualPathToTxtAbs($decoded_path);
+        if ($txtAbs !== null && is_file($txtAbs)) {
+            $rendered = OmegadexRenderer::renderFromTxtPath($txtAbs);
+            if ($rendered !== null) {
+                return omegadex_wrap_or_pass_through(
+                    $rendered,
+                    omegadex_is_saddle_creator_path($txtAbs)
+                );
+            }
+        }
+    }
+
+    // Legacy: generated extensionless file under Data/
     if (strpos($decoded_path, __DIR__) !== 0 && !realpath($decoded_path)) {
         $full_server_path = realpath(__DIR__ . DIRECTORY_SEPARATOR . $decoded_path);
     } else {
         $full_server_path = realpath($decoded_path);
     }
-    
-    $mainDataDir = realpath(__DIR__ . DIRECTORY_SEPARATOR . 'Data');
 
-    if (!$full_server_path || 
-        ($mainDataDir && strpos($full_server_path, $mainDataDir) !== 0) || 
-        !file_exists($full_server_path) || 
-        pathinfo($full_server_path, PATHINFO_EXTENSION) === 'txt') { // Should not load raw .txt
+    if (!$full_server_path ||
+        ($mainDataDir && strpos($full_server_path, $mainDataDir) !== 0) ||
+        !file_exists($full_server_path) ||
+        pathinfo($full_server_path, PATHINFO_EXTENSION) === 'txt') {
         return '<p class="error">Content file not found or invalid type: ' . htmlspecialchars($file_path_param) . '</p>';
     }
 
     $content_data = file_get_contents($full_server_path);
-    return parseCustomFormat($content_data); 
+    return omegadex_wrap_or_pass_through($content_data, false);
 }
 
 function getDefaultContentForFolder($folder_param) {
     $folder_path_segment = urldecode($folder_param);
-    // Construct path to the extensionless 'index' file, relative to Data/
-    $path_inside_data = 'Data' . DIRECTORY_SEPARATOR . $folder_path_segment . DIRECTORY_SEPARATOR . 'index';
-    $defaultFile_path = realpath(__DIR__ . DIRECTORY_SEPARATOR . $path_inside_data);
-    
+    $folder_path_segment = str_replace('\\', '/', $folder_path_segment);
+
     $mainDataDir = realpath(__DIR__ . DIRECTORY_SEPARATOR . 'Data');
 
-    if (!$defaultFile_path || 
-        ($mainDataDir && strpos($defaultFile_path, $mainDataDir) !== 0) || 
+    if (defined('OMEGADEX_USE_RUNTIME_RENDERER') && OMEGADEX_USE_RUNTIME_RENDERER) {
+        $virtualIndex = 'Data/' . trim($folder_path_segment, '/') . '/index';
+        $indexTxtAbs = OmegadexRenderer::extensionlessToTxt($virtualIndex);
+        if ($indexTxtAbs !== null) {
+            $rendered = OmegadexRenderer::renderFromTxtPath($indexTxtAbs);
+            if ($rendered !== null) {
+                return omegadex_wrap_or_pass_through(
+                    $rendered,
+                    omegadex_is_saddle_creator_path($indexTxtAbs)
+                );
+            }
+        }
+    }
+
+    // Legacy: extensionless 'index' file
+    $path_inside_data = 'Data' . DIRECTORY_SEPARATOR . str_replace('/', DIRECTORY_SEPARATOR, $folder_path_segment) . DIRECTORY_SEPARATOR . 'index';
+    $defaultFile_path = realpath(__DIR__ . DIRECTORY_SEPARATOR . $path_inside_data);
+
+    if (!$defaultFile_path ||
+        ($mainDataDir && strpos($defaultFile_path, $mainDataDir) !== 0) ||
         !file_exists($defaultFile_path)) {
-        
+
         if ($folder_path_segment !== '#1 Welcome') {
-            return getDefaultContentForFolder('#1 Welcome'); 
+            return getDefaultContentForFolder('#1 Welcome');
         }
         return '<p class="error">Default content not found for: ' . htmlspecialchars($folder_path_segment) . '</p>';
     }
 
     $content_data = file_get_contents($defaultFile_path);
-    
-    // Specific case for Saddle Creator which might be raw HTML not needing parseCustomFormat
+
     if (strpos($defaultFile_path, DIRECTORY_SEPARATOR . '#15 Saddle Creator' . DIRECTORY_SEPARATOR) !== false) {
-        return $content_data; 
-    } else {
-        return parseCustomFormat($content_data);
+        return $content_data;
     }
+    return omegadex_wrap_or_pass_through($content_data, false);
 }
 
 function getImagesHtmlForFolder($folder_param) {
@@ -158,15 +216,6 @@ function getImagesHtmlForFolder($folder_param) {
         return (stripos($folder_path_segment, 'Items') !== false) ? $image_tags_html . $addontext_html : $addontext_html . $image_tags_html;
     } 
     return null;
-}
-
-if (!function_exists('isLikelyHtml')) {
-    function isLikelyHtml($string) {
-        if (empty($string)) return false;
-        if (preg_match("/<(div|table|ul|ol|h[1-6]|section|article|aside|header|footer|nav|figure|blockquote|hr)[^>]*>/i", $string)) return true;
-        if (substr_count($string, "<") > 3 && substr_count($string, ">") > 3) return true;
-        return false;
-    }
 }
 
 function getTableHtmlForFolder($folder_param) {

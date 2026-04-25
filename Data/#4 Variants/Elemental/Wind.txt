@@ -1,4 +1,4 @@
-<span style="color:yellow;">Wind</span>: Launches a wind projectile that can stun enemies on impact. The projectile is very
+Wind: Launches a wind projectile that can stun enemies on impact. The projectile is very
 fast and not effected by gravity.
 
 -----

@@ -1,4 +1,4 @@
-<span style="color:yellow;">Paragon</span>: Paragon creatures are greatly prized for their souls. When a Paragon creature is
+Paragon: Paragon creatures are greatly prized for their souls. When a Paragon creature is
 killed, it drops a soul based on its species. Feeding this soul to a creature of the same
 species will reward it a Paragon level, giving a permanent 100% stat increase, up to a
 Paragon level of 10. These are displayed on your tames name in Roman Numerals, with 10
@@ -9,7 +9,7 @@ Paragon creatures can only be tamed using Unique Kibble.
 
 -----
 Speed Bonus: 100%
-Damage Reduction: <span title="Wrong in-game value: 90%" style="color: red;">80%</span>*
+Damage Reduction: 80%*!tip:Wrong in-game value: 90%
 Chance To Drop Paragon: 100%
 Does not provide Paragons when tamed.
 

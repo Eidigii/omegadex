@@ -1,4 +1,4 @@
-<span style="color:yellow;">Miracle</span>: These very elusive variants have the ability to change server settings when killed,
+Miracle: These very elusive variants have the ability to change server settings when killed,
 changing many aspects of gameplay for a limited amount of time. They are rare, often hard
 to see, with a high chance to dodge, and increased speed.
 

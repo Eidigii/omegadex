@@ -1,5 +1,11 @@
 <?php
 // search.php (V6.7 - Header Matches Mobile index.php)
+require_once __DIR__ . DIRECTORY_SEPARATOR . 'lib' . DIRECTORY_SEPARATOR . 'omegadex_config.php';
+require_once __DIR__ . DIRECTORY_SEPARATOR . 'lib' . DIRECTORY_SEPARATOR . 'search_index.php';
+if (defined('OMEGADEX_USE_RUNTIME_RENDERER') && OMEGADEX_USE_RUNTIME_RENDERER) {
+    OmegadexSearchIndex::ensureFresh();
+}
+
 $site_title = "OMEGADEX"; 
 $raw_query = isset($_GET['query']) ? trim($_GET['query']) : '';
 $display_query = htmlspecialchars($raw_query);
@@ -11,7 +17,7 @@ function generate_search_snippet($content, $term, $length = 200) { $text_content
 <head>
     <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Results for "<?php echo $display_query; ?>" - <?php echo htmlspecialchars($site_title); ?></title>
-    <link rel="stylesheet" href="assets/styles.css?v=6.21.css"> 
+    <link rel="stylesheet" href="assets/styles.css?v=6.42.variant-theme"> 
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>

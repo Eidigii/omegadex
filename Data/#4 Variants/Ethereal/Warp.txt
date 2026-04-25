@@ -1,4 +1,4 @@
-<span style="color:lightgray;">Warp</span>: Similar to the Shadowmane's teleport attack, the Warp ability will teleport you
+Warp: Similar to the Shadowmane's teleport attack, the Warp ability will teleport you
 between nearby enemies dealing damage to them. You can quickly attack many targets in
 succession, sometimes travelling a great distance while doing so. Unfortunately, you have
 no control over which targets are chosen.

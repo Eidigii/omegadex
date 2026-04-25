@@ -1,4 +1,4 @@
-<span style="color:black;">Stalker</span>: Not something you want to think about following you, the Stalker will often cloak
+Stalker: Not something you want to think about following you, the Stalker will often cloak
 itself while in pursuit. While cloaked, it will not be targeted by enemies, and will uncloak on
 attack, landing a powerful critical hit.
 

@@ -1,4 +1,4 @@
-<span style="color:lightgreen;">Phoenix</span>: Following the mythology surrounding the Phoenix, when killed it will simply rise
+Phoenix: Following the mythology surrounding the Phoenix, when killed it will simply rise
 from the ashes to be born again. Phoenix creatures can rapidly restore their own health
 when injured. When killed, their corpse will set ablaze, damaging enemies in the area. If its
 corpse is not harvested within 10 seconds, the Phoenix will resurrect.

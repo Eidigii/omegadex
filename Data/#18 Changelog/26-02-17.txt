@@ -1,0 +1,100 @@
+Ark Omega 02/17 Patch Notes:
+
+-Implemented a fix for crazy rider rotation on previously unrideable creatures (Since WC hasn't responded to my multiple requests for an option for this):
+---Achatina
+---Ammonite
+---Archaeopteryx
+---Titanomyrma Drone
+---Titanomyrma Soldier
+---Onyc
+---Giant Bee Queen
+---Titanoboa
+---Cnidaria
+---Coelacanth
+---Dilophosaur
+---Dodo
+---Meganeura
+---Dung Beetle
+---Eurypterid
+---Hesperornis
+---Hyaenodon
+---Oil Jug Bug
+---Water Jug Bug
+---Kentrosaurus
+---Kairuku
+---Lamprey
+---Leech
+---Leedsichthys
+---Lystro
+---Microraptor
+---Oviraptor
+---Pegomastax
+---Piranha
+---Seeker
+---Purlovia
+---Snow Purlovia
+---Sabertooth Salmon
+---Ovis
+---Trilobite
+---Troodon
+---Turkey
+
+Other:
+-Raid Torpor removed. All dinos are now regular KO tames without any raid torpor requirements. Omegadex entries and spyglass information also updated. 
+---Confirmed species with Raid Torpor removed:
+---Broodmother
+---Dragon
+---Megapithecus
+---Manticore
+---Dodo Wyvern
+---DodoRex
+---Titanosaur
+---Rock Elemental
+---Leedsichthys
+---Charcha
+---Giga
+-Shard value for Rhyniognathus decreased by 2. 
+
+New Species Supported:
+-Griffin
+-Bison
+-Ceratosaurus
+
+Weapons:
+-Warp Bow:
+---Warp Bow can now fire Stone Arrows for a cheap but low damage option.
+---Unequipping the Unique/Legendary Warp Bow removes the tether from any dinos that are currently tethered by it.
+---Quantum Entanglement bonus "All Arrows Deal Raid Torpor" replaced with "Can Fire Metal Arrows". This also works for both regular metal and knockout arrows.
+---String Theory bonus "Arrows Deal Metal Arrow Damages" replaced with "300% Arrow Damage."
+---String Theory Bonus "Cosmic Grenades For Ammo Create Starfires" replaced with "10% Chance To Create Starfire On Boss Hit"
+
+Quantum:
+-Species/Variant paragons AND Variant souls can now be stored in personal/tribe storage. All of them currently in soul compressors will be automatically sent to tribe storage (or personal, if not in a tribe).
+-Paragon compressing functionality in the soul compressor removed. Void Vacuum will automatically compress to tribe storage (or personal, if not in a tribe).
+-Stat potions have their own UI to pull them as needed. When pulling all-stats/all-types, if enough points exist, you will pull unique and legendary versions.
+-Boss Souls, Master Souls, Group Master Souls, Unique Group Master Souls, and Aspect Souls are now all compressible in the Quantum Storage system.
+-Merging tribes will now merge their quantum storages. 
+
+Variant Reworks:
+-Nuclear:
+---Nuclear is now an "activated" buff, meaning that you press the button once to activate and the explosion will happen after the full build-up. This will remove the conflict it has with saddle added variants. 
+---Full buildup time is now 5 seconds instead of 10. It will always deal 20x ability damage with the explosion, at maximum radius.
+---This requires 50% stamina to activate and will drain 100% of the current stamina after the explosion triggers, as well as a debuff the Nuclear with a short stun.
+
+-Lethal:
+---Stacks now multiply damage taken by 1.03 instead of by 3 (Exponentially: 1.03^Stacks, capping at roughly 19.2x damage multiplier).
+---Stacks now cap at 100 instead of 5.
+---The debuff no longer reduces the enemies melee damage by 30%.
+---The debuff now lasts for 10 seconds instead of 300 but is refreshed when a new stack is applied. All stacks are lost if the buff times out. 
+---Lethal can now only be applied through melee damage and not ability damage.
+---Lethal is now always applied when dealing melee damage instead of by % chance. 
+
+Bug Fixes:
+-Fixed a bug with the NPC button on the Omegadex sending you to the Quantum Storage page.
+-Fixed a bug with Unique Saddle Tokens not spawning in Hoarder Chests.
+-Fixed some bugs with the boss stat calculator not functioning due to failed variant selection in the calculator section of the guide. 
+-Fixed Spawn Wild Unique functions in the guide.
+-Torpor regen on unique saddles no longer causes the dino to KO. 
+-Fixed an issue where the Omega Egg Collector would see certain species as gestators. 
+-Fixed Omega's new equipment slots overriding the skin slots added by Lost Colony.
+-Fixed a bug with the Don't Sort folder not keeping items from being sorted.

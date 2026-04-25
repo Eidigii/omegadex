@@ -1,5 +1,4 @@
-<span style="color:black;">NIGHTMARE</span>:
-Nightmare creatures are the things that go bump in the night. During the day, they often
+NIGHTMARE: Nightmare creatures are the things that go bump in the night. During the day, they often
 behave like typical creatures. During the night, their abilities are greatly enhanced. They are
 also highly aggressive at night, often hunting you from a distance whenever you are in the
 area. Most nightmare creatures also gain Nightvision, with the ability to see enemies from

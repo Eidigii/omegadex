@@ -1,4 +1,4 @@
-<span style="color:orange;">Self-Destructive</span>: Self-Destructive creatures live to die. While they have no particular
+Self-Destructive: Self-Destructive creatures live to die. While they have no particular
 special abilities, they do explode on death, dealing damage based on their maximum health.
 
 -----

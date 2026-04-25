@@ -233,3 +233,6 @@ Gigantoraptor
 Archelon
 Cat
 Deinosuchus
+Griffin
+Bison
+Ceratosaurus

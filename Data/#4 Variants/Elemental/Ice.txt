@@ -1,4 +1,4 @@
-<span style="color:yellow;">Ice</span>: Launches an ice projectile that can slow and eventually freeze enemies if hitting them
+Ice: Launches an ice projectile that can slow and eventually freeze enemies if hitting them
 in succession.
 
 -----

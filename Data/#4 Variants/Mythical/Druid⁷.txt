@@ -1,4 +1,4 @@
-<span style="color:lightgreen;">Druid</span>: The 7th Variant of Mythical. Druid creatures leverage the power of the forest titan
+Druid: The 7th Variant of Mythical. Druid creatures leverage the power of the forest titan
 to raise toxic trees and ensnaring vines. While the vines to not deal damage, they root
 anything on the ground, preventing it from moving. The summoned trees will find the
 nearest enemy and begin firing projectiles that deal damage, slow, and blind.

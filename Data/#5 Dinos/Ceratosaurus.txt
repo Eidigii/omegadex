@@ -1,0 +1,15 @@
+Name: Ceratosaurus
+Base Damage: 25
+Rarity Group Number: 3
+Paragon Shard Value: 8
+
+Uniques:
+Unique Name: Barry Allen
+Variants: Rampage / Spiritual
+Spawn Weight: 1.0
+
+Food Types:
+Raw Meat
+Cooked Meat
+Cooked Prime Meat
+Raw Prime Meat

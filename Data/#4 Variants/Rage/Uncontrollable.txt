@@ -1,4 +1,4 @@
-<span style="color:red;">Uncontrollable</span>: The most ruthless creatures in Ark Omega. Uncontrollables have very high
+Uncontrollable: The most ruthless creatures in Ark Omega. Uncontrollables have very high
 stat multipliers that have no equal. They are highly aggressive, attacking any/all nearby
 enemies without fear for their own life. Wild uncontrollables will actively hunt players and
 tames. They are very fast, with a lot of health and damage. The name Uncontrollable comes

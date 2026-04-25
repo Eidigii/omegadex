@@ -1,4 +1,4 @@
-<span style="color:purple;">Familiar</span>: Many minions! The Familiar can summon a large group of angry bats, hell-bent
+Familiar: Many minions! The Familiar can summon a large group of angry bats, hell-bent
 on killing anything in the area. This swarm increases in numbers based on Tier, as does the
 individual strength of each bat.
 

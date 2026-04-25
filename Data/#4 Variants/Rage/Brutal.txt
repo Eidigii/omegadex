@@ -1,4 +1,4 @@
-<span style="color:red;">Brutal</span>: Brutal creatures have a chance on attack to inflict bleed, causing damage over time.
+Brutal: Brutal creatures have a chance on attack to inflict bleed, causing damage over time.
 The bleed damage inflicted is 50% of the damage dealt to the enemy, and will keep
 increasing by that amount up to a maximum of 3x the Brutal creature's Ability damage.
 

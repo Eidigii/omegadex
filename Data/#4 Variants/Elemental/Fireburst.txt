@@ -1,4 +1,4 @@
-<span style="color:yellow;">Fireburst</span>: Creates a swirling storm of fire that can set enemies on fire.
+Fireburst: Creates a swirling storm of fire that can set enemies on fire.
 
 -----
 Cooldown: 10s

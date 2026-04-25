@@ -1,4 +1,4 @@
-<span style="color:brown;">Crafting</span>: Crafting creatures provide a much needed service. They have a crafting tab in
+Crafting: Crafting creatures provide a much needed service. They have a crafting tab in
 their inventory that contains nearly all engrams for everything in the Smithy, Fabricator, and
 Omega Workbench. They also get a huge boost to crafting speed based on their tier,
 meaning they can be used to bypass the Omega Workbench later in the game and craft all

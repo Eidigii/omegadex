@@ -1,4 +1,4 @@
-<span style="color:lightgray;">Wood</span>: Made of wood, passively produce and poop wood. Taking damage may cause it
+Wood: Made of wood, passively produce and poop wood. Taking damage may cause it
 to break off shards, dealing explosion damage in an area and applying a Splintered debuff
 that further increases damage from shards.
 
@@ -7,7 +7,7 @@ Elemental Weakness: Fire
 Harvested For: Wood, Thatch, Sap
 Drag weight increased: 3x
 Amount of resource passively produced in inventory every 5 minutes: Tier x 10
-Damage Reduction: <span title="Wrong in-game value: 80% (20% damage taken)" style="color: red;">50%</span>*
+Damage Reduction: 50%*!tip:Wrong in-game value: 80% (20% damage taken)
 Damage Taken by Elemental Weakness: 100%
 Damage Taken by Multi-Tool: 200%
 Shard Damage: 50% of Ability damage.

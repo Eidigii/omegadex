@@ -1,0 +1,32 @@
+Ark Omega 2/21 Patch Notes:
+
+Utility Variant Reworks:
+Crafting:
+---Immune to Damage Impulse.
+---Gains 95% damage reduction when over-encumbered.
+Farming: 
+---Can water crops without need for an unstable water.
+---In combat, will consume 1 fertilizer when hit to reduce damage taken by 50%.
+---Will no longer randomly drop 1 fertilizer when killed.
+
+Other Variant Reworks:
+Armored:
+-Damage reduction % is now exponential and grows at you lose health instead of equal to % of missing health for a non-linear DR.
+-Armored DR now maxes at 96% instead of 98%, and still loses all DR entirely below 1% health as before.
+-Armored can no longer take more than 10% of its max health as damage in a single hit.
+Gorgon:
+-Gorgon stone is no longer dealt through damage and cannot be dodged. Ghosts stoned by Gorgon can also not dodge.
+Ghost:
+-Ghosts stoned by Gorgon can no longer dodge.
+-Ghost bosses no longer always have 50% dodge and now follow the same tier-based dodge chance as everything else.
+
+Others:
+-Fixed a bug with Omega NPCs spawning with base stats.
+-Corrupt variants on Extinction replaced with normal Omega spawns.
+-Gave a proper ability damage value to the Ceratosaurus.
+-Omega glider no longer has durability.
+-Fixed a bug causing some flyers to struggle to land due to Wildcard's addition of Sparse Data causing runtime edits to apply to every dino of that species regardless of circumstance.
+-Fixed mate boost and attack range bugs related to the above Wildcard shenanigans.
+-Fixed a bug causing dinos sent to the Reliquary to lose their saddles.
+-Fixed a bug where Nuclear was being treated as Explosive for damage and radius.
+-Fixed a bug preventing the DodoRex from taking torpor properly.

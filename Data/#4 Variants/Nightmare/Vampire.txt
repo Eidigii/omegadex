@@ -1,4 +1,4 @@
-<span style="color:black;">Vampire</span>: The Vampire is a merciless creature that waits for night to start hunting prey.
+Vampire: The Vampire is a merciless creature that waits for night to start hunting prey.
 Vampires will actively hunt players and tames at night, and during the night time they also
 gain night vision and the ability to heal based on damage dealt. They also gain damage
 reduction at night.

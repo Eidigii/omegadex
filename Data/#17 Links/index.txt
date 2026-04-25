@@ -1,19 +1,13 @@
 If you would like to donate to Ark Omega to ensure constant future updates (current donators are the reason that weekly updates are being done), you can do so via either
 Patreon or Paypal
 
-Patreon:
-<br><a href="https://www.patreon.com/hexensmods">https://www.patreon.com/hexensmods</a>
+Patreon: <<br>> [https://www.patreon.com/hexensmods](https://www.patreon.com/hexensmods)
 
-Paypal:
-<br><a href="https://paypal.me/hexensmods?locale.x=en_US">https://paypal.me/hexensmods?locale.x=en_US</a>
+Paypal: <<br>> [https://paypal.me/hexensmods?locale.x=en_US](https://paypal.me/hexensmods?locale.x=en_US)
 
-Discord:
-<br>To join the Hexen's Mods discord, please use the following invite code:
-<a href="https://discord.gg/Re9GnZdYau">https://discord.gg/Re9GnZdYau</a>
-<br>Note: This is NOT the discord to the server you are playing on, but the discord for the Ark Omega mod.
+Discord: <<br>>To join the Hexen's Mods discord, please use the following invite code:
+[https://discord.gg/Re9GnZdYau](https://discord.gg/Re9GnZdYau) <<br>>Note: this is NOT the discord to the server you are playing on, but the discord for the Ark Omega mod.
 
 Ark Omega and its servers are sponsored by: Arkservers.io
 
-Github:
-<br>if you wish to contribute data or other changes to this unofficial Omegadex:
-<br><a href="https://github.com/Eidigii/omegadex">https://github.com/Eidigii/omegadex</a> 
+Github: <<br>>if you wish to contribute data or other changes to this unofficial Omegadex: [https://github.com/Eidigii/omegadex](https://github.com/Eidigii/omegadex)

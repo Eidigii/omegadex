@@ -1,4 +1,4 @@
-<span style="color:orange;">Detonate</span>: Detonate is a very dangerous ability, if you're able to kill your targets. Detonate is
+Detonate: Detonate is a very dangerous ability, if you're able to kill your targets. Detonate is
 a passive ability, which when hitting an enemy will debuff them for 5 seconds, indicated by
 a head on fire. If the enemy is killed while debuffed, it will explode, dealing damage to
 everything around it. There is also a chance that the debuffed enemy will explode when

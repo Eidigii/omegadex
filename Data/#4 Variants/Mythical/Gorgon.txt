@@ -1,4 +1,4 @@
-<span style="color:lightgreen;">Gorgon</span>: Like Medusa, one quick gaze from these creatures will cause you to turn to stone.
+Gorgon: Like Medusa, one quick gaze from these creatures will cause you to turn to stone.
 Stoned creatures will be completely incapable of movement for a short time. Also, while
 turned to stone, creatures will take triple damage from any Gorgon that attacks it.
 

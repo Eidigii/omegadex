@@ -1,4 +1,4 @@
-<span style="color:blue;">Meteor</span>: Meteor creatures can call down a small meteor strike in the area. While each
+Meteor: Meteor creatures can call down a small meteor strike in the area. While each
 individual meteor isn't particularly powerful, they hit over a large area, and larger enemies
 can be striken by multiple meteors leading to incredible health loss. The number of
 meteors can be random at times, as are the impact locations. Flying meteor dinos are able

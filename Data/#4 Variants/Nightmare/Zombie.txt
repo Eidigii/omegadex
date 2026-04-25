@@ -1,4 +1,4 @@
-<span style="color:black;">Zombie</span>: Classic horror creatures in the flesh. Zombies are infected creatures that will turn
+Zombie: Classic horror creatures in the flesh. Zombies are infected creatures that will turn
 their enemies into zombie minions on a killing blow. Those minions are also capable of
 turning enemies into zombie minions on killing blow, allowing you to quickly gather up a
 horde of infected. This makes the Zombie extremely effective in crowded areas and caves.

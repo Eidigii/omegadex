@@ -1,4 +1,4 @@
-<span style="color:gray;">Wireless Controller</span>: Controllers are in charge of aggression levels of nearby enemies. They can use a
+Wireless Controller: Controllers are in charge of aggression levels of nearby enemies. They can use a
 taunt that forces enemies to attack them, while debuffing the enemy so that they are
 stunned when attacking the Controller.
 

@@ -1,0 +1,10 @@
+Ark Omega 02/18 Patch Notes: 
+-Fixed a bug with the DodoRex not animating correctly.
+-Fixed an issue with the Bison, Cera, and Griffin not spawning naturally with variants. 
+-Tweaked Lethal's damage calculations to prevent damage loss. 
+-Fixed a bug causing player resistance miracles to cause them to take more damage.
+-All boss base damage and health stats doubled across the entire mod to compensate for the shrinking difficulty.
+-Cleared out raid torpor references from the dino section of the Omegadex.
+-Fixed a bug causing stone and metal arrows in the warp bow to KO dinos.
+-New unique Yuty saddles will now be the correct saddle class when dropped.
+-Fixed a bug causing Tribe storages to wipe out paragon/boss soul data when pulling resources.

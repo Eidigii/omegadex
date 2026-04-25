@@ -1,4 +1,4 @@
-<span style="color:red;">Rampage</span>: Rampage! These creatures have the ability to go on a Rampage dealing greatly
+Rampage: Rampage! These creatures have the ability to go on a Rampage dealing greatly
 increased damage. The more they attack, the more their damage output. Stop attacking
 for too long, and that bonus will start to decay away until they are back to normal damage
 and no longer in a Rampage. Nearby players will know that a dino has gone into a

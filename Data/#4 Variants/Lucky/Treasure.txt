@@ -1,4 +1,4 @@
-<span style="color:yellow;">Treasure</span>: Guardians of the chests, keepers of dynamic items, these living artifacts wander
+Treasure: Guardians of the chests, keepers of dynamic items, these living artifacts wander
 around holding the secrets to the locations of many items.
 
 Killing a Treasure variant will give anyone nearby during its death a Treasure Hunter buff,
@@ -9,7 +9,7 @@ Treasure creatures can only be tamed using Unique Kibble.
 
 -----
 Speed Bonus: 100%
-Damage Reduction: <span title="Wrong in-game value: 90%" style="color: red;">80%</span>*
+Damage Reduction: 80%*!tip:Wrong in-game value: 90%
 Treasure Hunter Buff Duration: 300 Seconds.
 Does not provide Treasure Hunter Buff when tamed.
 

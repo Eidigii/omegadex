@@ -1,4 +1,4 @@
-<span style="color:red;">Psychosis</span>: A Psychosis creature has an ear-piercing screech that sounds all other nearby
+Psychosis: A Psychosis creature has an ear-piercing screech that sounds all other nearby
 creatures into a state of Psychosis, forcing them to attack eachother without prejudice. A
 player's own mount will being attacking and ignoring the players control. This can also
 prove valuable against enemies, as it will force them to attack other nearby creatures, even

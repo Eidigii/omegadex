@@ -233,3 +233,6 @@ Absorbent
 Dimensional
 Anti-Matter
 Stalker
+Fire
+Obsidian
+Rampage

@@ -1,5 +1,4 @@
-<span style="color:lightgray;">RESOURCE</span>:
-Resource creatures are made out of their corresponding resource. They produce it, and poop
+RESOURCE: Resource creatures are made out of their corresponding resource. They produce it, and poop
 it. They are much heavier than normal, and take 80% damage reduction. Their corpses are
 harvested as if you were harvesting a node of that resource. While they have no special
 abilities, they have huge passive damage reduction of 80% and when hit, have a chance to

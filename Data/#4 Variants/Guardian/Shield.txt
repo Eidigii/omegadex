@@ -1,6 +1,4 @@
-<span style="color:gray;">Shield</span>: 
-
-Shield is a form of tanking, applying a buff to nearby allies that negates damage they take
+Shield: Shield is a form of tanking, applying a buff to nearby allies that negates damage they take
 for a certain amount of hits.
 
 Pressing Prone (X) buff all nearby allies with the "shielded" buff, which negates all damage

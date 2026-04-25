@@ -1,4 +1,4 @@
-<span style="color:lightgreen;">Pygmy</span>: Tiny terrors. Pygmys are a miniature version of their species, but don't let that fool
+Pygmy: Tiny terrors. Pygmys are a miniature version of their species, but don't let that fool
 you. Many pygmys can be packed into a very small area, and all Pygmys gain a pack bonus
 will all others regardless of Species. Prepare your tiny army!
 

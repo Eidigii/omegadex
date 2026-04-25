@@ -43,7 +43,7 @@ Additionally, masters and corrupt masters will drop the mid-game sets and unique
 goes with it. These sets are much stronger than the early-game ones such as Soul Scream, and will strengthen you enough to potentially do beacon
 bosses and beyond on foot.
 
-<h4>So, midgame in summary:</h4>
+#### So, midgame in summary:
 
 - Prepare your elite-tier tame and yourself with strong armor and saddles with good imbues, health potions, at least one paragon soul item, and a
 crafted and placed Reliquary structure in case of tragedy.

@@ -1,4 +1,4 @@
-<span style="color:purple;">Random</span>: Random are the most unpredictable creatures in Ark Omega. They have no
+Random: Random are the most unpredictable creatures in Ark Omega. They have no
 control over what they summon, as it can be any creature from any group.
 
 Pressing Prone(X) will summon completely random minions, with random variants and

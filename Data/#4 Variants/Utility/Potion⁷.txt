@@ -1,4 +1,4 @@
-<span style="color:brown;">Potion</span>: The 7th Variant of Utility. One of the most useful variants of all, Potion creatures
+Potion: The 7th Variant of Utility. One of the most useful variants of all, Potion creatures
 are capable of feeding potions from their inventory to nearby players and tames to restore
 their health and stamina. The wheel can be used to set a health %, and anytime a nearby
 player or tame gets below that health %, they will have health potions and/or stamina

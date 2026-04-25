@@ -1,4 +1,4 @@
-<span style="color:lightgreen;">Fairy</span>: Natural healers. A fairy will make an invaluable ally in battle, as it will heal all nearby
+Fairy: Natural healers. A fairy will make an invaluable ally in battle, as it will heal all nearby
 allies for a % of their max health over time. An AOE healer that uses nothing more than its
 own Stamina to heal.
 

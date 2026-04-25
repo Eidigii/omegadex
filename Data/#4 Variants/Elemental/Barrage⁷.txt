@@ -1,4 +1,4 @@
-<span style="color:yellow;">Barrage</span>: The 7th Variant of Elemental. Barrage rains down a rapid attack of chromatic
+Barrage: The 7th Variant of Elemental. Barrage rains down a rapid attack of chromatic
 cannonballs that impact as a random elemental ball. Many of them are fired in a short
 period of time, and they are fired directly at surrounding targets. There isn't any way to
 control which element they will deal damage for, but the damage dealt is usually

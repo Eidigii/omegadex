@@ -1,3 +1,2 @@
-<span style="color:lightgray;">ETHEREAL</span>:
-Ethereal creatures are meant for travel and stealth. Not typically used for combat mounts,
+ETHEREAL: Ethereal creatures are meant for travel and stealth. Not typically used for combat mounts,
 although they each have features that make them extremely useful.

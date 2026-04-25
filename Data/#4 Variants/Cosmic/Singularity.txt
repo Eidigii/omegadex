@@ -1,4 +1,4 @@
-<span style="color:blue;">Singularity</span>: One of the worst things that can happen to you or your tames is being trapped
+Singularity: One of the worst things that can happen to you or your tames is being trapped
 in a Singularity. When a Singularity creature summons a black hole, it can rip enemies
 right up off of the ground, trapping them in the center while crushing them to death. A
 singularity will even pick up fish out of the ocean, killing them. Fortunately, its also makes

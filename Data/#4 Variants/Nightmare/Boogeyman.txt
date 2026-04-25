@@ -1,4 +1,4 @@
-<span style="color:black;">Boogeyman</span>: Ruler of the night, the Boogeyman is an absolute force to be reckoned with.
+Boogeyman: Ruler of the night, the Boogeyman is an absolute force to be reckoned with.
 A fairly normal creature during the day, at night they become covered in a solid black
 cloak, unable to be targeted by other creatures. At night, they also gain huge damage
 reduction, night vision, and the ability to jump-scare enemies with a powerful roar.

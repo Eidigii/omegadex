@@ -1,7 +1,7 @@
 Welcome to Ark Omega Ascended! Before we begin, stop. The game can be played as is, but for the ideal gameplay experience, there
 are several (non-premium) mods that are run on official, and recommended for use with all installs.
 
-<h4>Recommended mods include:</h4>
+#### Recommended mods include:
 
 - a modded spyglass (Awesome, Super, Nanoh's, etc) for a quicklook indication of what kibble is needed to tame a dino, and how much of it.
 The Omega teleporter and dino storage mods — these are mods that were copied into discrete mods of their own from
@@ -10,15 +10,17 @@ the ASE version of Omega.
 mashing E on everything in sight.
 - A reusable item mod such as QOL+ or Nanoh's
 - A death inventory keeping mod is recommended as well, as Ark Omega Ascended is not intended to be played quite like vanilla ARK, but more like
-an ARPG such as Diablo or Path of Exile. Best mod for that is "Inventory Backup Saver" with GameUserSettings.ini addition:<br> 
-<span style="color:lightblue">[InventorySaver]</span><br>
-<span style="color:lightblue">ReturnItems=True</span>
+an ARPG such as Diablo or Path of Exile. Best mod for that is "Inventory Backup Saver" with GameUserSettings.ini addition:
+@ini:lightblue
+[InventorySaver]
+ReturnItems=True
+@end
 - Stack mods are convenient, but use caution — some of them change items such as meat, which can cause your Ark Omega Ascended dinos to not
 eat the altered items properly.
 
 Now that you've got your install squared away, let's look at getting started.
 
-<h3>New character? First time playing? Here are the things you need to know immediately.</h3>
+### New character? First time playing? Here are the things you need to know immediately.
 
 1.) You have a newbie buff, with a countdown timer in your buff list at the bottom right. This gives you damage reduction, increased magic find
 (increases dynamic item drop rate, like Unique Weapons and Set Armors), bonus experience gain, and makes wild creatures ignore you unless
@@ -28,7 +30,7 @@ provoked. Make use of it, because once it wears out, they will come after you, a
 -The Gathering Tool works as a Metal Hatchet and Metal Pick. Toggle weapon attachment button to switch modes.
 -The Gathering Sickle works the same as using your hands to harvest, but at 7x the rate.
 
-<h4>The things you should focus on first:</h4>
+#### The things you should focus on first:
 1.) Using your starting tools to gather resources and level up.
 2.) Finding weak dinos like vanilla dodos to kill for hide and experience.
 3.) Establish a small temporary base, in a cave or a safe area, away from any danger.
@@ -38,7 +40,7 @@ provoked. Make use of it, because once it wears out, they will come after you, a
 7.) If you havent already, craft some armor, even if its primitive Cloth.
 8.) Imbue your armor in the Imbue Workbench using the highest tier essence you can afford.
 
-<h4>Here are some things you should know while getting started.</h4>
+#### Here are some things you should know while getting started.
 1.) Dying Creatures will reward Souls/Essence in a small area. You do not need to make the kill.
 2.) Imbue a full set of primitive gear with your first 5 Omega essence for a great stat boost.
 3.) Resource dinos will periodically poop 5 of their designated resource and can be harvested for more.

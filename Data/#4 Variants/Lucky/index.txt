@@ -1,5 +1,4 @@
-<span style="color:yellow;">LUCKY</span>:
-Lucky creatures are here to provide you with things for finding and killing them. They are
+LUCKY: Lucky creatures are here to provide you with things for finding and killing them. They are
 very rare, but each has its own benefit when killed. They are fast, hard to find, and hard to
 kill. Killing them can also anger the god of their specific Variant, giving it a chance to spawn
 at an Omega Beacon.

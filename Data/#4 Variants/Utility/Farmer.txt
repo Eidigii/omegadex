@@ -1,4 +1,4 @@
-<span style="color:brown;">Farmer</span>: Farmer dinos are invaluable to have in your base. They will passively pick up poop
+Farmer: Farmer dinos are invaluable to have in your base. They will passively pick up poop
 dropped nearby, convert it to fertilizer, auto-distribute to crops, and if they have an Unstable
 Water in their inventory, keep those crop plots watered forever. Once the crops have grown,
 the Farmer will collect the crops and berries from the crop plots and send them to your void

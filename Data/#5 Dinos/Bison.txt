@@ -1,0 +1,20 @@
+Name: Bison
+Base Damage: 30
+Rarity Group Number: 6
+Paragon Shard Value: 5
+
+Uniques:
+Unique Name: Toro
+Variants: Obsidian / Uncontrollable
+Spawn Weight: 1.0
+
+Food Types:
+Amarberry
+Azulberry
+Tintoberry
+Mejoberry
+Base Veggie
+Sweet Vegetable Cake
+Cianberry
+Magenberry
+Verdberry

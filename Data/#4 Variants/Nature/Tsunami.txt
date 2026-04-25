@@ -1,4 +1,4 @@
-<span style="color:green;">Tsunami</span>: Tsunami creatures have the power to manipulate, even create, powerful waves of
+Tsunami: Tsunami creatures have the power to manipulate, even create, powerful waves of
 water that can damage, drown, and even push back enemies.
 
 Pressing Prone(X) creates a poweful wave that quickly spreads outwards from the Tsunami

@@ -1,5 +1,4 @@
-<span style="color:yellow;">ELEMENTAL</span>:
-Elemental creatures are the most common creatures in Ark Omega. They have the power
+ELEMENTAL: Elemental creatures are the most common creatures in Ark Omega. They have the power
 of any of 6 elements: Fire, Earth, Water, Ice, Wind, Lightning. They are also split into 2
 types, Elementals and Storm Elementals. Each Element has a weakness to another, and a
 resistance to another. This works in a circular pattern, with every Element having 1
@@ -9,8 +8,7 @@ damage that causes various status effects. Storm Elementals summon a swirling st
 of their element around them, doing more damage in a much greater area, making them
 exponentially more dangerous.
 
-<span style="color:yellow;">STANDARD ELEMENTALS</span>:
-Standard elemental variants launch projectiles based around their element. They also all
+STANDARD ELEMENTALS: Standard elemental variants launch projectiles based around their element. They also all
 get a crosshair when mounted to help aim them. These projectiles can travel a great
 distance, do AOE damage on impact, and cause status effects. They are also able to use
 this ability in turret mode, should that dino have access to it.
@@ -19,8 +17,7 @@ direction of the crosshair. The ones effected by gravity drop will fire at a sli
 upwards of 2 degrees so that creatures lower to the ground won't have their projectile
 immediately explode.
 
-<span style="color:yellow;">BURST ELEMENTALS</span>:
-Storm Elementals are an enhanced version of standard elementals. They are more
+BURST ELEMENTALS: Storm Elementals are an enhanced version of standard elementals. They are more
 powerful, harder to tame, with more dangerous abilities and a greatly increased likelihood
 of inflicting status effects. Storm elementals creating swirling storms around themselves
 that damage and debuff anything trapped with them, making their AOE capabilities far

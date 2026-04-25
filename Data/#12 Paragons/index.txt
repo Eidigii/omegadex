@@ -1,4 +1,4 @@
-<h2>Paragons!</h2>
+## Paragons!
 
 Paragons are an essential part of dino progression. A Paragon is another stat multiplier added to dinos to greatly increase their overall strength. Each Paragon level
 provides a 100% increase to base stats. This is multiplied by the tier multiplier as well. They're unlocked through various methods, but mainly through feeding your tame a
@@ -6,12 +6,12 @@ Paragon Soul matching it's species, or by completeing the paragon quests which c
 icon. When Paragons are applied to your tame, the stats are completely recalculated. There isn't any specific order that they need to be added or completed because of
 this.
 
-<h4>Dino stats are calculated as:</h4>
+#### Dino stats are calculated as:
 - Base Stats x Tier Multiplier X (Paragon Level + 1)
 - So if your tame has 1500 health, is Elite tier, and has 12 paragons applied, this would be:
 - 1500 x 32 x 13 = 624,000 health.
 
-<h4>The current list of Paragon Quests, and information on them:</h4>
+#### The current list of Paragon Quests, and information on them:
 - Paragon Soul - Obtained by feeding a Paragon Soul to your tame.
 - Wild Dino Kills - Obtained by killing the required number of wild dinos from this mod.
 - Species Specific Miniboss Kill - Kill a miniboss that can only be killed by this species.

@@ -1,4 +1,4 @@
-<span style="color:orange;">Reactive</span>: Water is both the enemy and best friend of these creatures, as they have a violent
+Reactive: Water is both the enemy and best friend of these creatures, as they have a violent
 interaction with it. When raining or entering water, the Reactive creature will start to emit a
 powerful aura of radiation and heat, doing passive damage to anything in the area. While a
 proven method for farming creatures, it can also draw unwanted aggro from enemies in the

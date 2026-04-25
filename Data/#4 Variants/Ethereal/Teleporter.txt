@@ -1,4 +1,4 @@
-<span style="color:lightgray;">Teleporter</span>: Teleporter creatures are able to travel short distances in a flash. They will
+Teleporter: Teleporter creatures are able to travel short distances in a flash. They will
 teleport when hit unless ridden, to a random location in front of them. This will do explosive
 AOE damage at both the location it teleported away from, and the location it teleported to.
 

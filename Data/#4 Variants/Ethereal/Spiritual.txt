@@ -1,4 +1,4 @@
-<span style="color:lightgray;">Spiritual</span>: While spiritual doesn't have a special ability, it makes up for it in other ways.
+Spiritual: While spiritual doesn't have a special ability, it makes up for it in other ways.
 Spiritual creatures are much faster than other variants, can carry more weight, and do not
 use stamina for movement including sprinting. These are the go-to mount for ease of
 taming and the ability to travel anywhere quickly while holding almost any amount of

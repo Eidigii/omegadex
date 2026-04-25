@@ -1,4 +1,4 @@
-<span style="color:gray;">Absorbent</span>: Absorbent creatures are the ultimate tanks. They have a large health bonus,
+Absorbent: Absorbent creatures are the ultimate tanks. They have a large health bonus,
 and reduced damage to compensate. They protect all nearby allies within their absorbent
 bubble, where all damage done to any ally is redirected to the absorbent creature. Even
 players within the bubble can dismount from their tame and join the fight, completely

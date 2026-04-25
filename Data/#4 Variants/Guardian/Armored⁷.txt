@@ -1,4 +1,4 @@
-<span style="color:gray;">Armored</span>: The 7th Variant of Guardian. Armored creatures gain increased damage reduction
+Armored: The 7th Variant of Guardian. Armored creatures gain increased damage reduction
 as their health decreases, making them increasingly more difficult to deal with as the fight
 goes on. Your best strategy is to kill them in a single blow, or get them below 1% health
 which will deactivate their damage reduction. Melee and Ability damages are also

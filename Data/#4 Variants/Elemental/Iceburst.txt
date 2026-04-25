@@ -1,4 +1,4 @@
-<span style="color:yellow;">Iceburst</span>: Creates a freezing cold storm of ice that can freeze enemies trapped in it.
+Iceburst: Creates a freezing cold storm of ice that can freeze enemies trapped in it.
 
 -----
 Cooldown: 10s

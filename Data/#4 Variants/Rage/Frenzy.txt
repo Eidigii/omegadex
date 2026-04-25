@@ -1,4 +1,4 @@
-<span style="color:red;">Frenzy</span>: Frenzy creatures make amazing allies. They have a powerful warcry that applies a
+Frenzy: Frenzy creatures make amazing allies. They have a powerful warcry that applies a
 temporary boost to nearby allied creatures, increasing their damage output. While it only
 lasts a short while, its enough to turn the battle when multiple creatures are used. This
 effect can also stack, meaning multiple warcries are enough to turn a small group into

@@ -1,4 +1,4 @@
-<span style="color:lightgray;">Dimensional</span>: An ability you have to see to believe, Dimensional creatures completely
+Dimensional: An ability you have to see to believe, Dimensional creatures completely
 ignore air and water. They have no concept of either. Dimensional land creatures can walk
 or fly right into the ocean, and Dimensional water creatures can swim right out into the sky
 allowing you to use your favorite water tame on land. The Jump(Space) can be used to

@@ -1,5 +1,4 @@
-<span style="color:red;">RAGE</span>:
-Pure Rage. These creatures are all about damage output. They can cause stun, bleed,
+RAGE: Pure Rage. These creatures are all about damage output. They can cause stun, bleed,
 enrage enemies, rally allies, cause knockback, go on rampages, or just be absolute death
 machines. Without normal AOE abilities, they can often be easier to tame, but also make
 incredible combat mounts. Rage dinos can also be incredibly useful in boss fights, with a

@@ -1,4 +1,4 @@
-<span style="color:yellow;">Waterburst</span>: Creating a powerful torrent of water that drowns enemies caught in it.
+Waterburst: Creating a powerful torrent of water that drowns enemies caught in it.
 
 -----
 Cooldown: 10s

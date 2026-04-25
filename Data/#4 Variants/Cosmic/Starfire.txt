@@ -1,4 +1,4 @@
-<span style="color:blue;">Starfire</span>: Starfire creatures are able to create a small star that deals insane tick damage in
+Starfire: Starfire creatures are able to create a small star that deals insane tick damage in
 an area. This star will set enemies on fire, and illuminate a massive area at night.
 Nightmare creatures are often afraid of this star, making them potentially lose their night
 time abilities or their willingness to attack. Starfire is one of the more powerful damage
