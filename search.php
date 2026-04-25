@@ -17,7 +17,7 @@ function generate_search_snippet($content, $term, $length = 200) { $text_content
 <head>
     <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Results for "<?php echo $display_query; ?>" - <?php echo htmlspecialchars($site_title); ?></title>
-    <link rel="stylesheet" href="assets/styles.css?v=6.50.uniques-table-bg"> 
+    <link rel="stylesheet" href="assets/styles.css?v=6.53.title-chip-rounded"> 
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>

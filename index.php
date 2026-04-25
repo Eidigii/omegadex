@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OMEGADEX</title>
-    <link rel="stylesheet" href="assets/styles.css?v=6.50.uniques-table-bg"> 
+    <link rel="stylesheet" href="assets/styles.css?v=6.53.title-chip-rounded"> 
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>

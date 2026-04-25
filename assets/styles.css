@@ -43,7 +43,7 @@ header {
     box-sizing: border-box;
     background: linear-gradient(180deg, rgba(13, 43, 70, 0.95), rgba(4, 20, 37, 0.98));
     border: 2px solid var(--main-border-color);
-    border-radius: 12px;
+    border-radius: 0;
     overflow: hidden;
     box-shadow: inset 0 0 24px rgba(16, 157, 205, 0.17), 0 0 0 1px rgba(135, 238, 255, 0.18);
 }
@@ -175,7 +175,7 @@ header .site-search.mobile-only-search button[type="submit"] {
     text-align: center;
     background: linear-gradient(180deg, rgba(13, 43, 70, 0.95), rgba(4, 20, 37, 0.98));
     border: 2px solid var(--main-border-color);
-    border-radius: 12px;
+    border-radius: 0;
     box-shadow: inset 0 0 24px rgba(16, 157, 205, 0.17), 0 0 0 1px rgba(135, 238, 255, 0.18);
 }
 
@@ -279,7 +279,7 @@ header .site-search.mobile-only-search button[type="submit"] {
     flex-shrink: 0;
     background: linear-gradient(180deg, rgba(8, 34, 54, 0.92), rgba(3, 18, 33, 0.96));
     border: 2px solid var(--main-border-soft);
-    border-radius: 10px;
+    border-radius: 0;
 }
 
 #nav-container .nav-menu:last-child {
@@ -347,7 +347,7 @@ header .site-search.mobile-only-search button[type="submit"] {
     overflow-y: auto;
     text-shadow: none;
     border: 2px solid var(--main-border-color);
-    border-radius: 12px;
+    border-radius: 0;
     box-shadow: inset 0 0 18px rgba(47, 170, 219, 0.18), 0 0 0 1px rgba(145, 235, 255, 0.16);
     background:
         linear-gradient(180deg, rgba(7, 29, 49, 0.96), rgba(2, 14, 27, 0.98)),
