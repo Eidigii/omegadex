@@ -208,7 +208,12 @@ function getImagesHtmlForFolder($folder_param) {
             }
 
 
-            $image_tags_html .= "<img loading='lazy' decoding='async' src='" . htmlspecialchars($encoded_src, ENT_QUOTES, 'UTF-8') . "' alt='" . htmlspecialchars($file_item, ENT_QUOTES, 'UTF-8') . "' />";
+            $imageVersion = defined('OMEGADEX_RENDERER_VERSION') ? (string) OMEGADEX_RENDERER_VERSION : '0';
+            $imageMtime = is_file($fullImagePathOnServer) ? (string) filemtime($fullImagePathOnServer) : '0';
+            $cacheBust = rawurlencode($imageVersion . '-' . $imageMtime);
+            $imageSrcWithVersion = $encoded_src . '?v=' . $cacheBust;
+
+            $image_tags_html .= "<img loading='lazy' decoding='async' src='" . htmlspecialchars($imageSrcWithVersion, ENT_QUOTES, 'UTF-8') . "' alt='" . htmlspecialchars($file_item, ENT_QUOTES, 'UTF-8') . "' />";
         }
     }
 
