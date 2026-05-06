@@ -126,18 +126,113 @@ document.addEventListener('DOMContentLoaded', () => {
         OMEGADEX_APP.menuToggle.addEventListener('click', () => OMEGADEX_APP.navWrapper.classList.toggle('open'));
     } // else: menuToggle might not be on all pages (e.g. search.php simplified header)
 
+    const mobileBreakpoint = 1100;
+    let lastIsMobileView = window.innerWidth <= mobileBreakpoint;
+
+    const getPreservedNavPath = () => {
+        const pathScore = (value) => (value ? value.split('/').filter(Boolean).length : -1);
+        const normalizeFolderPath = (value) => {
+            if (!value) return null;
+            const normalized = String(value).replace(/\\/g, '/').replace(/^Data\//i, '');
+            return normalized || null;
+        };
+        const normalizeFilePath = (value) => {
+            if (!value) return null;
+            const decoded = decodeURIComponent(String(value));
+            const normalized = decoded.replace(/\\/g, '/').replace(/^Data\//i, '');
+            return normalized || null;
+        };
+        let bestPath = null;
+        let bestScore = -1;
+
+        const activeFileItems = document.querySelectorAll('li.active.file[data-file]');
+        activeFileItems.forEach((li) => {
+            const raw = normalizeFilePath(li.getAttribute('data-file'));
+            if (!raw) return;
+            const score = pathScore(raw);
+            if (score > bestScore) {
+                bestScore = score;
+                bestPath = raw;
+            }
+        });
+
+        const activeFolderItems = document.querySelectorAll('li.active[data-folder], li.ancestor-active[data-folder]');
+        activeFolderItems.forEach((li) => {
+            const raw = normalizeFolderPath(li.getAttribute('data-folder'));
+            if (!raw) return;
+            const score = pathScore(raw);
+            if (score > bestScore) {
+                bestScore = score;
+                bestPath = raw;
+            }
+        });
+
+        if (bestPath) return bestPath;
+
+        // Fallback to URL state if menu classes are stale/missing.
+        const urlParams = new URLSearchParams(window.location.search);
+        const navpathParam = normalizeFolderPath(urlParams.get('navpath'));
+        if (navpathParam) return navpathParam;
+
+        const folderParam = normalizeFolderPath(urlParams.get('folder'));
+        if (folderParam) return folderParam;
+
+        const fileParam = normalizeFolderPath(urlParams.get('file'));
+        if (fileParam) {
+            const parts = fileParam.split('/');
+            if (parts.length > 1) return parts.slice(0, -1).join('/');
+        }
+
+        return bestPath;
+    };
+
+    const handleViewportModeChange = async () => {
+        const isMobileView = window.innerWidth <= mobileBreakpoint;
+        if (isMobileView === lastIsMobileView) return;
+        lastIsMobileView = isMobileView;
+        const preservedNavPath = getPreservedNavPath();
+
+        if (OMEGADEX_APP.navWrapper) {
+            OMEGADEX_APP.navWrapper.classList.remove('open');
+            OMEGADEX_APP.navWrapper.querySelectorAll('ul.mobile-submenu').forEach(ul => ul.remove());
+        }
+
+        if (OMEGADEX_APP.navContainer) OMEGADEX_APP.navContainer.innerHTML = '';
+        if (OMEGADEX_APP.mainMenu) {
+            OMEGADEX_APP.mainMenu.querySelectorAll('li.active, li.ancestor-active').forEach(li => {
+                li.classList.remove('active', 'ancestor-active');
+            });
+        }
+
+        if (typeof OMEGADEX_APP.handleSearchNavigation === 'function') {
+            if (preservedNavPath) {
+                const restoreUrl = new URL(window.location.href);
+                restoreUrl.searchParams.set('navpath', preservedNavPath);
+                history.replaceState(null, '', restoreUrl.toString());
+            }
+            await OMEGADEX_APP.handleSearchNavigation();
+        }
+    };
+
     if(OMEGADEX_APP.contentElem && OMEGADEX_APP.navWrapper) { 
         OMEGADEX_APP.contentElem.addEventListener('click', (e) => { 
-            if (e.target.tagName !== 'A' && window.innerWidth <= 900 && OMEGADEX_APP.navWrapper.classList.contains('open')) { 
+            if (e.target.tagName !== 'A' && window.innerWidth <= mobileBreakpoint && OMEGADEX_APP.navWrapper.classList.contains('open')) { 
                 OMEGADEX_APP.navWrapper.classList.remove('open'); 
             } 
         }); 
     }
     window.addEventListener('resize', () => { 
-        if (window.innerWidth > 900 && OMEGADEX_APP.navWrapper && OMEGADEX_APP.navWrapper.classList.contains('open')) { 
+        if (window.innerWidth > mobileBreakpoint && OMEGADEX_APP.navWrapper && OMEGADEX_APP.navWrapper.classList.contains('open')) { 
             OMEGADEX_APP.navWrapper.classList.remove('open'); 
         } 
+        handleViewportModeChange();
         if (typeof OMEGADEX_APP.adjustNavContainerWidth === 'function') OMEGADEX_APP.adjustNavContainerWidth(); 
+    });
+    window.addEventListener('orientationchange', () => {
+        setTimeout(() => {
+            handleViewportModeChange();
+            if (typeof OMEGADEX_APP.adjustNavContainerWidth === 'function') OMEGADEX_APP.adjustNavContainerWidth();
+        }, 120);
     });
     
     if (typeof OMEGADEX_APP.initializeEggTable === 'function') OMEGADEX_APP.initializeEggTable(); 

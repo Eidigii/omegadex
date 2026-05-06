@@ -7,7 +7,7 @@ OMEGADEX_APP.handleSearchNavigation = async () => {
     const logPrefix = "JS:Init: handleSearchNavigation";
     // console.log(`${logPrefix} START.`); // Less verbose
 
-    const isMobileView = window.innerWidth <= 900;
+    const isMobileView = window.innerWidth <= 1100;
     const urlParams = new URLSearchParams(window.location.search);
     const navPathFromUrl = urlParams.get('navpath'); 
     const highlightTerm = urlParams.get('highlight'); 

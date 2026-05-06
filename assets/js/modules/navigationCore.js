@@ -165,7 +165,7 @@ OMEGADEX_APP.fetchContent = async (path, type = 'folder') => {
 OMEGADEX_APP.fetchSubMenu = async (folder, level, fullNavPathToActivate = [], parentLiElement = null) => {
     const currentCallId = ++OMEGADEX_APP.fetchSubMenuCallId; 
     const logPrefix = `JS:NavCore: fetchSubMenu (ID:${currentCallId}, L:${level}, F:"${folder ? folder.split('/').pop() : 'root'}"`;
-    const isMobileView = window.innerWidth <= 900;
+    const isMobileView = window.innerWidth <= 1100;
 
     // Optional: More verbose logging for debugging specific calls
     // if (folder && folder.toLowerCase().includes("changelog") || (fullNavPathToActivate && fullNavPathToActivate.join('/').toLowerCase().includes("changelog"))) {
@@ -251,7 +251,15 @@ OMEGADEX_APP.fetchSubMenu = async (folder, level, fullNavPathToActivate = [], pa
             });
             
             if (isMobileView && parentLiElement) { parentLiElement.after(ulElem); } 
-            else if (!isMobileView && OMEGADEX_APP.navContainer) { const subMenuContainer = document.createElement('div'); subMenuContainer.className = 'nav-menu'; subMenuContainer.appendChild(ulElem); OMEGADEX_APP.navContainer.appendChild(subMenuContainer); }
+            else if (!isMobileView && OMEGADEX_APP.navContainer) {
+                const subMenuContainer = document.createElement('div');
+                subMenuContainer.className = 'nav-menu';
+                subMenuContainer.appendChild(ulElem);
+                OMEGADEX_APP.navContainer.appendChild(subMenuContainer);
+                if (typeof OMEGADEX_APP.fitSubMenuWidthForActiveState === 'function') {
+                    OMEGADEX_APP.fitSubMenuWidthForActiveState(subMenuContainer);
+                }
+            }
             
             if (!isMobileView) OMEGADEX_APP.adjustNavContainerWidth();
 

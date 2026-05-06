@@ -19,7 +19,7 @@ OMEGADEX_APP.attachEventListeners = () => {
     // --- Main Menu Click Listener ---
     if (OMEGADEX_APP.mainMenu) {
         OMEGADEX_APP.mainMenu.addEventListener('click', async (event) => { 
-            const isMobileView = window.innerWidth <= 900;
+            const isMobileView = window.innerWidth <= 1100;
             const targetLi = event.target.closest('li.main-folder');
             if (!targetLi) return;
 
@@ -56,7 +56,7 @@ OMEGADEX_APP.attachEventListeners = () => {
      // --- Mobile Accordion Sub-menu Click Listener (on navWrapper) ---
     if (OMEGADEX_APP.navWrapper) {
         OMEGADEX_APP.navWrapper.addEventListener('click', async (event) => { 
-            const isMobileView = window.innerWidth <= 900;
+            const isMobileView = window.innerWidth <= 1100;
             if (!isMobileView && OMEGADEX_APP.navContainer && OMEGADEX_APP.navContainer.contains(event.target)) { return; } 
             
             if (isMobileView) {
@@ -120,7 +120,7 @@ OMEGADEX_APP.attachEventListeners = () => {
     // --- Desktop Specific Sub-menu Click Listener ---
     if (OMEGADEX_APP.navContainer) {
         OMEGADEX_APP.navContainer.addEventListener('click', async (event) => { 
-            const isMobileView = window.innerWidth <= 900; 
+            const isMobileView = window.innerWidth <= 1100; 
             if (isMobileView) return; 
             const target = event.target.closest('li'); 
             if (!target) return; 

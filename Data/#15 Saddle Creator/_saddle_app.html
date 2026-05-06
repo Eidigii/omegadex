@@ -1,9 +1,9 @@
-<link rel="stylesheet" href="assets/saddle-builder.css">
+<link rel="stylesheet" href="assets/saddle-builder.css?v=20260506-1458-mobile-full-labels">
 
 <div id="app">
-
-  <p><span class="pagetitle">Infinity Saddle System</span></p>
-
+  <div class="saddle-page-shell">
+  <p class="saddle-page-title"><span class="pagetitle">Infinity Saddle System</span></p>
+  <div class="saddle-page-panel">
   <div class="saddleContainer">
     <div class="saddle" id="saddleBuilder">
         <div class="title">{{ saddleName }}</div>
@@ -26,12 +26,15 @@
         <div class="bottom-right">{{ signature }}</div>
     </div>
   </div>
-  <p style="text-align: center;">Show point info: <input type="checkbox" v-model="isChecked" /><br>
-    <button @click="generateImage()" :disabled="availablePoints < 0 || saddleName == ''">Save As Image</button></p>
+  <div class="saddle-controls">
+    <label class="show-points-label">Show point info: <input type="checkbox" v-model="isChecked" /></label>
+    <button @click="generateImage()" :disabled="availablePoints < 0 || saddleName == ''">Save As Image</button>
+  </div>
 
   <div class="input-container">
-    <div style="position: relative;">
-      Dino Species:&#8239;
+    <div class="input-group species-group">
+      <span class="input-label">Dino Species:</span>
+      <div class="species-input-wrap">
       <input 
         type="text" 
         v-model="query" 
@@ -40,9 +43,7 @@
         @keydown.down="incrementIndex" 
         @keydown.up="decrementIndex" 
         @keydown.enter="selectItem"
-        style="
-        text-align: center;
-        font-weight: bold;">
+        class="species-input">
 
       <ul v-if="showDropdown" class="dropdown">
         <li 
@@ -52,18 +53,20 @@
           :class="{ 'active': index === selectedIndex }">
           {{ item.Name }}
         </li>
-      </ul><span>&emsp;Max Points: <b>{{ maxPoints }}</b></span>
+      </ul>
+      </div>
+      <span class="max-points-label">Max Points: <b>{{ maxPoints }}</b></span>
     </div> 
 
     <div class="input-group">
-      <span>Saddle Name: &hairsp;</span>
+      <span class="input-label">Saddle Name:</span>
       <input 
       type="text" 
       v-model="saddleName">
     </div>
 
     <div class="input-group">
-      Flavor Text: &emsp;&hairsp;&hairsp;&hairsp;
+      <span class="input-label">Flavor Text:</span>
       <input 
       type="text" 
       v-model="flavorText">
@@ -72,14 +75,12 @@
 
   <div class="buffs">
     <p style="margin-bottom:0;">Total cost increased by 10% for each bonus after 4 positive-cost bonuses. Max 10 bonuses.</p>
-    <table>
-      <tr>
-          <td style="text-align:left;">Bonus Setup:</td>
-          <td>Available Points: <b :style="availablePoints > 0 ? { 'color': '#bdeba7'} : { 'color': '#ff0000'}">{{ availablePoints }}</b></td>
-          <td>(Cost +{{ extraCost }}%)</td>
-          <td><button @click="addRow" :disabled="rows.length >= maxRows || availablePoints <= 0">Add Bonus</button></td>
-      </tr>
-    </table>
+    <div class="buffs-header-grid">
+      <div class="col-setup">Bonus Setup:</div>
+      <div class="col-points">Available Points: <b :style="availablePoints > 0 ? { 'color': '#bdeba7'} : { 'color': '#ff0000'}">{{ availablePoints }}</b></div>
+      <div class="col-cost">(Cost +{{ extraCost }}%)</div>
+      <div class="col-action"><button @click="addRow" :disabled="rows.length >= maxRows || availablePoints <= 0">Add Bonus</button></div>
+    </div>
 
     <div class="buff-container">
       <div class="buff" v-for="row in rows" :key="row.id">
@@ -89,11 +90,11 @@
                 {{ bonus.name }}
               </option>
           </select>
-          <span class="cost" v-if="row.selectedBonus">
-            {{ totalCost(row) }} pts
-          </span>
-          <button class="delete-button" @click="deleteRow(row.id)">Delete</button>
         </div>
+        <span class="cost" v-if="row.selectedBonus">
+          {{ totalCost(row) }} pts
+        </span>
+        <button class="delete-button" @click="deleteRow(row.id)">Delete</button>
         <div v-if="row.selectedBonus && row.selectedBonus.type === 'Selection'">
             <select v-model="row.selectionValue" @change="handleSelectionChange(row, row.selectionValue)">
                 <option v-for="option in row.selectedBonus.selection" :key="option.name" :value="option">
@@ -136,12 +137,21 @@
               </option>
           </select>
         </div>
-        <input v-if="row.selectedBonus && row.selectedBonus.type === 'String'" type="text" v-model="row.stringValue" @input="updateSaddleBonuses" placeholder="Enter custom text" />
+        <input v-if="row.selectedBonus && row.selectedBonus.type === 'String'" class="buff-string-input" type="text" v-model="row.stringValue" @input="updateSaddleBonuses" placeholder="Enter custom text" />
       </div>
   </div>
   
   </div>
-  <p>If you find any bugs or discrepancies with in-game Saddle Creator, please contact me on discord: adg.</p>
+  <div class="notice-card">
+    <p class="notice-title"><strong>Saddle Creator Notice</strong></p>
+    <p style="color: red;">The web Saddle Creator is currently out of date and will be updated once in-game access is available.</p>
+    <br>
+    <p>This Saddle Creator is a planning sandbox for experimenting with combinations during and ahead of in-game saddle events.</p>
+    <p>Web OmegaDex is not connected to the Omega mod, so no setups sync automatically.</p>
+    <p>All saddles made here must be recreated manually in-game once the event is live.</p>
+  </div>
+  </div>
+  </div>
 </div>
 
 <script>

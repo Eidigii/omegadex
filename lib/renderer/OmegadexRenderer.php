@@ -216,8 +216,15 @@ class OmegadexRenderer
 
     private static function cacheKey(string $txtAbs, string $configPath, string $ruleClass, int $sidecarMtime = 0): string
     {
+        $ruleSetsPath = __DIR__ . DIRECTORY_SEPARATOR . 'RuleSets.php';
+        $ruleSetsMtime = is_file($ruleSetsPath) ? (int) filemtime($ruleSetsPath) : 0;
         $payload = OMEGADEX_RENDERER_VERSION
-            . '|' . $txtAbs . '|' . $ruleClass . '|' . filemtime($txtAbs) . '|' . filemtime($configPath) . '|' . $sidecarMtime;
+            . '|' . $txtAbs
+            . '|' . $ruleClass
+            . '|' . filemtime($txtAbs)
+            . '|' . filemtime($configPath)
+            . '|' . $sidecarMtime
+            . '|' . $ruleSetsMtime;
         return hash('sha256', $payload);
     }
 

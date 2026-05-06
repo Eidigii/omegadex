@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OMEGADEX</title>
-    <link rel="stylesheet" href="assets/styles.css?v=6.53.title-chip-rounded"> 
+    <link rel="stylesheet" href="assets/styles.css?v=6.56.submenu-no-midword-break">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
@@ -40,12 +40,12 @@
         </div>
     </div>
 
-    <script defer src="assets/js/app.js?v=6.24.resilience"></script> 
-    <script defer src="assets/js/modules/utils.js?v=6.25.nav-width-margin-fix"></script>
+    <script defer src="assets/js/app.js?v=6.29.orientation-preserve-deep-file-path"></script> 
+    <script defer src="assets/js/modules/utils.js?v=6.32.submenu-max-cap-245-global"></script>
     <script defer src="assets/js/modules/highlighting.js?v=6.24.resilience"></script>
     <script defer src="assets/js/modules/eggTable.js?v=6.24.resilience"></script>
-    <script defer src="assets/js/modules/navigationCore.js?v=6.31.welcome-updated-date"></script>
-    <script defer src="assets/js/modules/eventListeners.js?v=6.24.resilience"></script>
-    <script defer src="assets/js/modules/init.js?v=6.25.welcome-updated-date"></script>
+    <script defer src="assets/js/modules/navigationCore.js?v=6.33.mobile-breakpoint-1100"></script>
+    <script defer src="assets/js/modules/eventListeners.js?v=6.25.mobile-breakpoint-1100"></script>
+    <script defer src="assets/js/modules/init.js?v=6.26.mobile-breakpoint-1100"></script>
 </body>
 </html>

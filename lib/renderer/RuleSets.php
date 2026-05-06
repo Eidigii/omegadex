@@ -201,6 +201,15 @@ class OmegadexDinosRuleSet extends OmegadexRuleSetBase
     {
         $isIndexFile = basename($fileName) === 'index.txt';
         $keyValuePattern = '/^(.*?):\s(.*?)$/m';
+        $speciesName = '';
+        if (!$isIndexFile) {
+            $speciesName = (string) preg_replace('/^#\d+\s*/u', '', pathinfo($fileName, PATHINFO_FILENAME));
+            $speciesName = trim(str_replace('-', ' ', $speciesName));
+        }
+        $speciesLabel = htmlspecialchars($speciesName, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
+        $noUniquesMessage = $speciesLabel !== ''
+            ? 'No unique dino types are available for ' . $speciesLabel . ' yet.'
+            : 'No unique dino types are available for this species yet.';
 
         if ($isIndexFile) {
             $sections = [''];
@@ -209,40 +218,134 @@ class OmegadexDinosRuleSet extends OmegadexRuleSetBase
         }
         $sectionContent = [];
         $section = 0;
-        $foodSection = false;
+        $foodListOpen = false;
+        $additionalInfoOpen = false;
+        $additionalInfoLines = [];
+        $inUniquesSection = false;
+        $uniquesHasContent = false;
+
+        $flushAdditionalInfoParagraph = static function (array &$sectionContent, array &$additionalInfoLines): void {
+            if ($additionalInfoLines === []) {
+                return;
+            }
+            $paragraph = trim((string) preg_replace('/\s+/u', ' ', implode(' ', $additionalInfoLines)));
+            if ($paragraph !== '') {
+                $sectionContent[] = '<p class="omegadex-para">' . $paragraph . '</p>';
+            }
+            $additionalInfoLines = [];
+        };
 
         $lines = preg_split("/\r\n|\n|\r/", $content) ?: [];
         foreach ($lines as $rawLine) {
             $line = trim($rawLine);
             if ($line === '') {
+                if ($additionalInfoOpen) {
+                    $flushAdditionalInfoParagraph($sectionContent, $additionalInfoLines);
+                    continue;
+                }
+                if ($inUniquesSection && !$uniquesHasContent) {
+                    $sectionContent[] = '<p class="omegadex-para">' . $noUniquesMessage . '</p>';
+                    $uniquesHasContent = true;
+                }
+                $inUniquesSection = false;
+                if ($foodListOpen) {
+                    $sectionContent[] = '</ul>';
+                    $foodListOpen = false;
+                }
                 $sections[$section] = $sectionContent ? implode('', $sectionContent) : '';
                 $section++;
                 $sectionContent = [];
                 continue;
             }
+            if (preg_match('/^Additional Information:\s*(.*)$/i', $line, $m)) {
+                if ($inUniquesSection && !$uniquesHasContent) {
+                    $sectionContent[] = '<p class="omegadex-para">' . $noUniquesMessage . '</p>';
+                    $uniquesHasContent = true;
+                }
+                $inUniquesSection = false;
+                if ($foodListOpen) {
+                    $sectionContent[] = '</ul>';
+                    $foodListOpen = false;
+                }
+                if ($additionalInfoOpen) {
+                    $flushAdditionalInfoParagraph($sectionContent, $additionalInfoLines);
+                } else {
+                    $sectionContent[] = '<h3>Additional Information:</h3>';
+                    $additionalInfoOpen = true;
+                }
+                if (trim($m[1]) !== '') {
+                    $additionalInfoLines[] = trim($m[1]);
+                }
+                continue;
+            }
             if (preg_match($keyValuePattern, $line, $m)) {
+                if ($inUniquesSection) {
+                    $uniquesHasContent = true;
+                }
+                if ($additionalInfoOpen) {
+                    $flushAdditionalInfoParagraph($sectionContent, $additionalInfoLines);
+                    $additionalInfoOpen = false;
+                }
+                if ($foodListOpen) {
+                    $sectionContent[] = '</ul>';
+                    $foodListOpen = false;
+                }
                 $sectionContent[] = '<div class="omegadex-dino-row"><span class="dino-key">' . $m[1] . ':</span> <span class="dino-value">' . $m[2] . '</span></div>';
             } elseif ($isIndexFile) {
                 $sectionContent[] = $line;
             } else {
                 if (preg_match('/.*:$/', $line)) {
+                    if ($inUniquesSection && !preg_match('/^Uniques:\s*$/i', $line) && !$uniquesHasContent) {
+                        $sectionContent[] = '<p class="omegadex-para">' . $noUniquesMessage . '</p>';
+                        $uniquesHasContent = true;
+                    }
+                    if (!preg_match('/^Uniques:\s*$/i', $line)) {
+                        $inUniquesSection = false;
+                    }
+                    if ($additionalInfoOpen) {
+                        $flushAdditionalInfoParagraph($sectionContent, $additionalInfoLines);
+                        $additionalInfoOpen = false;
+                    }
+                    if ($foodListOpen) {
+                        $sectionContent[] = '</ul>';
+                        $foodListOpen = false;
+                    }
                     $sectionContent[] = '<h3>' . $line . '</h3>';
                     if (strpos($line, 'Food Types') !== false) {
-                        $foodSection = true;
+                        $foodListOpen = true;
                         $sectionContent[] = '<ul>';
                     }
-                } else {
-                    if ($foodSection === true) {
-                        $sectionContent[] = '<li>' . $line . '</li>';
+                    if (preg_match('/^Uniques:\s*$/i', $line)) {
+                        $inUniquesSection = true;
+                        $uniquesHasContent = false;
                     }
+                    if (stripos($line, 'Additional Information:') !== false) {
+                        $additionalInfoOpen = true;
+                    }
+                } elseif ($additionalInfoOpen) {
+                    $additionalInfoLines[] = $line;
+                } elseif ($foodListOpen) {
+                    $sectionContent[] = '<li>' . ltrim($line, "- \t") . '</li>';
+                } else {
+                    if ($inUniquesSection) {
+                        $uniquesHasContent = true;
+                    }
+                    $sectionContent[] = '<p class="omegadex-para">' . $line . '</p>';
                 }
             }
+        }
+
+        if ($additionalInfoOpen) {
+            $flushAdditionalInfoParagraph($sectionContent, $additionalInfoLines);
+        }
+        if ($inUniquesSection && !$uniquesHasContent) {
+            $sectionContent[] = '<p class="omegadex-para">' . $noUniquesMessage . '</p>';
         }
 
         if ($isIndexFile) {
             // Index: many lines are raw text; newlines in output must be preserved.
             $sections[0] = $sectionContent ? implode("\n", $sectionContent) : '';
-        } elseif ($foodSection === true) {
+        } elseif ($foodListOpen) {
             $sectionContent[] = '</ul>';
             $sections[$section] = implode('', $sectionContent);
         } else {
@@ -755,6 +858,9 @@ class OmegadexSaddleRuleSet extends OmegadexRuleSetBase
 
 class OmegadexUniqueSaddlesRuleSet extends OmegadexRuleSetBase
 {
+    private const SADDLES_WEB_DIR = 'assets/saddles/';
+    private const SADDLES_DISK_DIR = __DIR__ . '/../../assets/saddles/';
+
     public function extractContentSections(string $content, string $fileName): array
     {
         if (strtolower(basename($fileName)) === 'index.txt') {
@@ -875,8 +981,9 @@ class OmegadexUniqueSaddlesRuleSet extends OmegadexRuleSetBase
 
         $speciesLabel = $s['species'] ?? '';
         $imageFile = $this->imageFilenameFromLabel($speciesLabel);
-        $iconWeb = 'assets/saddles/' . $imageFile;
-        $fallbackWeb = 'assets/saddles/Saddle.png';
+        $fallbackWeb = self::SADDLES_WEB_DIR . 'Saddle.png';
+        $iconDiskPath = self::SADDLES_DISK_DIR . $imageFile;
+        $iconWeb = is_file($iconDiskPath) ? (self::SADDLES_WEB_DIR . $imageFile) : $fallbackWeb;
 
         $flavorHtml = implode('<br>', array_map($esc, $s['flavor_lines'] ?? []));
         $bonusesHtml = '';
