@@ -13,11 +13,10 @@ Debuffs: Earth Poison, On Fire, Drenched, Stun, Electrocuted, Freeze, Banshee Cu
 Flower Aggro, Psychosis Aggro, Gorgon Stone, Detonate, Astral Curse.
 
 Variant Information:
-Spawn Chance: 00.08%
+Spawn Chance: 00.16%
 
 Other Information:
-Cooldown 1: 0.0
-Cooldown 2: 0.0
+Cooldown: 0.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: true
 

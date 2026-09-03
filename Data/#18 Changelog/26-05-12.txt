@@ -1,0 +1,32 @@
+Ark Omega 5/12 Patch Notes:
+
+-Corrupt Master miracle amounts fixed to work similarly to Masters.
+-Fixed a tag issue for Leaders that was preventing NPC kills from being counted.
+-Unique Group Variants will no longer drop variant-specific items.
+-Fixed an issue with quests not saving properly because of invalid array type in player persistent data files (this will likely restore missing quests).
+-Fixed a problem causing the Murkey and Deinonychus to exist in the files but not be counted as valid dinos.
+-Fixed a bug that could prevent Zodiac Souls from being fed correctly to tames. Existing Zodiac Souls may not function.
+-Fixed a bug causing Mythical to lose the Colossus damage multipliers.
+-Updated the description on all souls to show correct summoning requirements (Masters still say to use them in the Altar, etc).
+-Updated the summoning list in the Altar.
+-Fixed the inventory descriptions on the Altar and Beacon.
+-Fixed problems that could prevent the reflect shield and its unique/legendary version from being rerolled and upgraded in the Imbue Workbench.
+-Fixed a bug causing Companion minions to despawn.
+-Fixed problems with a number of utility variants not functioning correctly.
+-Fixed a bug preventing anything with the nightmare group variant from making it night time. 
+-Fixed a bug causing the craftable quest scroll in scroll storage to be destroyed when doing an inventory dump, and it having strange issues with sorting.
+-Fixed a reference bug preventing abilities of dinos protected by absorbent bubbles from triggering abilities that work when taking damage.
+-Fixed a bug causing a text-to-integer conversion on pulling boss souls to force it to default to different values.
+-Fixed a bug preventing double essence to be rewarded during some on-foot kills.
+-Added logic for most paragon quests to automatically recalculate on server restarts/cryo release to fix needing to kill dinos to recalculate the progress.
+-Fixed a bug preventing Cursed variant to have a lot more DR and dodge than intended and is now 50/50 all of the time. 
+-Fixed a bug causing Variant Paragons reward from quests to come out with a null variant.
+-Fixed a bug causing Gauntlet Beacons to disappear on restart.
+-Changed the custom sorting options in the Scroll Storage to make sure the engram is always in the first slot.
+-Renamed the craftable quest scroll to "Quest Reroll" so it is first alphabetically.
+-Fixed a bug allowing random variant selections to skip over array entries and choose group variants and unique group variants for things that shouldn't allow them.
+-Zodiac can now be tiered.
+-Corrupt Masters can now drop affinity medallions.
+-Fixed a bug causing player magic find to be ignored 100% under all circumstances when mounted on a dino.
+-Base drop chance on Variant Paragons and Species Paragons increased from 0.1% to 0.4%
+-Drop chance for Species Paragon Souls is now also increased by the Tier of the species killed in the same way as Variant Paragons, up to 600% more likely at Omega tier.

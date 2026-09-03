@@ -1,13 +1,12 @@
-Hive: The 7th Variant of Summoner. Overseer summons a group of explosive bees,
-that swarm around their enemy waiting to die. These bees glow with the color of the
-summoner group before exploding and dealing aoe damage. If the bees are killed before
-they explode, then their explosions deal reduced damage.
+Hive: The 7th Variant of Summoner. Overseer summons a group of explosive bees, that 
+swarm around their enemy waiting to die. These bees glow with the color of the summoner 
+group before exploding and dealing aoe damage. If the bees are killed before they explode, 
+then their explosions deal reduced damage.
 
 Pressing Prone(X) spawns a number of Martyr Bees, whos only purpose is to blow
 themselves up and deal area damage to whatever they lock onto.
 
 -----
-Cooldown: 30s
 Stamina Cost: 50%
 Number of Martyr Bees: 7
 Time Before Explosion: 5 Seconds.
@@ -18,10 +17,9 @@ Damage Dealt if Killed: 50% of Total Martyr Bee Ability Damage as Explosive Dama
 Explosion Radius: 900 (3 Foundations).
 
 Variant Information:
-Spawn Chance: 00.08%
+Spawn Chance: 00.39%
 
 Other Information:
-Cooldown 1: 30.0
-Cooldown 2: 0.0
+Cooldown: 30.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: true

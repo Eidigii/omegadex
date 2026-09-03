@@ -1,6 +1,6 @@
 Pearl: Made of pearl, passively produce and poop pearl. Taking damage may cause it to
-break off shards, dealing explosion damage in an area and applying a Splintered debuff
-that further increases damage from shards.
+break off shards, dealing explosion damage in an area and applying a Splintered debuff that 
+further increases damage from shards.
 
 -----
 Elemental Weakness: Earth
@@ -17,11 +17,10 @@ Shard Chance %: (Damage Taken/Max Health) * 2000
 Shard Chance increases by 10% for each hit that does not produce a shard.
 
 Variant Information:
-Spawn Chance: 00.84%
+Spawn Chance: 00.78%
 
 Other Information:
-Cooldown 1: 0.0
-Cooldown 2: 0.0
+Cooldown: 0.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: false
 

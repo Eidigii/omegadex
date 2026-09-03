@@ -1,0 +1,9 @@
+Perfect Group Masters:
+An upgrade from the Group Master, these are almost identical with a couple of differences. First, they have the
+Corrupt (7th) variant from their group. The Perfect Elemental Group Master will also have Barrage. They can
+also only be damaged by something from the same group, as the intention is to kill them with something that is
+capable of using the soul they drop.
+
+Killing a Perfect Group Master will drop a Perfect Group Master Soul on the ground. The Perfect Group Master
+Soul can be used to upgrade your tame's variant to the Group Variant. Fire will be upgraded to Elemental, Comet
+to Cosmic, etc. While this can be fed to corrupt variants, they will lose that ability.

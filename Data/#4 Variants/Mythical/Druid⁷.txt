@@ -8,7 +8,6 @@ area of vines and spawning a number of trees that fire projectiles directly as n
 enemies.
 
 -----
-Cooldown: 30s
 Stamina Cost: 25%
 Druid Grove Radius: 3000 (10 Foundations)
 Druid Grove Duration: 10s
@@ -20,10 +19,9 @@ Tree Projectile Damage: 100% of Ability Damage As Earth Damage.
 Tree Projectile Impact Radius: 600 (2 Foundations).
 
 Variant Information:
-Spawn Chance: 00.08%
+Spawn Chance: 00.39%
 
 Other Information:
-Cooldown 1: 30.0
-Cooldown 2: 0.0
+Cooldown: 30.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: true

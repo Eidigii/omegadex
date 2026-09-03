@@ -8,7 +8,6 @@ down in random directions and locations around the Eruption creature, causing ex
 on impact and dealing fire damage to anything in the area.
 
 -----
-Cooldown: 30s
 Stamina Cost: 30%
 Number of Projectiles: 15
 Initial Targeting Radius: 2400 (8 foundations)
@@ -18,10 +17,9 @@ Projectile Damage: lx Ability Damage
 Projectile Tick: 25% of Ability Damage Per Tick as Fire Damage (On Fire) for 6 ticks.
 
 Variant Information:
-Spawn Chance: 00.84%
+Spawn Chance: 00.78%
 
 Other Information:
-Cooldown 1: 30.0
-Cooldown 2: 0.0
+Cooldown: 30.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: true

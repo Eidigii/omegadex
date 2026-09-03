@@ -6,17 +6,15 @@ Pressing Prone(X) causes a massive Supernova explosion, dealing significant dama
 anything in the area along with a short stun.
 
 -----
-Cooldown: 15s
 Stamina Cost: 25%
 Supernova Damage: 800% of Ability Damage as Explosive Damage.
 Supernova Radius: 3000 (10 Foundations)
 Stun Length: 2s
 
 Variant Information:
-Spawn Chance: 00.84%
+Spawn Chance: 00.78%
 
 Other Information:
-Cooldown 1: 15.0
-Cooldown 2: 0.0
+Cooldown: 15.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: true

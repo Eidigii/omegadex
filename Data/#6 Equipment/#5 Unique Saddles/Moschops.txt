@@ -24,3 +24,25 @@ Unique Bonuses:
 900% Increased Ability Damage.
 50% Damage Reduction.
 Saddle Is Always Cursed.
+
+Kellastrong's Wizard
+Unique Saddle - Moschops
+I Found A Way To Bring Change To The Minions!
+Y Unique Bonuses:
+Gains Familiar Variant.
+Gains Companion Variant.
+Prevent Rider Being Dismounted.
+Can Jump.
+Immune To Fall Damage.
+Immune To Damage Impulse.
+Greatly Increased Mobility And Turn Radius.
+Custom Bonus: Minions Gain Permanent Rampage.
+
+Stop'N Flop
+Unique Saddle - Moschops
+What's Shakin', Pork Chops Or Bacon?
+Unique Bonuses:
+Gains Treasure Variant.
+200% Increased Variant Stat Multiplier.
+100% Increased Attach And Movement Speed.
+200% Increased Attach Radius.

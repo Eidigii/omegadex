@@ -28,3 +28,12 @@ Gains Barrage Variant.
 300% Increased Ability Damage.
 30% Chance To Ignore Dodge.
 50% Reduced Cooldowns.
+
+Torterra
+Unique Saddle - Carbonemys
+Sinnoh's Best Starter.
+Unique Bonuses:
+Gains Druid Variant.
+Gains Earthquake Variant.
+100% Increased Size.
+Attacks Apply Medium Stun.

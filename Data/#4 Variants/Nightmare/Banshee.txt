@@ -7,17 +7,15 @@ period and will take increased damage.
 
 -----
 Nightmare Vision at Night Time.
-Cooldown: 30s
 Stamina Cost: 25%
 Debuff Duration: 15s
 Enemy Damage Taken: 175%
 Maximum Number of Stacks: 3
 
 Variant Information:
-Spawn Chance: 00.84%
+Spawn Chance: 00.78%
 
 Other Information:
-Cooldown 1: 30.0
-Cooldown 2: 0.0
+Cooldown: 30.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: true

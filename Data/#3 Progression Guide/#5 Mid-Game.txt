@@ -1,0 +1,69 @@
+## Chapter 5 - Mid-Game
+
+Mid Game begins once the Omega Beacon has been unlocked and players start consistently defeating Beacon Bosses, NPC Chiefs and higher-tier wild creatures.
+
+At this stage progression shifts away from simply acquiring stronger dinos and becomes focused on optimizing existing creatures through Paragons, Equipment Sets, Unique Weapons, Unique Saddles and specialized abilities.
+
+Building efficient resource automation and completing multiple progression systems simultaneously becomes considerably more important than advancing creature tiers alone.
+
+### Before You Summon Your First Boss
+-Equip a saddle imbued with at least Elite-tier essence - Journeyman with 80+ armor is a workable minimum, Ascendant is ideal.
+-Craft and place a Reliquary: if your tame dies, the Reliquary cryopods it instead of losing it permanently but losing one Tier. This only applies to Delta tier or higher - Basic-tier dinos are not saved regardless of Paragon level, so get your tame to at least Delta before relying on it.
+-Stock stamina, health and wake-up potions - beacon bosses can be any dino, including ones with damage reduction, bleed, or knockout mechanics.
+-Consider an absorbent dino to tank damage (10+ Paragons for each Tier from Elite to be safer), with a rider or a potion-dino keeping its stamina topped up.
+-Fight in an enclosed space large enough for the summon but tight enough that a flying boss can't escape. Do not attempt to cage a boss - they ignore structures, and summoning destroys nearby buildings anyway.
+
+@tip:Start at Basic tier
+Doing your first bosses at Basic tier lets you learn their patterns safely while collecting the souls needed to push your tank, healer, and damage dealer to Apex tier before going further.
+
+To unlock the Omega Altar you need to kill is the “Corrupt Master Boss”
+
+To unlock the Omega Gauntlet you need to kill the “Corrupt Group Master Boss”
+@end
+
+### The Boss Loop
+Mid-game plays out as a repeating loop: summon a Beacon boss with a hundred souls, defeat it, then feed its soul back into the Beacon to summon a Master. Defeat the Master, feed its soul in to summon a Corrupt Master, and so on. Each tier of boss yields stronger essence and better shards, and Masters and Corrupt Masters drop the mid-game gear sets and unique weapons - such as the Eye of the Storm and its matching Vengeance set - strong enough to take on Beacon bosses on foot.
+
+### Mid Game Priorities
+Players should gradually transition from exploration to optimization.
+
+A typical Mid Game session now alternates between:
+-Beacon Boss farming
+-NPC Tribe hunting
+-Paragon progression
+-Quest completion
+-Unique Saddle collection
+-Equipment upgrades
+-Resource automation
+
+Advancing each of these systems together produces significantly faster progression than focusing on only one.
+
+### Unique Saddles
+By Mid Game, Unique Saddles become one of the most impactful creatures upgrades available.
+
+Unlike standard saddles, every Unique Saddle can fundamentally change how a creature performs by adding entirely new abilities, defensive mechanics, passive bonuses or support effects.
+
+Obtaining a suitable Unique Saddle can provide a major performance increase, especially when its abilities complement the creature's variant and intended role.
+
+Players should therefore begin actively farming minibosses, bosses and Omega Max creatures to expand their saddle collection.
+
+@ini:lightblue
+The Unique Saddles variant effects are applied only to dino that has the specific variant in its description!
+E.g. Colossus effects does not be applied any more to a dino upgraded to Mythical unless spyglass say “explicit” Colossus is still present in dino abilities.  
+Variant Paragons cannot be used to grant a Variant that is already being provided by a Unique Saddle.
+@end
+
+### Saddle Masters
+Saddle Masters are specialized summons created through the Omega Altar. Each Saddle Master has Master-level statistics and can only be damaged by creatures of the same species.
+
+Defeating a Saddle Master guarantees a Unique Saddle for that species.
+
+A Saddle Token combined with 100 Essence summons a Saddle Master at the corresponding Essence tier. Alternatively, 5 Paragons and 100 Essence summon a random Saddle Master for that species.
+
+This provides a reliable alternative to relying entirely on random Unique Saddle drops.
+
+### Mid-Game Summary
+-Gear your Elite-tier tame and yourself with strong, well-imbued armor and saddles.
+-Fight far from your base, in a space big enough to fight but small enough to contain flyers.
+-Bring friends - Ark Omega's boss fights are built around co-op play.
+-Use boss, Master and Corrupt Master souls to push your tames up the tier ladder.

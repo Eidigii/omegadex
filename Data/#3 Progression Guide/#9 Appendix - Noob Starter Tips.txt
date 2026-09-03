@@ -1,0 +1,123 @@
+## Appendix — Noob Starter Tips
+
+### Newbie Buff (~6 hours)
+Your starting buff greatly increases survivability, with heavy damage reduction and near-total immunity to unprovoked wild creature attacks. It also grants 200% Magic Find for the first three hours and 100% Magic Find for the following three. Use this window to progress as fast as you possibly can.
+
+Recommended Initial Buff Progression
+-Immediately start putting points into Melee Damage until the buff ends — you can always respec later. Add Movement Speed, Weight or Health only if your playstyle needs them.
+-Farm essential resources as you move between spots: Metal, Crystal, Polymer, Honey, Sap and Crops first, then Hide, Fiber, Wood and Stone.
+-Kill Dodos, Lystrosaurus and other small creatures until you've collected at least three of the same Soul type.
+-Craft the Omega Workbench and build your first Omega Weapon using those three matching Souls.
+-Craft the Omega Item Fragmenter, and grind Basic essence imbued Cloth Armor to get Fragments
+-Upgrade the Omega weapon until you cannot find a unique one or get 5 Paragon Shards to craft a “Early Unique Token”
+-Craft Set Early Tokens, to get best armor set or combination
+-Upgrade Charm and Sets Medallion focusing to get the max possible stats
+-Spend the rest of the Newbie Buff hunting easy creatures — stack up Souls and Essences, and keep an eye out for good drops such as Unique weapons and set armor pieces.
+-Only once the buff expires should you start expanding and consolidating your base. Craft the Kibble Machine and Egg Collector to formally begin the Early Game phase.
+
+@tip:Extra tip
+For your first tame, go with a Resource dino (wood has 0.5% hp/sec; pearl 1% hp/sec in water) — a Mammoth, Dire Bear, Carno, or anything with enough HP and damage to avoid being one-shot while still being easy to find. Check target tiers with a spyglass and hunt dinos at most two tiers above your own. Once you're mobile, a Spiritual flyer is a great pick for getting around the map quickly.
+@end
+
+### Quick Tips
+-Don't waste the Newbie Buff building a complete base — progression comes first.
+-Loot every creature you kill, no exceptions.
+-Upgrade your weapon to Unique quality whenever you get the chance.
+-Kill Cosmic dinos for a chance at unique or legendary Warp Bows and Gravity gear to help taming
+-Collect a full gear set and weapon — every set favors a different playstyle, so experiment as you go.
+-Work toward one strong, high-level dino to reach Elite tier ahead of the midgame.
+-If a fight looks dangerous, walk away and come back stronger later.
+
+### Common Mistakes
+Many new players slow their progression by:
+-Trying to tame every creature
+
+Avoid trying to tame every interesting creature you encounter.
+
+Instead, prioritize completing one full Variant Group progression while steadily expanding your egg production across all groups.
+
+A smaller number of highly optimized creatures will consistently outperform a large collection of average tames.
+
+-Ignoring Player Rank.
+-Delaying Paragon progression.
+-Neglecting Quest rewards.
+-Underestimating NPC Tribes.
+-Ignoring Equipment Sets.
+-Failing to automate resources.
+-Waiting too long before collecting Unique Saddles.
+-Solo Boss fight
+
+Unless End-Game creature, Boss fighting requires many creatures or better many players. You need at least one dino to protect, one dino to debuff the Boss and one to buff your dinos.
+
+Correcting these habits greatly accelerates progression throughout the entire game.
+
+@tip:Build Diversity
+Ark Omega is intentionally designed around build diversity. Different combinations of Variant, Equipment, Unique Saddle, Paragons, Abilities, Player Equipment, can produce creatures specialized for entirely different gameplay styles despite belonging to the same species.
+
+Experimentation is strongly encouraged
+@end
+
+### Practical MF Farming Strategy
+-Find a primitive cloth hat blueprint
+-Mass‑produce it
+-Imbue with basic essence (crafted from elite essence 1 → 243)
+-Fragment in the Fragmentor
+-Use fragments to roll Charms until 50%+ MF appears
+-Double Curse for 100%+ MF
+-Multiply Curse for 150–200%+ MF
+-Farm Omega cursed bosses for 300–600%+ MF Charms
+
+@tip:Search MF Gears
+Put Gears into Fragmentor and use search bar.
+
+E.g. Filters
+@code
+<richcolor color="1, 0, 1, 1"> - Magic
+<richcolor color=“1, 0, 1, 1”> - Purple text
+<richcolor color=“0, 1, 1, 1”> - Cyan text
+<richcolor color=“0, 1, 0, 1”> - Green text
+@end
+@end
+
+@ini:lightblue
+NOTE
+Magic Find Does NOT Affect Boss Drop, Boss Tier does! 
+@end
+
+### NPC Hunting
+How to Fight NPC Tribes
+
+NPCs can be considerably more dangerous than their appearance suggests, especially as their Tier increases. The safest approach is to build around damage reduction, resistance and controlled damage amplification rather than relying on raw health alone.
+
+Before engaging stronger NPC groups, use a combination of defensive effects whenever available. Stone Skin Potions can reduce incoming damage to one quarter. A Defender Chest or Medallion can provide another 50% damage reduction, while the Avalanche Helmet and Leggings combination can also reduce incoming damage by half. Over Easy, Demolition or Midas Chest or Medallion pieces can provide another 50% damage reduction. If available, Damage Reduction and Dodge imbues can be pushed as high as 95%, providing an enormous increase in survivability. Resist Potions are particularly effective when facing NPCs that rely heavily on a specific damage type, reducing the corresponding damage to one quarter.
+
+Armor is also extremely important. High armor values can dramatically reduce physical damage; for example, approximately 900 armor can provide protection comparable to having roughly ten times as much effective health against physical attacks. Defensive bonuses should therefore not be evaluated in isolation—stacking armor, damage reduction, dodge and resistance can make a much greater difference than simply increasing Health.
+
+For an additional defensive and offensive advantage, the Olympian Helmet can be used while standing near a torch, providing 50% damage reduction together with a 2× damage buff. It is also worth farming toward a Legendary Midas Medallion as progression advances.
+
+Once survivability is under control, increase your damage output. A Rampage Potion provides a useful damage increase, while Afterlife Purgatory can be particularly powerful at night because it can inflict curses that increase incoming damage by up to 5.4×. Miracles can further improve both survivability and damage output, and Battle Tartare provides an additional damage boost.
+
+Player progression should not be neglected. Continue performing Player Ascensions until the maximum player level is reached, placing the resulting points into Melee as usual. Before obtaining a strong Midas setup and a high-percentage Maniac, Blink and the Undead Sword are currently among the strongest options for dealing with difficult NPC encounters.
+
+**Chiefs or Minibosses?**
+
+Chiefs are harder than weaker Minibosses, but they offer an important advantage: they can be controlled using Bolas and Net Guns, and they can be damaged with headshots. For players who are not playing Hardcore, deliberately taking on Chiefs can therefore be a viable alternative to farming weaker Minibosses.
+
+This approach is not equally effective against every encounter. For Nature, Unstable and Guardian, it is generally better to wait for suitable Miniboss encounters rather than forcing a Chief fight.
+
+**TIP — Survive First, Kill Second**
+
+When preparing for a difficult NPC encounter, do not measure your build by damage alone. A powerful attack is useless if the NPC kills you before you can use it.
+
+Start by stacking the strongest available defensive effects, then add resistance appropriate to the enemy's damage types. Once you can reliably survive the encounter, add Rampage, curses, Miracles and other damage multipliers to shorten the fight.
+
+The objective is not to build the character that hits hardest. It is to build the character that cannot be killed while still hitting hard enough to end the fight.
+
+### Final Advice
+Progress through Ark Omega naturally.
+
+Avoid rushing directly toward the highest creature tiers.
+
+Every progression system introduced throughout the game—Player Rank, Equipment Sets, NPC Tribes, Paragons, Unique Saddles, Quests, Beacon Bosses and automated infrastructure—has been designed to reinforce one another.
+
+Mastering these interconnected systems is ultimately what transforms an ordinary survivor into one capable of overcoming the Zodiac and every challenge beyond.

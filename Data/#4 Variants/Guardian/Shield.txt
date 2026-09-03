@@ -5,15 +5,13 @@ Pressing Prone (X) buff all nearby allies with the "shielded" buff, which negate
 taken for an amount of hits based on the tier of the caster.
 
 -----
-Cooldown: 30s
 Stamina Cost: 25%
 Radius: 2400 (8 Foundations)
 
 Variant Information:
-Spawn Chance: 00.84%
+Spawn Chance: 00.78%
 
 Other Information:
-Cooldown 1: 30.0
-Cooldown 2: 0.0
+Cooldown: 30.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: true

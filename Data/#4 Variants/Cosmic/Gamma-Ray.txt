@@ -7,7 +7,6 @@ damage to anything nearby until it goes away. The damage is dealt in a vertical 
 the location of the Gamma-Ray.
 
 -----
-Cooldown: 30s
 Stamina Cost: 30%
 Gamma-Ray Duration: 10s
 Gamma-Ray Radius: 1200 (4 Foundations)
@@ -15,10 +14,9 @@ Gamma-Ray Height: 6000 (20 Foundations)
 Gamma-Ray Damage: 50% of Ability Damage Every 1/2 Second as Reactive Damage.
 
 Variant Information:
-Spawn Chance: 00.84%
+Spawn Chance: 00.78%
 
 Other Information:
-Cooldown 1: 30.0
-Cooldown 2: 0.0
+Cooldown: 30.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: true

@@ -8,7 +8,6 @@ Pressing Prone(X) releases an ear-shattering screech that drives enemies insane.
 become hyper aggressive, attacking the closest thing to them.
 
 -----
-Cooldown: 30s
 Stamina Cost: 30%
 Psycho Scream Damage: 100% of Ability Damage.
 Psycho Scream Radius: 3000 (10 Foundations)
@@ -16,10 +15,9 @@ Psychosis Duration: 10s
 Psychosis Gives Bosses A 10% Change To Damage Themselves.
 
 Variant Information:
-Spawn Chance: 01.69%
+Spawn Chance: 01.57%
 
 Other Information:
-Cooldown 1: 30.0
-Cooldown 2: 0.0
+Cooldown: 30.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: true

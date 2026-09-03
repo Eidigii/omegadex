@@ -6,7 +6,6 @@ variant).
 Pressing Prone(X) does an area attack that harvests all nearby resources.
 
 -----
-Cooldown: 5s
 Stamina Cost: 10%
 AoE attack damage: 100%
 Harvest Area: 1800 (6 Foundations)
@@ -15,10 +14,9 @@ Herbivores Harvest as a Pick
 Additional Weight Multiplier: 5x
 
 Variant Information:
-Spawn Chance: 00.84%
+Spawn Chance: 00.78%
 
 Other Information:
-Cooldown 1: 5.0
-Cooldown 2: 0.0
+Cooldown: 5.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: false

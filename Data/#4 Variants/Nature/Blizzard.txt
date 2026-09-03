@@ -7,7 +7,6 @@ enemies that enter the blizzard will slowly being to freeze. Everything will tak
 time while in the Blizzard.
 
 -----
-Cooldown: 60s
 Stamina Cost: 30%
 Blizzard Duration: 10s
 Instant-Freeze Duration: 2s
@@ -15,10 +14,9 @@ Radius: 3000 (10 Foundations)
 Damage Per Second: 100% of Ability Damage As Blizzard Damage.
 
 Variant Information:
-Spawn Chance: 00.84%
+Spawn Chance: 00.78%
 
 Other Information:
-Cooldown 1: 62.0
-Cooldown 2: 0.0
+Cooldown: 60.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: true

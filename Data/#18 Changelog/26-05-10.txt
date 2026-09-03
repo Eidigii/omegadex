@@ -1,0 +1,224 @@
+Ark Omega 5/10 Patch Notes:
+
+Variant reworks:
+
+Farming: 
+---These will automatically collect veggies and put them into a nearby Void Vacuum to be handled appropriately.
+---Fertilizer amounts are now saved over cryo/etc and never go away.
+---Farming dinos will now till the soil in nearby crop plots to increase their growth rate and output. 
+Crafting:
+---Crafting DR is now tied to number of items in their inventory. Damage taken is multiplied by 0.995^(Number of items). Being over-incumbered will double the provided damage reduction.
+---Greatly improved all logic tied to adding the crafting variant through something like a saddle bonus to prevent it from causing lost items.
+Absorbent: 
+---No longer has the 4x bonus health multiplier.
+---No longer has a 75% reduction to damage output. 
+---Dinos protected by absorbent bubbles can fire off abilities that are able to proc on damage taken, even though the bubble prevents damage.
+Armored:
+---The effect of not being able to take more than 10% of max health per hit is now affected by Tier. It is now 10%/Tier. 10% at Basic, 1% at Ancient, etc. 
+Demon: 
+---Replaced the highlight material on Demon with one that actually works, allowing you to highlight targets for ability usage. 
+---The highlight material is now a black/red particle effect to prevent unwanted interaction with spyglass mods. 
+---Reduced possession distance from 9000 to 3000.
+---Demon is now able to possess bosses as long as they are a lower tier than the Demon. 
+Pygmy: 
+---Pygmy now has a max pack bonus of 10, down from 30.
+---Pygmy will no longer count itself as a +1 for pack bonus. 
+---Each pack bonus will now provide a 50% increase to Damage Output and Damage Reduction (DR is multiplicative, not additive) instead of the original 20%.
+---Pygmy pack bonus range increased from 1800 to 2400.
+---Pygmy bosses are now always at the new maximum Damage/DR as opposed to the old one.
+Echo:
+---Echo cooldown timer is now 30 seconds.
+Paragon:
+---Bosses can now drop more than 1 soul of any given species when killed instead of forcing different species.
+Earthquake:
+---Doubled the damage output.
+Necromancer:
+---Necromancer bosses no longer use a weird version of Random to summon minions.
+Ghost:
+---Ghost now gets a 0.33 received damage multiplier at night on top of the Nightmare group's default of 0.5, giving it a total of 83.5% DR at night.
+---Dodge chance is no longer Tier x 5%. It is now 25% + Tier x 3%. Omega tier will max out at roughly the same chance, while lower tiers have a better dodge chance.
+Self-Destructive:
+---Removed the requirement that they have to be active for at least 5 seconds to explode, allowing minions to properly explode.
+Dimensional:
+---Reduced the flash range from 10000 to 6000.
+Phoenix:
+---The heal from Phoenix will only heal if the Phoenix has taken damage in the last second. If it hasn't taken damage after 3 seconds, the heal will deactivate. 
+---Healing amount reduced from 10% per second to 2.5% per second. Max healing is now 25%.
+---It will heal a minimum of 10% before doing damage checks.
+Astral:
+---The astral form buff now only lasts for 5 seconds instead of 15.
+Cloner:
+---Cloner minions are no longer permanent.
+
+Other Variants Changes: 
+-All 13 group variants spawning wild. Medallions and stat potions will drop from them at a 500% rate compared to normal variants. 
+-All 6 unique group variants spawning wild. Medallions and stat potions will drop from them at a 2500% rate compared to normal variants. 
+-Aspect of Exploitation renamed to Aspect of Manipulation as the variant itself has been renamed. 
+-Doubled spawn weights for: Tracker, Breeding, Taming, Ghost, Cursed.
+-Increased spawn weight for Paragon by 25%.
+-Greatly Increased spawn weights for all 7th variants to 5x of their original value, except the Cursed variant, which was doubled. 
+-7th variants can now mate with non-7th variants, but the baby will never become the 7th.
+-Guardian group variant should now function normally. It previously did not have any working bonuses.
+-Lucky variants upgrades are all fixed, allowing them to progress to Omega. 
+-Nature variants no longer have resistances to their matching elemental damage types (specifically from the elemental group, for some reason).
+
+Zodiac
+-The Zac is back!
+-Zodiac can now be summoned at the Omega Altar using one of each Unique Group Master Soul.
+-Zodiac has 6 phases, based on the Unique Group Masters: Infinite, Indestructible, Apocalyptic, Animate, Alchemic, and Sinful.
+-Each phase can only be damaged by tames that have variants in the same groups as the current phase, so you'll need several tames to defeat Zodiac.
+-Defeating a phase will instantly transition to the next. Defeating Sinful will drop the Zodiac Soul, allowing an Endless tame to tier up to Omega. 
+
+Perfect Group Masters:
+-Perfect Group Masters can now be summoned from the Altar with a Group Master soul and the matching 7th variant master soul.
+-Perfect Group Masters will have 10x the stats of the Group Master, the matching 7th variant, and can only be damaged by tames within that group. Saddle curse variants do not count. Unique Dinos do count. 
+-Perfect Group Masters will be slightly larger, with custom particle effects attached.
+-The Soul of a Perfect Group Master can be fed to a single-variant tame (Not uniques, or the 7th variant) within that group to grant it the Group Variant. This will not include the power of the 7th variant.
+
+Masters, Corrupt Masters, and Aspects:
+-Aspects have been temporarily removed. They WILL be making a return later for the Darkness progression.
+-Group Masters and Unique Group Masters have both been shifted up 1 slot in progression. 
+-Masters no longer have a randomly chosen 2nd variant and will just be the single variant.
+-Corrupt Masters will now come after Masters, and will contains their variant plus the 7th variant from their respective groups. Supernova Corrupt Master will now also have Anti-Matter, etc. 
+-7th variant Corrupt Masters will have a random variant from their group.
+-Corrupt Master souls will be used to summon Group Masters. 
+-Unique Group Master souls will be used to summon Zodiac. 
+
+Items: 
+-Ghost minions from Afterlife no longer instantly despawn.
+-The Multitool now calculates all unique/legendary set bonuses before setting up its current mode to fix issues with sickle mode and Prospector. 
+-Removed the Soul Furnace Intensifier from the Soul Grinder as it no longer functions. 
+-Affinity Medallions now apply to shoulder tames as well.
+-Element Poop is no longer prevented for transfer across maps.
+-Removed the hatchet item requirement for crafting Phantom. 5 Metal (not Metal Ingots) were put in its place.
+-Unique affinity medallions are now a 1 in 25 chance when an affinity medallion drops instead of 1 in 50. Legendary is now a 1 in 25 chance as well instead of a 1 in 50.
+-Updated all icon and dropped particle effects for the various boss souls so that their color is unique and matches their essence tier.
+
+Imbuing And Imbue Workbench Changes:
+-The entire imbue system and associated menus have been overhauled in the Imbue Workbench. 
+-Full new UI that no longer requires multiple odd button clicks. The layout is much more usable. 
+-Imbued items are no longer rerolled with magic fragments. They can be reimbued with any essence, forcing them to reroll as if being imbued all over again.
+-Entire imbue system moved over to new data storages, allowing more consistent results.
+-The cost to increase the quality tier of set items increased to Tier x 5 Set Fragments instead of Tier x 2.
+-The cost to increase the quality tier of magic/unique charms increased to Tier x 5 Fragments instead of Tier x 2.
+-Non-Set armors can also have their quality tier upgraded now with Magic Fragments at a cost of Tier x 5. Since imbue strength is dependent on quality tier, this is a must for high tier essence imbuing. 
+-Set armors obtained from Tokens can now be rerolled with Set Fragments to give them imbues. They can also have their quality upgraded with set fragments.
+---They still cannot be fragmented unless they have imbues on them. 
+---This will not likely apply to existing token spawned set items as they have a "Cursed" marker on them that will prevent them from being modified. 
+-Imbues now have a hard cap on things like damage reduction, preventing the imbue from rolling above the cap and showing false values like 120% damage reduction.
+---If an imbue is rolled to the hard cap, it will be removed from the imbue pool before the imbue process continues, preventing another roll from landing on an already capped imbue.
+---DR and Dodge are capped at 90% for saddles, 95% for player armor.
+-Essence type now has an effect on imbued values and not just number of imbues. 
+---Elite essence retains 100% imbue strength. Each essence below that loses 10% of its effect, down to 50% at Basic Essence. Above elite gains 15% effect per tier, up to 190% at Omega. 
+-All Fragment based reroll costs are now 1 fragment per quality level (1 at Primitive, 6 at Ascendant).
+
+Quests: 
+-You can now accept up to 500 quests by default. 
+-Variant Paragons and Unique Saddle Tokens added as possible rewards.
+-Imbue Quests added, with Magic Fragments and Elite Essence as rewards. 
+-Uniform data system created for quests that allow each objective to have specific reward possibilities, so certain quests will have their own reward types.
+-New Kill Quest for "Wild Dinos Of Group" added with variant paragon rewards.
+-Scroll storages now allow you to gamble your quest scrolls away, spending them to gain a random quest scroll. 
+-"Kill Wild Dinos On Foot" now offers magic, set, and unique fragments as rewards. 
+-Paragon soul and stat potion rewards for miniboss kill quests more than doubled. 
+-Unlock Hoarder Chest quests temporarily removed. 
+-Loot chest quests now reward species and variant paragons only.
+-"Random" paragon soul rewards have returned.
+
+Structures: 
+-Removed the sorting slots at the bottom of most inventories as the Void Vacuum and Quantum System handle all of this anyway.
+-Transmutator can now combine paragons of parents into Hybrid paragons.
+-Logs for dying dinos going to the reliquary will now show the coordinates of the reliquary that the dino was sent to.
+-Engrams and Items removed for the Quantum Compactor and Soul Compressor so they can no longer be placed and will not give anything when picked up.
+-The Quantum Compactor and Soul Compressor now only have 1 health. These should be removed, as they will be deleted entirely in a coming update. 
+-The Red Dwarf has been removed. The items and engram have been disabled, and the Blue Star module removed as well.
+-Scroll storages now allow you to gamble your quest scrolls away, spending them to gain a random quest scroll.
+
+Hybrids added: 
+-Murkey
+
+New species supported:
+-Deinonychus
+
+Quantum System:
+-Quantum Compactor inventory should now instantly be forced into quantum storage. 
+-Soul Compressor data should now instantly be forced into quantum storage.
+-You can now choose how many boss souls you want to withdrawal.
+-Fixed a bug with child classes that are not listed as item remaps not being pulled correctly for repairing/crafting.
+-Slightly changed the boss soul section by making the soul type selection buttons a dropdown box instead.
+-Joining another tribe while logged in as a server admin will no longer force merge quantum assets with the new tribe.
+
+Other: 
+-Cached variants and spawn weights at the map start to improve spawn system performance.
+-Variant Paragon quests added. 
+-Option added for server owners to disable webhooks coming from their server.
+-All [C] Dinos now glow, including tamed ones.
+-Added rider position fixes to a handful of dinos that aren't normally ridable without Unique saddles. (Light pets, dimorph).
+-Improved the hard/soft class reference system to slow down hard loading of assets when opening the Omegadex.
+-Massive improvements to performance and memory usage.
+-Minibosses can no longer roll species AND variant requirement together. Rewards for the individual requirements increased.
+-Icthyornis and Pegomastax removed from the low rate spawn system. 
+-Massive circular reference and hard reference cleanup to make the mod run more smoothly. 
+-Dino shard value no longer has an impact on their medallion/magic charm drop rates. 
+-Completely new cooldown system added, which should be much more reliable and cause less bugs with unique saddles and other bonuses.
+-Measures taken to help improve replication performance for dino names and boss skins/particles. 
+-Greatly improved vision and clarity with Nightmare Vision.
+-Greatly improved performance for soul distribution when killing Soul variants and bosses.
+-Fixed a bug preventing the 0.1 value for loot chest cost multiplier in the admin panel from working correctly.
+-Updated the particle effect on Collective to be less obstructive.
+-Emissive crack color on Resource group variant is now grey instead of Red.
+-Paragon level of things killed no longer has an effect on their drop chances to prevent unwanted values both greatly increasing or greatly decreasing drop chances when combined with miracles.
+-Further performance improvements on the drop system.
+-Paragon Soul random chance drop rates are no longer affected by magic find.
+-Mid tier unique weapons and set armor can now drop from any boss type instead of just Master and above.
+-Newbie Buff Magic find is now 200% magic find for the first 3 hours, 100% magic find for the last 3 hours. This is up from 100%/50%.
+-Corrupt Master Soul and Zodiac Soul added to the admin spawn section.
+-On-Foot kills now reward double essence amounts. 
+
+Paragon Changes: 
+-Kill requirements for "Kill Wild Dinos" paragon quests have been reduced by about 80% across the board. These recalculate every 100 kills, so go on a short killing spree if you're over the limit for a paragon.
+-Kill requirements for "Same Or Greater Shard Value Kills" paragon quests also greatly reduced by 75%. These also recalculate every 25 kills, so completing some of them will force a recalculation.
+-Breeding paragons removed and replaced with NPC Leader Kill Paragons. All dinos with breeding paragons will automatically be converted. 
+-Stat Potion requirements for Paragons reduced by 40% to match the upcoming changes to stat potion availability.
+
+Bug Fixes:
+-Fixed a bug making the Resource Collector unable to be interacted with because of changes Wildcard made to the Tek Jump Pad mesh in live game.
+-Fixed a bug causing some structures to be removed on server restart due to changes Wildcard made to the tribute terminal base class causing them to not be serialized into the save file. 
+-Fixed a bug causing resource variants to sometimes be immune to fall damage.
+-Fixed some circumstances in the pull system where it could consider your inventory as full even though it isn't.
+-Fixed some circumstances in the quest reward system where it could consider your inventory as full even though it isn't.
+-Fixed a bug stopping Karkinos from taking torpor.
+-Fixed a bug causing the boss soul pull buttons to become locked out.
+-Fixed a bug preventing Overlord from working.
+-Fixed a bug causing raid torpor information to still display with the Omega Spyglass.
+-Fixed a bug that is preventing some summoner variants from working properly after having been added to a singular file to prepare for group variants. 
+-Fixed a bug causing the quantum pull system to have trouble with stack sizes when it comes to INI stack size remaps. 
+-Fixed the required stat potion calculation on tameable boss paragon requirements from displaying the incorrect amount (the paragons could still be unlocked and still functioned). 
+-Fixed a bug allowing Echo to stack more than intended. 
+-Fixed a bug allowing brutal to tick with some abilities when unique saddles are equipped. 
+-Fixed a bug allowing Armored to still have 3x melee damage.
+-Fixed a bug causing problems with equipped items on Crafting variants.
+-Fixed a bug causing Demon to always perform boss checks on things it wants to possess.
+-Fixed a bug with the cat sometimes being unable to find a reference to its Unique version and coming out without variants.
+-Fixed a bug causing Astral to be flagged as Guardian.
+-Fixed a bug causing Metal DR to be inverted at 20% instead of 80%.
+-Fixed a bug on Unique Saddles with the bonus that reduces current cooldowns on kills that would see it instead increasing cooldown.
+-Fixed a bug causing Nightmare Vision to have a wavy effect.
+-Fixed a ton of potential localization checks with variant names.
+-Fixed a compile error on the Quantum Compactor, but a majority of the structure has been disabled.
+-Fixed a bug with the Summoner variants (mainly Familiar and Hive) that was causing the minion tracker functions to overflow and cause excessive lag.
+-Fixed a bug causing Reflective particles to be on the variant at the wrong times, like when the ability isn't active.
+-Fixed a bug causing Control to have no particle effect on it's taunt.
+-Fixed a bug causing the particle effect for Earthquake to not work correctly on servers.
+-Fixed a weird terrain detection bug with flying Pygmys that could cause non-Pygmys of the same species to have trouble landing.
+-Fixed a bug causing wild Cloner variants to increase your tame cap when cloning your tames.
+-Fixed a bug with cryopod detection on some species.
+-Fixed several bugs preventing some group variants from functioning correctly.
+-Fixed a bug causing Dimensional vision to often glitch out and disable itself.
+-Fixed a bug causing Knockback to not have a permanent 2x melee damage multiplier.
+-Fixed a great many bugs with how the crafting variant was handled that could cause items to be deleted, among other things.
+-Fixed a bug with Gorgon not being cast properly from unridden dinos when taking or dealing damage.
+-Fixed a bug causing the additive curse to use armor min/max values instead of charm min/max values when cursing charms.
+-Fixed a bug allowing NPC leaders to drop set items from sets other than their own.
+-Fixed a bug preventing dinos shoulder mounted via unique saddles from being able to use abilities.
+-Fixed a bug that could cause rubber banding for players moving while crafting on servers.

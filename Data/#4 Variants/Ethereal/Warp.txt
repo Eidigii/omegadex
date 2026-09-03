@@ -8,17 +8,15 @@ deal damage before choosing another nearby target to continue. If a separate val
 not found, the Warp is over.
 
 -----
-Cooldown: 15s
 Stamina Cost: 25%
 Number Of Targets: Tier + 3.
 Damage: 200% Of Ability Damage.
 Warp Damage is affected by buff damage changes.
 
 Variant Information:
-Spawn Chance: 00.84%
+Spawn Chance: 00.78%
 
 Other Information:
-Cooldown 1: 15.0
-Cooldown 2: 0.0
+Cooldown: 15.0
 Uses Activated Ability When Dealing Damage: false
-Uses Activated Ability When Taking Damage: true
+Uses Activated Ability When Taking Damage: false

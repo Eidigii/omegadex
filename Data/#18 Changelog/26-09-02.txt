@@ -1,0 +1,22 @@
+Ark Omega 9/2 Patch Notes:
+
+-Fixed a referencing issue with Absorbents that could prevent damage numbers from being displayed when taking damage, or triggering certain effects.
+-Fixed a bug allowing set items to be cursed.
+-Fixed a bug allowing unique saddles to be cursed. 
+-Fixed rider positioning for Kairuku.
+-Added the Dimensional Blueprints engram to the Omega Workbench. 
+-Fixed a bug causing Tribe blacklisting to not work for player quantum storage.
+-Heartsong arrows no longer work on NPCs.
+-One of the two groups for unique group variants will be chosen at random when determining item drops for them when killed.
+-X variants on Genesis replaced with Omega dinos.
+-Updated some of the text inside of the Imbue Workbench's custom UI to make more sense, as well as some slight changes to the UI.
+-Fixed bugs with some unique saddles not displaying which Permanent buff they provided (this may not retroactively update the description on existing saddles, but they will function).
+-Fixed a bug with summoning bosses with normal souls from the Gauntlet Beacon that would cause them to come out one tier lower than selected.
+-Fixed a bug with Omega Max killed during miracles not providing all of the bonuses.
+-Reworked how name lookups are done for dinos in the Omegadex to prevent things like unique saddles not displaying properly in the equipment tab.
+
+Ark Omega 9/2 Hotfix Patch Notes:
+
+Hotfix:
+-Fixed a bug preventing unique saddles from dropping from non-boss wild dinos.
+-Achatina and Doed are no longer immune to melee damage when balled up at low health.

@@ -7,16 +7,14 @@ Pressing Prone(X) will release an explosion, as if caused by C4 or a large grena
 closer to the source, the higher the damage.
 
 -----
-Cooldown: 10s
 Stamina Cost: 10%
 Explosion Damage: 300% of Ability Damage as Explosive Damage
 Explosion Radius: 3000 (10 Foundations)
 
 Variant Information:
-Spawn Chance: 01.69%
+Spawn Chance: 01.57%
 
 Other Information:
-Cooldown 1: 10.0
-Cooldown 2: 0.0
+Cooldown: 10.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: false

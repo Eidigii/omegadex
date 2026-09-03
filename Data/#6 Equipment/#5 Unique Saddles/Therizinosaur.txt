@@ -16,3 +16,15 @@ If Colossus, 300% Increased Variant Stat Multiplier.
 100% Increased Melee Damage.
 50% Damage Reduction.
 90% Increased Attack And Movement Speed.
+
+Slice and Dice
+Unique Saddle - Therizinosaur
+Because Nothing Says Victory Like A Good 01'
+Dismemberment!
+Unique Bonuses:
+Gains Brutal Variant.
+Gains Metal Variant.
+50% Increased Size.
+Greatly Increased Mobility And Turn Radius.
+Can Jump.
+1% Chance To Cast Harvest On Kill.

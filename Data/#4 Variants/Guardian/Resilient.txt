@@ -4,10 +4,9 @@ different damage type will slowly reduce the resistances to others.
 
 -----
 Variant Information:
-Spawn Chance: 02.53%
+Spawn Chance: 02.35%
 
 Other Information:
-Cooldown 1: 0.0
-Cooldown 2: 0.0
+Cooldown: 0.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: false

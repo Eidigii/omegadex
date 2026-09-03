@@ -11,7 +11,6 @@ the radius each second, dealing strike damage but also creating an AOE static fi
 does tick damage. Lightning strikes ground flyers.
 
 -----
-Cooldown: 30s
 Stamina Cost: 30%
 Thunderstorm Duration: 10s
 Thunderstorm Radius: 3000 (10 Foundations)
@@ -23,10 +22,9 @@ Static Field Tick Damage: 20% of Ability Damage every 1/2 second.
 Lightning Strikes Ground Flyers
 
 Variant Information:
-Spawn Chance: 00.84%
+Spawn Chance: 00.78%
 
 Other Information:
-Cooldown 1: 30.0
-Cooldown 2: 0.0
+Cooldown: 30.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: true

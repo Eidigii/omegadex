@@ -6,16 +6,14 @@ duration. Even a Random Dodo can summon an Uncontrollable Titanosaur as a minion
 Water dinos will only be summoned in the water.
 
 -----
-Cooldown: 30s
 Stamina Cost: 40%
 Number of Minions: 2-3
 Duration of the Minion: 10-60 seconds.
 
 Variant Information:
-Spawn Chance: 01.69%
+Spawn Chance: 01.57%
 
 Other Information:
-Cooldown 1: 30.0
-Cooldown 2: 0.0
+Cooldown: 30.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: true

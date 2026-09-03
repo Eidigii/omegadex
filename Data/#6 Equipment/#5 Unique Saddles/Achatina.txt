@@ -33,3 +33,15 @@ Reflects 50% Of Damage As StarFire Damage.
 Passively Taunt Enemies.
 Cannot Be Protected By Absorbent.
 Cannot Move.
+
+Satchel Charge
+Unique Saddle - Achatina
+The Prelude To The Fuse.
+Unique Bonuses:
+Gains Loot Variant.
+Gains Brutal Variant.
+Gains Explosive Variant.
+575% Increased Ability Damage.
+75% Reduced Cooldowns.
+95% Reduced Melee Damage.
+Cannot Be Protected By Absorbent.

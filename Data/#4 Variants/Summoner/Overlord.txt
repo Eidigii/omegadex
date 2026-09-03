@@ -7,17 +7,15 @@ Pressing Prone(X) will summon minions at reduced size and speed. These minions w
 behave exactly as the Overlord, and are set to Attack My Target and Follow Me by default.
 
 -----
-Cooldown: 45s
 Stamina Cost: 40%
 Number of Minions: 5 Wild, 4 Tamed
 Minion Size: 40%
 Minion Duration: 20s
 
 Variant Information:
-Spawn Chance: 00.84%
+Spawn Chance: 00.78%
 
 Other Information:
-Cooldown 1: 45.0
-Cooldown 2: 0.0
+Cooldown: 45.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: true

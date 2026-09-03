@@ -1,1 +1,17 @@
-Missing page from in-game OMEGADEX.
+Lightningburst: Creates a storm of high voltage electricity that will electrocute enemies in
+the area.
+
+-----
+Stamina Cost: 30%
+AOE Radius: 1500 (5 foundations)
+Damage: 100% of Ability Damage as lightning damage.
+Weak Against (2x damage taken): Earth
+Resists (0.5x damage taken): Lightning, Water
+
+Variant Information:
+Spawn Chance: 01.18%
+
+Other Information:
+Cooldown: 10.0
+Uses Activated Ability When Dealing Damage: true
+Uses Activated Ability When Taking Damage: true

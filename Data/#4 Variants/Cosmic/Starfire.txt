@@ -8,17 +8,15 @@ Pressing Prone(X) creates a powerful star, which illuminates a huge area at nigh
 dealing significant damage from the heat.
 
 -----
-Cooldown: 30s
 Stamina Cost: 30%
 Starfire Duration: 10 Seconds
 Starfire Radius: 3000 (10 Foundations)
 Starfire Tick Damage: 50% of Ability Damage Every 1/2 Second As Fire Damage
 
 Variant Information:
-Spawn Chance: 00.84%
+Spawn Chance: 00.78%
 
 Other Information:
-Cooldown 1: 30.0
-Cooldown 2: 0.0
+Cooldown: 30.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: true

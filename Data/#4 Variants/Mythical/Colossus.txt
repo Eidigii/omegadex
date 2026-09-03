@@ -8,7 +8,6 @@ ground stomp, also damaging other creatures on the ground. Water creatures and
 creatures currently flying cannot use the stomp, but are not effected by it either.
 
 -----
-Cooldown: 30s
 Stamina Cost: 25%
 Range: 2100 (7 foundations)
 Damage: 300% of Ability damage.
@@ -17,10 +16,9 @@ All Outgoing Melee Damage Is Increased By 100%.
 Colossus size, weight, attack ranges increased by: 300%
 
 Variant Information:
-Spawn Chance: 00.42%
+Spawn Chance: 00.39%
 
 Other Information:
-Cooldown 1: 30.0
-Cooldown 2: 0.0
+Cooldown: 30.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: true

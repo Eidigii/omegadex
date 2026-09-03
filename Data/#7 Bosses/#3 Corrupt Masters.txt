@@ -1,0 +1,10 @@
+Corrupt Masters:
+Corrupt Masters are centered around the Corrupt variants (also known as 7th variants). They have 10x the
+stats of Masters, and have the Corrupt variant from their group. A Fire Corrupt Master will also have the
+Barrage variant, etc. A Barrage Corrupt Master will get a random variant from it's associated group. They have
+10x the stats of a Master, and are summoned by placing a Master Soul back into the beacon.
+
+You have choices from here.
+1. Feed the Soul to an Apex of the same variant to upgrade it to Ultimate Tier.
+2. Place the Corrupt Master soul into the Altar with 5 other Corrupt Master souls of the same group to summon
+a Group Master.

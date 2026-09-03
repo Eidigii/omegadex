@@ -16,3 +16,15 @@ Gains Potion Variant.
 Gains Ice Variant.
 335% Increased Ability Damage.
 250% Increased Attack Radius.
+
+All Bite
+Unique Saddle - Bulbdog
+Bulbdog To Bulldog.
+Unique Bonuses:
+Gains Colossus Variant.
+Shoulder Pet Can Be Ridden.
+200% Increased Melee Damage.
+Permanent Rampage.
+If Brutal, 185% Increased Variant Stat Multiplier.
+Attacks Have A 10% Chance To Apply Banshee
+Curse.

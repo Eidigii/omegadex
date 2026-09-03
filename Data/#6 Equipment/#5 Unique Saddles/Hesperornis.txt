@@ -1,0 +1,11 @@
+Rubber Duck
+Unique Saddle - Hesperornis
+How Did You Get Out Of The Bathrub?
+Unique Bonuses:
+Gains Essence Variant.
+Gains Pygmy Variant.
+Immune To Drenched.
+Dodge Has 5% Chance To Trigger Waterburst.
+Dodge Has 5% Chance To Trigger Windburst.
+Dodge Has 5% Chance To Trigger Boogeyman Roar.
+50% Dodge Chance.

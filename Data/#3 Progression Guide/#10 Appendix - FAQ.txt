@@ -1,0 +1,64 @@
+## Appendix — FAQ
+(summary from #ascended-omega-general discord channel) 
+
+-How far can you actually get without using Unique Creature? 
+
+Non-Unique creatures can progress very far through Tier, Paragon and Group Variant upgrades. Unique creatures are not required for normal progression, but progression of non Unique Creature give Unique Group Variants and advanced Unique Saddle builds that provide additional and better endgame specialization 
+-How long is something like an Apex Absorbent Mammoth viable as a tank? 
+
+It depends on many factors like health pool, unique saddles available etc. (Variant upgrades will make non unique tank a LOT better) 
+-And which Unique would you consider must-haves? 
+
+There are way too many options to even make a list. ASA Omega brought the possibility to have multiple Unique. Dinos and Saddles per species, which multiplied the amount of "must-haves" possibilities. 
+-What does a solid early- to mid-game team look like? 
+
+Again, there's many choices, but early-mid you want things that are easy to find, not a Dragon, lol. Would consist of finding a breeding pair of potion dinos. (Or even only one as it cannot be lost if you use reliquary and always make sure its above basic tier) A tank. A damage dealer. And (imo optional) debuff/buff dinos like some that can curse or frenzy your tame. 
+-Like roughly, how much damage should you be dealing and tanking to progress comfortably? 
+
+It's an almost impossible to answer question as it depends on a lot of things, but Omega ASA has, again, the reliquary which allows you to try stuff and making errors (your tame dying) isn’t that much of an issue.
+-When should you start farming Paragons for breeding? 
+
+Breeding paragons are being replaced with NPC kills paragons next update. 
+-When does it make sense to invest Stat Potions into your dinos? 
+
+This is the MAIN progression route of your dino, so at the start, till the end. 
+-And what about mutations — are they still worth it, or do Stat Potions basically replace them? 
+
+They replace them. 
+-How do you actually farm Paragons or Stat Potions efficiently? 
+
+I will develop that for both but note that both most optimal ways are obtained through quests. For Paragons there are two solutions: 
+--Target farming, by killing a specific dino species on repeat, dropping quests and completing them.
+--More advanced: Killing high tier paragon bosses, then masters, the drops will be random. Definitively not an early or new player strategy.
+
+For stat potions there is only one solution: 
+--Target farming, by killing a specific dino species on repeat, dropping quests and completing them.
+
+-I get a lot of drops thanks to Magic Find, but like 95% of it is useless … is that normal? 
+
+Yes, you want to target magic find by imbuing your items, there are many messages i could link you if you want to learn more, but it's soon going to be reworked so only the magic charm can get magic find. But anyways, the most recommended start is to get a 50% magic find charm and double curse it. (If you need explanations, you can ask here people will answer you. 
+-Which sets should I focus on? 
+
+You can try all, but for now the best recommendation is early game you use what you get, then once you start farming a little more you can focus specific gears like avalanche, soul scream etc... But bc of magic find on all gear pieces you usually want to use only magic find gear and one very strong unique weapon (like the legendary icicle. But early game you could use a full avalanche set, and reroll it imbues until u get magic find, you can do whatever suits you the most.
+-And how do you farm good gear more efficiently? 
+
+Early you're going to be stuck on foot, so increasing your clearing power and magic find will be the two main axis for farming more efficiently. Once you start being able to kill bosses of prime tier and above, and also masters you may want to farm a set called over easy. This allows you to get 100% of your magic find while riding a dino, and you guessed it, dinos are powerful, so if you combine that with a good farming dino (one that has good attack speed, or range of attack, etc.) you're going to be super-efficient. Last point is miracles, they boost a lot of drops, including things that cannot be influenced by your magic find (Unique Saddles or Affinity Medallions), but these are harder, they are quite annoying as they dodge, may need disruptor debuff, find your own strategy. 
+-Just farm wild dinos or are there better methods? 
+
+Early game, there are two solutions that both can be done at the same time, obviously killing dinos, and ALSO, opening loot chests, they give a LOT of souls. When you kill prime+ tier wild dinos they have a chance of dropping Mid game unique weapons, when ground up in a dimensional grinder these will give a TON of souls (1k-5k) and a lot of Elite Essences. In mid game and above you can go very early with soul bosses and masters, but they are going to be as annoying to kill as miracles ones The best method is stacking a lot of magic find and miracles, and killing prime+ bosses and high tier masters to then drop a lot of mid game unique weapons to then grind them (Basically the early game strategy but more advanced)
+-Is there a way to specifically farm better Unique Saddles (above Primitive)? 
+
+For targeted farming, Saddle Masters can be summoned at the Omega Altar to obtain a Unique Saddle for a specific species. 
+-Imbuing: When is it worth starting? 
+
+At the exact moment you spawn in and get your first essence, right after spawning it's super powerful, allows you to have infinite weight, be almost invincible to all relatively low tier dinos with armor and flat DR imbues. Then it's linked to magic find imbuing and cursing, you're going to need it for that. 
+-Imbuing: Are full sets better or custom imbued gear? 
+
+It always depends of the situation, what you need to do, what you have available. Ex: you're relatively early and you're farming snow cave for snow purlovias stat potions and unique saddles, the cave is very dangerous and dinos inside are hard to kill, which impacts my farming effectiveness, it would be a good idea to switch maybe a few pieces of magic find non set gear to avalanche gear to get a 200% damage boost. Then I’ll get a lucky drop and acquire a 500% dmg legendary icicle, I’m going to do too much damage so I’ll swap again the cursed magic find gear.
+-How do you reliably get essences once you reach Prime? 
+
+Killing wild dinos for early game, grinding mid game unique weapons, killing bosses / masters etc...
+-How do I farm Unique Saddles?
+--Kill wild bosses that has Unique Saddle Token as reward
+--Kill wild dino with yellow ring around
+--For targeted farming, Saddle Masters can be summoned at the Omega Altar to obtain a Unique Saddle for a specific species

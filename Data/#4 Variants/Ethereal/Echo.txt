@@ -5,7 +5,6 @@ Pressing Prone(X) will cause area damage, while giving an ability damage buff to
 allies.
 
 -----
-Cooldown: 15 seconds
 Stamina Cost: 25%
 Ability Damage: lx
 Radius: 30 Meters
@@ -13,10 +12,9 @@ Ability Damage Buff: 2x
 Max Stacks: 3
 
 Variant Information:
-Spawn Chance: 02.11%
+Spawn Chance: 01.96%
 
 Other Information:
-Cooldown 1: 15.0
-Cooldown 2: 0.0
+Cooldown: 15.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: true

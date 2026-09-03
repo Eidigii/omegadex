@@ -8,3 +8,15 @@ Gains Blizzard Variant.
 99% Reduced Melee Damage.
 400% Increased Ability Damage.
 25% Reduced Cooldowns.
+
+Mountaintops
+Unique Saddle - Morellatops
+Akin To Avalanche, There's No Stopping This Guy!
+Unique Bonuses:
+400% Increased Melee Damage.
+165% Increased Attack And Movement Speed.
+99% Reduced Ability Damage.
+Attacks Have A 25% Chance To Apply Banshee
+Curse.
+Attacks Have A 20% Chance To Apply Weaken.
+Attacks Have A 15% Chance To Apply Disruption.

@@ -1,16 +1,15 @@
-Companion: Everyone wants a companion. A minion that stays with you always,
-protecting you through thick and thin. The summoned Companion is very strong, takes
-little damage, and has a very special ability. It can steal the variants of anything it kills!
-You can only have 1 companion at a time.
+Companion: Everyone wants a companion. A minion that stays with you always, protecting 
+you through thick and thin. The summoned Companion is very strong, takes little damage, 
+and has a very special ability. It can steal the variants of anything it kills! You can only have 
+1 companion at a time.
 
 Pressing Prone(X) will create a single Companion, which will stay with you until death, or
 you leave it. You can only have one companion at a time, so pressing X will destroy your
 current one and replace it with a new one. Your tame's melee and ability damage is added
-to that of the Companion's. Also, you can use the wheel to disable ability stealing when
-you get an acceptable variant.
+to that of the Companion's. Also, you can use the wheel to disable ability stealing when you 
+get an acceptable variant.
 
 ------
-Cooldown: 60s
 Stamina Cost: 40%
 Cooldown for Variant Stealing: 10s
 Companion Base Health: 1100
@@ -18,10 +17,9 @@ Companion Damage: 75 + Summoner's damage.
 Companion Damage Reduction: 50% against all sources.
 
 Variant Information:
-Spawn Chance: 01.27%
+Spawn Chance: 01.18%
 
 Other Information:
-Cooldown 1: 60.0
-Cooldown 2: 0.0
+Cooldown: 60.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: true

@@ -26,3 +26,32 @@ Gains Stalker Variant.
 Gains Uncontrollable Variant.
 485% Increased Melee Damage.
 250% Increased Attack Radius.
+
+Shrieker
+Unique Saddle - Onyc
+Absolutely Deafening.
+Unique Bonuses:
+Custom Bonus: Sonar Applies Disruption.
+Gains Banshee Variant.
+200% Increased Melee Damage.
+50% Damage Reduction.
+
+Electronyc
+Unique Saddle - Onyc
+Unique Bonuses:
+Dodge Has 10% Chance To Trigger Lightningburst.
+Dodge Has 10% Chance To Trigger Thunderstorm.
+70% Dodge Chance.
+350% Increased Ability Damage.
+Cannot Be Protected By Absorbent.
+Immune To Torpor.
+
+Mega Bite
+Unique Saddle - Onyc
+Pochet Dimensional Jaws.
+Unique Bonuses:
+If Stalker, 900% Increased Melee Damage.
+550% Increased Melee Damage.
+If Stalker, 400% Increased Variant Stat Multiplier.
+99% Reduced Ability Damage.
+Permanent Rampage.

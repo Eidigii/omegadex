@@ -1,0 +1,7 @@
+Perfect Unique Group Masters:
+Perfect Unique Group Masters have both of the matching corrupt (7th) variants of their respective groups.
+While they have the same stats as the Unique Group Master, they can only be damaged by tames of their
+respective groups, as the intention is to kill them with something that is capable of using the soul they drop.
+
+Feeding the Perfect Unique Group Master Soul to a group variant tame will upgrade it to a Unique Group
+Variant.

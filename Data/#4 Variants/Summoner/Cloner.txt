@@ -6,16 +6,14 @@ Pressing Prone(X) clones the nearest enemy, forcing them to do battle with a cop
 themselves.
 
 -----
-Cooldown: 30s
 Stamina Cost: 10%
 Number of Clones created: 4
 Enemy scan radius (Enemy Clone): 2100 (7 Foundations)
 
 Variant Information:
-Spawn Chance: 01.69%
+Spawn Chance: 01.57%
 
 Other Information:
-Cooldown 1: 30.0
-Cooldown 2: 0.0
+Cooldown: 30.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: true

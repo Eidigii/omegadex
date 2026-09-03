@@ -12,17 +12,15 @@ enemy, it will take the full collected damage. If there are 10, they will each t
 collected damage.
 
 -----
-Cooldown: 30s
 Stamina Cost: 10%
 Duration: 15s
 Explosion Radius: 3000 (10 foundations)
 Collecting Above Max Health Triggers Explosion.
 
 Variant Information:
-Spawn Chance: 01.69%
+Spawn Chance: 01.57%
 
 Other Information:
-Cooldown 1: 30.0
-Cooldown 2: 0.0
+Cooldown: 30.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: true

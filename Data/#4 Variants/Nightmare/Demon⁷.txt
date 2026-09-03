@@ -8,17 +8,15 @@ During this time, you can use it to attack other enemies, or just sit idle with 
 allies to attack it.
 
 -----
-Cooldown: 30s
 Stamina Cost: 10%
 Debuff Duration: 15s
 Enemy Damage Taken: 175%
 Maximum Number of Stacks: 3
 
 Variant Information:
-Spawn Chance: 00.08%
+Spawn Chance: 00.39%
 
 Other Information:
-Cooldown 1: 30.0
-Cooldown 2: 0.0
+Cooldown: 30.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: false

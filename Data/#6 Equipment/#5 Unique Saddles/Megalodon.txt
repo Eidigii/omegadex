@@ -40,3 +40,13 @@ Gains Pygmy Variant.
 230% Increased Ability Damage.
 40% Damage Reduction.
 40% Increased Movement Speed.
+
+Bite Club
+Unique Saddle - Megalodon
+First Rule: Don't Swim.
+Unique Bonuses:
+Gains Dimensional Variant.
+100% Reduced Ability Damage.
+Cannot Be Protected By Absorbent.
+700% Increased Attach Radius.
+355% Increased Melee Damage.

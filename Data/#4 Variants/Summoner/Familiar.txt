@@ -7,7 +7,6 @@ attacking all enemies in the area for a short time. They will spawn at the same 
 Familiar creature.
 
 -----
-Cooldown: 60s
 Stamina Cost: 40%
 Number of Familiars: 5 + 1 Per Tier
 Familiar Duration: 20s
@@ -15,10 +14,9 @@ Familiar Base Health: 250
 Familiar Base Damage: 10% of its Summoner's damage.
 
 Variant Information:
-Spawn Chance: 01.27%
+Spawn Chance: 01.18%
 
 Other Information:
-Cooldown 1: 60.0
-Cooldown 2: 0.0
+Cooldown: 60.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: true

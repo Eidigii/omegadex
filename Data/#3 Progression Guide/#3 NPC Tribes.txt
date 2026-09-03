@@ -1,0 +1,20 @@
+## Chapter 3 - NPC Tribes
+
+NPC Tribes remain one of the most reliable sources of equipment progression throughout the game.
+
+While early encounters primarily reward armor pieces and Unique weapons, later encounters become the primary source of Legendary equipment, cursed gear and advanced crafting materials.
+
+Repeatedly defeating Tribe Leaders and Chiefs should therefore be considered part of the normal progression rather than optional content.
+
+| # | Rule |
+| --- | --- |
+| 1 | NPCs always spawn at loot chests, maximizing spawn diversity without competing with dino spawn points. |
+| 2 | Basic through Elite tier NPCs spawn naturally. Higher tiers require points earned by killing Leaders. |
+| 3 | NPCs spawn in groups of five: four regular fighters and one Leader. At Omega tier the Leader is replaced by a Chief. |
+| 4 | Every NPC wears a full armor set. Leaders carry Unique weapons; Chiefs carry Legendary weapons. |
+| 5 | Set pieces and Unique weapons have a high drop chance from their respective NPCs. |
+| 6 | A Chief always drops a cursed set and a max-stat Legendary weapon, and resets that tribe's point total. |
+----
+@tip:Hunting Chiefs
+Chiefs are the best single source of cursed set pieces and max-stat Legendary weapons - and defeating one resets that tribe's point progress, effectively resetting the climb toward the next Chief spawn.
+@end

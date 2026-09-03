@@ -10,7 +10,6 @@ gravity force, that will grab enemies off of the ground, sucking them in and cru
 until the singularity is gone.
 
 -----
-Cooldown: 30s
 Stamina Cost: 30%
 Singularity Initial Collapse Radius: 3000 (10 Foundations)
 Singularity Duration: 15 Seconds
@@ -20,10 +19,9 @@ Explosive Damage.
 All Singularity Creatures are Immune to the Gravity Effect.
 
 Variant Information:
-Spawn Chance: 00.84%
+Spawn Chance: 00.78%
 
 Other Information:
-Cooldown 1: 60.0
-Cooldown 2: 0.0
+Cooldown: 60.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: true

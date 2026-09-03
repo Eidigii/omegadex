@@ -6,17 +6,15 @@ creature. The wave will damage anything caught in it, drain their oxygen, and ca
 them away from the Tsunami creature.
 
 -----
-Cooldown: 30s
 Stamina Cost: 30%
 Tsunami Duration: 3.5s
 Radius: 3600 (12 Foundations)
 Damage: 600% of Ability Damage as Tsunami Damage
 
 Variant Information:
-Spawn Chance: 00.84%
+Spawn Chance: 00.78%
 
 Other Information:
-Cooldown 1: 30.0
-Cooldown 2: 0.0
+Cooldown: 30.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: true

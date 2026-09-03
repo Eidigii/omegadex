@@ -1,14 +1,13 @@
 Volatile: These creatures are constantly on the edge of a bad reaction. They can
 spontaneously erupt into a powerful gas cloud, poisoning enemies and slowing them. This
-can happen both while they are attacking, or even while a passive Volatile creature is
-being attacked. This volatile cloud is dealt as Earth damage, so make sure your
-resistances are up before fighting the stronger ones.
+can happen both while they are attacking, or even while a passive Volatile creature is being 
+attacked. This volatile cloud is dealt as Earth damage, so make sure your resistances are up 
+before fighting the stronger ones.
 
 Pressing Prone(X) releases a small explosion followed by a volatile gas cloud. The cloud
 will linger for a bit, both poisoning and slowing enemies as it ticks away at their health.
 
 -----
-Cooldown: 15s
 Stamina Cost: 40%
 Initial Explosion Damage: 300% Ability Damage as Earth Damage
 Initial Explosion Radius: 900 (3 Foundations)
@@ -17,10 +16,9 @@ Gas Cloud Radius: 1800 (6 Foundations)
 Gas Cloud Duration: 13 seconds
 
 Variant Information:
-Spawn Chance: 00.84%
+Spawn Chance: 00.78%
 
 Other Information:
-Cooldown 1: 20.0
-Cooldown 2: 0.0
+Cooldown: 20.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: false

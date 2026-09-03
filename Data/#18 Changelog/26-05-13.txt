@@ -1,0 +1,7 @@
+Ark Omega 5/13 Patch Notes:
+
+-Fixed the day cycle going crazy because of test functions still being enabled.
+-Fixed a bug with the activation of the Harvesting and Tracker abilities.
+-Fixed a bug allowing some quest values to go negative, causing the quest to bug out.
+-Fixed a bug causing Deinonychus and Murkey to not appear in some of the Omegadex pages because they weren't added to the name lookup tables.
+-Fixed a bug allowing wild group and unique group variants to be tamed.

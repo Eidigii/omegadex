@@ -10,3 +10,12 @@ Gains Colossus Variant.
 Heal For 10% Of Melee Damage Dealt.
 Permanent Rampage.
 Cannot Be Protected By Absorbent.
+
+Packless
+Unique Saddle - Troodon
+I Work Better Alone.
+Unique Bonuses:
+Gains Armored Variant.
+If Colossus, 900% Increased Melee Damage.
+If Colossus, 400% Increased Variant Stat Multiplier.
+170% Increased Attack Radius.

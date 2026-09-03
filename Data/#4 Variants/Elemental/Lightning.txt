@@ -2,7 +2,6 @@ Lightning: Launches a lightning projectile that can electrocute enemies on impac
 projectile is not effected by gravity.
 
 -----
-Cooldown: 3s
 Stamina Cost: 5%
 Weak Against (2x damage taken): Earth
 Resists (0.5x damage taken): Lighting, Water
@@ -14,10 +13,9 @@ Projectile Tick: 25% of Ability Damage Per Tick as Lightning Damage (Electrocuti
 ticks.
 
 Variant Information:
-Spawn Chance: 01.27%
+Spawn Chance: 01.18%
 
 Other Information:
-Cooldown 1: 3.0
-Cooldown 2: 0.0
+Cooldown: 3.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: false

@@ -14,11 +14,10 @@ Treasure Hunter Buff Duration: 300 Seconds.
 Does not provide Treasure Hunter Buff when tamed.
 
 Variant Information:
-Spawn Chance: 00.42%
+Spawn Chance: 00.39%
 
 Other Information:
-Cooldown 1: 0.0
-Cooldown 2: 0.0
+Cooldown: 0.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: true
 

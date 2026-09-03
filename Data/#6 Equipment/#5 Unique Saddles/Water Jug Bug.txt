@@ -19,3 +19,12 @@ Gains Loot Variant.
 300% Magic Find While Ridden.
 Greatly Increased Mobility And Turn Radius.
 Cannot Be Protected By Absorbent.
+
+Water For Life
+Unique Saddle - Water Jug Bug
+More Than You'll Ever Need.
+Unique Bonuses:
+Gains Water Variant.
+Gains Waterburst Variant.
+Gains Tsunami Variant.
+860% Increased Ability Damage.

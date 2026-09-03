@@ -7,17 +7,15 @@ allies. They can even make most passive creatures attack them. Attacking the con
 while taunted will stun the enemy.
 
 -----
-Taunt Cooldown: 10s
 Taunt Stamina Cost: 10%
 Taunt Radius: 4000 (13.33 foundations)
 Damage Reduction While Taunting: 75%
 Taunt Duration: Depends on enemies aggro settings.
 
 Variant Information:
-Spawn Chance: 02.11%
+Spawn Chance: 01.96%
 
 Other Information:
-Cooldown 1: 30.0
-Cooldown 2: 0.0
+Cooldown: 30.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: true

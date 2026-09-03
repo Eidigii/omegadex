@@ -1,0 +1,34 @@
+## Chapter 4 - Paragons
+
+Paragons represent the second major progression multiplier after creature tiers. While tiers determine the overall strength class of a creature, Paragon Levels continuously enhance its base statistics, allowing even familiar creatures to remain competitive throughout the entire game.
+
+Unlike equipment upgrades, Paragons permanently improve the creature itself and interact multiplicatively with every other progression system, including Tier bonuses, equipment, Unique Saddles and several ability modifiers.
+
+For this reason, long-term creature investment is generally more valuable than repeatedly replacing tames with higher tier alternatives.
+
+@tip:Stat formula
+Because Paragons permanently improve creatures (+100% stats pear each paragon gained), investing in favorite tames becomes increasingly valuable over time.
+
+Players should avoid frequently replacing creatures once substantial Paragon progression has been achieved unless a significantly stronger build becomes available. 
+@end
+
+Paragons can be earned in several ways - mainly by feeding your tame a matching Paragon Soul, or by completing Paragon quests, viewable from the Paragon icon in your tame's multi-use wheel. There is no required order to complete them, since applying a Paragon fully recalculates the tame's stats.
+
+Group Variant creatures can consume Paragon Souls belonging to any Variant within their group. Seventh-tier variants are excluded from this system.
+
+This makes Paragon farming considerably more flexible once a creature has been upgraded to a Group Variant.
+
+### Long-Term Paragon Progression
+Paragon progression should be viewed as a continuous objective rather than a final upgrade.
+
+Many endgame creatures will accumulate dozens of Paragon Levels through normal gameplay while completing quests, defeating bosses and participating in advanced encounters.
+
+Players should therefore avoid postponing Paragon progression until late game, as steady investment provides substantially better long-term returns.
+
+Beacon Bosses, NPC Chiefs and Omega Max creatures all contribute significantly toward Paragon progression and should be incorporated into regular gameplay whenever possible.
+
+These encounters offer some of the highest concentrations of progression rewards available before the final endgame.
+
+@tip:Farm Paragons
+The simplest way to farm Paragons is to complete quests dropped by killing wild dinos
+@end

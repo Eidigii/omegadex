@@ -1,0 +1,11 @@
+Cockatrice
+Unique Saddle - Microraptor
+Sometimes I Come Across A Stone Finger Or Foot
+And I know I'm In Cockatrice Territory.
+Unique Bonuses:
+Debuffs Attackers With Total Blind.
+Attacks Apply Gorgon Stoned.
+Glide Attack Damage Type Changed To Gorgon.
+If Colossus, 300% Increased Variant Stat Multiplier.
+100% Reduced Ability Damage.
+550% Increased Attach Radius.

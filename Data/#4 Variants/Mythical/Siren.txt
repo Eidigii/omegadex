@@ -9,17 +9,15 @@ Pressing Prone(X) will make the Siren play a sound, making all creatures in the 
 completely passive and wander towards it. They will not react to damage during this time.
 
 -----
-Cooldown: 45s
 Stamina Cost: 30%
 Duration: 10s
 Post-Siren buff only allows creatures to be lured by a Siren once per minute.
 Range: 2000 (6.67 foundations)
 
 Variant Information:
-Spawn Chance: 01.69%
+Spawn Chance: 01.57%
 
 Other Information:
-Cooldown 1: 45.0
-Cooldown 2: 0.0
+Cooldown: 45.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: true

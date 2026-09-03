@@ -7,7 +7,6 @@ Pressing Prone(X) calls down a single Comet, which can deal great impact damage 
 does a direct hit, with lesser damage for indirect hits.
 
 -----
-Cooldown: 30s
 Stamina Cost: 30%
 Comet Impact Damage: 1000% of Ability Damage
 Comet Impact Radius: 600 (2 foundations)
@@ -15,10 +14,9 @@ AOE Impact Radius: 3000 (10 Foundations)
 AOE Impact Damage: 100% of Ability Damage.
 
 Variant Information:
-Spawn Chance: 00.84%
+Spawn Chance: 00.78%
 
 Other Information:
-Cooldown 1: 30.0
-Cooldown 2: 0.0
+Cooldown: 30.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: true

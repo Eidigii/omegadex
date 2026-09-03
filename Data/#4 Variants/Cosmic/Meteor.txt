@@ -9,7 +9,6 @@ Pressing Prone(X) calls down a cluster of meteors from the sky. They will impact
 locations in the direct viscinity of the Meteor creature.
 
 -----
-Cooldown: 30s
 Stamina Cost: 30%
 Number of Meteors: 12
 Meteor Target Radius: 1500 (5 Foundations)
@@ -17,10 +16,9 @@ Meteor Impact Damage: 300% of Ability Damage as Fire Damage
 Meteor Impact Radius: 900 (3 Foundations)
 
 Variant Information:
-Spawn Chance: 00.84%
+Spawn Chance: 00.78%
 
 Other Information:
-Cooldown 1: 30.0
-Cooldown 2: 0.0
+Cooldown: 30.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Abilit When Takin Dama e: true

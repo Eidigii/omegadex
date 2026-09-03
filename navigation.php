@@ -15,7 +15,8 @@ function readDirectoryForMainMenu_V6($dir_path_param) {
     foreach ($files as $file_item) {
         if ($file_item == '.' || $file_item == '..') continue;
         $filePath_item = $dir_path_param . DIRECTORY_SEPARATOR . $file_item;
-        if (is_dir($filePath_item)) {
+        // No polyfills here (navigation.php loads standalone), so avoid str_starts_with.
+        if (is_dir($filePath_item) && strncmp($file_item, '_', 1) !== 0) {
             // Key is the folder name, value is just a marker (empty array)
             $result[$file_item] = []; 
         } 

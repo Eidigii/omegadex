@@ -1,7 +1,6 @@
 Earthburst: Creates a gaseous nova that will poison and slow enemies.
 
 -----
-Cooldown: 10s
 Stamina Cost: 30%
 AOE Radius: 1500 (5 foundations)
 Damage: 100% of Ability Damage as earth damage.
@@ -9,10 +8,9 @@ Weak Against (2x damage taken): Wind
 Resists (0.5x damage taken): Earth, Lightning
 
 Variant Information:
-Spawn Chance: 00.84%
+Spawn Chance: 00.78%
 
 Other Information:
-Cooldown 1: 10.0
-Cooldown 2: 0.0
+Cooldown: 10.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: true

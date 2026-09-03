@@ -12,10 +12,9 @@ Weaken Decreases Melee Damage Dealt By 50%, And Increases Damage Taken By 50%.
 Weaken Duration: 10 Seconds
 
 Variant Information:
-Spawn Chance: 01.69%
+Spawn Chance: 01.57%
 
 Other Information:
-Cooldown 1: 30.0
-Cooldown 2: 0.0
+Cooldown: 30.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: true

@@ -7,16 +7,14 @@ per second. Pressing X again will toggle it off and trigger the cooldown. The Fa
 attack while healing.
 
 -----
-Cooldown: 60s
 Stamina Drain Per Second: 5%
 Healing Amount: (0.5% x Tier) of Max Health Per Second
 Healing Radius: 3000 (10 Foundations)
 
 Variant Information:
-Spawn Chance: 02.11%
+Spawn Chance: 01.96%
 
 Other Information:
-Cooldown 1: 30.0
-Cooldown 2: 0.0
+Cooldown: 30.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: true

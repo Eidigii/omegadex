@@ -1,0 +1,140 @@
+## Chapter 2 - Side Features & Systems
+
+Several mod systems sit outside the main progression path but shape how efficiently you play. Here's a quick reference for each.
+
+### Soul Grinder & Soul Shards
+The Soul Grinder converts boss souls into Soul Shards rather than returning souls. Soul Shards are used throughout advanced progression and crafting.
+
+Boss Soul types provide different quantities of Soul Shards per tier: 
+-Boss Soul → 5 shards 
+-Master Soul → 10 shards
+-Corrupt Master Soul → 20 shards
+-Group Master Soul → 40 shards
+-Unique Group Master Soul → 80 shards
+-Zodiac Soul → 160 shards
+
+### Uniques
+Every dino species has a rare Unique variant carrying two special abilities, each with its own multiplier. Uniques are extremely rare - and extremely powerful when you find one.
+
+### Player Items
+Equipment Sets define specialized playstyles rather than simple statistical upgrades.
+Every Variant Group provides armor and weapon combinations designed around its abilities, encouraging players to experiment with different combat approaches instead of relying on a single universal build.
+
+#### Charms
+Charm, give special buff to player. It’s possible to imbue to upgrade and reroll to get new random buffs.
+
+#### Sets Medallions
+Set Medallions, give armor set abilities. Those can be usefull to complete missing item to get set bonus or better, combine multiple sets effects to be more effective as tank or damage dealer.
+
+Thay have quality and can be upgraded.
+
+Can be Normal (one set ability), Unique (5 random sets abilities) and Legendary (full one set abilities)
+
+#### Affinity Medallions
+
+Affinity Medallions are mount focused enhancers that directly boost the combat performance of the creature you are riding. They provide **only four stats**, but these stats scale dramatically based on **Affinity Tier**, **item quality**, and the **species shard value**.
+
+Affinity Medallions do **not** affect the player. Their entire purpose is to amplify the strength of your active mount.
+
+Affinity Medallions grant exactly four bonuses:
+-Dodge Chance
+-Damage Reduction
+-Increased Melee Damage
+-Increased Ability Damage
+
+These bonuses scale with **Affinity Tier** and **item quality**, creating massive differences between low tier and high tier medallions.
+
+### Blueprint Storage
+Blueprint Storage is a dimensional cube specifically designed for blueprint management. It replaces the blueprint-storage functionality previously handled by Scroll Storage, allowing Scroll Storage to remain dedicated to Quest Scrolls.
+
+Blueprint Storage provides the same blueprint management options previously available through Scroll Storage and snaps directly to Dimensional Storage structures.
+
+Existing Quantum Compactor cubes are replaced by Blueprint Storage.
+
+### The Ability System
+Modern versions of Ark Omega Ascended use a Unified Ability System shared by creatures, NPCs, bosses and several equipment effects.
+
+Rather than relying exclusively on passive variant bonuses, many abilities are now actively cast, allowing them to be reused across different creatures, equipment, Unique Saddles and future content.
+
+This unified system significantly improves consistency while greatly expanding build diversity throughout the entire progression path.
+
+### Unique Saddles
+Any dino has a chance to drop a custom Unique Saddle on death. These saddles grant bonuses restricted to their matching species - a Unique Dodo Saddle, for instance, only benefits dodos.
+
+### Creature Specialization
+Not every creature is intended to excel in every activity.
+
+Some species perform exceptionally well as:
+-Boss killers
+-Farming specialists
+-Exploration mounts
+-Support creatures
+-Resource automation
+-Ability-focused combat builds
+
+Developing specialized creatures is generally more efficient than attempting to build universal ones.
+
+### Essence Chests
+
+Essence Chests spawn at random locations across the map. Opening cost scales with the quality of loot inside, so bigger chests are worth the essence investment.
+
+### Unique Saddles
+Unique Saddles represent one of the largest progression systems introduced into Ark Omega Ascended.
+
+Every creature species can obtain its own handcrafted Unique Saddle, granting species-specific bonuses, custom abilities, passive effects and additional build diversity far beyond traditional saddles.
+
+How to get Unique Saddles:
+-All Wild Dinos with yellow ring around and some Wild Boss dino with specific reward, drop a Unique Saddle Token on death. Those Saddle Tokens drops are normally associated with the species killed.
+-Saddle Masters provide a targeted way to obtain Unique Saddles. They can be summoned at the Omega Altar and can only be damaged by their matching species. 
+A Saddle Token combined with 100 Essence summons a Saddle Master at the corresponding Essence tier, producing a saddle with imbues appropriate to that tier. 
+
+Alternatively, 5 Paragons and 100 Essence can be used to summon a random Saddle Master for that species. 
+
+Because many late-game creature builds rely heavily on these bonuses, collecting and upgrading Unique Saddles becomes an important parallel progression path alongside Paragons and equipment sets.
+
+### Quests
+Quests provide a valuable source of progression outside the standard taming loop. Most creatures in Ark Omega have a chance to drop a Quest Scroll, often related to the species that was defeated.
+Quest objectives range from defeating specific creatures to completing Paragon challenges or hunting minibosses. Rewards include Paragon Souls, chest keys, crafting materials, upgrade resources and other progression items.
+Because Quest rewards scale well throughout the game, completing them consistently is one of the most efficient ways to accelerate both creature and player progression.
+
+### The Quantum Storage System
+The Quantum Storage System is designed to eliminate traditional inventory management. Instead of relying on physical storage boxes, resources and items can be stored inside dimensional inventories that remain instantly accessible from anywhere.
+
+Two independent storage types exist:
+-Personal Quantum Storage
+
+Character-specific storage that follows the player between maps and shares its backup system with Player Rank and Quest progression.
+
+-Tribe Quantum Storage
+
+Shared dimensional storage available to every tribe member on the current map. This storage is considered the primary source whenever crafting, repairing or automatically consuming resources.
+
+When combined with the Dimensional Network structures, the Quantum Storage System effectively automates nearly every aspect of resource organization and becomes an essential component of every advanced base.
+
+@tip:Priority order
+When crafting, repairing or unlocking chests automatically pulls materials, the game checks Tribe Quantum Storage first, then your Personal Quantum Storage.
+@end
+
+### Dimensional Network Structures
+-Void Vacuum - automatically sorts dropped inventory and can send compatible items directly to configured Dimensional Storages and Quantum Storage destinations when enabled.
+-Unique Totem - safely stores Unique and Legendary items.
+-Resource Collector - passively produces a specific raw material (Crystal, Element, Metal, Obsidian, Pearls, Stone, or Wood) by permanently integrating a tamed Resource creature into the machine. Integration consumes the dino in exchange for a continuous, hands-off supply of its resource.
+-Dimensional Storage - collates specific item categories.
+-Dumpster - cleanly deletes junk such as Rockwell notes and stone tools.
+-Grinder - a compact grinder that returns more resources per item than the base version.
+
+All of these structures can be configured to automatically receive sorted items straight from the Void Vacuum, making this one of the strongest inventory setups in the mod. It's worth configuring before you start fighting bosses.
+
+### Resource Automation
+By Late Game, nearly every commonly used resource should be generated automatically.
+
+Players are encouraged to fully integrate:
+-Egg Collectors
+-Resource Collectors
+-Quantum Storage
+-Void Vacuum
+-Dimensional Storage
+-Soul Grinder
+-Unique Totems
+
+This minimizes maintenance while maximizing time spent progressing.

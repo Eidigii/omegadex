@@ -28,3 +28,14 @@ Unique Bonuses:
 70% Damage Reduction.
 100% Magic Find While Ridden.
 Permanent Rampage.
+
+Black Cat
+Unique Saddle - Sabertooth
+I Wouldn't Trust This One, They're Unlucky.
+Unique Bonuses:
+Custom Bonus: Turns All Color Codes To 201.
+Gains Miracle Variant.
+150% Magic Find While Ridden.
+Passively Taunt Enemies.
+Saddle Is Always Cursed.
+300% Increased Melee Damage.

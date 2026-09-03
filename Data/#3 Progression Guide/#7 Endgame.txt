@@ -1,0 +1,85 @@
+## Chapter 7 - Endgame
+Endgame represents the convergence of every progression system introduced throughout Ark Omega Ascended.
+
+Success is no longer determined by creature Tier alone but by the effective combination of Paragons, Equipment Sets, Unique Saddles, Player Rank, specialized abilities, optimized automation and encounter knowledge.
+
+Players reaching this stage should already possess a mature infrastructure capable of continuously producing resources, equipment and upgraded creatures.
+
+### Endgame Preparation
+
+Before attempting the final encounters, players should have:
+-Complete Equipment Set
+-Multiple optimized creatures
+-Advanced Paragon progression
+-High Player Rank
+-Efficient Quantum Storage
+-Automated resource production
+-Collection of Unique Saddles
+-Reliable Beacon Boss farming
+
+@ini:orangered
+⚠ WARNING Gear check
+Billions of health and millions of damages are normal at this stage. An imbued saddle with strong damage reduction, full armor, elemental resist potions and a deep stock of health potions are non-negotiable before engaging any of the six.
+@end
+
+Defeating a Unique Group God drops a display trophy and a soul. Feeding that soul to a godlike tame from one of its two component groups upgrades it from Godlike to Ancient - a 250% stat bonus. Their trophies also unlock the Omega Altar's final summon.
+
+### Darkness
+Darkness is an alternate endgame path, summoned with five artifacts and tier-appropriate essence. It takes the form of a modified King Titan wielding every group's strongest, seventh-tier variant: Lethal, Anti-Matter, Druid, Earthquake, Nuclear, Element, Cursed, Demon, Overseer, Potion, Barrage, Armored and Disruptor - each noticeably stronger than the other variants in its group.
+
+@ini:orangered
+⚠ WARNING The Armored variant
+Darkness's Armored component makes specific weapon types close to mandatory. Come prepared, or the fight will stall out entirely.
+@end
+
+Killing Darkness drops a Darkness Soul carrying the Affinity - Land, Sky, or Sea - of whatever killed it, matching the killing blow's domain (a flying mount, for instance, produces a Sky-affinity soul).
+
+### The Deities
+Feeding a Darkness Soul into the Omega Altar summons a matching pair of Deities - a Protector and a Destroyer of the soul's affinity - simultaneously. Each pair can only be damaged by dinos sharing that same affinity, and each Deity carries two group variants plus a Lucky variant.
+
+| Role | Affinity | Variants |
+| --- | --- | --- |
+| Destroyer | Land | Mythical, Cosmic, Loot |
+| Destroyer | Sea | Rage, Utility, Treasure |
+| Destroyer | Sky | Nature, Unstable, Essence |
+| Protector | Land | Guardian, Summoner, Paragon |
+| Protector | Sea | Nightmare, Ethereal, Soul |
+| Protector | Sky | Resource, Elemental, Miracle |
+
+Defeating a Deity pair drops matching Deity souls, which can rank a dino from either of the pair's two groups up to Ancient tier - and can also rank up Lucky dinos to Ancient.
+
+### God of Protection & God of Destruction
+These two bosses are the culmination of the Protector and Destroyer lines, each carrying six group variants. Summon them by placing one Destroyer soul and one Protector soul into the Omega Altar together. Their souls push any non-Unique Ancient dino to Endless tier - a full 4× increase over Ancient, or ×100 total.
+-God of Destruction variants: Cosmic, Rage, Utility, Nature, Unstable, Mythical.
+-God of Protection variants: Guardian, Summoner, Nightmare, Ethereal, Resource, Elemental.
+
+### Final Boss: Zodiac
+The Zodiac encounter is designed as the culmination of every progression system.
+
+Players attempting Zodiac without optimized creatures, appropriate equipment and well-developed Paragon progression will generally struggle regardless of creature Tier.
+
+Preparation, build optimization and encounter knowledge are considerably more important than raw statistics.
+
+Zodiac cycles through every Unique Group God's variant set in six phases, ordered by their stat multipliers. Each phase can only be damaged by Ancient dinos belonging to that phase's groups - for instance, the Alchemist phase only accepts Ancient Elemental, Ancient Unstable, or Ancient Unique carrying either variant.
+
+| Phase | Name | Variants |
+| --- | --- | --- |
+| 1 | Infinite Zodiac | Ethereal, Utility |
+| 2 | Indestructible Zodiac | Resource, Guardian |
+| 3 | Animate Zodiac | Mythical, Summoner|
+| 4 | Apocalyptic Zodiac | Cosmic, Nature |
+| 5 | Alchemist Zodiac | Elemental, Unstable |
+| 6 | Sinful Zodiac | Rage, Nightmare |
+
+Clearing every phase drops the Zodiac Soul and a trophy. Feeding the soul to a Group Variant dino grants it a second group variant - determined by which Unique Group God that variant belongs to - and the resulting Unique Group God Variant always takes the higher of the two groups' multipliers.
+
+### Perfect Zodiac & Perfect Darkness
+Coming soon.
+
+### Progression Boss Summary
+Basic Variant → Master Variant → Corrupt Master → Group Master → Perfect Group Master → Unique Group Master → Perfect Unique Group Master →  Zodiac → Perfect Zodiac.
+
+You can proceed without the “Perfect” ones to just rise the Tier and not change the Variant
+-Perfect Group Master Soul swap your dino to the Group Variant
+-Perfect Unique Group Master Soul swap your dino to the Unique Group Variant
+-Perfect Zodiac swap your dino to the Zodiac Variant

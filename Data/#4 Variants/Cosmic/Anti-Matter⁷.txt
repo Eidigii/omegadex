@@ -5,17 +5,15 @@ Pressing Prone(X) creates a blast that zeroeos out the cooldown on ally abilitie
 triggering the cooldown timer on enemy abilities.
 
 -----
-Cooldown: 60s
 Stamina Cost: 50%
 Radius: 3000 (10 Foundations).
 Applies a buff to allies that prevents Anti-Matter cooldown reset for 5 seconds.
 Applies a buff to enemies that prevents Anti-Matter cooldown trigger for 45 seconds.
 
 Variant Information:
-Spawn Chance: 00.08%
+Spawn Chance: 00.39%
 
 Other Information:
-Cooldown 1: 15.0
-Cooldown 2: 0.0
+Cooldown: 15.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: true

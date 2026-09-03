@@ -11,10 +11,9 @@ Nighttime Life Steal: 25% of Damage Dealt.
 Vampires Cannot Life Steal in the Presence of Starfire or a Dropped Hades Torch
 
 Variant Information:
-Spawn Chance: 01.69%
+Spawn Chance: 01.57%
 
 Other Information:
-Cooldown 1: 0.0
-Cooldown 2: 0.0
+Cooldown: 0.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: false

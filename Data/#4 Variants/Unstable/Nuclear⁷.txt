@@ -9,7 +9,6 @@ Nuclear Meltdown mode, and the rate at which health is lost will speed up the lo
 are in Meltdown, but the damage also increases the longer you are in Meltdown.
 
 -----
-Cooldown: 30s
 Stamina Cost: 50%
 Maximum Nuclear Meltdown Duration: 10s
 Minimum Nuclear Meltdown Duration To Explode: 3s
@@ -20,10 +19,9 @@ Nuclear Explosion Radius Per Second of Meltdown: 900 (3 Foundations).
 maximum Nuclear Explosion Radius: 9000 (30 Foundations).
 
 Variant Information:
-Spawn Chance: 00.08%
+Spawn Chance: 00.39%
 
 Other Information:
-Cooldown 1: 30.0
-Cooldown 2: 0.0
+Cooldown: 30.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: true

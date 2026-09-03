@@ -1,7 +1,6 @@
 Fireburst: Creates a swirling storm of fire that can set enemies on fire.
 
 -----
-Cooldown: 10s
 Stamina Cost: 30%
 AOE Radius: 1500 (5 foundations)
 Damage: 100% of Ability Damage as fire damage.
@@ -9,10 +8,9 @@ Weak Against (2x damage taken): Water
 Resists (0.5x damage taken): Fire, Ice
 
 Variant Information:
-Spawn Chance: 00.84%
+Spawn Chance: 01.18%
 
 Other Information:
-Cooldown 1: 10.0
-Cooldown 2: 0.0
+Cooldown: 10.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: true

@@ -12,10 +12,9 @@ Damage Per Second: 50% of Ability Damage + 12.5% of Ability Damage Per Second.
 Meltdown Radius: 1800 (6 Foundations).
 
 Variant Information:
-Spawn Chance: 01.27%
+Spawn Chance: 01.18%
 
 Other Information:
-Cooldown 1: 60.0
-Cooldown 2: 0.0
+Cooldown: 60.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: false

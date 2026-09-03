@@ -156,7 +156,7 @@ class OmegadexRenderer
         $content = PlainDataMarkup::resolveInclude($content, $txtAbsPath);
         $content = str_replace(["\r\n", "\r"], "\n", $content);
         if (PlainDataMarkup::isPlainOcrish($content)) {
-            $content = PlainDataMarkup::apply($content);
+            $content = PlainDataMarkup::apply($content, $txtAbsPath);
         }
 
         /** @var OmegadexRuleSetBase $rule */
@@ -177,6 +177,10 @@ class OmegadexRenderer
         }
 
         $template = self::createDynamicTemplate((int) $numSections, $headerMap, (string) $spanClass);
+        if (str_ends_with(str_replace('\\', '/', $dir), '#3 Progression Guide')) {
+            // Scopes the guide-only markup styles (tips, figures, tables, heading accents).
+            $template = str_replace('class="omegadex-body"', 'class="omegadex-body omegadex-progression"', $template);
+        }
         $title = self::titleFromBasename($fileName);
         $htmlContent = str_replace('[Title]', $title, $template);
 
@@ -217,14 +221,17 @@ class OmegadexRenderer
     private static function cacheKey(string $txtAbs, string $configPath, string $ruleClass, int $sidecarMtime = 0): string
     {
         $ruleSetsPath = __DIR__ . DIRECTORY_SEPARATOR . 'RuleSets.php';
+        $plainMarkupPath = __DIR__ . DIRECTORY_SEPARATOR . 'PlainDataMarkup.php';
         $ruleSetsMtime = is_file($ruleSetsPath) ? (int) filemtime($ruleSetsPath) : 0;
+        $plainMarkupMtime = is_file($plainMarkupPath) ? (int) filemtime($plainMarkupPath) : 0;
         $payload = OMEGADEX_RENDERER_VERSION
             . '|' . $txtAbs
             . '|' . $ruleClass
             . '|' . filemtime($txtAbs)
             . '|' . filemtime($configPath)
             . '|' . $sidecarMtime
-            . '|' . $ruleSetsMtime;
+            . '|' . $ruleSetsMtime
+            . '|' . $plainMarkupMtime;
         return hash('sha256', $payload);
     }
 

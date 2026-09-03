@@ -1,0 +1,141 @@
+## Chapter 1 - Early Game
+
+### Variant Groups and the Kibble Ladder
+
+Ark Omega's core taming loop is built around thirteen variant groups, each containing seven variants. Every 
+group (except Lucky, a special case) lays a single kind of egg - a fire dino and a water dino belonging to the 
+same group will both lay Elemental eggs, for example.
+
+To move up the tier ladder, each successive tier's kibble is crafted using the previous tier's eggs. To tame a 
+Delta-tier Spiritual dino, you need kibble made from a Basic Ethereal egg, since Spiritual is a member of the 
+Ethereal group. In practice this means taming roughly twelve different dinos per tier - one per variant group, 
+excluding Lucky.
+
+@tip:Priority tame
+Rather than spreading effort evenly, rush one variant group to Elite tier first so you have a strong, reliable mount early, then fill in the remaining groups.
+@end
+
+### Tier System Overview
+In Ark Omega Ascended, every creature belongs to a **Tier**, which determines its overall power through a **stat** 
+**multiplier** applied to health, damage, resistances, and ability scaling. Tiers from **Basic to Elite** can spawn 
+naturally and be tamed using the correct kibble. Tames can be upgraded **up to Elite** by crafting a **Rank Up** 
+**Token** in the Soul Grinder, using a **Paragon Soul** of the same species.
+----
+#### Tier Progression Notes
+-**Basic → Elite**: Wild spawn, tameable, upgradeable through normal progression.
+-**Prime → above**: Advanced progression tiers obtained through bosses, special summons and other end-game mechanics.
+-**Group Masters and Group Variants**: provide additional progression beyond individual Tier upgrades.
+-**Perfect Group Masters and Unique Group Masters**: introduce specialized late-game progression paths that combine multiple Variant Groups.
+-**Tier multipliers**: apply to core creature attributes, while advanced variants and abilities provide additional specialization.
+----
+Understanding Tier multipliers is essential for evaluating the true strength of a creature. As multipliers double 
+at each step, even small Tier increases result in massive power jumps. Omega tier creatures represent the 
+pinnacle of strength and are required for the most challenging encounters in Ark Omega Ascended.
+
+### The Egg Collector
+The Egg Collector remains one of the most valuable structures throughout the entire progression path. Once 
+integrated, female creatures continuously generate eggs without requiring them to remain active inside your 
+base, dramatically reducing breeding management while ensuring a constant supply of eggs for kibble 
+production.
+
+As progression advances, maintaining complete egg production for every Variant Group becomes increasingly 
+important, since higher tier progression, breeding projects and several late-game mechanics all depend on 
+reliable egg generation.
+
+The Egg Collector should therefore be considered permanent core infrastructure rather than an early-game 
+convenience.
+
+### Player Rank
+The Player Rank tab tracks kills made on foot. Ranking up reduces the damage you take while unmounted, 
+which meaningfully raises your survival odds against high-tier creatures. Hunting on foot for eggs and Player 
+Rank at the same time is efficient: kill whatever you don't need to tame, and keep the kills you need.
+
+Unlike creature progression, Player Rank directly improves the survivor rather than individual tames. Higher 
+ranks not only increase survivability while fighting on foot, but also unlock additional milestones that become 
+increasingly important during mid and late game progression.
+
+Player Rank should be developed continuously throughout normal gameplay. Hunting on foot, completing 
+quests and defeating NPCs all contribute to long-term survivor progression, making Player Rank an important 
+parallel system rather than a separate objective.
+
+### Loot Chests and Rockwell Notes
+Small chests shaped like Rockwell survivor notes are scattered across the map. They're unlocked with essence 
+and contain souls, upgrade materials, weapons and blueprints - open every one you find.
+
+### NPC Tribes
+Each variant group has a matching NPC tribe that uses that group's weapon and armor set - the Soul Scream tribe, 
+for example, wields Ethereal spears. Tribes spawn alongside small loot chests, so search the area after a 
+fight. They are dangerous to both tames and players, but each tribe leader guarantees a unique or legendary 
+weapon and a cursed, imbued piece of gear.
+
+### Hoarder Chests and Tameable Bosses
+Rare giant chests called Hoarder Chests demand many types of essence to open. At low odds, a Hoarder Chest 
+spawns with a tameable boss guardian - a Dragon, Megapithecus, Broodmother, Manticore, Dodorex or 
+Dodowyvern, complete with a tier and a variant.
+
+### Gearing Up
+Equipment progression is continuous throughout Ark Omega.
+
+Instead of replacing equipment only when stronger items appear, players should constantly improve their 
+build by combining:
+
+-Equipment Sets
+-Unique Weapons
+-Legendary Items
+-Cursed Equipment
+-Imbues
+-Charms
+-Sets Medaillon / Affinity Medaillon
+-Unique Saddles
+-Unique Charms
+
+Every improvement contributes to overall progression and should be viewed as part of a complete build 
+rather than isolated upgrades.
+
+### Quantum Storage Interface
+The Quantum Storage System is designed to eliminate nearly all manual inventory management. Instead of 
+repeatedly transferring resources between storage containers and crafting stations, materials can be 
+compressed into cloud storage and retrieved instantly from anywhere on the map.
+
+Personal Quantum Storage is tied to your survivor and travels across maps, while Tribe Quantum Storage is 
+shared by every tribe member but remains bound to the current map. Whenever an automatic action 
+requires resources-such as repairing equipment or crafting items-the system always checks Tribe Storage 
+first, followed by Personal Storage
+
+!img:cloud_storage.png!
+!small! *Craft Amount: Specify the number of items to craft before using Pull to Craft.*
+
+| # | Function | Description |
+| --- | --- | --- |
+| 1 | Void Vacuum Inventory | Instantly sorts the contents of your inventory through the Dimensional Network. Compatible items are automatically routed to their configured destinations, such as Set Armor Mannequins, Unique Totems, Dimensional Storage units, Resource Collectors and other connected structures |
+| 2 | Compress to Personal Storage | Compresses all supported resources, essences and souls from your inventory into your Personal Quantum Storage. These resources become weightless and remain available across every map you travel to |
+| 3 | Compress to Tribe Storage | Compresses supported resources, essences and souls into the Tribe Quantum Storage, making them instantly accessible to every member of your tribe on the current map |
+| 4 | Pull from Personal Storage | Opens the Personal Quantum Storage inventory, allowing any stored resources or souls to be transferred directly into your inventory whenever needed |
+| 5 | Pull from Tribe Storage | Opens the shared Tribe Quantum Storage inventory and retrieves selected resources directly into your inventory |
+| 6 | Repair from Storage | Repairs the selected item-or every repairable item in your inventory if nothing is selected-by automatically retrieving the required materials from Tribe Storage first and Personal Storage second. No manual transfer of resources is required |
+| 7 | Pull to Craft | Automatically retrieves every resource required to craft the selected engram. First select the desired engram, specify the quantity, then activate this button to transfer only the necessary materials from Quantum Storage into your inventory |
+| 8 | Craft Amount | Specifies how many copies of the selected engram should be crafted when using Pull to Craft. The system calculates the required materials automatically before retrieving them |
+
+### Unlocking the Omega Beacon
+Killing a Prime-tier or higher dino - mounted or on foot, as long as you land the finishing blow yourself - 
+unlocks the Omega Beacon tekgram. The Beacon lets you place 10 to 99 souls to summon a tameable dino of 
+that variant: 99 Mythical souls, for instance, might summon an Elite Siren Carcharodontosaurus or an Alpha 
+Fairy Daeodon. More souls mean higher tier and rarer, larger dinos - this includes tameable bosses, so 
+summon carefully.
+
+@tip:The real purpose of the Beacon
+Although the Omega Beacon allows players to summon creatures, its greatest value lies in providing controlled access to progression.
+
+Beacon Bosses, farming opportunities, targeted summons and advanced progression all revolve around effective Beacon usage.
+
+Mastering the Beacon early dramatically accelerates Mid Game progression.
+@end
+
+Early Game Checklist
+-Tame a female dino from every variant group, working from Basic up to Elite tier.
+-Push one variant group to Elite as early as possible for a strong first mount.
+-Kill everything else for drops and Player Rank progress.
+-Open every Essence Chest you come across.
+-Take down NPC tribes when it's safe to do so.
+-Unlock the Omega Beacon with a Prime-tier (or higher) kill, then start summoning souls.
+-Begin preparing for your first Beacon boss.

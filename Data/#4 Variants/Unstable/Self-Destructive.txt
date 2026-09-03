@@ -6,10 +6,9 @@ Self-Destruct Damage: 300% of Maximum Health
 Self-Destruct Radius: 3000 (10 Foundations)
 
 Variant Information:
-Spawn Chance: 00.84%
+Spawn Chance: 00.78%
 
 Other Information:
-Cooldown 1: 0.0
-Cooldown 2: 0.0
+Cooldown: 0.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: false

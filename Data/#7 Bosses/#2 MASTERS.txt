@@ -5,9 +5,8 @@ Summon a Master by placing a Boss Soul into the Omega Beacon. The variant/tier o
 that of the Boss Soul used to create it. Make sure you always summon a basic tier Master first, before
 attempting to move onto the higher tiers.
 
-Killing a Master will unlock the Omega Altar, and drop a Master Soul on the ground. The Master Soul can be
-used to rank up your tame to Apex tier.
-
 You have choices from here.
 1. Feed the Soul to a Prime of the same variant. This will rank it up to Apex, doubling its stats.
-2. Collect the souls of every variant within that group, to place in the Omega Altar to summon a Group Master.
+2. Place the Master Soul back into the beacon to summon a Corrupt Master of the same variant. The tier of the
+Corrupt Master will be based on the tier of the Master Soul used to summon it. Corrupt Masters have 10x the
+stats of a Master and an extra variant.

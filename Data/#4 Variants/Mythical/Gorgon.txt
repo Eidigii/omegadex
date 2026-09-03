@@ -5,7 +5,6 @@ turned to stone, creatures will take triple damage from any Gorgon that attacks 
 Pressing Prone(X) will instantly turn any enemy to stone caught within range of the Gorgon.
 
 -----
-Cooldown: 20s
 Stamina Cost: 25%
 Range: 2400 (8 foundations)
 Stone Duration: 7 seconds
@@ -13,10 +12,9 @@ Post-Stoned buff only allows creatures to be turned to stone once every 30 secon
 Attack Damage Increase vs stoned creatures: 3x
 
 Variant Information:
-Spawn Chance: 01.69%
+Spawn Chance: 01.57%
 
 Other Information:
-Cooldown 1: 20.0
-Cooldown 2: 0.0
-Uses Activated Ability When Dealing Damage: false
-Uses Activated Ability When Taking Damage: false
+Cooldown: 20.0
+Uses Activated Ability When Dealing Damage: true
+Uses Activated Ability When Taking Damage: true

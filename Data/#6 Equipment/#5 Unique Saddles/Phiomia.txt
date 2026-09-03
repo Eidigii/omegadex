@@ -40,3 +40,12 @@ Unique Bonuses:
 Debuffs Attackers With Elemental Weakness.
 Passively Taunt Enemies.
 Cannot Be Protected By Absorbent.
+
+Killer Fart
+Unique Saddle - Phiomia
+Silent But Certain.
+Unique Bonuses:
+If Plague, 900% Increased Ability Damage.
+If Plague, 400% Increased Variant Stat Multiplier.
+75% Reduced Cooldowns.
+Gains Armored Variant.

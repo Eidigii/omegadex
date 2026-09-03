@@ -31,3 +31,21 @@ If Colossus, 400% Increased Variant Stat Multiplier.
 100% Increased Attack Radius.
 25% Reduced Cooldowns.
 Permanent Rampage.
+
+Craptor
+Unique Saddle - Raptor
+Not So Slient, But Still Very Deadly.
+Unique Bonuses:
+5% Chance To Cast Volatile On Kill.
+100% Increased Ability Damage.
+5.0% Chance To Cast Volatile When Hit.
+Heal For 5% Of Damage Dealt.
+
+The Power Of Three
+Unique Saddle - Raptor
+Shut up Theres Threes There.
+Unique Bonuses:
+300% Increased Melee Damage.
+300% Increased Ability Damage.
+300% Increased Attach Radius.
+Attacks Have A 30% Chance To Apply Disruption.

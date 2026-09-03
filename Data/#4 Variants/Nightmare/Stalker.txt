@@ -9,16 +9,14 @@ it can cloak again.
 
 -----
 Nightmare Vision at Night Time.
-Cooldown: 30s
 Stamina Cost for Critical Hit: 25%
 Stamina Drain Per Second while cloaked: 2%
 Critical Hit Damage Bonus: 500 - 1500%
 
 Variant Information:
-Spawn Chance: 00.84%
+Spawn Chance: 00.78%
 
 Other Information:
-Cooldown 1: 30.0
-Cooldown 2: 0.0
-Uses Activated Ability When Dealing Damage: true
+Cooldown: 30.0
+Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: false

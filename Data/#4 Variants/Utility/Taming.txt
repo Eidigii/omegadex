@@ -2,8 +2,7 @@ Taming: Taming dinos can make taming other creatures extremely easy. They all de
 torpor! Taming dinos deal torpor with every attack, including some minor torpor over-time
 after the hit. This can be used to bypass the need for tranqs in some situations. Taming
 dinos also cause food to drain faster for KO dinos in the immediate area, increasing the rate
-at which they eat kibble and thus the speed at which they tame. NOTE: Taming dinos do
-NOT deal Raid Torpor. They will not KO any creature that requires Raid Torpor.
+at which they eat kibble and thus the speed at which they tame. 
 
 -----
 Torpor Multiplier: 500% of damage dealt.
@@ -12,10 +11,9 @@ Food Drain Speed: Original Speed x Tier.
 Food Drain Radius: 1500 (5 Foundations)
 
 Variant Information:
-Spawn Chance: 00.42%
+Spawn Chance: 00.78%
 
 Other Information:
-Cooldown 1: 0.0
-Cooldown 2: 0.0
+Cooldown: 0.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: false

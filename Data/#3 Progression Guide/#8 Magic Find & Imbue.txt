@@ -1,0 +1,118 @@
+## Chapter 8 - Magic Find & Imbue
+
+### What Magic Find Is
+Magic Find (MF) is a loot‑quality multiplier that increases the chance of rolling higher‑tier bonuses, better Charms, and stronger cursed drops.
+
+It does not affect damage, combat scaling, or saddle/medallion performance.
+
+Magic Find is purely a loot progression stat, and it becomes essential only in mid‑late and endgame.
+
+
+### How Magic Find Rolls Work
+Magic Find rolls differently depending on item type, imbue count, essence tier, and whether the item is cursed.
+
+MF per single bonus
+-Gear: 3% → 9% MF per bonus (Ascendant quality)
+-Charms: 12% → 36% MF per bonus (Ascendant quality)
+
+MF can roll multiple times on the same item, but this is rare.
+
+Bonus count depends on essence tier
+
+Higher essence tiers = more bonuses rolled
+----
+Example: 
+
+Ultimate Essence (Tier 9) → always rolls 9 bonuses (roll 6 bonuses at Elite at Ascendant quality)
+
+More bonuses = higher chance of rolling MF twice or more
+
+### Magic Find Roll Ranges (Charms)
+
+Charms upgraded to Ascendant and imbued with Elite Essence roll MF in the following ranges:
+
+-Common: 12% – 36%
+-Rare: 37% – 72%
+-Very rare: 73% – 108%
+
+These values apply per MF bonus, meaning multiple MF rolls can stack.
+
+Average Fragment Requirements
+
+600 fragments → usually not enough to exceed 36% MF
+
+1500–3000 fragments → realistic range for rolling 50%+ MF on Charms
+
+### Magic Find Roll Ranges (Gear)
+Gear rolls MF much lower:
+
+3% → 9% MF per bonus
+
+Multiple MF rolls are possible but extremely rare
+
+The number of bonuses depends on the essence tier used during imbuing
+
+Gear MF is useful early, but endgame MF progression is Charm‑based.
+
+### Magic Find on Cursed Boss Drops (Charms)
+Omega‑tier cursed bosses can drop Charms with massive MF values due to curse multipliers.
+
+Typical Drop Ranges
+-Up to 252% MF → fairly common
+-Up to 468% MF → significantly rarer
+-Up to 648% MF → extremely rare
+
+These values are only possible from cursed boss drops, not from self‑cursing.
+
+A Charm that required three MF imbues to reach its value is often referred to as: Tier 3 MF Charm
+
+### Curse Multipliers (Omega‑Tier Charms)
+Omega‑tier cursed Charms use a special multiplier system:
+
+| Text Lines | Curse Multiplier | Max MF Before Curse | Max MF After Curse |
+| --- | --- | --- | --- |
+| 1 | 1.5 | 432 | 648 |
+| 2 | 2.0 | 396 | 792 |
+| 3 | 2.5 | 360 | 900 |
+| 4 | 3.0 | 324 | 972 |
+| 5 | 3.5 | 288 | 1008 |
+| 6 | 4.0 | 252 | 1008 |
+| 7 | 4.5 | 216 | 972 |
+| 8 | 5.0 | 180 | 900 |
+| 9 | 5.5 | 144 | 792 |
+| 10 | 6.0 | 108 | 648 |
+| 11 | 6.5 | 72 | 468 |
+| 12 | 7.0 | 36 | 252 |
+
+This chart applies only to Omega‑tier cursed boss drops.
+
+You will have 12 rolls but same type values stack so you may have lesser than 12 lines
+
+1 Stamina Increased By: 402.0 
+2 Weight Increased By: 1000.0 + 496.0
+3 XP Gained Increase By %: 50.0 + 28.0
+4 Unstable Damage Taken Reduced By %: 8.0 
+5 Fortitude Increased By: 704.0 
+6 Armor Bonus When Equipped: 326.0 
+7 Chance To Dodge %: 6.0 
+8 All Stats Increased By. 646.0 
+9 Magic Find Increased By %: 67 + 67
+
+### Species Shard Influence on MF Rolls
+Magic Find rolls are influenced by the species shard (See Paragon shards) value of the creature associated with the Charm.
+
+Low‑Shard Species (e.g., Dodo) usually tend to be high roll on Ascendant Affinity or Charm, but can still roll maximum values due to random scaling
+
+This system ensures:
+-Weak species → more consistent MF rolls
+-Strong species → higher potential but less consistency
+
+### Recommended Magic Find Progression Path
+
+This is the optimal MF progression route used by high‑end players:
+-35%+ MF → Double Curse → 70%+ MF
+-50%+ MF → Double Curse → 100%+ MF
+-50%+ MF → Multiply Curse → 150–200%+ MF
+-Farm cursed bosses → 300%+, 400%+, 600%+ MF Charms
+
+Multiply Curse is 30× more expensive and fails often, but it can produce 200%+ MF Charms.

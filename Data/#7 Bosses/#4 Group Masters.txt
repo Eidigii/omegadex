@@ -1,0 +1,14 @@
+Group Masters:
+Group Masters are typically where the late-game starts. Group Masters have the abilities of all 6 variants
+within a group. Killing them is meant to require at least some strategy as a combination of all standard abilities
+within a group usually includes high damage, CC, and some utility. Strategy is a must, and fighting them in
+tribes or even with allied tribes will make these fights considerably easier. Summon a Group master by placing
+one of each Corrupt Master soul within a group (exclusing the 7th variant) into the Omega Altar.
+
+You have choices from here.
+1. Feed the Soul to an Ultimate of a variant within the group of the Group Master killed. This will rank it up to
+Ancient, doubling its stats.
+2. Place the Group Master soul into the Altar with a matching Corrupt Master soul to summon a Unique Group
+Master.
+3. Place the Group Master soul into the Altar with the 7th variant Master soul from the same group to summon
+the Perfect Group Master.

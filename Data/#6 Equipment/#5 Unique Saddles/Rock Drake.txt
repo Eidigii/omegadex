@@ -27,3 +27,22 @@ Gains Nuclear Variant.
 Gains Metal Variant.
 90% Reduced Melee Damage.
 605% Increased Ability Damage.
+
+Skyfall
+Unique Saddle - Rock Drake
+Its Raining Elements.
+Unique Bonuses:
+Gains Barrage Variant.
+100% Reduced Melee Damage.
+250% Increased Ability Damage.
+Kills Reduce Current Cooldown By 4.75%.
+Custom Bonus: Saddle is Tek
+
+Drakenest
+Unique Saddle - Rock Drake
+He Never Lacked Luck.
+Unique Bonuses:
+Gains Treasure Variant.
+200% Magic Find While Ridden.
+Greatly Increased Mobility And Turn Radius.
+Gains Miracle Variant.

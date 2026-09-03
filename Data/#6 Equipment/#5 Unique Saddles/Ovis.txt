@@ -16,3 +16,12 @@ Gains Colossus Variant.
 400% Increased Attack Radius.
 100% Increased Movement Speed.
 Permanent Rampage.
+
+Chrysomallus
+Unique Saddle - Ovis
+Many Have Chased Its Fleece. Few Survive The Horns.
+Unique Bonuses:
+Gains Loot Variant.
+Gains Dimensional Variant.
+100% Increased Size.
+700% Increased Melee Damage.

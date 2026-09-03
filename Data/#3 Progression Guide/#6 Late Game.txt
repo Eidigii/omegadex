@@ -1,1 +1,70 @@
-Coming soon.
+## Chapter 6 - Late Game
+
+Late Game begins once players have established stable farming, completed multiple equipment sets and consistently defeat high-tier bosses.
+
+Creature optimization now becomes the primary objective.
+
+Rather than replacing creatures, players continuously improve them through Paragons, better equipment, Unique Saddles, breeding, specialized builds and carefully selected ability combinations.
+
+The strongest creatures are no longer simply those with the highest Tier, but those that combine multiple progression systems efficiently.
+
+### Advanced Creature Builds
+Late Game creatures should be viewed as complete builds rather than individual tames.
+
+An optimized creature commonly includes:
+-High Tier
+-Multiple Paragon Levels
+-Optimized Equipment Set
+-Matching Unique Saddle
+-Specialized Variant
+-Appropriate Weapon Support
+-Suitable Player Build
+
+Each component contributes multiplicatively, resulting in dramatically higher effectiveness than Tier progression alone.
+
+@tip:Community insight
+Upgrading to a Group Variant is almost always worth it unless you're relying on a Unique saddle with an “If X” conditional bonus - the Group Variant grants every ability of its group at once, not every variant simultaneously. As in ASE, a group-upgraded dino ends up far stronger than a Unique once you factor that in. Taking the Rage variant is a judgment call: without a saddle that lets you ride Rage variants, you're effectively signing up to fight on foot alongside your dino. Concerns about the Guardian variant burning through stamina and dropping its bubble shouldn't materialize, since that wasn't an issue back in ASE either - and yet another group-upgrade tier is already on the way to push all of this further.
+@end
+
+### What Group God Souls Are Used For
+-Upgrading a tame to Group God status - this doesn't necessarily raise raw stats, but always grants stronger, new abilities.
+-Summoning the late-game Unique Group Gods, which combine two group variants and hit far harder than the Group Gods before them.
+
+### Perfect Unique Group Masters
+Perfect Unique Group Masters are advanced summons created at the Omega Altar using the soul of a Unique Group Master and the two matching 7th Variant Corrupt Master Souls.
+
+A Perfect Unique Group Master combines the two corresponding Group Variants and can only be damaged by one of those two variants. Saddle Curse variants do not count.
+
+Defeating a Perfect Unique Group Master provides its soul. Feeding this soul to a compatible Group Variant tame grants the corresponding Unique Group Variant.
+
+Perfect Unique Group Masters are therefore both an endgame boss encounter and a direct progression path toward Unique Group Variants.
+
+### Unique Group Variants
+Unique Group Variants combine two Variant Groups into a single advanced creature progression.
+
+They are unlocked by feeding the soul of the corresponding Perfect Unique Group Master to a compatible Group Variant tame.
+
+Unique Group Variants inherit the characteristics of both component groups and provide a powerful alternative to simply pursuing higher Tier progression.
+
+### Equipment Optimization
+Equipment progression eventually becomes just as important as creature progression.
+
+Players should continuously improve:
+-Legendary Weapons
+-Unique Weapons
+-Equipment Sets
+-Cursed Sets
+-Unique Saddles
+-Imbues
+
+@tip:Strategy
+Rather than pursuing a single "best" build, Ark Omega rewards adapting equipment to the strengths of each creature and encounter.
+@end
+
+### Gauntlet Beacon
+The Gauntlet Beacon provides an additional boss-summoning interface and can now summon Corrupt Masters. Its interface allows the player to clearly select the desired Soul Type, Boss Type and Tier before confirming the summon.
+
+### Omega Altar
+The Omega Altar uses specific soul combinations for advanced summons. Corrupt Master Souls must belong to the correct Variant Groups when summoning Group Masters or Perfect Unique Group Masters.
+
+Summon combinations are displayed directly in the Altar interface, including Saddle Masters and Perfect Unique Group Masters.

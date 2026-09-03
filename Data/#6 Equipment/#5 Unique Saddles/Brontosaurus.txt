@@ -28,3 +28,14 @@ Gains Pygmy Variant.
 Gains Treasure Variant.
 75% Increased Attack And Movement Speed.
 Gains Pack Bonus.
+
+Monarch
+Unique Saddle - Brontosaurus
+A Monarch Should Fight Alongside Their Soldiers.
+Unique Bonuses:
+Gains Random Variant.
+Gains Overlord Variant.
+Gains Brutal Variant.
+Gains Metal Variant.
+Cannot Be Protected By Absorbent.
+Greatly Increased Mobility And Turn Radius.

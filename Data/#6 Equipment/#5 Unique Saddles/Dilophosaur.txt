@@ -41,3 +41,17 @@ Gains Psychosis Variant.
 40% Damage Reduction.
 Debuffs Attackers With Freeze.
 Attacks Apply Weaken.
+
+Quitters
+Unique Saddle - Dilophosaur
+Spitters are..
+Unique Bonuses:
+250% Increased Ability Damage.
+100% Reduced Melee Damage.
+Debuffs Attackers With Drenched.
+Gains Wind Variant.
+Gains Fire Variant.
+Gains Ice Variant.
+Gains Earth Variant.
+Gains Lightning Variant.
+Gains Water Variant.

@@ -7,3 +7,13 @@ If Soul, 100% Increased Ability Damage.
 Dodge Has 5% Chance To Trigger Barrage.
 Attacks Have A 30% Chance To Apply Elemental
 Weakness.
+
+The Severed Howl
+Unique Saddle - Yutyrannus
+The Gnawing Presence Clawing At The Edge Of
+Their Minds, A Severed Voice That Hungers For
+Completion.
+Unique Bonuses:
+200% Increased Melee Damage.
+150% Increased Variant Stat Multiplier.
+Fear Damage Type Changed To Banshee.

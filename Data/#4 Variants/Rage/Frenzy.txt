@@ -8,7 +8,6 @@ Pressing Prone(X) will cause the Frenzy creature to Warcry, increasing damage ou
 all allies in the area. Can Stack up to 3 times.
 
 -----
-Cooldown: 30s
 Stamina Cost: 25%
 Warcry Radius: 3000 (10 Foundations)
 Warcry Duration: 15s
@@ -16,10 +15,9 @@ Warcry Damage Bonus: 75%
 Maximum Warcry Stacks: 3
 
 Variant Information:
-Spawn Chance: 00.84%
+Spawn Chance: 00.78%
 
 Other Information:
-Cooldown 1: 30.0
-Cooldown 2: 0.0
+Cooldown: 30.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: false

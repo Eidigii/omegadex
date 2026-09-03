@@ -10,7 +10,6 @@ of the Plague creature. If killed while infected, each enemy will release an add
 Plague, starting the chain over.
 
 -----
-Cooldown: 30s
 Stamina Cost: 30%
 Plague Radius: 1800 (6 Foundation)
 Plague Tick Damage: 100% of Ability Damage Every 1 Second as Plague Damage.
@@ -18,10 +17,9 @@ Plague Duration: 5s
 Enemies Killed While Plagued Spread a New Plague
 
 Variant Information:
-Spawn Chance: 00.84%
+Spawn Chance: 00.78%
 
 Other Information:
-Cooldown 1: 30.0
-Cooldown 2: 0.0
+Cooldown: 30.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: true

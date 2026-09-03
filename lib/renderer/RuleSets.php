@@ -393,28 +393,34 @@ class OmegadexListRuleSet extends OmegadexRuleSetBase
     {
         $isChangelogName = (bool) preg_match('/^\d{2}-\d{2}-\d{2}\.txt$/', $fileName);
         $preprocessNewlines = static function (string $text): string {
-            $text = preg_replace('/\n(?!\n|\d|-)/', ' ', $text) ?? $text;
+            // Keep a break after block HTML so headings/tips/tables are not glued to the next paragraph.
+            $text = preg_replace(
+                '/(<\/(?:h[1-6]|div|figure|figcaption|table|ul|ol|p|blockquote|pre)>|<hr\s*\/?>)\n(?!\n)/',
+                "$1\n\n",
+                $text
+            ) ?? $text;
+            // A ---- rule must keep its own line, else the joined text turns it into a bullet.
+            $text = preg_replace('/(^|\n)(-{4,})[ \t]*\n(?!\n)/', "$1$2\n\n", $text) ?? $text;
+            // Join wrapped prose, including lines that start with inline tags like <b>.
+            $text = preg_replace(
+                '/\n(?!\n|\d|-|\||@|<(?:h[1-6]|div|figure|table|ul|ol|p|hr|blockquote|pre)\b)/',
+                ' ',
+                $text
+            ) ?? $text;
             return $text;
         };
 
         $trimmedContent = trim($content);
         $preprocessed = $isChangelogName ? $trimmedContent : $preprocessNewlines($trimmedContent);
-        $parts = preg_split('/-{4,}/', $preprocessed) ?: [];
-        $headerInfo = $parts[0] ?? '';
-        $rest = array_slice($parts, 1);
-        $restContent = $rest[0] ?? '';
+        // ---- on its own line is a visual rule, not a section split (splitting dropped later chapters).
+        $restContent = $preprocessed;
+        $oneSection = true;
+        $headerInfo = '';
 
         $keyValuePattern = '/^(\b\w+\b\s?){0,3}:\s(.*?)$/m';
 
         $sections = ['', ''];
         $sectionContent = [];
-
-        if ($restContent === '') {
-            $restContent = $headerInfo;
-            $oneSection = true;
-        } else {
-            $oneSection = false;
-        }
 
         $listStart = false;
         $bulletListStart = false;
@@ -452,10 +458,56 @@ class OmegadexListRuleSet extends OmegadexRuleSetBase
             }
         };
 
+        $bulletDepth = 0;
+        $liOpen = [];
+        $closeBulletsTo = static function (int $target) use (&$sectionContent, &$bulletDepth, &$liOpen, &$bulletListStart): void {
+            while ($bulletDepth > $target) {
+                if (!empty($liOpen[$bulletDepth])) {
+                    $sectionContent[] = '</li>';
+                    $liOpen[$bulletDepth] = false;
+                }
+                $sectionContent[] = '</ul>';
+                unset($liOpen[$bulletDepth]);
+                $bulletDepth--;
+            }
+            $bulletListStart = $bulletDepth > 0;
+        };
+        $addNestedBullet = static function (int $level, string $text) use (&$sectionContent, &$bulletDepth, &$liOpen, &$bulletListStart, $closeBulletsTo): void {
+            $level = max(1, min(3, $level));
+            $closeBulletsTo($level);
+            while ($bulletDepth < $level) {
+                $sectionContent[] = '<ul>';
+                $bulletDepth++;
+                if ($bulletDepth < $level) {
+                    // Placeholder parent so -- / --- keep nested styling without a visible parent bullet.
+                    $sectionContent[] = '<li class="omegadex-li-spacer">';
+                    $liOpen[$bulletDepth] = true;
+                } else {
+                    $liOpen[$bulletDepth] = false;
+                }
+            }
+            if (!empty($liOpen[$level])) {
+                $sectionContent[] = '</li>';
+            }
+            $sectionContent[] = '<li>' . $text;
+            $liOpen[$level] = true;
+            $bulletListStart = true;
+        };
+
         $lines = preg_split("/\r\n|\n|\r/", $restContent) ?: [];
         foreach ($lines as $line) {
             $line = trim($line);
             if ($line === '') {
+                continue;
+            }
+            if (preg_match('/^-{4,}\s*$/', $line)) {
+                $closeChangelogList($sectionContent);
+                $closeBulletsTo(0);
+                if ($listStart) {
+                    $sectionContent[] = '</ol>';
+                    $listStart = false;
+                }
+                $sectionContent[] = '<hr>';
                 continue;
             }
             $isChangelogHeading = $isChangelogName
@@ -507,20 +559,20 @@ class OmegadexListRuleSet extends OmegadexRuleSetBase
                 }
             } elseif (preg_match($keyValuePattern, $line, $m) && !$isChangelogName) {
                 $closeChangelogList($sectionContent);
+                $closeBulletsTo(0);
                 $sectionContent[] = '<div class="omegadex-list-row"><span class="list-key">' . $m[1] . ':</span> <span class="list-value">' . $m[2] . '</span></div>';
-            } elseif (str_starts_with($line, '- ') || str_starts_with($line, '-')) {
+            } elseif (preg_match('/^(-{1,3})\s*(.+)$/', $line, $m) && !$isChangelogName) {
                 $closeChangelogList($sectionContent);
-                if (!$bulletListStart) {
-                    $sectionContent[] = '<ul>';
-                    $bulletListStart = true;
+                $dashCount = strlen($m[1]);
+                $itemText = trim($m[2]);
+                if ($itemText === '') {
+                    continue;
                 }
-                $sectionContent[] = '<li>' . substr($line, 1) . '</li>';
+                $level = $dashCount === 1 ? 1 : ($dashCount === 2 ? 2 : 3);
+                $addNestedBullet($level, $itemText);
             } elseif (preg_match('/^\d+\.\)/', $line) || preg_match('/^\d+\./', $line)) {
                 $closeChangelogList($sectionContent);
-                if ($bulletListStart) {
-                    $sectionContent[] = '</ul>';
-                    $bulletListStart = false;
-                }
+                $closeBulletsTo(0);
                 $line = preg_replace('/^\d+\.\)?/', '', $line);
                 $line = trim($line);
                 if (!$listStart) {
@@ -530,24 +582,19 @@ class OmegadexListRuleSet extends OmegadexRuleSetBase
                 $sectionContent[] = '<li>' . $line . '</li>';
             } else {
                 $closeChangelogList($sectionContent);
+                $closeBulletsTo(0);
                 if ($listStart) {
                     $sectionContent[] = '</ol>';
                     $listStart = false;
-                }
-                if ($bulletListStart) {
-                    $sectionContent[] = '</ul>';
-                    $bulletListStart = false;
                 }
                 $appendProse($line, $sectionContent);
             }
         }
 
         $closeChangelogList($sectionContent);
+        $closeBulletsTo(0);
         if ($listStart) {
             $sectionContent[] = '</ol>';
-        }
-        if ($bulletListStart) {
-            $sectionContent[] = '</ul>';
         }
 
         if (!$oneSection) {
@@ -597,7 +644,7 @@ class OmegadexBossesRuleSet extends OmegadexRuleSetBase
         $rest = array_slice($parts, 1);
         $restContent = $rest[0] ?? '';
 
-        $keyValuePattern = '/^((?:\b\w+\b\s?){1,4}):\s(.*?)$/m';
+        $keyValuePattern = '/^((?:\b\w+\b\s?){1,4}):\s*(.*?)$/m';
 
         $sections = ['', ''];
         $sectionContent = [];
@@ -619,8 +666,19 @@ class OmegadexBossesRuleSet extends OmegadexRuleSetBase
                 continue;
             }
             if (preg_match($keyValuePattern, $line, $m)) {
-                $sectionContent[] = '<span class="list-key"><h3>' . $m[1] . ':</h3></span>';
-                $sectionContent[] = $m[2];
+                if ($listStart) {
+                    $sectionContent[] = '</ol>';
+                    $listStart = false;
+                }
+                if ($bulletListStart) {
+                    $sectionContent[] = '</ul>';
+                    $bulletListStart = false;
+                }
+                $sectionContent[] = '<h3 class="list-key">' . $m[1] . ':</h3>';
+                $value = trim($m[2]);
+                if ($value !== '') {
+                    $sectionContent[] = '<p class="omegadex-para">' . $value . '</p>';
+                }
             } elseif (str_starts_with($line, '- ') || str_starts_with($line, '-')) {
                 if (!$bulletListStart) {
                     $sectionContent[] = '<ul>';

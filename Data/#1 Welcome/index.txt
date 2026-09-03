@@ -1,5 +1,5 @@
 ### Welcome to Ark Omega Ascended **__unofficial__** Web OMEGADEX! <<br>>
-!small! *updated 25/04/2026. New site design with lots of background changes! Updated to Omega mod version 137.*
+!small! *updated 03/09/2026. Added new Progression Guide, credit to Solo (.waltzie.) Updated to Omega mod version 155.*
 <<br>>
 If the Web OMEGADEX differs from the in-game one, then always trust the in-game OMEGADEX. This web version is unofficial, meaning don't post bugs to the official
 Ark Omega Ascended Discord server.

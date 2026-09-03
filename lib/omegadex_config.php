@@ -21,7 +21,7 @@ if (!defined('OMEGADEX_SEARCH_META_PATH')) {
 
 /** Renderer version bump invalidates render cache when rules change */
 if (!defined('OMEGADEX_RENDERER_VERSION')) {
-    define('OMEGADEX_RENDERER_VERSION', '63');
+    define('OMEGADEX_RENDERER_VERSION', '77');
 }
 
 // Polyfills for PHP < 8 (XAMPP may ship PHP 7.x)

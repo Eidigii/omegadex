@@ -1,0 +1,19 @@
+Baryoblade
+Unique Saddle - Baryonyx
+3, 2.1, Go Shoot!
+Unique Bonuses:
+Debuffs Attackers With Drenched.
+300% Increased Attach Radius.
+Tail Attack Damage Type Changed To
+Thunderstorm.
+50% Increased Attack And Movement Speed.
+If Dimensional, 600% Increased Melee Damage.
+
+Obsession
+Unique Saddle - Baryonyx
+Obsessed With Birds.
+Unique Bonuses:
+350% Increased Ability Damage.
+Gains Singularity Variant.
+Gains Thunderstorm Variant.
+45% Dodge Chance.

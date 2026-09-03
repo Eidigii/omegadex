@@ -1,1 +1,44 @@
-Click a section to the left.
+### This progression guide is an unofficial alternative to the in-game Omegadex and was created by Solo (.waltzie.) on the Ark Omega Ascended Discord.
+!small! Progression guide version 1.0
+----
+
+## Introduction
+
+ARK Omega Ascended completely transforms ARK: Survival Ascended into a progression-driven survival 
+experience. Instead of advancing primarily through creature levels, players progress by mastering an 
+interconnected ecosystem of Variant Groups, Tier Progression, Kibble production, Player Rank, NPC Tribes, 
+Equipment Sets, Paragons, Unique Saddles and powerful endgame encounters.
+
+Progression revolves around thirteen Variant Groups, each containing multiple elemental or thematic variants 
+sharing a common egg type. Every tier advancement unlocks new creatures, stronger equipment, improved 
+abilities and increasingly dangerous encounters. Success depends on balancing creature progression, 
+equipment upgrades, exploration and efficient resource management rather than simply acquiring stronger 
+dinosaurs.
+
+As players advance, they gradually unlock several parallel progression systems including Player Rank, NPC 
+Tribe rewards, Quantum Storage, Paragons, Beacon Bosses, Unique Weapons, Unique Saddles and advanced 
+dimensional structures, all of which eventually converge during the Zodiac endgame.
+
+This guide follows that complete progression path from the very first tame through the final endgame 
+challenges.
+
+### Ability Synergy
+
+Modern Ark Omega encourages combining multiple ability sources rather than relying solely on creature 
+variants.
+
+A single creature may simultaneously benefit from:
+-Variant Ability
+-Equipment bonuses
+-Unique Saddle abilities
+-Set bonuses
+-Paragon scaling
+-Temporary buffs
+
+Understanding how these systems interact becomes increasingly important throughout Mid and Late Game.
+
+@tip:How this guide is organized
+Each chapter follows the natural order of progression: Early Game, Side Features, NPC Tribes, Paragons, Mid-Game, Late Game, and Endgame. 
+
+Read it front-to-back on your first playthrough, or jump straight to the chapter you need.
+@end

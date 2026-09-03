@@ -25,3 +25,12 @@ Unique Bonuses:
 900% Increased Ability Damage.
 50% Damage Reduction.
 40% Dodge Chance.
+
+Ghostbusters
+Unique Saddle - Terror Bird
+Who You Gonna Call?
+Unique Bonuses:
+Gains Ghost Variant.
+400% Increased Melee Damage At Night.
+80% Increased Damage Reduction In Day.
+220% Increased Variant Stat Multiplier.

@@ -1,0 +1,101 @@
+Ark Omega 9/1 Patch Notes:
+
+Variants: 
+-Armored hitcap now accounts for DR from other sources to ensure the hit cap isn't reduced by other forms of DR.
+-Armored hitcap is no longer affected by tier for tames, as it was getting too strong when armor rating was being calculated last. 
+-Wood variant now only has a 0.5% max health passive heal. 
+-Pearl variant now only has a 1% max health passive heal.
+-Resource Group Variant will now heal 1% max health if in water (from Pearl) and 0.5% when out of water (from Wood).
+-Tracker cooldown is now 10 seconds instead of the 30 it became a few patches ago.
+-Absorbents will now redirect damage back to whatever they're protecting if they dodge it, or if they're shoulder mounted and aren't capable of taking damage.
+
+Gauntlet Beacon: 
+-Corrupt Masters can now be summoned from the Gauntlet Beacon.
+-UI overhauled entirely to allow easier selection and understanding of chosen soul type, boss type, and tiers.
+
+Omega Altar: 
+-Fixed bugs that allowed any combination of Corrupt Master Souls from any group to summon a Group Master.
+-More accurate error reporting for invalid combinations.
+-Summon time for all summons is now 10 seconds, instead of 15 for a few summons. 
+-Updated the combinations to show Saddle Masters and Perfect Unique Group Masters.
+
+New Structure: Blueprint Storage: 
+-New dimensional cube storage box that will take over all of the blueprint storage functionality of the Scroll Storage, leaving scroll storage specifically for quests. 
+-It comes with all of the same options as the blueprint portion of the Scroll Storage. 
+-Snaps to dimensional storages just like all other cubes. 
+-Replaces existing Quantum Compactor cubes. 
+
+Bug Fixes: 
+-Fixed a bug with the Void Vacuum sometimes going invisible when looking away from it and not rending for ~1 second after looking at it. 
+-Fixed a bug causing Farmers to not show Fertilizer counts in inventory.
+-Fixed a bug preventing the imbue preview from not refreshing in single player.
+-Fixed a bug with group variants not having their boss type updated for unique group masters and Zodiac, which also fixes the night time issue for Zodiac and Sin.
+-Fixed a bug with set medallions dropping from unique group masters without any set association.
+-Fixed a visual bug where the paragon UI wasn't using the same kill requirements as the quests actually require.
+-Fixed a handful of bugs with the piggyback system by reworking how it chooses what can be used to piggyback onto.
+-Fixed a bug causing kill counts to go down by 10 instead of 1, allowing some quests to roll over negative and require near 99999 kills.
+-Fixed a bunch of bugs with the dimensional variant and removing a saddle that provides it.
+-Fixed bugs with ability cooldown related bonuses on Unique saddles not working correctly.
+-Fixed a bug allowing the Mythical group variant to be tamed if killed and revived.
+-Fixed a bug causing pygmy to override the 2x damage multipliers for Colossus on the Mythical group variant.
+-Fixed a bug causing permanent rampage to not be permanent. 
+-Fixed a bug with dino name lookups in the data tables causing some mismatches because of empty spaces at the ends of the names.
+-Fixed the buff tooltip for Unstable Resistance Potions so they show the correct buff type.
+-Fixed a bug causing NPCs to almost always drop helmets as the chosen set item when killed.
+-Added a workaround for the bug of invisible female Titanoboas.
+
+Perfect Unique Group Masters:
+-Perfect Unique Group Masters can now be summoned in the Altar with the souls of the Unique Group Master and the 2 matching 7th variant Corrupt Master Souls.
+-Perfect Unique Group Masters will have the stats of the Unique Group Master, with both matching 7th variants.
+-These can only be damaged by one of the two group variants that they contain, as the intention is to fight them with things needing their upgrade. Saddle curse variants do not count. 
+-Perfect Unique Group Masters will be slightly larger, with custom particle effects attached.
+-The soul of a Perfect Unique Group Master can be fed to a group variant tame of a group variant contained by that unique group variant. This will grant it the Unique Group Variant. This will not include the 7th variants.
+
+Unique Group Variants: 
+-These are now unlocked by feeding a Perfect Unique Group Master Soul to a tame with a matching group variant. 
+-These have 2 group variants and are named after the Unique Group Master that unlocks them.
+-Ability activations might be a bit strange, but a system is going in soon that should help fix some of it. 
+
+Saddle Masters:
+-Saddle Masters can now be summoned at the Altar! These have Master stats and can only be damaged by their same species. They drop a unique saddle when killed.
+-Saddle token plus 100 essence will get you a Saddle Master of the essence tier, dropping a saddle with imbues of that tier. 
+-5 Paragons and 100 essence will get you a random saddle master of that species.
+
+Unique Saddles: 
+-Dozens of unique saddles from the last saddle event added.
+
+Items: 
+-Zodiac Souls can now be added to the Quantum Storage.
+-Pygmy armor removed. Pygmys now equip their normal saddle types, fixing many issues involving unique saddles.
+-Variant paragons can no longer be fed to tames that are using Unique Saddles to gain that variant. 
+-Perfect Group Master soul description updated to say that it can be used on a 7th variant, but will remove that variant ability to grant the group variant.
+-Unique Charms fixed and functioning.
+-Rebalanced the soul shard quantity for grinding down all boss souls, and added the ability to grind Corrupt Master and Zodiac souls.
+---Boss souls of any kind no longer give souls from the grinder, and now only give Soul Shards. 
+---Boss/Master/Corrupt Master/Group Master/Unique Group Master/Zodiac souls now give 5/10/20/40/80/160 soul shards per tier. 
+
+Guide: 
+-Calculators updated in Omegadex.
+-Updated the boss data in the Omegadex to be more accurate.
+-Updated the Getting Started info to remove mention of taming vanilla dinos for eggs.
+
+Other:
+-All group masters and group variants at Prime tier and above now have custom skins.
+-Unique group variants at Prime tier and above now have custom skins.
+-Group Masters and Unique Group Masters are slightly larger.
+-Stat potion paragons added to the automatic recalculation checks that the kill paragons received.
+-Group variants can now consume any variant paragon from their group, excluding 7th variants. 
+-Void Vacuums will now properly send things to quantum storages with the setting enabled (I forgot to unhide the setting).
+-Reduced the weight on all resource poops by 80%.
+-Void Vacuums now show the pickup range when placing.
+-Cut Zodiac's size in half. 
+-Deinonychus bleed is now the same as Thyla bleed. 
+-Dozens of unused files deleted to help reduce mod size.
+-Fish Baskets can no longer tame anything from this mod.
+-Max Wild level miracles will no longer prevent Omega Max from spawning.
+
+Ark Omega 9/1 Hotfix Patch Notes:
+
+-Fixed a bug with things getting deleted when sent to tribe storage from player inventory (except boss souls, which should be OK). 
+-Absorbents now work with Dodge. 
+-Shoulder pets will not be able to activate the bubble while shoulder mounted, and the bubble will deactivate when picking one up to prevent immortal absorbents. (Thanks Flocker for the idea).

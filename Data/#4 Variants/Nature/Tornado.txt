@@ -6,17 +6,15 @@ creatures and hold them for a short period, dealing Wind damage and stunning the
 enemy dies inside of the Tornado, its corpse will be flung outward.
 
 -----
-Cooldown: 60s
 Stamina Cost: 40%
 Duration: 10s
 Damage Range: 3000 (10 Foundations)
 Damage Per Second: 100% Of Ability Damage as Wind Damage.
 
 Variant Information:
-Spawn Chance: 00.84%
+Spawn Chance: 00.78%
 
 Other Information:
-Cooldown 1: 60.0
-Cooldown 2: 0.0
+Cooldown: 60.0
 Uses Activated Ability When Dealing Damage: true
 Uses Activated Ability When Taking Damage: true

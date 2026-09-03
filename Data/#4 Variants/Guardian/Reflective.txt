@@ -5,16 +5,14 @@ Pressing Prone(X) will activate Reflection, surrounded you in a razor sharp shar
 forcing the attacker to injure himself when dealing damage.
 
 -----
-Cooldown: 60s
 Stamina Cost: 10%
 Duration: 30s
 Damage Reflected: 100% of Damage Taken.
 
 Variant Information:
-Spawn Chance: 02.11%
+Spawn Chance: 01.96%
 
 Other Information:
-Cooldown 1: 60.0
-Cooldown 2: 0.0
+Cooldown: 60.0
 Uses Activated Ability When Dealing Damage: false
 Uses Activated Ability When Taking Damage: true

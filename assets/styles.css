@@ -632,6 +632,46 @@ mark.search-highlight { background-color: yellow; color: black; padding: 0.1em 0
     white-space: pre-line;
 }
 .omegadex-body > hr { margin: 0.5em 0; }
+.omegadex-body .omegadex-ini {
+    margin: 0.45em 0;
+    line-height: 1.5;
+}
+.omegadex-body .omegadex-ini + .omegadex-ini {
+    margin-top: 0.1em;
+}
+.omegadex-body .omegadex-code-wrap {
+    margin: 0.55em 0;
+}
+.omegadex-body .omegadex-code-title {
+    color: #8adfff;
+    font-size: 0.92em;
+    font-weight: 650;
+    margin: 0 0 0.28em;
+    line-height: 1.3;
+}
+.omegadex-body .omegadex-code {
+    display: block;
+    margin: 0.55em 0;
+    padding: 0.7em 0.9em;
+    border: 1px solid rgba(110, 197, 234, 0.4);
+    border-radius: 8px;
+    background: rgba(6, 18, 32, 0.88);
+    color: #d9f8ff;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 0.9em;
+    line-height: 1.45;
+    white-space: pre;
+    overflow-x: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.omegadex-body .omegadex-code-wrap .omegadex-code {
+    margin: 0;
+}
+.omegadex-body .omegadex-tip-body .omegadex-code,
+.omegadex-body .omegadex-tip-body .omegadex-code-wrap {
+    margin: 0.45em 0;
+}
 .omegadex-body ul {
     margin: 0.22em 0 0.5em 1.25em;
     padding-left: 1.1em;
@@ -648,6 +688,84 @@ mark.search-highlight { background-color: yellow; color: black; padding: 0.1em 0
     line-height: 1.45;
     padding-left: 0.15em;
 }
+.omegadex-body li.omegadex-li-spacer {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.omegadex-body li.omegadex-li-spacer > ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* ---- Progression Guide only (class added by OmegadexRenderer for that folder) ---- */
+/* Sub-headings take the accent colour; ## stays white as the chapter title. */
+.omegadex-progression h3,
+.omegadex-progression h4 {
+    color: #8adfff;
+}
+.omegadex-progression h3 {
+    font-size: 1.28rem;
+}
+.omegadex-progression h4 {
+    margin: 0.75em 0 0.15em;
+    padding-left: 1.2em;
+    font-size: 1.06rem;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+.omegadex-progression > span[class^="section"] > p.omegadex-para + p.omegadex-para {
+    margin-top: 0.7em;
+}
+.omegadex-progression > span[class^="section"] > hr {
+    margin: 0.75em 0;
+    border: none;
+    border-top: 1px solid rgba(110, 197, 234, 0.45);
+}
+.omegadex-progression ul ul {
+    margin: 0.08em 0 0.18em 0.15em;
+}
+/* Tips use the warm accent (as the Elemental/Lucky groups do) so they read apart from headings. */
+.omegadex-progression .omegadex-tip {
+    margin: 0.55em 0 0.85em;
+    padding: 0.7em 0.9em 0.75em;
+    border: 1px solid rgba(248, 223, 154, 0.42);
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(52, 45, 30, 0.62), rgba(14, 32, 50, 0.9));
+    box-shadow: 0 0 12px rgba(248, 223, 154, 0.1);
+}
+.omegadex-progression .omegadex-tip-title {
+    color: #f8df9a;
+    font-weight: 650;
+    font-size: 1.02em;
+    margin: 0 0 0.4em;
+    line-height: 1.35;
+}
+.omegadex-progression .omegadex-tip-title::before {
+    content: "✦ ";
+}
+.omegadex-progression .omegadex-tip-body > p.omegadex-para:last-child {
+    margin-bottom: 0.12em;
+}
+.omegadex-progression .omegadex-figure {
+    display: block;
+    margin: 0.7em 0 1em;
+    text-align: center;
+}
+.omegadex-progression .omegadex-figure img {
+    margin: 0 auto 0.45em;
+}
+.omegadex-progression .omegadex-caption {
+    display: block;
+    color: #c5e6f4;
+    font-size: 0.92em;
+    font-style: italic;
+    line-height: 1.4;
+    margin: 0;
+}
+.omegadex-progression .omegadex-table {
+    margin-top: 12px;
+}
+/* ---- end Progression Guide ---- */
 .omegadex-body .omegadex-dino-row {
     margin: 0 0 var(--omegadex-row-gap);
     line-height: 1.45;

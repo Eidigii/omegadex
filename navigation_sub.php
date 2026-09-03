@@ -84,7 +84,10 @@ function readDirectorySubNav_V612($dir, $currentDirNameForSort = '') { // Rename
         // Sub-menus: recurse into sub-folders first. The "hide legacy extless if .txt exists" rule
         // applies to files only — never skip a real directory when Foo.txt and Foo/ both exist.
         if (is_dir($filePath)) {
-            $result_map[$file] = readDirectorySubNav_V612($filePath, $file);
+            // _-prefixed folders (e.g. _images) hold assets, not pages.
+            if (!str_starts_with($file, '_')) {
+                $result_map[$file] = readDirectorySubNav_V612($filePath, $file);
+            }
             continue;
         }
 
